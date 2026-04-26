@@ -44,7 +44,7 @@ Respond ONLY with a JSON array of selected PMIDs, e.g.: ["12345678", "23456789",
 Select between 10 and ${maxSelection} articles. If fewer than 10 are worth selecting, select fewer.`;
 
   const message = await client.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: "claude-sonnet-4-6",
     max_tokens: 1000,
     messages: [{ role: "user", content: prompt }],
   });
@@ -93,7 +93,7 @@ Respond ONLY with valid JSON in this exact format:
 }`;
 
   const message = await client.messages.create({
-    model: "claude-sonnet-4-20250514",
+    model: "claude-sonnet-4-6",
     max_tokens: 2000,
     messages: [{ role: "user", content: prompt }],
   });
