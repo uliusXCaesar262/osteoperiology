@@ -1,6 +1,14 @@
-import { JOURNAL_ISSNS } from "./types";
-
 const BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils";
+
+// Topic-based search queries for periodontology and implantology
+const SEARCH_QUERIES = [
+  '(periodontal disease[MeSH] OR periodontitis[MeSH] OR periodontal treatment) AND "free full text"[Filter]',
+  '(dental implants[MeSH] OR peri-implantitis OR implant osseointegration) AND "free full text"[Filter]',
+  '(bone regeneration[MeSH] AND (dental OR alveolar OR maxillary OR mandibular)) AND "free full text"[Filter]',
+  '(guided tissue regeneration OR guided bone regeneration) AND (periodontal OR implant) AND "free full text"[Filter]',
+  '(mucogingival surgery OR soft tissue graft OR connective tissue graft) AND "free full text"[Filter]',
+  '(peri-implant OR peri-implantitis OR peri-implant mucositis) AND "free full text"[Filter]',
+];
 
 interface PubMedSearchResult {
   esearchresult: {
@@ -9,7 +17,7 @@ interface PubMedSearchResult {
   };
 }
 
-interface PubMedArticle {
+export interface PubMedArticle {
   uid: string;
   title: string;
   authors: { name: string }[];
@@ -27,41 +35,20 @@ interface PubMedSummaryResult {
   };
 }
 
-interface PubMedFetchResult {
-  PubmedArticleSet?: {
-    PubmedArticle?: Array<{
-      MedlineCitation: {
-        Article: {
-          Abstract?: {
-            AbstractText: string | string[];
-          };
-        };
-      };
-    }>;
-  };
-}
-
-function buildJournalQuery(): string {
-  const issns = Object.values(JOURNAL_ISSNS);
-  const journalTerms = issns.map((issn) => `${issn}[ISSN]`);
-  return `(${journalTerms.join(" OR ")})`;
-}
-
-export async function searchRecentOpenAccess(
-  daysBack: number = 7
+async function searchPubMed(
+  query: string,
+  daysBack: number,
+  retmax: number = 30
 ): Promise<string[]> {
-  const journalQuery = buildJournalQuery();
   const dateQuery = `"last ${daysBack} days"[EDAT]`;
-  const openAccessFilter = "free full text[Filter]";
-
-  const query = `${journalQuery} AND ${dateQuery} AND ${openAccessFilter}`;
+  const fullQuery = `${query} AND ${dateQuery}`;
 
   const params = new URLSearchParams({
     db: "pubmed",
-    term: query,
-    retmax: "50",
+    term: fullQuery,
+    retmax: String(retmax),
     retmode: "json",
-    sort: "date",
+    sort: "relevance",
   });
 
   if (process.env.PUBMED_API_KEY) {
@@ -75,31 +62,60 @@ export async function searchRecentOpenAccess(
   return data.esearchresult.idlist;
 }
 
+export async function searchRecentOpenAccess(
+  daysBack: number = 7
+): Promise<string[]> {
+  const allPmids = new Set<string>();
+
+  for (const query of SEARCH_QUERIES) {
+    try {
+      const pmids = await searchPubMed(query, daysBack, 30);
+      pmids.forEach((id) => allPmids.add(id));
+      // Rate limit between queries
+      await new Promise((r) => setTimeout(r, 350));
+    } catch (err) {
+      console.error(`[PubMed] Query failed: ${query}`, err);
+    }
+  }
+
+  console.log(`[PubMed] Found ${allPmids.size} unique articles across ${SEARCH_QUERIES.length} queries`);
+  return Array.from(allPmids);
+}
+
 export async function getArticleSummaries(
   pmids: string[]
 ): Promise<PubMedArticle[]> {
   if (pmids.length === 0) return [];
 
-  const params = new URLSearchParams({
-    db: "pubmed",
-    id: pmids.join(","),
-    retmode: "json",
-  });
-
-  if (process.env.PUBMED_API_KEY) {
-    params.set("api_key", process.env.PUBMED_API_KEY);
-  }
-
-  const res = await fetch(`${BASE_URL}/esummary.fcgi?${params}`);
-  if (!res.ok) throw new Error(`PubMed summary failed: ${res.status}`);
-
-  const data: PubMedSummaryResult = await res.json();
+  // Batch in groups of 50
   const articles: PubMedArticle[] = [];
+  for (let i = 0; i < pmids.length; i += 50) {
+    const batch = pmids.slice(i, i + 50);
 
-  for (const uid of data.result.uids) {
-    const article = data.result[uid] as PubMedArticle;
-    if (article && typeof article === "object" && "title" in article) {
-      articles.push(article);
+    const params = new URLSearchParams({
+      db: "pubmed",
+      id: batch.join(","),
+      retmode: "json",
+    });
+
+    if (process.env.PUBMED_API_KEY) {
+      params.set("api_key", process.env.PUBMED_API_KEY);
+    }
+
+    const res = await fetch(`${BASE_URL}/esummary.fcgi?${params}`);
+    if (!res.ok) throw new Error(`PubMed summary failed: ${res.status}`);
+
+    const data: PubMedSummaryResult = await res.json();
+
+    for (const uid of data.result.uids) {
+      const article = data.result[uid] as PubMedArticle;
+      if (article && typeof article === "object" && "title" in article) {
+        articles.push(article);
+      }
+    }
+
+    if (i + 50 < pmids.length) {
+      await new Promise((r) => setTimeout(r, 350));
     }
   }
 
@@ -123,7 +139,6 @@ export async function getAbstract(pmid: string): Promise<string> {
 
   const xml = await res.text();
 
-  // Extract abstract text from XML
   const abstractMatch = xml.match(
     /<AbstractText[^>]*>([\s\S]*?)<\/AbstractText>/g
   );

@@ -6,15 +6,14 @@ import {
   extractDoi,
   buildPubMedUrl,
 } from "@/lib/pubmed";
-import { generateBilingualSummary } from "@/lib/summarize";
+import { generateBilingualSummary, selectBestArticles } from "@/lib/summarize";
 import { addArticles } from "@/lib/storage";
 import { createSlug } from "@/lib/slug";
 import { Article } from "@/lib/types";
 
-export const maxDuration = 300; // 5 minutes for Pro plan
+export const maxDuration = 300;
 
 export async function GET(request: Request) {
-  // Verify cron secret
   const authHeader = request.headers.get("authorization");
   if (authHeader !== `Bearer ${process.env.CRON_SECRET}`) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
@@ -23,24 +22,27 @@ export async function GET(request: Request) {
   try {
     console.log("[CRON] Starting weekly article fetch...");
 
-    // 1. Search PubMed for recent open access articles
+    // 1. Search PubMed across multiple topic queries
     const pmids = await searchRecentOpenAccess(7);
-    console.log(`[CRON] Found ${pmids.length} articles`);
+    console.log(`[CRON] Found ${pmids.length} candidate articles`);
 
     if (pmids.length === 0) {
-      return NextResponse.json({
-        message: "No new articles found",
-        count: 0,
-      });
+      return NextResponse.json({ message: "No new articles found", count: 0 });
     }
 
-    // 2. Get article metadata
-    const summaries = await getArticleSummaries(pmids);
+    // 2. Get metadata for all candidates
+    const allSummaries = await getArticleSummaries(pmids);
+    console.log(`[CRON] Retrieved metadata for ${allSummaries.length} articles`);
 
-    // 3. For each article, get abstract and generate AI summary
+    // 3. AI selects the best 10-20
+    const selectedPmids = await selectBestArticles(allSummaries, 15);
+    const selected = allSummaries.filter((s) => selectedPmids.includes(s.uid));
+    console.log(`[CRON] AI selected ${selected.length} articles`);
+
+    // 4. For each selected article, get abstract and generate bilingual summary
     const articles: Article[] = [];
 
-    for (const summary of summaries) {
+    for (const summary of selected) {
       try {
         const abstractText = await getAbstract(summary.uid);
         if (!abstractText) {
@@ -51,7 +53,6 @@ export async function GET(request: Request) {
         const doi = extractDoi(summary.elocationid);
         const authors = summary.authors.map((a) => a.name);
 
-        // Generate bilingual AI summary
         const aiSummary = await generateBilingualSummary(
           summary.title,
           authors,
@@ -71,40 +72,30 @@ export async function GET(request: Request) {
           summaryIt: aiSummary.it,
           slug: createSlug(summary.title, summary.uid),
           fetchedAt: new Date().toISOString(),
-          url: doi
-            ? `https://doi.org/${doi}`
-            : buildPubMedUrl(summary.uid),
+          url: doi ? `https://doi.org/${doi}` : buildPubMedUrl(summary.uid),
         };
 
         articles.push(article);
-
-        // Rate limiting: wait between API calls
         await new Promise((r) => setTimeout(r, 500));
       } catch (err) {
-        console.error(
-          `[CRON] Error processing PMID ${summary.uid}:`,
-          err
-        );
+        console.error(`[CRON] Error processing PMID ${summary.uid}:`, err);
       }
     }
 
-    // 4. Store in Vercel Blob
+    // 5. Store
     if (articles.length > 0) {
       await addArticles(articles);
     }
 
-    console.log(`[CRON] Successfully processed ${articles.length} articles`);
+    console.log(`[CRON] Done: ${articles.length} articles published`);
 
     return NextResponse.json({
-      message: `Processed ${articles.length} articles`,
+      message: `Processed ${articles.length} articles from ${pmids.length} candidates`,
       count: articles.length,
       pmids: articles.map((a) => a.pmid),
     });
   } catch (error) {
     console.error("[CRON] Fatal error:", error);
-    return NextResponse.json(
-      { error: "Cron job failed" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Cron job failed" }, { status: 500 });
   }
 }

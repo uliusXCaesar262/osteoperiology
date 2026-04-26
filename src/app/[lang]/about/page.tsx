@@ -1,6 +1,6 @@
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
-import { SUPPORTED_JOURNALS } from "@/lib/types";
+import { SEARCH_TOPICS } from "@/lib/types";
 
 export default async function AboutPage({
   params,
@@ -29,11 +29,11 @@ export default async function AboutPage({
           boxShadow: "var(--shadow-card)",
         }}
       >
-        <h2 className="text-xl mb-4 font-semibold">{dict.about.journals}</h2>
+        <h2 className="text-xl mb-4 font-semibold">{dict.about.topics}</h2>
         <div className="grid sm:grid-cols-2 gap-2">
-          {SUPPORTED_JOURNALS.map((j) => (
-            <div key={j} className="flex items-center gap-2 text-sm" style={{ color: "var(--color-ink-secondary)" }}>
-              <span className="journal-badge" style={{ fontSize: "0.65rem" }}>{j}</span>
+          {SEARCH_TOPICS.map((t) => (
+            <div key={t} className="flex items-center gap-2 text-sm" style={{ color: "var(--color-ink-secondary)" }}>
+              <span className="journal-badge" style={{ fontSize: "0.65rem" }}>{t}</span>
             </div>
           ))}
         </div>

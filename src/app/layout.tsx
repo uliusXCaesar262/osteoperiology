@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Osteoperiology",
     description:
-      "Weekly AI-curated summaries of open access articles in periodontology and dental implantology",
+      "Weekly curated summaries of open access articles in periodontology and dental implantology",
     type: "website",
   },
 };

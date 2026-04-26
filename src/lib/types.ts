@@ -20,16 +20,11 @@ export interface ArticlesStore {
 
 export type Lang = "en" | "it";
 
-export const SUPPORTED_JOURNALS = [
-  "J Periodontol",
-  "J Clin Periodontol",
-  "Clin Oral Implants Res",
-  "Int J Oral Maxillofac Implants",
+export const SEARCH_TOPICS = [
+  "Periodontal disease & treatment",
+  "Dental implants & osseointegration",
+  "Bone regeneration",
+  "Guided tissue / bone regeneration",
+  "Mucogingival & soft tissue surgery",
+  "Peri-implant disease",
 ] as const;
-
-export const JOURNAL_ISSNS: Record<string, string> = {
-  "J Periodontol": "1943-3670",
-  "J Clin Periodontol": "1600-051X",
-  "Clin Oral Implants Res": "1600-0501",
-  "Int J Oral Maxillofac Implants": "1942-4434",
-};
