@@ -2,43 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 :root {
-  --color-bg: #ffffff;
-  --color-bg-alt: #f8fafc;
+  --color-bg: #fafafa;
+  --color-bg-alt: #f3f4f6;
   --color-surface: #ffffff;
-  --color-ink: #0f172a;
-  --color-ink-secondary: #475569;
-  --color-ink-muted: #94a3b8;
-  --color-accent: #0369a1;
-  --color-accent-hover: #0284c7;
-  --color-accent-subtle: #e0f2fe;
-  --color-border: #e2e8f0;
-  --color-border-strong: #cbd5e1;
-  --color-hero-from: #0c4a6e;
-  --color-hero-via: #075985;
-  --color-hero-to: #0369a1;
-  --shadow-card: 0 1px 3px rgba(15,23,42,0.04), 0 1px 2px rgba(15,23,42,0.03);
-  --shadow-card-hover: 0 8px 25px rgba(15,23,42,0.08), 0 2px 6px rgba(15,23,42,0.04);
-  --radius: 14px;
+  --color-ink: #1f2937;
+  --color-ink-secondary: #4b5563;
+  --color-ink-muted: #9ca3af;
+  --color-accent: #0d9488;
+  --color-accent-hover: #0f766e;
+  --color-accent-subtle: #ccfbf1;
+  --color-border: #e5e7eb;
+  --color-border-strong: #d1d5db;
+  --shadow-card: 0 1px 2px rgba(0,0,0,0.04);
+  --shadow-card-hover: 0 6px 20px rgba(0,0,0,0.07);
+  --radius: 12px;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-bg: #0f172a;
-    --color-bg-alt: #1e293b;
-    --color-surface: #1e293b;
-    --color-ink: #f1f5f9;
-    --color-ink-secondary: #cbd5e1;
-    --color-ink-muted: #64748b;
-    --color-accent: #38bdf8;
-    --color-accent-hover: #7dd3fc;
-    --color-accent-subtle: #0c4a6e;
-    --color-border: #334155;
-    --color-border-strong: #475569;
-    --color-hero-from: #0c4a6e;
-    --color-hero-via: #0e3651;
-    --color-hero-to: #0f172a;
+    --color-bg: #111827;
+    --color-bg-alt: #1f2937;
+    --color-surface: #1f2937;
+    --color-ink: #f3f4f6;
+    --color-ink-secondary: #d1d5db;
+    --color-ink-muted: #6b7280;
+    --color-accent: #2dd4bf;
+    --color-accent-hover: #5eead4;
+    --color-accent-subtle: #134e4a;
+    --color-border: #374151;
+    --color-border-strong: #4b5563;
     --shadow-card: 0 1px 3px rgba(0,0,0,0.3);
-    --shadow-card-hover: 0 8px 25px rgba(0,0,0,0.4);
+    --shadow-card-hover: 0 6px 20px rgba(0,0,0,0.4);
   }
 }
 
@@ -79,60 +73,58 @@ a:hover {
 
 /* ─── Header ─── */
 .site-header {
-  background: linear-gradient(135deg, var(--color-hero-from), var(--color-hero-via), var(--color-hero-to));
-  color: #fff;
-  border: none;
+  background: var(--color-surface);
+  color: var(--color-ink);
+  border-bottom: 1px solid var(--color-border);
   position: relative;
-  overflow: hidden;
-}
-
-.site-header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: radial-gradient(ellipse at 20% 50%, rgba(255,255,255,0.08) 0%, transparent 70%);
-  pointer-events: none;
 }
 
 .site-header a,
 .site-header p,
 .site-header h1 {
-  color: #fff;
+  color: var(--color-ink);
   position: relative;
 }
 
+.site-header h1 {
+  color: var(--color-accent);
+}
+
+.site-header p {
+  color: var(--color-ink-muted);
+}
+
 .site-header .lang-switch {
-  border-color: rgba(255,255,255,0.25);
-  color: rgba(255,255,255,0.85);
-  backdrop-filter: blur(4px);
-  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--color-border-strong);
+  color: var(--color-ink-secondary);
+  background: var(--color-bg);
   transition: all 0.2s;
 }
 
 .site-header .lang-switch:hover {
-  background: rgba(255,255,255,0.15);
-  border-color: rgba(255,255,255,0.5);
-  color: #fff;
+  background: var(--color-accent-subtle);
+  border-color: var(--color-accent);
+  color: var(--color-accent);
 }
 
 .site-header .nav-link {
-  color: rgba(255,255,255,0.7);
+  color: var(--color-ink-secondary);
   transition: color 0.2s;
   position: relative;
 }
 
 .site-header .nav-link:hover {
-  color: #fff;
+  color: var(--color-accent);
 }
 
 .site-header .rss-link {
-  color: rgba(255,255,255,0.6);
+  color: var(--color-ink-muted);
   transition: color 0.2s;
   position: relative;
 }
 
 .site-header .rss-link:hover {
-  color: #fbbf24;
+  color: #f59e0b;
 }
 
 /* ─── Cards ─── */
@@ -148,7 +140,7 @@ a:hover {
 .article-card:hover {
   box-shadow: var(--shadow-card-hover);
   border-color: var(--color-accent);
-  transform: translateY(-3px);
+  transform: translateY(-2px);
 }
 
 /* ─── Journal badge ─── */
@@ -195,7 +187,7 @@ a:hover {
   background: var(--color-accent-hover);
   color: #fff;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(3,105,161,0.25);
+  box-shadow: 0 4px 12px rgba(13,148,136,0.2);
 }
 
 .btn-secondary {
@@ -212,7 +204,7 @@ a:hover {
 }
 
 .btn-secondary:hover {
-  background: var(--color-bg-alt);
+  background: var(--color-accent-subtle);
   border-color: var(--color-accent);
   color: var(--color-accent);
 }
@@ -237,7 +229,7 @@ a:hover {
 
 /* ─── Footer ─── */
 .site-footer {
-  background: var(--color-bg-alt);
+  background: var(--color-surface);
   border-top: 1px solid var(--color-border);
 }
 
