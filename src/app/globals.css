@@ -1,24 +1,27 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
 :root {
-  --color-bg: #fafafa;
-  --color-bg-alt: #f3f4f6;
+  --color-bg: #f8f9fa;
+  --color-bg-alt: #f0f1f3;
   --color-surface: #ffffff;
-  --color-ink: #1f2937;
-  --color-ink-secondary: #4b5563;
-  --color-ink-muted: #9ca3af;
-  --color-accent: #0d9488;
-  --color-accent-hover: #0f766e;
-  --color-accent-subtle: #ccfbf1;
-  --color-border: #e5e7eb;
-  --color-border-strong: #d1d5db;
-  --shadow-card: 0 1px 2px rgba(0,0,0,0.04);
-  --shadow-card-hover: 0 6px 20px rgba(0,0,0,0.07);
-  --radius: 12px;
+  --color-ink: #1a1a2e;
+  --color-ink-secondary: #3d3d5c;
+  --color-ink-muted: #8e8ea0;
+  --color-accent: #1e6b5a;
+  --color-accent-hover: #155a4a;
+  --color-accent-subtle: #e0f5ef;
+  --color-border: #e2e4e8;
+  --color-border-strong: #cdd0d5;
+  --color-header-bg: #1a1a2e;
+  --color-header-ink: #f0f1f3;
+  --color-header-accent: #4ecdc4;
+  --shadow-card: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-card-hover: 0 8px 24px rgba(0,0,0,0.1);
+  --radius: 10px;
 }
 
-/* Light theme only — no dark mode override */
+/* Light theme only */
 
 @theme inline {
   --color-background: var(--color-bg);
@@ -41,9 +44,15 @@ body {
 
 h1, h2, h3 {
   font-family: "Source Serif 4", Georgia, serif;
-  line-height: 1.25;
-  letter-spacing: -0.015em;
+  color: var(--color-ink);
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
+
+h1 { font-size: 2rem; }
+h2 { font-size: 1.65rem; }
+h3 { font-size: 1.25rem; }
 
 a {
   color: var(--color-accent);
@@ -57,52 +66,55 @@ a:hover {
 
 /* ─── Header ─── */
 .site-header {
-  background: var(--color-surface);
-  color: var(--color-ink);
-  border-bottom: 1px solid var(--color-border);
+  background: var(--color-header-bg);
+  color: var(--color-header-ink);
+  border-bottom: none;
   position: relative;
 }
 
 .site-header a,
 .site-header p,
 .site-header h1 {
-  color: var(--color-ink);
+  color: var(--color-header-ink);
   position: relative;
 }
 
 .site-header h1 {
-  color: var(--color-accent);
+  color: var(--color-header-accent);
+  font-size: 2.2rem;
+  font-weight: 700;
 }
 
 .site-header p {
-  color: var(--color-ink-muted);
+  color: rgba(240, 241, 243, 0.6);
+  font-size: 0.9rem;
 }
 
 .site-header .lang-switch {
-  border: 1px solid var(--color-border-strong);
-  color: var(--color-ink-secondary);
-  background: var(--color-bg);
+  border: 1px solid rgba(255,255,255,0.25);
+  color: var(--color-header-ink);
+  background: rgba(255,255,255,0.08);
   transition: all 0.2s;
 }
 
 .site-header .lang-switch:hover {
-  background: var(--color-accent-subtle);
-  border-color: var(--color-accent);
-  color: var(--color-accent);
+  background: rgba(78, 205, 196, 0.15);
+  border-color: var(--color-header-accent);
+  color: var(--color-header-accent);
 }
 
 .site-header .nav-link {
-  color: var(--color-ink-secondary);
+  color: rgba(240, 241, 243, 0.75);
   transition: color 0.2s;
   position: relative;
 }
 
 .site-header .nav-link:hover {
-  color: var(--color-accent);
+  color: var(--color-header-accent);
 }
 
 .site-header .rss-link {
-  color: var(--color-ink-muted);
+  color: rgba(240, 241, 243, 0.5);
   transition: color 0.2s;
   position: relative;
 }
@@ -127,18 +139,44 @@ a:hover {
   transform: translateY(-2px);
 }
 
+.article-card h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  line-height: 1.35;
+  margin-bottom: 0.5rem;
+}
+
+.article-card h3 a {
+  color: var(--color-ink);
+}
+
+.article-card h3 a:hover {
+  color: var(--color-accent);
+}
+
 /* ─── Journal badge ─── */
 .journal-badge {
   display: inline-flex;
   align-items: center;
   font-size: 0.68rem;
   font-weight: 600;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--color-accent);
   background: var(--color-accent-subtle);
-  padding: 0.2rem 0.6rem;
+  padding: 0.25rem 0.65rem;
   border-radius: 5px;
+}
+
+/* ─── Article page title ─── */
+.article-title {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--color-ink);
+  line-height: 1.2;
+  letter-spacing: -0.02em;
 }
 
 /* ─── Article summary ─── */
@@ -159,7 +197,7 @@ a:hover {
   align-items: center;
   gap: 0.35rem;
   font-size: 0.85rem;
-  font-weight: 500;
+  font-weight: 600;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
   background: var(--color-accent);
@@ -171,7 +209,7 @@ a:hover {
   background: var(--color-accent-hover);
   color: #fff;
   transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(13,148,136,0.2);
+  box-shadow: 0 4px 12px rgba(30,107,90,0.25);
 }
 
 .btn-secondary {
@@ -213,8 +251,17 @@ a:hover {
 
 /* ─── Footer ─── */
 .site-footer {
-  background: var(--color-surface);
-  border-top: 1px solid var(--color-border);
+  background: var(--color-header-bg);
+  border-top: none;
+  color: rgba(240, 241, 243, 0.6);
+}
+
+.site-footer a {
+  color: var(--color-header-accent);
+}
+
+.site-footer a:hover {
+  color: #fff;
 }
 
 /* ─── Back link ─── */
@@ -230,4 +277,12 @@ a:hover {
 
 .back-link:hover {
   color: var(--color-accent);
+}
+
+/* ─── Section headings ─── */
+.section-heading {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: var(--color-ink);
 }
