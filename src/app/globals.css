@@ -18,23 +18,7 @@
   --radius: 12px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-bg: #111827;
-    --color-bg-alt: #1f2937;
-    --color-surface: #1f2937;
-    --color-ink: #f3f4f6;
-    --color-ink-secondary: #d1d5db;
-    --color-ink-muted: #6b7280;
-    --color-accent: #2dd4bf;
-    --color-accent-hover: #5eead4;
-    --color-accent-subtle: #134e4a;
-    --color-border: #374151;
-    --color-border-strong: #4b5563;
-    --shadow-card: 0 1px 3px rgba(0,0,0,0.3);
-    --shadow-card-hover: 0 6px 20px rgba(0,0,0,0.4);
-  }
-}
+/* Light theme only — no dark mode override */
 
 @theme inline {
   --color-background: var(--color-bg);
