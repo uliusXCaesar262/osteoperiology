@@ -17,6 +17,9 @@ export const metadata: Metadata = {
       "Weekly curated summaries of open access articles in periodontology and dental implantology",
     type: "website",
   },
+  verification: {
+    google: "P-TyqXVijEz-GwPYFRRAas17YSe5Zkc97sEqz7ofDbM",
+  },
 };
 
 export default function RootLayout({
