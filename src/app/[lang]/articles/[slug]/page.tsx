@@ -4,7 +4,7 @@ import { getArticleBySlug } from "@/lib/storage";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-export const revalidate = 3600;
+export const revalidate = 0;
 
 export default async function ArticlePage({
   params,

@@ -3,7 +3,7 @@ import { getDictionary } from "@/i18n/config";
 import { getRecentArticles } from "@/lib/storage";
 import ArticleCard from "@/components/ArticleCard";
 
-export const revalidate = 3600;
+export const revalidate = 0;
 
 export default async function HomePage({
   params,
@@ -17,9 +17,30 @@ export default async function HomePage({
 
   return (
     <div>
-      <h2 className="text-2xl sm:text-3xl mb-8 font-semibold">
-        {dict.home.latestArticles}
-      </h2>
+      <div className="flex items-center justify-between mb-8">
+        <h2 className="text-2xl sm:text-3xl font-semibold">
+          {dict.home.latestArticles}
+        </h2>
+        <a
+          href="/api/feed"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn-secondary"
+          title="RSS Feed"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="14"
+            height="14"
+            viewBox="0 0 24 24"
+            fill="currentColor"
+          >
+            <circle cx="6.18" cy="17.82" r="2.18" />
+            <path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56zm0 5.66v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z" />
+          </svg>
+          RSS
+        </a>
+      </div>
 
       {articles.length === 0 ? (
         <div className="empty-state text-center">
