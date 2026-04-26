@@ -34,8 +34,8 @@ export async function GET(request: Request) {
     const allSummaries = await getArticleSummaries(pmids);
     console.log(`[CRON] Retrieved metadata for ${allSummaries.length} articles`);
 
-    // 3. AI selects the best 10-20
-    const selectedPmids = await selectBestArticles(allSummaries, 15);
+    // 3. AI selects the best 5
+    const selectedPmids = await selectBestArticles(allSummaries, 5);
     const selected = allSummaries.filter((s) => selectedPmids.includes(s.uid));
     console.log(`[CRON] AI selected ${selected.length} articles`);
 
@@ -76,7 +76,6 @@ export async function GET(request: Request) {
         };
 
         articles.push(article);
-        await new Promise((r) => setTimeout(r, 500));
       } catch (err) {
         console.error(`[CRON] Error processing PMID ${summary.uid}:`, err);
       }
@@ -95,7 +94,8 @@ export async function GET(request: Request) {
       pmids: articles.map((a) => a.pmid),
     });
   } catch (error) {
-    console.error("[CRON] Fatal error:", error);
-    return NextResponse.json({ error: "Cron job failed" }, { status: 500 });
+    const errMsg = error instanceof Error ? `${error.name}: ${error.message}` : String(error);
+    console.error(`[CRON] Fatal: ${errMsg}`);
+    return NextResponse.json({ error: "Cron job failed", detail: errMsg }, { status: 500 });
   }
 }

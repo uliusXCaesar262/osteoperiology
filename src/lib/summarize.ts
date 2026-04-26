@@ -41,7 +41,7 @@ ARTICLES:
 ${articleList}
 
 Respond ONLY with a JSON array of selected PMIDs, e.g.: ["12345678", "23456789", ...]
-Select between 10 and ${maxSelection} articles. If fewer than 10 are worth selecting, select fewer.`;
+Select exactly ${maxSelection} articles — the absolute best. If fewer are worth selecting, select fewer.`;
 
   const message = await client.messages.create({
     model: "claude-sonnet-4-6",
