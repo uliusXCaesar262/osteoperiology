@@ -12,23 +12,20 @@ export default function ArticleCard({
   article,
   lang,
   readMore,
-  publishedIn,
 }: ArticleCardProps) {
   const summary = lang === "it" ? article.summaryIt : article.summaryEn;
-  const excerpt = summary.slice(0, 250) + (summary.length > 250 ? "..." : "");
+  const excerpt = summary.slice(0, 220) + (summary.length > 220 ? "..." : "");
 
   return (
-    <article
-      className="py-6 first:pt-0"
-      style={{ borderBottom: "1px solid var(--color-border)" }}
-    >
-      <div className="flex items-center gap-2 text-xs mb-2" style={{ color: "var(--color-ink-light)" }}>
-        <span>{article.journal}</span>
-        <span>·</span>
-        <time>{article.pubDate}</time>
+    <article className="article-card mb-4">
+      <div className="flex flex-wrap items-center gap-2 mb-3">
+        <span className="journal-badge">{article.journal}</span>
+        <time className="text-xs" style={{ color: "var(--color-ink-muted)" }}>
+          {article.pubDate}
+        </time>
       </div>
 
-      <h2 className="text-lg sm:text-xl mb-2" style={{ fontFamily: "'Georgia', serif" }}>
+      <h2 className="text-lg sm:text-xl mb-2 font-semibold leading-snug">
         <Link
           href={`/${lang}/articles/${article.slug}`}
           className="hover:underline"
@@ -38,18 +35,19 @@ export default function ArticleCard({
         </Link>
       </h2>
 
-      <p className="text-sm mb-2" style={{ color: "var(--color-ink-light)" }}>
+      <p className="text-xs mb-3 font-medium" style={{ color: "var(--color-ink-muted)" }}>
         {article.authors.slice(0, 3).join(", ")}
         {article.authors.length > 3 ? " et al." : ""}
       </p>
 
-      <p className="text-sm mb-3 article-summary" style={{ color: "var(--color-ink-light)" }}>
+      <p className="text-sm mb-4 leading-relaxed" style={{ color: "var(--color-ink-secondary)" }}>
         {excerpt}
       </p>
 
       <Link
         href={`/${lang}/articles/${article.slug}`}
         className="text-sm font-medium"
+        style={{ color: "var(--color-accent)" }}
       >
         {readMore} →
       </Link>

@@ -13,74 +13,63 @@ export default async function AboutPage({
 
   return (
     <div className="max-w-3xl">
-      <h1
-        className="text-2xl sm:text-3xl mb-6"
-        style={{ fontFamily: "'Georgia', serif" }}
-      >
+      <h1 className="text-3xl sm:text-4xl mb-8 font-semibold">
         {dict.about.title}
       </h1>
 
-      <div
-        className="article-summary mb-8"
-        style={{ maxWidth: "65ch" }}
-      >
+      <div className="article-summary mb-10" style={{ maxWidth: "65ch" }}>
         <p>{dict.about.text}</p>
       </div>
 
-      <h2
-        className="text-lg mb-3"
-        style={{ fontFamily: "'Georgia', serif" }}
+      <div
+        className="p-6 rounded-xl mb-10"
+        style={{
+          background: "var(--color-surface)",
+          border: "1px solid var(--color-border)",
+          boxShadow: "var(--shadow-card)",
+        }}
       >
-        {dict.about.journals}
-      </h2>
-      <ul className="mb-8 space-y-1 text-sm" style={{ color: "var(--color-ink-light)" }}>
-        {SUPPORTED_JOURNALS.map((j) => (
-          <li key={j}>— {j}</li>
-        ))}
-      </ul>
-
-      <h2
-        className="text-lg mb-3"
-        style={{ fontFamily: "'Georgia', serif" }}
-      >
-        {dict.about.curatedBy}
-      </h2>
-      <div className="text-sm space-y-1 mb-8" style={{ color: "var(--color-ink-light)" }}>
-        <p>
-          <strong style={{ color: "var(--color-ink)" }}>Dr. Ernesto Bruschi</strong>
-        </p>
-        <p>Periodontist, Implantologist, Oral Surgeon</p>
-        <p>
-          ORCID:{" "}
-          <a
-            href="https://orcid.org/0000-0002-4773-5384"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            0000-0002-4773-5384
-          </a>
-        </p>
+        <h2 className="text-xl mb-4 font-semibold">{dict.about.journals}</h2>
+        <div className="grid sm:grid-cols-2 gap-2">
+          {SUPPORTED_JOURNALS.map((j) => (
+            <div key={j} className="flex items-center gap-2 text-sm" style={{ color: "var(--color-ink-secondary)" }}>
+              <span className="journal-badge" style={{ fontSize: "0.65rem" }}>{j}</span>
+            </div>
+          ))}
+        </div>
       </div>
 
-      <h2
-        className="text-lg mb-3"
-        style={{ fontFamily: "'Georgia', serif" }}
+      <div
+        className="p-6 rounded-xl mb-10"
+        style={{
+          background: "var(--color-surface)",
+          border: "1px solid var(--color-border)",
+          boxShadow: "var(--shadow-card)",
+        }}
       >
-        {dict.about.links}
-      </h2>
-      <div className="text-sm space-y-1">
-        <p>
-          <a href="https://bonebenders.com" target="_blank" rel="noopener noreferrer">
-            bonebenders.com
-          </a>{" "}
-          — Blog
-        </p>
-        <p>
-          <a href="https://dentipiu.it" target="_blank" rel="noopener noreferrer">
-            dentipiu.it
-          </a>{" "}
-          — Studio
-        </p>
+        <h2 className="text-xl mb-4 font-semibold">{dict.about.curatedBy}</h2>
+        <div className="text-sm space-y-1.5" style={{ color: "var(--color-ink-secondary)" }}>
+          <p>
+            <strong style={{ color: "var(--color-ink)" }}>Dr. Ernesto Bruschi</strong>
+          </p>
+          <p>Periodontist · Implantologist · Oral Surgeon</p>
+          <p>
+            ORCID:{" "}
+            <a href="https://orcid.org/0000-0002-4773-5384" target="_blank" rel="noopener noreferrer">
+              0000-0002-4773-5384
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <h2 className="text-xl mb-4 font-semibold">{dict.about.links}</h2>
+      <div className="flex flex-wrap gap-3">
+        <a href="https://bonebenders.com" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+          bonebenders.com — Blog
+        </a>
+        <a href="https://dentipiu.it" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+          dentipiu.it — Studio
+        </a>
       </div>
     </div>
   );

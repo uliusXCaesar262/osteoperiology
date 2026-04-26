@@ -34,7 +34,6 @@
     "links": "Link"
   },
   "footer": {
-    "disclaimer": "Riassunti generati da AI a scopo educativo. Non sostituiscono il giudizio clinico professionale.",
-    "poweredBy": "Powered by PubMed & Claude AI"
+    "disclaimer": "Riassunti della letteratura recente a scopo educativo e informativo."
   }
 }

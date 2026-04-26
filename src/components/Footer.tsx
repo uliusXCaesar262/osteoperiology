@@ -4,30 +4,16 @@ interface FooterProps {
 
 export default function Footer({ dict }: FooterProps) {
   return (
-    <footer
-      className="border-t mt-auto py-6 text-center text-xs"
-      style={{
-        borderColor: "var(--color-border)",
-        color: "var(--color-ink-light)",
-      }}
-    >
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 space-y-2">
+    <footer className="site-footer mt-auto py-8 text-center text-xs">
+      <div className="max-w-5xl mx-auto px-5 sm:px-8 space-y-2" style={{ color: "var(--color-ink-muted)" }}>
         <p>{dict.footer.disclaimer}</p>
         <p>
           {dict.footer.poweredBy} ·{" "}
-          <a
-            href="https://bonebenders.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://bonebenders.com" target="_blank" rel="noopener noreferrer">
             bonebenders.com
           </a>{" "}
           ·{" "}
-          <a
-            href="https://dentipiu.it"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="https://dentipiu.it" target="_blank" rel="noopener noreferrer">
             dentipiu.it
           </a>
         </p>
