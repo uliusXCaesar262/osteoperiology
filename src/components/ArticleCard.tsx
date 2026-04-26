@@ -18,12 +18,16 @@ export default function ArticleCard({
 
   return (
     <article className="article-card mb-4">
-      <div className="flex flex-wrap items-center gap-2 mb-3">
+      <header className="flex flex-wrap items-center gap-2 mb-3">
         <span className="journal-badge">{article.journal}</span>
-        <time className="text-xs" style={{ color: "var(--color-ink-muted)" }}>
+        <time
+          dateTime={article.pubDate}
+          className="text-xs"
+          style={{ color: "var(--color-ink-muted)" }}
+        >
           {article.pubDate}
         </time>
-      </div>
+      </header>
 
       <h2 className="text-lg sm:text-xl mb-2 font-semibold leading-snug">
         <Link
@@ -48,6 +52,7 @@ export default function ArticleCard({
         href={`/${lang}/articles/${article.slug}`}
         className="text-sm font-medium"
         style={{ color: "var(--color-accent)" }}
+        aria-label={`${readMore}: ${article.title.replace(/<[^>]+>/g, "")}`}
       >
         {readMore} →
       </Link>

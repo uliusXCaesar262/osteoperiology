@@ -1,10 +1,52 @@
+import type { Metadata } from "next";
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { getArticleBySlug } from "@/lib/storage";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { SITE_URL } from "@/app/layout";
 
 export const revalidate = 0;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string; slug: string }>;
+}): Promise<Metadata> {
+  const { lang, slug } = await params;
+  const article = await getArticleBySlug(slug);
+  if (!article) return {};
+
+  const plainTitle = article.title.replace(/<[^>]+>/g, "");
+  const summary = lang === "it" ? article.summaryIt : article.summaryEn;
+  const description = summary.slice(0, 160).replace(/\s+\S*$/, "") + "…";
+  const otherLang = lang === "en" ? "it" : "en";
+  const url = `${SITE_URL}/${lang}/articles/${slug}`;
+
+  return {
+    title: plainTitle,
+    description,
+    authors: article.authors.slice(0, 5).map((name) => ({ name })),
+    alternates: {
+      canonical: url,
+      languages: {
+        [lang]: url,
+        [otherLang]: `${SITE_URL}/${otherLang}/articles/${slug}`,
+      },
+    },
+    openGraph: {
+      title: plainTitle,
+      description,
+      url,
+      type: "article",
+      locale: lang === "it" ? "it_IT" : "en_US",
+      alternateLocale: lang === "it" ? "en_US" : "it_IT",
+      publishedTime: article.pubDate,
+      authors: article.authors.slice(0, 5),
+      tags: [article.journal, "periodontology", "dental implants", "open access"],
+    },
+  };
+}
 
 export default async function ArticlePage({
   params,
@@ -21,22 +63,55 @@ export default async function ArticlePage({
   }
 
   const summary = lang === "it" ? article.summaryIt : article.summaryEn;
+  const plainTitle = article.title.replace(/<[^>]+>/g, "");
+
+  /* JSON-LD structured data */
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    headline: plainTitle,
+    author: article.authors.map((name) => ({
+      "@type": "Person",
+      name,
+    })),
+    datePublished: article.pubDate,
+    publisher: {
+      "@type": "Organization",
+      name: article.journal,
+    },
+    description: summary.slice(0, 300),
+    url: article.doi ? `https://doi.org/${article.doi}` : `https://pubmed.ncbi.nlm.nih.gov/${article.pmid}/`,
+    isAccessibleForFree: true,
+    inLanguage: lang,
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/${lang}/articles/${article.slug}`,
+    },
+  };
 
   return (
     <div className="max-w-3xl">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Link href={`/${lang}`} className="back-link mb-8 inline-block">
         ← {dict.article.backToList}
       </Link>
 
-      <div className="flex flex-wrap items-center gap-2 mb-4">
+      <header className="flex flex-wrap items-center gap-2 mb-4">
         <span className="journal-badge">{article.journal}</span>
-        <time className="text-xs" style={{ color: "var(--color-ink-muted)" }}>
+        <time
+          dateTime={article.pubDate}
+          className="text-xs"
+          style={{ color: "var(--color-ink-muted)" }}
+        >
           {article.pubDate}
         </time>
-      </div>
+      </header>
 
       <h1 className="text-2xl sm:text-4xl mb-4 font-semibold leading-tight">
-        {article.title.replace(/<[^>]+>/g, "")}
+        {plainTitle}
       </h1>
 
       <p className="text-sm mb-8 font-medium" style={{ color: "var(--color-ink-muted)" }}>

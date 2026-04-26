@@ -1,9 +1,42 @@
+import type { Metadata } from "next";
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { getRecentArticles } from "@/lib/storage";
 import ArticleCard from "@/components/ArticleCard";
+import { SITE_URL } from "@/app/layout";
 
 export const revalidate = 0;
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const dict = await getDictionary(lang as Lang);
+  const otherLang = lang === "en" ? "it" : "en";
+  const url = `${SITE_URL}/${lang}`;
+
+  return {
+    title: `${dict.site.title} — ${dict.site.subtitle}`,
+    description: dict.site.description,
+    alternates: {
+      canonical: url,
+      languages: {
+        [lang]: url,
+        [otherLang]: `${SITE_URL}/${otherLang}`,
+      },
+    },
+    openGraph: {
+      title: `${dict.site.title} — ${dict.site.subtitle}`,
+      description: dict.site.description,
+      url,
+      locale: lang === "it" ? "it_IT" : "en_US",
+      alternateLocale: lang === "it" ? "en_US" : "it_IT",
+      type: "website",
+    },
+  };
+}
 
 export default async function HomePage({
   params,
@@ -15,8 +48,32 @@ export default async function HomePage({
   const dict = await getDictionary(lang);
   const { articles } = await getRecentArticles(20);
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: "Osteoperiology",
+    url: SITE_URL,
+    description: dict.site.description,
+    inLanguage: [lang === "it" ? "it-IT" : "en-US"],
+    author: {
+      "@type": "Person",
+      name: "Dr. Ernesto Bruschi",
+      url: "https://orcid.org/0000-0002-4773-5384",
+      jobTitle: "Periodontist, Implantologist, Oral Surgeon",
+      sameAs: [
+        "https://orcid.org/0000-0002-4773-5384",
+        "https://bonebenders.com",
+        "https://dentipiu.it",
+      ],
+    },
+  };
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="flex items-center justify-between mb-8">
         <h2 className="text-2xl sm:text-3xl font-semibold">
           {dict.home.latestArticles}

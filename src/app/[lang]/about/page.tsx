@@ -1,6 +1,52 @@
+import type { Metadata } from "next";
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { SEARCH_TOPICS } from "@/lib/types";
+import { SITE_URL } from "@/app/layout";
+
+const aboutMeta = {
+  en: {
+    title: "About Osteoperiology",
+    description:
+      "Curated open access periodontology and implantology research by Dr. Ernesto Bruschi — periodontist, implantologist, oral surgeon.",
+  },
+  it: {
+    title: "Info — Osteoperiology",
+    description:
+      "Ricerca open access curata in parodontologia e implantologia dal Dr. Ernesto Bruschi — parodontologo, implantologo, chirurgo orale.",
+  },
+};
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const l = (lang === "it" ? "it" : "en") as Lang;
+  const otherLang = l === "en" ? "it" : "en";
+  const url = `${SITE_URL}/${l}/about`;
+
+  return {
+    title: aboutMeta[l].title,
+    description: aboutMeta[l].description,
+    alternates: {
+      canonical: url,
+      languages: {
+        [l]: url,
+        [otherLang]: `${SITE_URL}/${otherLang}/about`,
+      },
+    },
+    openGraph: {
+      title: aboutMeta[l].title,
+      description: aboutMeta[l].description,
+      url,
+      type: "profile",
+      locale: l === "it" ? "it_IT" : "en_US",
+      alternateLocale: l === "it" ? "en_US" : "it_IT",
+    },
+  };
+}
 
 export default async function AboutPage({
   params,
