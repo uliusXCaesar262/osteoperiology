@@ -6,6 +6,11 @@ export const metadata: Metadata = {
   description:
     "Curated news from the periodontal and implant literature — Dr. Ernesto Bruschi",
   authors: [{ name: "Dr. Ernesto Bruschi" }],
+  alternates: {
+    types: {
+      "application/rss+xml": "https://osteoperiology.vercel.app/api/feed",
+    },
+  },
   openGraph: {
     title: "Osteoperiology",
     description:
