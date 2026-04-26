@@ -34,7 +34,6 @@
     "links": "Links"
   },
   "footer": {
-    "disclaimer": "AI-generated summaries for educational purposes. Not a substitute for professional judgment.",
-    "poweredBy": "Powered by PubMed & Claude AI"
+    "disclaimer": "Summaries of recent literature for educational and informational purposes."
   }
 }

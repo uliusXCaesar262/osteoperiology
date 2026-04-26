@@ -8,11 +8,10 @@ export default function Footer({ dict }: FooterProps) {
       <div className="max-w-5xl mx-auto px-5 sm:px-8 space-y-2" style={{ color: "var(--color-ink-muted)" }}>
         <p>{dict.footer.disclaimer}</p>
         <p>
-          {dict.footer.poweredBy} ·{" "}
           <a href="https://bonebenders.com" target="_blank" rel="noopener noreferrer">
             bonebenders.com
-          </a>{" "}
-          ·{" "}
+          </a>
+          {" · "}
           <a href="https://dentipiu.it" target="_blank" rel="noopener noreferrer">
             dentipiu.it
           </a>
