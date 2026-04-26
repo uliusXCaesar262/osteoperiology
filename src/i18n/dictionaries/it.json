@@ -1,0 +1,40 @@
+{
+  "site": {
+    "title": "Osteoperiology",
+    "subtitle": "Notizie curate dalla letteratura parodontale e implantare",
+    "author": "Dr. Ernesto Bruschi",
+    "description": "Riassunti settimanali curati da AI di articoli open access in parodontologia e implantologia dentale"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Info",
+    "language": "EN"
+  },
+  "home": {
+    "latestArticles": "Ultimi Articoli",
+    "noArticles": "Nessun articolo ancora. Il primo aggiornamento arriverà lunedì prossimo.",
+    "readMore": "Leggi tutto",
+    "publishedIn": "Pubblicato su",
+    "loadMore": "Carica altri"
+  },
+  "article": {
+    "originalArticle": "Leggi l'articolo originale",
+    "pubmed": "Vedi su PubMed",
+    "authors": "Autori",
+    "journal": "Rivista",
+    "published": "Pubblicato",
+    "backToList": "Torna agli articoli",
+    "aiDisclaimer": "Questo riassunto è stato generato da AI a partire dall'abstract originale. Fare sempre riferimento alla pubblicazione originale per le decisioni cliniche."
+  },
+  "about": {
+    "title": "Info",
+    "text": "Osteoperiology è un feed curato delle ultime ricerche open access in parodontologia e implantologia dentale. Ogni settimana, nuovi articoli dalle principali riviste vengono riassunti automaticamente in inglese e italiano.",
+    "journals": "Riviste monitorate",
+    "curatedBy": "A cura di",
+    "links": "Link"
+  },
+  "footer": {
+    "disclaimer": "Riassunti generati da AI a scopo educativo. Non sostituiscono il giudizio clinico professionale.",
+    "poweredBy": "Powered by PubMed & Claude AI"
+  }
+}

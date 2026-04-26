@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --color-bone: #f5f0eb;
+  --color-bone-dark: #e8e0d8;
+  --color-ink: #1a1a1a;
+  --color-ink-light: #4a4a4a;
+  --color-accent: #2c5f4a;
+  --color-accent-light: #3a7d62;
+  --color-border: #d4cdc5;
+  --color-surface: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bone: #1a1a1a;
+    --color-bone-dark: #252525;
+    --color-ink: #e8e0d8;
+    --color-ink-light: #b0a89e;
+    --color-accent: #5cb88a;
+    --color-accent-light: #6fd49e;
+    --color-border: #3a3a3a;
+    --color-surface: #222222;
+  }
+}
+
+@theme inline {
+  --color-background: var(--color-bone);
+  --color-foreground: var(--color-ink);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bone);
+  color: var(--color-ink);
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3 {
+  font-family: "Georgia", "Times New Roman", serif;
+  line-height: 1.3;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: var(--color-accent-light);
+}
+
+.article-summary {
+  font-family: "Georgia", "Times New Roman", serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--color-ink-light);
+}
+
+.article-summary p {
+  margin-bottom: 1em;
+}
