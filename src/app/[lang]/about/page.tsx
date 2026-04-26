@@ -5,9 +5,10 @@ import { SUPPORTED_JOURNALS } from "@/lib/types";
 export default async function AboutPage({
   params,
 }: {
-  params: Promise<{ lang: Lang }>;
+  params: Promise<{ lang: string }>;
 }) {
-  const { lang } = await params;
+  const { lang: rawLang } = await params;
+  const lang = rawLang as Lang;
   const dict = await getDictionary(lang);
 
   return (

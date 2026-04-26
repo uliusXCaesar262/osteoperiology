@@ -8,9 +8,10 @@ export const revalidate = 3600; // Revalidate every hour
 export default async function HomePage({
   params,
 }: {
-  params: Promise<{ lang: Lang }>;
+  params: Promise<{ lang: string }>;
 }) {
-  const { lang } = await params;
+  const { lang: rawLang } = await params;
+  const lang = rawLang as Lang;
   const dict = await getDictionary(lang);
   const { articles } = await getRecentArticles(20);
 

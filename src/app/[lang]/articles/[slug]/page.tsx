@@ -9,9 +9,10 @@ export const revalidate = 3600;
 export default async function ArticlePage({
   params,
 }: {
-  params: Promise<{ lang: Lang; slug: string }>;
+  params: Promise<{ lang: string; slug: string }>;
 }) {
-  const { lang, slug } = await params;
+  const { lang: rawLang, slug } = await params;
+  const lang = rawLang as Lang;
   const dict = await getDictionary(lang);
   const article = await getArticleBySlug(slug);
 

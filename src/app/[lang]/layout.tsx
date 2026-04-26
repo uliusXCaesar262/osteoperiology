@@ -13,9 +13,10 @@ export default async function LangLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: Lang }>;
+  params: Promise<{ lang: string }>;
 }) {
-  const { lang } = await params;
+  const { lang: rawLang } = await params;
+  const lang = (languages.includes(rawLang as Lang) ? rawLang : "en") as Lang;
   const dict = await getDictionary(lang);
 
   return (
