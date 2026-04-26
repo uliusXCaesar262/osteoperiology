@@ -3,7 +3,7 @@ import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { getRecentArticles } from "@/lib/storage";
 import ArticleCard from "@/components/ArticleCard";
-import { SITE_URL } from "@/app/layout";
+import { SITE_URL } from "@/lib/constants";
 
 export const revalidate = 0;
 

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { SEARCH_TOPICS } from "@/lib/types";
-import { SITE_URL } from "@/app/layout";
+import { SITE_URL } from "@/lib/constants";
 
 const aboutMeta = {
   en: {

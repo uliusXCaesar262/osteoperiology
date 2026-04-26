@@ -4,7 +4,7 @@ import { getDictionary } from "@/i18n/config";
 import { getArticleBySlug } from "@/lib/storage";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { SITE_URL } from "@/app/layout";
+import { SITE_URL } from "@/lib/constants";
 
 export const revalidate = 0;
 
