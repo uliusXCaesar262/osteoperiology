@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Osteoperiology</title>
-    <link>https://osteoperiology.bonebenders.com</link>
+    <link>https://osteoperionews.bonebenders.com</link>
     <description>Curated news from the periodontal and implant literature — Dr. Ernesto Bruschi</description>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Apr 2026 18:05:56 GMT</lastBuildDate>
-    <atom:link href="https://osteoperiology.bonebenders.com/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Apr 2026 20:21:37 GMT</lastBuildDate>
+    <atom:link href="https://osteoperionews.bonebenders.com/feed.xml" rel="self" type="application/rss+xml" />
 
   </channel>
 </rss>

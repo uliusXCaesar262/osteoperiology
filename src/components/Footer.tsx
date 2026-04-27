@@ -5,7 +5,7 @@ interface FooterProps {
 export default function Footer({ dict }: FooterProps) {
   return (
     <footer className="site-footer mt-auto py-8 text-center text-xs">
-      <div className="max-w-5xl mx-auto px-5 sm:px-8 space-y-2" style={{ color: "var(--color-ink-muted)" }}>
+      <div className="max-w-3xl mx-auto px-5 sm:px-8 space-y-2">
         <p>{dict.footer.disclaimer}</p>
         <p>
           <a href="https://bonebenders.com" target="_blank" rel="noopener noreferrer">
