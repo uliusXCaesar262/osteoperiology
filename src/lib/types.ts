@@ -1,6 +1,7 @@
 export interface Article {
   pmid: string;
   title: string;
+  titleIt?: string;
   authors: string[];
   journal: string;
   pubDate: string;

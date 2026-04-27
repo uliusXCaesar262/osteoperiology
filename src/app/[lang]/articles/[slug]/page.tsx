@@ -26,13 +26,14 @@ export async function generateMetadata({
   if (!article) return {};
 
   const plainTitle = article.title.replace(/<[^>]+>/g, "");
+  const metaTitle = lang === "it" && article.titleIt ? article.titleIt : plainTitle;
   const summary = lang === "it" ? article.summaryIt : article.summaryEn;
   const description = summary.slice(0, 160).replace(/\s+\S*$/, "") + "…";
   const otherLang = lang === "en" ? "it" : "en";
   const url = `${SITE_URL}/${lang}/articles/${slug}`;
 
   return {
-    title: plainTitle,
+    title: metaTitle,
     description,
     authors: article.authors.slice(0, 5).map((name) => ({ name })),
     alternates: {
@@ -79,6 +80,7 @@ export default async function ArticlePage({
 
   const summary = lang === "it" ? article.summaryIt : article.summaryEn;
   const plainTitle = article.title.replace(/<[^>]+>/g, "");
+  const displayTitle = lang === "it" && article.titleIt ? article.titleIt : plainTitle;
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -125,8 +127,13 @@ export default async function ArticlePage({
       </header>
 
       <h1 className="text-2xl sm:text-4xl mb-4 font-semibold leading-tight">
-        {plainTitle}
+        {displayTitle}
       </h1>
+      {lang === "it" && article.titleIt && (
+        <p className="text-xs mb-4 italic" style={{ color: "var(--color-ink-muted)" }}>
+          {plainTitle}
+        </p>
+      )}
 
       <p className="text-sm mb-8 font-medium" style={{ color: "var(--color-ink-muted)" }}>
         {article.authors.join(", ")}

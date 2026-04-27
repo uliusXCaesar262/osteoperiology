@@ -29,6 +29,7 @@ const SEARCH_QUERIES = [
 interface Article {
   pmid: string;
   title: string;
+  titleIt: string;
   authors: string[];
   journal: string;
   pubDate: string;
@@ -193,7 +194,7 @@ async function generateBilingualSummary(
   authors: string[],
   journal: string,
   abstractText: string
-): Promise<{ en: string; it: string }> {
+): Promise<{ en: string; it: string; titleIt: string }> {
   const prompt = `You are a scientific communicator for a dental periodontology and implantology audience.
 You write in a clear, essential style — no fluff, no redundancy. Think Alessandro Baricco applied to science: precise, elegant, direct.
 
@@ -203,16 +204,19 @@ Authors: ${authors.join(", ")}
 Journal: ${journal}
 Abstract: ${abstractText}
 
-Generate TWO summaries — one in English, one in Italian. Each summary should be 300-500 words and include:
-1. The clinical question or research problem
-2. The key methodology
-3. The main findings
-4. The clinical relevance / take-home message
+Generate:
+1. An Italian translation of the article title (accurate, natural-sounding Italian — not a literal word-by-word translation)
+2. TWO summaries — one in English, one in Italian. Each summary should be 300-500 words and include:
+   a. The clinical question or research problem
+   b. The key methodology
+   c. The main findings
+   d. The clinical relevance / take-home message
 
 Write for an audience of periodontists, implantologists, and oral surgeons. Use appropriate technical terminology but keep the prose readable.
 
 Respond ONLY with valid JSON in this exact format:
 {
+  "titleIt": "Italian title here...",
   "en": "English summary here...",
   "it": "Italian summary here..."
 }`;
@@ -228,12 +232,12 @@ Respond ONLY with valid JSON in this exact format:
 
   try {
     const parsed = JSON.parse(content.text);
-    return { en: parsed.en || "", it: parsed.it || "" };
+    return { en: parsed.en || "", it: parsed.it || "", titleIt: parsed.titleIt || "" };
   } catch {
     const jsonMatch = content.text.match(/\{[\s\S]*\}/);
     if (jsonMatch) {
       const parsed = JSON.parse(jsonMatch[0]);
-      return { en: parsed.en || "", it: parsed.it || "" };
+      return { en: parsed.en || "", it: parsed.it || "", titleIt: parsed.titleIt || "" };
     }
     throw new Error("Failed to parse summary");
   }
@@ -318,6 +322,7 @@ async function main() {
       newArticles.push({
         pmid: summary.uid,
         title: summary.title,
+        titleIt: aiSummary.titleIt,
         authors,
         journal: summary.fulljournalname || summary.source,
         pubDate: summary.pubdate,

@@ -15,6 +15,8 @@ export default function ArticleCard({
 }: ArticleCardProps) {
   const summary = lang === "it" ? article.summaryIt : article.summaryEn;
   const excerpt = summary.slice(0, 220) + (summary.length > 220 ? "..." : "");
+  const plainTitle = article.title.replace(/<[^>]+>/g, "");
+  const displayTitle = lang === "it" && article.titleIt ? article.titleIt : plainTitle;
 
   return (
     <article className="article-card mb-4">
@@ -35,7 +37,7 @@ export default function ArticleCard({
           className="hover:underline"
           style={{ color: "var(--color-ink)" }}
         >
-          {article.title.replace(/<[^>]+>/g, "")}
+          {displayTitle}
         </Link>
       </h2>
 
@@ -52,7 +54,7 @@ export default function ArticleCard({
         href={`/${lang}/articles/${article.slug}`}
         className="text-sm font-medium"
         style={{ color: "var(--color-accent)" }}
-        aria-label={`${readMore}: ${article.title.replace(/<[^>]+>/g, "")}`}
+        aria-label={`${readMore}: ${displayTitle}`}
       >
         {readMore} →
       </Link>
