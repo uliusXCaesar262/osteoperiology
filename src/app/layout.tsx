@@ -1,6 +1,22 @@
 import type { Metadata } from "next";
+import { Inter, Lora } from "next/font/google";
 import { SITE_URL } from "@/lib/constants";
 import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin", "latin-ext"],
+  weight: ["300", "400", "500", "600"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const lora = Lora({
+  subsets: ["latin", "latin-ext"],
+  weight: ["400", "500", "600", "700"],
+  style: ["normal", "italic"],
+  variable: "--font-lora",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -25,10 +41,7 @@ export const metadata: Metadata = {
   ],
   alternates: {
     types: {
-      "application/rss+xml": [
-        { url: `${SITE_URL}/feed.xml`, title: "Osteoperionews (EN)" },
-        { url: `${SITE_URL}/feed-it.xml`, title: "Osteoperionews (IT)" },
-      ],
+      "application/rss+xml": `${SITE_URL}/feed.xml`,
     },
     languages: {
       en: `${SITE_URL}/en`,
@@ -81,5 +94,21 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return children;
+  return (
+    <html lang="en" className={`h-full antialiased ${inter.variable} ${lora.variable}`}>
+      <head>
+        <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
+        <meta name="referrer" content="strict-origin-when-cross-origin" />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Osteoperionews (IT)"
+          href={`${SITE_URL}/feed-it.xml`}
+        />
+      </head>
+      <body className="min-h-full flex flex-col">
+        {children}
+      </body>
+    </html>
+  );
 }
