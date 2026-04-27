@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Osteoperiology",
+    "title": "Osteoperionews",
     "subtitle": "Curated news from the periodontal and implant literature",
     "author": "Dr. Ernesto Bruschi",
     "description": "Weekly curated summaries of open access articles in periodontology and dental implantology"
@@ -28,7 +28,7 @@
   },
   "about": {
     "title": "About",
-    "text": "Osteoperiology is a curated feed of the latest open access research in periodontology and dental implantology. Every week, new articles from leading journals are selected and summarized in English and Italian.",
+    "text": "Osteoperionews is a curated feed of the latest open access research in periodontology and dental implantology. Every week, new articles from leading journals are selected and summarized in English and Italian.",
     "topics": "Monitored topics",
     "curatedBy": "Curated by",
     "links": "Links"

@@ -59,7 +59,7 @@ function main() {
   const rss = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Osteoperiology</title>
+    <title>Osteoperionews</title>
     <link>${SITE_URL}</link>
     <description>Curated news from the periodontal and implant literature — Dr. Ernesto Bruschi</description>
     <language>en</language>

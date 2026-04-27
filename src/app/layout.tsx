@@ -5,14 +5,14 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "Osteoperiology — Periodontal & Implant Literature",
-    template: "%s | Osteoperiology",
+    default: "Osteoperionews — Periodontal & Implant Literature",
+    template: "%s | Osteoperionews",
   },
   description:
     "Weekly curated summaries of open access articles in periodontology and dental implantology — Dr. Ernesto Bruschi",
   authors: [{ name: "Dr. Ernesto Bruschi", url: "https://orcid.org/0000-0002-4773-5384" }],
   creator: "Dr. Ernesto Bruschi",
-  publisher: "Osteoperiology",
+  publisher: "Osteoperionews",
   keywords: [
     "periodontology", "parodontologia",
     "dental implants", "implantologia dentale",
@@ -34,18 +34,18 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Osteoperiology",
+    title: "Osteoperionews",
     description:
       "Weekly curated summaries of open access articles in periodontology and dental implantology",
     type: "website",
-    siteName: "Osteoperiology",
+    siteName: "Osteoperionews",
     url: SITE_URL,
     locale: "en_US",
     alternateLocale: "it_IT",
   },
   twitter: {
     card: "summary",
-    title: "Osteoperiology",
+    title: "Osteoperionews",
     description:
       "Weekly curated summaries of open access articles in periodontology and dental implantology",
   },

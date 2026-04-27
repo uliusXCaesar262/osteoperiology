@@ -6,12 +6,12 @@ import { SITE_URL } from "@/lib/constants";
 
 const aboutMeta = {
   en: {
-    title: "About Osteoperiology",
+    title: "About Osteoperionews",
     description:
       "Curated open access periodontology and implantology research by Dr. Ernesto Bruschi — periodontist, implantologist, oral surgeon.",
   },
   it: {
-    title: "Info — Osteoperiology",
+    title: "Info — Osteoperionews",
     description:
       "Ricerca open access curata in parodontologia e implantologia dal Dr. Ernesto Bruschi — parodontologo, implantologo, chirurgo orale.",
   },
