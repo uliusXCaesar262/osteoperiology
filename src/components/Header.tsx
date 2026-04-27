@@ -26,7 +26,7 @@ export default function Header({ lang, dict }: HeaderProps) {
               {dict.nav.about}
             </Link>
             <a
-              href="/feed.xml"
+              href={lang === "it" ? "/feed-it.xml" : "/feed.xml"}
               target="_blank"
               rel="noopener noreferrer"
               className="rss-link"

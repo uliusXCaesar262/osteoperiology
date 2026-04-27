@@ -53,6 +53,20 @@ export async function generateMetadata({
       publishedTime: article.pubDate,
       authors: article.authors.slice(0, 5),
       tags: [article.journal, "periodontology", "dental implants", "open access"],
+      images: [
+        {
+          url: `${SITE_URL}/og-default.png`,
+          width: 1200,
+          height: 630,
+          alt: plainTitle,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: plainTitle,
+      description,
+      images: [`${SITE_URL}/og-default.png`],
     },
   };
 }

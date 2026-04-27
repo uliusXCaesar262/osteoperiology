@@ -1,7 +1,53 @@
+import type { Metadata } from "next";
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { getRecentArticles } from "@/lib/storage";
+import { SITE_URL } from "@/lib/constants";
 import ArticleCard from "@/components/ArticleCard";
+
+const homeMeta = {
+  en: {
+    title: "Osteoperionews — Periodontal & Implant Literature",
+    description:
+      "Weekly curated summaries of open access articles in periodontology and dental implantology — Dr. Ernesto Bruschi",
+  },
+  it: {
+    title: "Osteoperionews — Letteratura parodontale e implantare",
+    description:
+      "Riassunti settimanali curati di articoli open access in parodontologia e implantologia dentale — Dr. Ernesto Bruschi",
+  },
+};
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const l = (lang === "it" ? "it" : "en") as Lang;
+  const otherLang = l === "en" ? "it" : "en";
+  const url = `${SITE_URL}/${l}`;
+
+  return {
+    title: homeMeta[l].title,
+    description: homeMeta[l].description,
+    alternates: {
+      canonical: url,
+      languages: {
+        [l]: url,
+        [otherLang]: `${SITE_URL}/${otherLang}`,
+        "x-default": `${SITE_URL}/en`,
+      },
+    },
+    openGraph: {
+      title: homeMeta[l].title,
+      description: homeMeta[l].description,
+      url,
+      locale: l === "it" ? "it_IT" : "en_US",
+      alternateLocale: l === "it" ? "en_US" : "it_IT",
+    },
+  };
+}
 
 export default async function HomePage({
   params,
@@ -20,7 +66,7 @@ export default async function HomePage({
           {dict.home.latestArticles}
         </h2>
         <a
-          href="/feed.xml"
+          href={lang === "it" ? "/feed-it.xml" : "/feed.xml"}
           target="_blank"
           rel="noopener noreferrer"
           className="btn-secondary"

@@ -14,7 +14,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 1.0,
       alternates: {
-        languages: { it: `${SITE_URL}/it`, en: `${SITE_URL}/en` },
+        languages: {
+          en: `${SITE_URL}/en`,
+          it: `${SITE_URL}/it`,
+          "x-default": `${SITE_URL}/en`,
+        },
       },
     },
     {
@@ -23,7 +27,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "weekly",
       priority: 1.0,
       alternates: {
-        languages: { it: `${SITE_URL}/it`, en: `${SITE_URL}/en` },
+        languages: {
+          en: `${SITE_URL}/en`,
+          it: `${SITE_URL}/it`,
+          "x-default": `${SITE_URL}/en`,
+        },
       },
     },
     {
@@ -32,7 +40,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
       alternates: {
-        languages: { it: `${SITE_URL}/it/about`, en: `${SITE_URL}/en/about` },
+        languages: {
+          en: `${SITE_URL}/en/about`,
+          it: `${SITE_URL}/it/about`,
+          "x-default": `${SITE_URL}/en/about`,
+        },
       },
     },
     {
@@ -41,7 +53,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.7,
       alternates: {
-        languages: { it: `${SITE_URL}/it/about`, en: `${SITE_URL}/en/about` },
+        languages: {
+          en: `${SITE_URL}/en/about`,
+          it: `${SITE_URL}/it/about`,
+          "x-default": `${SITE_URL}/en/about`,
+        },
       },
     },
   ];
@@ -58,6 +74,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             en: `${SITE_URL}/en/articles/${article.slug}`,
             it: `${SITE_URL}/it/articles/${article.slug}`,
+            "x-default": `${SITE_URL}/en/articles/${article.slug}`,
           },
         },
       },
@@ -70,6 +87,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
           languages: {
             en: `${SITE_URL}/en/articles/${article.slug}`,
             it: `${SITE_URL}/it/articles/${article.slug}`,
+            "x-default": `${SITE_URL}/en/articles/${article.slug}`,
           },
         },
       },

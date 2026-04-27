@@ -25,12 +25,15 @@ export const metadata: Metadata = {
   ],
   alternates: {
     types: {
-      "application/rss+xml": `${SITE_URL}/feed.xml`,
+      "application/rss+xml": [
+        { url: `${SITE_URL}/feed.xml`, title: "Osteoperionews (EN)" },
+        { url: `${SITE_URL}/feed-it.xml`, title: "Osteoperionews (IT)" },
+      ],
     },
-    canonical: SITE_URL,
     languages: {
       en: `${SITE_URL}/en`,
       it: `${SITE_URL}/it`,
+      "x-default": `${SITE_URL}/en`,
     },
   },
   openGraph: {
@@ -42,12 +45,21 @@ export const metadata: Metadata = {
     url: SITE_URL,
     locale: "en_US",
     alternateLocale: "it_IT",
+    images: [
+      {
+        url: `${SITE_URL}/og-default.png`,
+        width: 1200,
+        height: 630,
+        alt: "Osteoperionews — Curated periodontal and implant literature",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Osteoperionews",
     description:
       "Weekly curated summaries of open access articles in periodontology and dental implantology",
+    images: [`${SITE_URL}/og-default.png`],
   },
   robots: {
     index: true,
