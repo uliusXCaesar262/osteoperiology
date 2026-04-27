@@ -6,11 +6,14 @@ import { languages } from "@/i18n/config";
 import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   const slugs = getAllSlugs();
-  return slugs.flatMap((slug) =>
-    languages.map((lang) => ({ lang, slug }))
-  );
+  if (slugs.length === 0) {
+    return [{ slug: "_placeholder" }];
+  }
+  return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
