@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 
-const SITE_URL = "https://osteoperiology.bonebenders.com";
+const SITE_URL = "https://osteoperionews.bonebenders.com";
 const ARTICLES_PATH = path.join(process.cwd(), "content", "articles.json");
 const OUTPUT_PATH = path.join(process.cwd(), "public", "feed.xml");
 
