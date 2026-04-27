@@ -15,7 +15,10 @@
     "noArticles": "No articles yet. The first update will arrive next Monday.",
     "readMore": "Read more",
     "publishedIn": "Published in",
-    "loadMore": "Load more"
+    "loadMore": "Load more",
+    "searchPlaceholder": "Search articles...",
+    "searchNoResults": "No articles match your search.",
+    "searchResultCount": "{{count}} result(s)"
   },
   "article": {
     "originalArticle": "Read original article",

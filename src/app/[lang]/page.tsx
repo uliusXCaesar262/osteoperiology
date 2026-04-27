@@ -3,7 +3,7 @@ import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { getRecentArticles } from "@/lib/storage";
 import { SITE_URL } from "@/lib/constants";
-import ArticleCard from "@/components/ArticleCard";
+import SearchableArticleList from "@/components/SearchableArticleList";
 
 const homeMeta = {
   en: {
@@ -94,17 +94,17 @@ export default async function HomePage({
           </p>
         </div>
       ) : (
-        <div className="grid gap-4">
-          {articles.map((article) => (
-            <ArticleCard
-              key={article.pmid}
-              article={article}
-              lang={lang}
-              readMore={dict.home.readMore}
-              publishedIn={dict.home.publishedIn}
-            />
-          ))}
-        </div>
+        <SearchableArticleList
+          articles={articles}
+          lang={lang}
+          dict={{
+            searchPlaceholder: dict.home.searchPlaceholder,
+            searchNoResults: dict.home.searchNoResults,
+            searchResultCount: dict.home.searchResultCount,
+            readMore: dict.home.readMore,
+            publishedIn: dict.home.publishedIn,
+          }}
+        />
       )}
     </div>
   );

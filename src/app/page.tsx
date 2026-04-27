@@ -17,9 +17,12 @@ export default function RootPage() {
   }, [router]);
 
   return (
+    // eslint-disable-next-line @next/next/no-html-link-for-pages
     <noscript>
       <p>
-        <a href="/en">English</a> · <a href="/it">Italiano</a>
+        {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+        <a href="/en">English</a> · {/* eslint-disable-next-line @next/next/no-html-link-for-pages */}
+        <a href="/it">Italiano</a>
       </p>
     </noscript>
   );

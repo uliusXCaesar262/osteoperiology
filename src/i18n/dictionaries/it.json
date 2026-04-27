@@ -15,7 +15,10 @@
     "noArticles": "Nessun articolo ancora. Il primo aggiornamento arriverà lunedì prossimo.",
     "readMore": "Leggi tutto",
     "publishedIn": "Pubblicato su",
-    "loadMore": "Carica altri"
+    "loadMore": "Carica altri",
+    "searchPlaceholder": "Cerca negli articoli...",
+    "searchNoResults": "Nessun articolo corrisponde alla ricerca.",
+    "searchResultCount": "{{count}} risultato/i"
   },
   "article": {
     "originalArticle": "Leggi l'articolo originale",

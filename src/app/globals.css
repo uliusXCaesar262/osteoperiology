@@ -279,6 +279,68 @@ a:hover {
   color: var(--color-ink);
 }
 
+/* ─── Search ─── */
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 0.85rem;
+  color: var(--color-ink-muted);
+  pointer-events: none;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.65rem 2.5rem 0.65rem 2.5rem;
+  font-size: 0.88rem;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  color: var(--color-ink);
+  background: var(--color-bg-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.search-input::placeholder {
+  color: var(--color-ink-muted);
+}
+
+.search-input:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 2px rgba(44, 85, 69, 0.1);
+}
+
+.search-clear {
+  position: absolute;
+  right: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2rem;
+  color: var(--color-ink-muted);
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: color 0.15s, background 0.15s;
+}
+
+.search-clear:hover {
+  color: var(--color-ink);
+  background: var(--color-border);
+}
+
+.search-result-count {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--color-ink-muted);
+}
+
 /* ─── Section headings ─── */
 .section-heading {
   font-family: var(--font-lora), Georgia, serif;

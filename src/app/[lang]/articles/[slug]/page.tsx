@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { getArticleBySlug, getAllSlugs } from "@/lib/storage";
-import { languages } from "@/i18n/config";
 import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 
