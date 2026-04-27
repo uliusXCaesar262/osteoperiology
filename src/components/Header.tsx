@@ -30,7 +30,7 @@ export default function Header({ lang, dict }: HeaderProps) {
             {dict.nav.about}
           </Link>
           <a
-            href="/api/feed"
+            href="/feed.xml"
             target="_blank"
             rel="noopener noreferrer"
             className="rss-link"

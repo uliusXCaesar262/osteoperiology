@@ -1,80 +1,52 @@
-import { put, list, del } from "@vercel/blob";
 import { Article, ArticlesStore } from "./types";
+import fs from "fs";
+import path from "path";
 
-const BLOB_STORE_KEY = "articles/store.json";
+const ARTICLES_PATH = path.join(process.cwd(), "content", "articles.json");
 
-export async function getArticlesStore(): Promise<ArticlesStore> {
+export function getArticlesStore(): ArticlesStore {
   try {
-    const { blobs } = await list({ prefix: "articles/" });
-    const storeBlob = blobs.find((b) => b.pathname === BLOB_STORE_KEY);
-
-    if (!storeBlob) {
-      return { lastUpdated: "", articles: [] };
-    }
-
-    const res = await fetch(storeBlob.url);
-    const data: ArticlesStore = await res.json();
-    return data;
+    const raw = fs.readFileSync(ARTICLES_PATH, "utf-8");
+    return JSON.parse(raw) as ArticlesStore;
   } catch {
     return { lastUpdated: "", articles: [] };
   }
 }
 
-export async function saveArticlesStore(
-  store: ArticlesStore
-): Promise<string> {
-  // Delete existing blob if present
-  try {
-    const { blobs } = await list({ prefix: "articles/" });
-    const existing = blobs.find((b) => b.pathname === BLOB_STORE_KEY);
-    if (existing) {
-      await del(existing.url);
-    }
-  } catch {
-    // Ignore deletion errors
-  }
-
-  const blob = await put(
-    BLOB_STORE_KEY,
-    JSON.stringify(store, null, 2),
-    {
-      access: "public",
-      contentType: "application/json",
-      addRandomSuffix: false,
-    }
-  );
-
-  return blob.url;
+export function saveArticlesStore(store: ArticlesStore): void {
+  fs.writeFileSync(ARTICLES_PATH, JSON.stringify(store, null, 2), "utf-8");
 }
 
-export async function addArticles(newArticles: Article[]): Promise<void> {
-  const store = await getArticlesStore();
+export function addArticles(newArticles: Article[]): void {
+  const store = getArticlesStore();
 
-  // Deduplicate by PMID
   const existingPmids = new Set(store.articles.map((a) => a.pmid));
   const unique = newArticles.filter((a) => !existingPmids.has(a.pmid));
 
   if (unique.length === 0) return;
 
-  store.articles = [...unique, ...store.articles]; // Newest first
+  store.articles = [...unique, ...store.articles];
   store.lastUpdated = new Date().toISOString();
 
-  await saveArticlesStore(store);
+  saveArticlesStore(store);
 }
 
-export async function getRecentArticles(
+export function getRecentArticles(
   limit: number = 20,
   offset: number = 0
-): Promise<{ articles: Article[]; total: number }> {
-  const store = await getArticlesStore();
+): { articles: Article[]; total: number } {
+  const store = getArticlesStore();
   const total = store.articles.length;
   const articles = store.articles.slice(offset, offset + limit);
   return { articles, total };
 }
 
-export async function getArticleBySlug(
-  slug: string
-): Promise<Article | null> {
-  const store = await getArticlesStore();
+export function getArticleBySlug(slug: string): Article | null {
+  const store = getArticlesStore();
   return store.articles.find((a) => a.slug === slug) || null;
+}
+
+export function getAllSlugs(): string[] {
+  const store = getArticlesStore();
+  return store.articles.map((a) => a.slug);
 }

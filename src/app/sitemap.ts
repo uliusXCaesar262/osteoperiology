@@ -1,10 +1,9 @@
 import type { MetadataRoute } from "next";
 import { getRecentArticles } from "@/lib/storage";
+import { SITE_URL } from "@/lib/constants";
 
-const SITE_URL = "https://osteoperiology.vercel.app";
-
-export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const { articles } = await getRecentArticles(500);
+export default function sitemap(): MetadataRoute.Sitemap {
+  const { articles } = getRecentArticles(500);
 
   const staticPages: MetadataRoute.Sitemap = [
     {

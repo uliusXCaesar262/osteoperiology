@@ -1,12 +1,17 @@
 import type { Metadata } from "next";
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
-import { getArticleBySlug } from "@/lib/storage";
+import { getArticleBySlug, getAllSlugs } from "@/lib/storage";
+import { languages } from "@/i18n/config";
 import Link from "next/link";
-import { notFound } from "next/navigation";
 import { SITE_URL } from "@/lib/constants";
 
-export const revalidate = 0;
+export function generateStaticParams() {
+  const slugs = getAllSlugs();
+  return slugs.flatMap((slug) =>
+    languages.map((lang) => ({ lang, slug }))
+  );
+}
 
 export async function generateMetadata({
   params,
@@ -14,7 +19,7 @@ export async function generateMetadata({
   params: Promise<{ lang: string; slug: string }>;
 }): Promise<Metadata> {
   const { lang, slug } = await params;
-  const article = await getArticleBySlug(slug);
+  const article = getArticleBySlug(slug);
   if (!article) return {};
 
   const plainTitle = article.title.replace(/<[^>]+>/g, "");
@@ -56,16 +61,22 @@ export default async function ArticlePage({
   const { lang: rawLang, slug } = await params;
   const lang = rawLang as Lang;
   const dict = await getDictionary(lang);
-  const article = await getArticleBySlug(slug);
+  const article = getArticleBySlug(slug);
 
   if (!article) {
-    notFound();
+    return (
+      <div className="empty-state text-center">
+        <p style={{ color: "var(--color-ink-secondary)" }}>Article not found.</p>
+        <Link href={`/${lang}`} className="btn-primary mt-4 inline-block">
+          {dict.article.backToList}
+        </Link>
+      </div>
+    );
   }
 
   const summary = lang === "it" ? article.summaryIt : article.summaryEn;
   const plainTitle = article.title.replace(/<[^>]+>/g, "");
 
-  /* JSON-LD structured data */
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",

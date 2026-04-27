@@ -1,1 +1,1 @@
-export const SITE_URL = "https://osteoperiology.vercel.app";
+export const SITE_URL = "https://osteoperiology.bonebenders.com";
