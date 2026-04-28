@@ -37,6 +37,41 @@
     "links": "Links"
   },
   "footer": {
-    "disclaimer": "Summaries of recent literature for educational and informational purposes."
+    "disclaimer": "Summaries of recent literature for educational and informational purposes.",
+    "privacy": "Privacy Policy",
+    "newsletterTitle": "Weekly digest",
+    "newsletterDesc": "New articles in your inbox every Monday.",
+    "newsletterPlaceholder": "your@email.com",
+    "newsletterButton": "Subscribe",
+    "newsletterSuccess": "Subscribed! Check your email to confirm.",
+    "newsletterError": "Something went wrong. Try again.",
+    "newsletterConsent": "I agree to the processing of my data according to the"
+  },
+  "cookie": {
+    "message": "This site uses technical cookies to improve your experience.",
+    "accept": "Accept",
+    "reject": "Reject",
+    "learnMore": "Learn more"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: April 2026",
+    "intro": "This privacy policy describes how Osteoperionews (osteoperionews.bonebenders.com), operated by Dr. Ernesto Bruschi, collects, uses, and protects your personal data in compliance with the EU General Data Protection Regulation (GDPR, Regulation 2016/679).",
+    "controllerTitle": "Data Controller",
+    "controllerText": "Dr. Ernesto Bruschi — dott.bruschi@gmail.com",
+    "dataCollectedTitle": "Data Collected",
+    "dataCollectedText": "This site collects personal data only when you voluntarily subscribe to the newsletter. The only data collected is your email address. No profiling, tracking, or analytics cookies are used.",
+    "purposeTitle": "Purpose of Processing",
+    "purposeText": "Your email address is used exclusively to send you a weekly newsletter containing summaries of recently published open access articles in periodontology and dental implantology. The legal basis for processing is your explicit consent (Art. 6(1)(a) GDPR).",
+    "thirdPartyTitle": "Third-Party Services",
+    "thirdPartyText": "The newsletter is managed through Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 Paris, France), which acts as data processor. Brevo processes your email address solely for newsletter delivery. Brevo's privacy policy is available at https://www.brevo.com/legal/privacypolicy/. This site is hosted on GitHub Pages (GitHub Inc., San Francisco, CA, USA). GitHub may collect technical access logs (IP address, browser type). GitHub's privacy policy is available at https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement.",
+    "retentionTitle": "Data Retention",
+    "retentionText": "Your email address is retained until you unsubscribe from the newsletter. You can unsubscribe at any time via the link at the bottom of each email.",
+    "rightsTitle": "Your Rights",
+    "rightsText": "Under GDPR, you have the right to access, rectify, erase, restrict processing, port, and object to the processing of your personal data. You also have the right to withdraw consent at any time. To exercise these rights, contact: dott.bruschi@gmail.com. You also have the right to lodge a complaint with the Italian Data Protection Authority (Garante per la Protezione dei Dati Personali — www.garanteprivacy.it).",
+    "cookiesTitle": "Cookies",
+    "cookiesText": "This site uses only essential technical cookies required for basic functionality (e.g., cookie consent preference). No profiling, advertising, or third-party tracking cookies are used.",
+    "changesTitle": "Changes to This Policy",
+    "changesText": "This policy may be updated. Any changes will be published on this page with an updated revision date."
   }
 }

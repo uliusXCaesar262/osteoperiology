@@ -60,6 +60,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
         },
       },
     },
+    {
+      url: `${SITE_URL}/en/privacy`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/en/privacy`,
+          it: `${SITE_URL}/it/privacy`,
+          "x-default": `${SITE_URL}/en/privacy`,
+        },
+      },
+    },
+    {
+      url: `${SITE_URL}/it/privacy`,
+      lastModified: new Date(),
+      changeFrequency: "yearly",
+      priority: 0.3,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/en/privacy`,
+          it: `${SITE_URL}/it/privacy`,
+          "x-default": `${SITE_URL}/en/privacy`,
+        },
+      },
+    },
   ];
 
   const articlePages: MetadataRoute.Sitemap = articles.flatMap((article) => {

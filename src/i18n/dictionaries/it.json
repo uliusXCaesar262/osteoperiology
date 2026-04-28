@@ -37,6 +37,41 @@
     "links": "Link"
   },
   "footer": {
-    "disclaimer": "Riassunti della letteratura recente a scopo educativo e informativo."
+    "disclaimer": "Riassunti della letteratura recente a scopo educativo e informativo.",
+    "privacy": "Privacy Policy",
+    "newsletterTitle": "Digest settimanale",
+    "newsletterDesc": "Nuovi articoli nella tua casella ogni lunedì.",
+    "newsletterPlaceholder": "tua@email.com",
+    "newsletterButton": "Iscriviti",
+    "newsletterSuccess": "Iscritto! Controlla la tua email per confermare.",
+    "newsletterError": "Si è verificato un errore. Riprova.",
+    "newsletterConsent": "Acconsento al trattamento dei miei dati secondo la"
+  },
+  "cookie": {
+    "message": "Questo sito utilizza cookie tecnici per migliorare la tua esperienza.",
+    "accept": "Accetta",
+    "reject": "Rifiuta",
+    "learnMore": "Scopri di più"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Ultimo aggiornamento: aprile 2026",
+    "intro": "La presente informativa descrive le modalità con cui Osteoperionews (osteoperionews.bonebenders.com), gestito dal Dr. Ernesto Bruschi, raccoglie, utilizza e protegge i dati personali degli utenti nel rispetto del Regolamento Generale sulla Protezione dei Dati (GDPR, Regolamento UE 2016/679).",
+    "controllerTitle": "Titolare del trattamento",
+    "controllerText": "Dr. Ernesto Bruschi — dott.bruschi@gmail.com",
+    "dataCollectedTitle": "Dati raccolti",
+    "dataCollectedText": "Questo sito raccoglie dati personali esclusivamente quando l'utente si iscrive volontariamente alla newsletter. L'unico dato raccolto è l'indirizzo email. Non vengono utilizzati cookie di profilazione, tracciamento o analytics.",
+    "purposeTitle": "Finalità del trattamento",
+    "purposeText": "L'indirizzo email è utilizzato esclusivamente per l'invio di una newsletter settimanale contenente riassunti di articoli open access recentemente pubblicati in parodontologia e implantologia dentale. La base giuridica del trattamento è il consenso esplicito dell'interessato (Art. 6, par. 1, lett. a, GDPR).",
+    "thirdPartyTitle": "Servizi di terze parti",
+    "thirdPartyText": "La newsletter è gestita tramite Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 Parigi, Francia), che agisce in qualità di responsabile del trattamento. Brevo tratta l'indirizzo email esclusivamente per la consegna della newsletter. L'informativa privacy di Brevo è disponibile su https://www.brevo.com/legal/privacypolicy/. Il sito è ospitato su GitHub Pages (GitHub Inc., San Francisco, CA, USA). GitHub può raccogliere log tecnici di accesso (indirizzo IP, tipo di browser). L'informativa privacy di GitHub è disponibile su https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement.",
+    "retentionTitle": "Conservazione dei dati",
+    "retentionText": "L'indirizzo email viene conservato fino alla cancellazione dell'iscrizione alla newsletter. È possibile cancellarsi in qualsiasi momento tramite il link presente in calce a ogni email.",
+    "rightsTitle": "Diritti dell'interessato",
+    "rightsText": "Ai sensi del GDPR, l'utente ha il diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità e opposizione al trattamento dei propri dati personali. Ha inoltre il diritto di revocare il consenso in qualsiasi momento. Per esercitare tali diritti, contattare: dott.bruschi@gmail.com. L'utente ha altresì il diritto di proporre reclamo al Garante per la Protezione dei Dati Personali (www.garanteprivacy.it).",
+    "cookiesTitle": "Cookie",
+    "cookiesText": "Questo sito utilizza esclusivamente cookie tecnici essenziali per il funzionamento di base (es. preferenza sul consenso ai cookie). Non vengono utilizzati cookie di profilazione, pubblicitari o di tracciamento di terze parti.",
+    "changesTitle": "Modifiche alla presente informativa",
+    "changesText": "La presente informativa può essere aggiornata. Ogni modifica sarà pubblicata su questa pagina con data di revisione aggiornata."
   }
 }

@@ -26,13 +26,13 @@ jobs:
           PUBMED_API_KEY: ${{ secrets.PUBMED_API_KEY }}
         run: npm run update-articles
 
-      - name: Regenerate RSS feed
+      - name: Regenerate RSS feeds
         run: npm run generate-feed
 
       - name: Check for changes
         id: changes
         run: |
-          if git diff --quiet content/articles.json public/feed.xml; then
+          if git diff --quiet content/articles.json public/feed.xml public/feed-it.xml; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -43,6 +43,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add content/articles.json public/feed.xml
+          git add content/articles.json public/feed.xml public/feed-it.xml
           git commit -m "chore: weekly article update $(date +%Y-%m-%d)"
           git push
+
+      - name: Send newsletter
+        if: steps.changes.outputs.changed == 'true'
+        env:
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ secrets.BREVO_LIST_ID }}
+          BREVO_SENDER_EMAIL: ${{ secrets.BREVO_SENDER_EMAIL }}
+          BREVO_SENDER_NAME: "Osteoperionews"
+        run: npm run send-newsletter

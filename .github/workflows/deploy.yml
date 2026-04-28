@@ -25,7 +25,11 @@ jobs:
           node-version: 20
 
       - run: npm install
-      - run: npm run build
+      - name: Build site
+        env:
+          NEXT_PUBLIC_BREVO_API_KEY: ${{ secrets.NEXT_PUBLIC_BREVO_API_KEY }}
+          NEXT_PUBLIC_BREVO_LIST_ID: ${{ secrets.NEXT_PUBLIC_BREVO_LIST_ID }}
+        run: npm run build
 
       - uses: actions/upload-pages-artifact@v3
         with:

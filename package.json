@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "generate-feed": "npx tsx scripts/generate-feed.ts",
-    "update-articles": "npx tsx scripts/update-articles.ts"
+    "update-articles": "npx tsx scripts/update-articles.ts",
+    "send-newsletter": "npx tsx scripts/send-newsletter.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.52.0",
