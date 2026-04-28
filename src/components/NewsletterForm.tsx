@@ -18,68 +18,43 @@ interface NewsletterFormProps {
 }
 
 /**
- * Newsletter subscription form — direct call to Brevo API.
- * Uses NEXT_PUBLIC_BREVO_API_KEY and NEXT_PUBLIC_BREVO_LIST_ID,
- * injected at build time via GitHub Actions secrets.
+ * Newsletter subscription form.
+ * Calls a Cloudflare Worker that proxies to Brevo API.
+ * No API keys in the browser.
  */
+const WORKER_URL = process.env.NEXT_PUBLIC_NEWSLETTER_WORKER_URL;
+
 export default function NewsletterForm({ lang, dict }: NewsletterFormProps) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [consent, setConsent] = useState(false);
 
-  const apiKey = process.env.NEXT_PUBLIC_BREVO_API_KEY;
-  const listId = parseInt(process.env.NEXT_PUBLIC_BREVO_LIST_ID || "0", 10);
-
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
-    if (!consent || !email) return;
-
-    if (!apiKey || !listId) {
-      console.error("[Newsletter] Missing env vars:", { apiKey: !!apiKey, listId });
-      setStatus("error");
-      return;
-    }
+    if (!consent || !email || !WORKER_URL) return;
 
     setStatus("loading");
     try {
-      const res = await fetch("https://api.brevo.com/v3/contacts", {
+      const res = await fetch(WORKER_URL, {
         method: "POST",
-        headers: {
-          "api-key": apiKey,
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-        body: JSON.stringify({
-          email,
-          listIds: [listId],
-          attributes: { LANG: lang.toUpperCase() },
-          updateEnabled: true,
-        }),
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, lang }),
       });
 
-      if (res.ok || res.status === 201 || res.status === 204) {
-        setStatus("success");
-        setEmail("");
-        setConsent(false);
-        return;
-      }
-
       const data = await res.json().catch(() => null);
-      if (data?.code === "duplicate_parameter") {
+      if (res.ok && data?.ok) {
         setStatus("success");
         setEmail("");
         setConsent(false);
       } else {
-        console.error("[Newsletter] Brevo error:", res.status, data);
         setStatus("error");
       }
-    } catch (err) {
-      console.error("[Newsletter] Network error:", err);
+    } catch {
       setStatus("error");
     }
   }
 
-  if (!apiKey || !listId) return null;
+  if (!WORKER_URL) return null;
 
   if (status === "success") {
     return (
