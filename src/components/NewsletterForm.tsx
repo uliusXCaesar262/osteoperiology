@@ -18,23 +18,24 @@ interface NewsletterFormProps {
 }
 
 /**
- * Newsletter subscription form using Brevo REST API.
- * Uses NEXT_PUBLIC_BREVO_API_KEY (scoped to contact creation)
- * and NEXT_PUBLIC_BREVO_LIST_ID, both injected at build time.
+ * Newsletter subscription form — direct call to Brevo API.
+ * Uses NEXT_PUBLIC_BREVO_API_KEY and NEXT_PUBLIC_BREVO_LIST_ID,
+ * injected at build time via GitHub Actions secrets.
  */
 export default function NewsletterForm({ lang, dict }: NewsletterFormProps) {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [consent, setConsent] = useState(false);
 
+  const apiKey = process.env.NEXT_PUBLIC_BREVO_API_KEY;
+  const listId = parseInt(process.env.NEXT_PUBLIC_BREVO_LIST_ID || "0", 10);
+
   async function handleSubmit(e: FormEvent) {
     e.preventDefault();
     if (!consent || !email) return;
 
-    const apiKey = process.env.NEXT_PUBLIC_BREVO_API_KEY;
-    const listId = parseInt(process.env.NEXT_PUBLIC_BREVO_LIST_ID || "0", 10);
-
     if (!apiKey || !listId) {
+      console.error("[Newsletter] Missing env vars:", { apiKey: !!apiKey, listId });
       setStatus("error");
       return;
     }
@@ -60,21 +61,25 @@ export default function NewsletterForm({ lang, dict }: NewsletterFormProps) {
         setStatus("success");
         setEmail("");
         setConsent(false);
-      } else {
-        const data = await res.json().catch(() => null);
-        // "Contact already exist" is not an error for the user
-        if (data?.code === "duplicate_parameter") {
-          setStatus("success");
-          setEmail("");
-          setConsent(false);
-        } else {
-          setStatus("error");
-        }
+        return;
       }
-    } catch {
+
+      const data = await res.json().catch(() => null);
+      if (data?.code === "duplicate_parameter") {
+        setStatus("success");
+        setEmail("");
+        setConsent(false);
+      } else {
+        console.error("[Newsletter] Brevo error:", res.status, data);
+        setStatus("error");
+      }
+    } catch (err) {
+      console.error("[Newsletter] Network error:", err);
       setStatus("error");
     }
   }
+
+  if (!apiKey || !listId) return null;
 
   if (status === "success") {
     return (
