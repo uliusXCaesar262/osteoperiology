@@ -43,7 +43,7 @@
     "newsletterDesc": "New articles in your inbox every Monday.",
     "newsletterPlaceholder": "your@email.com",
     "newsletterButton": "Subscribe",
-    "newsletterSuccess": "Subscribed! Check your email to confirm.",
+    "newsletterSuccess": "Subscribed! You'll receive the weekly digest every Monday.",
     "newsletterError": "Something went wrong. Try again.",
     "newsletterConsent": "I agree to the processing of my data according to the"
   },
