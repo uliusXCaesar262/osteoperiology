@@ -14,7 +14,7 @@ import Anthropic from "@anthropic-ai/sdk";
 const BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils";
 const ARTICLES_PATH = path.join(process.cwd(), "content", "articles.json");
 const MAX_SELECTION = 5;
-const DAYS_BACK = 7;
+const DAYS_BACK = 14;
 
 const SEARCH_QUERIES = [
   '(periodontal disease[MeSH] OR periodontitis[MeSH] OR periodontal treatment) AND "free full text"[Filter]',
