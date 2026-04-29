@@ -112,7 +112,7 @@ function buildEmailHtml(articles: Article[], lang: "en" | "it"): string {
 
 async function sendNewsletter(articles: Article[]) {
   const apiKey = process.env.BREVO_API_KEY;
-  const listId = parseInt(process.env.BREVO_LIST_ID || "0", 10);
+  const listId = parseInt((process.env.BREVO_LIST_ID || "0").replace(/\D/g, ""), 10);
   const senderEmail = process.env.BREVO_SENDER_EMAIL || "dott.bruschi@gmail.com";
   const senderName = process.env.BREVO_SENDER_NAME || "Osteoperionews";
 
