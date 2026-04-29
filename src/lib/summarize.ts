@@ -86,6 +86,8 @@ Generate TWO summaries — one in English, one in Italian. Each summary should b
 
 Write for an audience of periodontists, implantologists, and oral surgeons. Use appropriate technical terminology but keep the prose readable.
 
+IMPORTANT — Italian terminology: use "parodontologo" (NOT "periodontista"), "implantologo" (NOT "implantologista"), "chirurgo orale" (NOT "chirurgo orale" is correct). Never invent calques from English. Use standard Italian dental terminology.
+
 Respond ONLY with valid JSON in this exact format:
 {
   "en": "English summary here...",
