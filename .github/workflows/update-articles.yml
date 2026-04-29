@@ -45,6 +45,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add content/articles.json public/feed.xml public/feed-it.xml
           git commit -m "chore: weekly article update $(date +%Y-%m-%d)"
+          git pull --rebase origin master
           git push
 
       - name: Send newsletter
