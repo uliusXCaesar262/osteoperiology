@@ -144,7 +144,6 @@ async function sendNewsletter(articles: Article[]) {
         recipients: { listIds: [listId] },
         // Send immediately
         scheduledAt: new Date(Date.now() + 60_000).toISOString(),
-        tag: `weekly-${lang}`,
       }),
     });
 
