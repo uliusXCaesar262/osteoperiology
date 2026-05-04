@@ -65,7 +65,7 @@ async function searchPubMed(query: string, daysBack: number): Promise<string[]> 
     term: fullQuery,
     retmax: "30",
     retmode: "json",
-    sort: "relevance",
+    sort: "pub_date",
   });
   if (process.env.PUBMED_API_KEY) params.set("api_key", process.env.PUBMED_API_KEY);
 
@@ -280,13 +280,17 @@ async function main() {
   const existingPmids = new Set(store.articles.map((a) => a.pmid));
 
   // 1. Search PubMed
-  const pmids = await searchRecentOpenAccess();
+  const allPmids = await searchRecentOpenAccess();
+  const pmids = allPmids.filter((p) => !existingPmids.has(p));
+  console.log(
+    `[UPDATE] ${allPmids.length} found, ${pmids.length} new after dedup`
+  );
   if (pmids.length === 0) {
     console.log("[UPDATE] No new articles found. Done.");
     return;
   }
 
-  // 2. Get metadata
+  // 2. Get metadata (only for new PMIDs)
   const allSummaries = await getArticleSummaries(pmids);
   console.log(`[UPDATE] Retrieved metadata for ${allSummaries.length} articles`);
 
@@ -298,11 +302,6 @@ async function main() {
   const newArticles: Article[] = [];
 
   for (const summary of selected) {
-    if (existingPmids.has(summary.uid)) {
-      console.log(`[UPDATE] PMID ${summary.uid} already exists, skipping.`);
-      continue;
-    }
-
     try {
       const abstractText = await getAbstract(summary.uid);
       if (!abstractText) {
