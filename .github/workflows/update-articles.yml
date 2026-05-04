@@ -2,7 +2,7 @@ name: Weekly Article Update
 
 on:
   schedule:
-    - cron: "0 6 * * 1"  # Every Monday at 06:00 UTC
+    - cron: "30 7 * * 5"  # Every Friday at 07:30 UTC (09:30 Italia)
   workflow_dispatch:       # Manual trigger
 
 permissions:
