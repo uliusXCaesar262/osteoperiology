@@ -46,15 +46,11 @@ function getNewArticles(): Article[] {
   );
 }
 
-function buildEmailHtml(articles: Article[], lang: "en" | "it"): string {
+function buildArticleBlocks(articles: Article[], lang: "en" | "it"): string {
   const isIt = lang === "it";
-  const heading = isIt ? "Nuovi articoli della settimana" : "This week's new articles";
   const readMore = isIt ? "Leggi il riassunto" : "Read the summary";
-  const footer = isIt
-    ? "Ricevi questa email perché sei iscritto a Osteoperionews."
-    : "You receive this email because you subscribed to Osteoperionews.";
 
-  const articleBlocks = articles
+  return articles
     .map((a) => {
       const title = isIt && a.titleIt ? a.titleIt : a.title.replace(/<[^>]+>/g, "");
       const summary = (isIt ? a.summaryIt : a.summaryEn).slice(0, 200) + "...";
@@ -71,10 +67,15 @@ function buildEmailHtml(articles: Article[], lang: "en" | "it"): string {
       </tr>`;
     })
     .join("");
+}
+
+function buildEmailHtml(articles: Article[]): string {
+  const blocksIt = buildArticleBlocks(articles, "it");
+  const blocksEn = buildArticleBlocks(articles, "en");
 
   return `
 <!DOCTYPE html>
-<html lang="${lang}">
+<html lang="it">
 <head><meta charset="utf-8"></head>
 <body style="margin: 0; padding: 0; background: #f7f7f5; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
   <table width="100%" cellpadding="0" cellspacing="0" style="background: #f7f7f5; padding: 32px 16px;">
@@ -84,21 +85,44 @@ function buildEmailHtml(articles: Article[], lang: "en" | "it"): string {
           <tr>
             <td style="background: #e8f4f2; padding: 24px 32px; border-bottom: 1px solid #c8ddd9;">
               <h1 style="margin: 0; font-size: 22px; color: #1c1c1c; font-weight: 700;">Osteoperionews</h1>
-              <p style="margin: 4px 0 0; font-size: 12px; color: #999;">${heading}</p>
+              <p style="margin: 4px 0 0; font-size: 12px; color: #999;">Nuovi articoli della settimana · This week's new articles</p>
             </td>
           </tr>
           <tr>
-            <td style="padding: 8px 32px 24px;">
+            <td style="padding: 16px 32px 8px;">
+              <p style="margin: 0; font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">Italiano</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 32px 24px;">
               <table width="100%" cellpadding="0" cellspacing="0">
-                ${articleBlocks}
+                ${blocksIt}
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 32px;">
+              <div style="height: 1px; background: #c8ddd9; margin: 8px 0 0;"></div>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 24px 32px 8px;">
+              <p style="margin: 0; font-size: 11px; color: #999; text-transform: uppercase; letter-spacing: 1px; font-weight: 600;">English</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 32px 24px;">
+              <table width="100%" cellpadding="0" cellspacing="0">
+                ${blocksEn}
               </table>
             </td>
           </tr>
           <tr>
             <td style="padding: 20px 32px; background: #f7f7f5; font-size: 11px; color: #999; text-align: center; line-height: 1.5;">
-              <p style="margin: 0 0 8px;">${footer}</p>
+              <p style="margin: 0 0 4px;">Ricevi questa email perché sei iscritto a Osteoperionews.</p>
+              <p style="margin: 0 0 8px;">You receive this email because you subscribed to Osteoperionews.</p>
               <p style="margin: 0;">
-                <a href="${SITE_URL}/${lang}" style="color: #2c5545; text-decoration: none;">osteoperionews.bonebenders.com</a>
+                <a href="${SITE_URL}/it" style="color: #2c5545; text-decoration: none;">osteoperionews.bonebenders.com</a>
               </p>
             </td>
           </tr>
@@ -120,40 +144,34 @@ async function sendNewsletter(articles: Article[]) {
     throw new Error("Missing BREVO_API_KEY or BREVO_LIST_ID");
   }
 
-  // Send bilingual: two campaigns — EN and IT
-  for (const lang of ["en", "it"] as const) {
-    const subject =
-      lang === "it"
-        ? `Osteoperionews — ${articles.length} nuovi articoli`
-        : `Osteoperionews — ${articles.length} new articles`;
+  // Single bilingual campaign — Italian above, English below
+  const subject = `Osteoperionews — ${articles.length} nuovi articoli / new articles`;
+  const htmlContent = buildEmailHtml(articles);
 
-    const htmlContent = buildEmailHtml(articles, lang);
+  const res = await fetch("https://api.brevo.com/v3/emailCampaigns", {
+    method: "POST",
+    headers: {
+      "api-key": apiKey,
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+    body: JSON.stringify({
+      name: `Weekly Update ${new Date().toISOString().slice(0, 10)}`,
+      subject,
+      sender: { name: senderName, email: senderEmail },
+      htmlContent,
+      recipients: { listIds: [listId] },
+      // Send immediately (Brevo requires scheduledAt slightly in the future)
+      scheduledAt: new Date(Date.now() + 60_000).toISOString(),
+    }),
+  });
 
-    const res = await fetch("https://api.brevo.com/v3/emailCampaigns", {
-      method: "POST",
-      headers: {
-        "api-key": apiKey,
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-      body: JSON.stringify({
-        name: `Weekly Update ${new Date().toISOString().slice(0, 10)} (${lang.toUpperCase()})`,
-        subject,
-        sender: { name: senderName, email: senderEmail },
-        htmlContent,
-        recipients: { listIds: [listId] },
-        // Send immediately
-        scheduledAt: new Date(Date.now() + 60_000).toISOString(),
-      }),
-    });
-
-    if (!res.ok) {
-      const err = await res.text();
-      console.error(`[NEWSLETTER] Failed to create ${lang} campaign:`, err);
-    } else {
-      const data = await res.json();
-      console.log(`[NEWSLETTER] Created ${lang} campaign, ID: ${data.id}`);
-    }
+  if (!res.ok) {
+    const err = await res.text();
+    console.error(`[NEWSLETTER] Failed to create campaign:`, err);
+  } else {
+    const data = await res.json();
+    console.log(`[NEWSLETTER] Created bilingual campaign, ID: ${data.id}`);
   }
 }
 
