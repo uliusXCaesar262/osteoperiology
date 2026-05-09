@@ -37,6 +37,8 @@ interface Article {
   abstractText: string;
   summaryEn: string;
   summaryIt: string;
+  tagsEn: string[];
+  tagsIt: string[];
   slug: string;
   fetchedAt: string;
   url: string;
@@ -194,7 +196,7 @@ async function generateBilingualSummary(
   authors: string[],
   journal: string,
   abstractText: string
-): Promise<{ en: string; it: string; titleIt: string }> {
+): Promise<{ en: string; it: string; titleIt: string; tagsEn: string[]; tagsIt: string[] }> {
   const prompt = `You are a scientific communicator for a dental periodontology and implantology audience.
 You write in a clear, essential style — no fluff, no redundancy. Think Alessandro Baricco applied to science: precise, elegant, direct.
 
@@ -211,14 +213,19 @@ Generate:
    b. The key methodology
    c. The main findings
    d. The clinical relevance / take-home message
+3. Article-specific keyword tags in BOTH English and Italian (5-8 tags each). These must be specific to THIS article's topic, methodology, and findings — NOT generic site-wide tags. Examples of good specific tags: "non-surgical periodontal therapy", "stage III periodontitis", "retrospective cohort study", "probing depth reduction". Examples of BAD generic tags: "periodontology", "dental implants", "open access".
 
 Write for an audience of periodontists, implantologists, and oral surgeons. Use appropriate technical terminology but keep the prose readable.
+
+IMPORTANT — Italian terminology: use "parodontologo" (NOT "periodontista"), "implantologo" (NOT "implantologista"), "parodontite" (NOT "periodontite"). Use standard Italian dental terminology.
 
 Respond ONLY with valid JSON in this exact format:
 {
   "titleIt": "Italian title here...",
   "en": "English summary here...",
-  "it": "Italian summary here..."
+  "it": "Italian summary here...",
+  "tagsEn": ["specific tag 1", "specific tag 2", ...],
+  "tagsIt": ["tag specifico 1", "tag specifico 2", ...]
 }`;
 
   const message = await anthropic.messages.create({
@@ -232,12 +239,24 @@ Respond ONLY with valid JSON in this exact format:
 
   try {
     const parsed = JSON.parse(content.text);
-    return { en: parsed.en || "", it: parsed.it || "", titleIt: parsed.titleIt || "" };
+    return {
+      en: parsed.en || "",
+      it: parsed.it || "",
+      titleIt: parsed.titleIt || "",
+      tagsEn: parsed.tagsEn || [],
+      tagsIt: parsed.tagsIt || [],
+    };
   } catch {
     const jsonMatch = content.text.match(/\{[\s\S]*\}/);
     if (jsonMatch) {
       const parsed = JSON.parse(jsonMatch[0]);
-      return { en: parsed.en || "", it: parsed.it || "", titleIt: parsed.titleIt || "" };
+      return {
+        en: parsed.en || "",
+        it: parsed.it || "",
+        titleIt: parsed.titleIt || "",
+        tagsEn: parsed.tagsEn || [],
+        tagsIt: parsed.tagsIt || [],
+      };
     }
     throw new Error("Failed to parse summary");
   }
@@ -329,6 +348,8 @@ async function main() {
         abstractText,
         summaryEn: aiSummary.en,
         summaryIt: aiSummary.it,
+        tagsEn: aiSummary.tagsEn,
+        tagsIt: aiSummary.tagsIt,
         slug: createSlug(summary.title, summary.uid),
         fetchedAt: new Date().toISOString(),
         url: doi ? `https://doi.org/${doi}` : `https://pubmed.ncbi.nlm.nih.gov/${summary.uid}/`,

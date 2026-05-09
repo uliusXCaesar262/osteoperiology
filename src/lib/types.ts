@@ -9,6 +9,8 @@ export interface Article {
   abstractText: string;
   summaryEn: string;
   summaryIt: string;
+  tagsEn?: string[];
+  tagsIt?: string[];
   slug: string;
   fetchedAt: string;
   url: string;

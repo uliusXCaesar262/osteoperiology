@@ -31,9 +31,12 @@ export async function generateMetadata({
   const otherLang = lang === "en" ? "it" : "en";
   const url = `${SITE_URL}/${lang}/articles/${slug}`;
 
+  const metaTags = (lang === "it" ? article.tagsIt : article.tagsEn) || [];
+
   return {
     title: metaTitle,
     description,
+    keywords: metaTags.length > 0 ? metaTags : undefined,
     authors: article.authors.slice(0, 5).map((name) => ({ name })),
     alternates: {
       canonical: url,
@@ -51,7 +54,11 @@ export async function generateMetadata({
       alternateLocale: lang === "it" ? "en_US" : "it_IT",
       publishedTime: article.pubDate,
       authors: article.authors.slice(0, 5),
-      tags: [article.journal, "periodontology", "dental implants", "open access"],
+      tags: [
+        article.journal,
+        ...((lang === "it" ? article.tagsIt : article.tagsEn) || []),
+        "open access",
+      ],
       images: [
         {
           url: `${SITE_URL}/og-default.png`,
@@ -95,6 +102,8 @@ export default async function ArticlePage({
   const plainTitle = article.title.replace(/<[^>]+>/g, "");
   const displayTitle = lang === "it" && article.titleIt ? article.titleIt : plainTitle;
 
+  const articleTags = (lang === "it" ? article.tagsIt : article.tagsEn) || [];
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
@@ -112,6 +121,7 @@ export default async function ArticlePage({
     url: article.doi ? `https://doi.org/${article.doi}` : `https://pubmed.ncbi.nlm.nih.gov/${article.pmid}/`,
     isAccessibleForFree: true,
     inLanguage: lang,
+    ...(articleTags.length > 0 && { keywords: articleTags.join(", ") }),
     mainEntityOfPage: {
       "@type": "WebPage",
       "@id": `${SITE_URL}/${lang}/articles/${article.slug}`,

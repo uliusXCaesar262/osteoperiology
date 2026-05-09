@@ -118,7 +118,27 @@
       "summaryIt": "La parodontite rappresenta una delle sfide cliniche più complesse in ambito odontoiatrico: sostenuta da una disbiosi polimicrobica, innesca una cascata infiammatoria cronica che distrugge progressivamente il legamento parodontale, il tessuto connettivo e l'osso alveolare. Le terapie convenzionali — levigatura radicolare, antibiotici adiuvanti — agiscono prevalentemente sul biofilm, senza offrire un controllo simultaneo e integrato sulle componenti infiammatoria e rigenerativa della malattia. Questo studio affronta precisamente quel vuoto terapeutico, proponendo una singola piattaforma nanomedicale multifunzionale.\n\nI ricercatori hanno utilizzato gli acidi nucleici a struttura tetraedrica (tFNA) — nanostrutture di DNA autoassemblanti, tridimensionali, con geometria definita e spiccata capacità di internalizzazione cellulare — come scaffold per il co-trasporto di due agenti bioattivi: la curcumina, polifenolo con riconosciute proprietà antinfiammatorie e osteogeniche, e la defensina, peptide antimicrobico endogeno. La curcumina è stata incorporata tramite groove binding nella struttura del DNA, mentre la defensina è stata coniugata covalentemente alla sua superficie, ottenendo il complesso Cur-de-tFNA. La piattaforma è stata caratterizzata in vitro per efficienza di uptake cellulare, biosicurezza, attività antimicrobica e modulazione della segnalazione infiammatoria, quindi validata in vivo in un modello murino di parodontite sperimentale.\n\nI risultati sono stati convincenti su tutti e tre gli assi terapeutici previsti. Sul fronte antibatterico, il complesso ha mostrato un'attività potente contro i principali patogeni parodontali, con l'efficacia della defensina significativamente potenziata dall'ancoraggio alla nanostruttura. Gli effetti antinfiammatori sono stati mediati dalla modulazione della via di segnalazione TLR4 — nodo centrale della risposta immunitaria innata ai lipopolisaccaridi batterici — con conseguente riduzione dell'infiltrato infiammatorio nei tessuti parodontali. Sul piano osteogenico, la piattaforma ha promosso l'espressione di proteine osteoblastiche e, nel modello animale, ha attenuato in modo misurabile il riassorbimento osseo alveolare. Un elemento di particolare rilievo è la biocompatibilità: degradandosi, il carrier a base di tFNA si risolve nei suoi costituenti naturali, i nucleotidi, configurandosi come uno dei sistemi di rilascio nanomedicali più puliti e metabolicamente inerti attualmente disponibili.\n\nPer il parodontologo, l'implantologista e il chirurgo orale, la rilevanza clinica di questo lavoro è concreta. La parodontite non è una malattia a meccanismo singolo, e gli approcci monoterapeutici — esclusivamente antimicrobici o esclusivamente antinfiammatori — presentano limitazioni intrinseche. Una piattaforma in grado di sopprimere simultaneamente i batteri patogeni, modulare la risposta infiammatoria dell'ospite e sostenere attivamente la rigenerazione ossea interviene sulla malattia nei suoi tre livelli biologici critici. L'impiego di molecole endogene (defensina) e di un polifenolo naturale (curcumina) in un carrier a DNA a degradazione pulita prospetta un sistema di rilascio locale ad alta biocompatibilità. Sebbene la traduzione dal modello murino all'applicazione clinica sull'uomo richieda ulteriori passaggi — studi farmacocinetici, ottimizzazione del sistema di somministrazione sottogengivale, trial clinici controllati — questa prova di concetto stabilisce una base meccanicistica e biologica solida e persuasiva. La piattaforma tFNA rappresenta una direzione genuinamente innovativa per la terapia parodontale adiuvante e, potenzialmente, per la gestione delle malattie peri-implantari, in cui la stessa triade patologica — infezione, infiammazione, perdita ossea — è pienamente operante.",
       "slug": "dna-framework-based-nanomedicine-platform-a-triple-function-strategy-for-treatin-42056079",
       "fetchedAt": "2026-05-04T11:33:44.393Z",
-      "url": "https://doi.org/10.1038/s41368-026-00439-2"
+      "url": "https://doi.org/10.1038/s41368-026-00439-2",
+      "tagsEn": [
+        "DNA nanotechnology",
+        "nanomedicine",
+        "antibacterial therapy",
+        "anti-inflammatory",
+        "osteogenesis",
+        "alveolar bone regeneration",
+        "periodontitis treatment",
+        "drug delivery system"
+      ],
+      "tagsIt": [
+        "nanotecnologia DNA",
+        "nanomedicina",
+        "terapia antibatterica",
+        "anti-infiammatorio",
+        "osteogenesi",
+        "rigenerazione ossea alveolare",
+        "trattamento della parodontite",
+        "sistema di rilascio farmacologico"
+      ]
     },
     {
       "pmid": "42069893",
@@ -137,7 +157,24 @@
       "summaryIt": "La peri-implantite rappresenta una delle sfide cliniche più complesse nella gestione del paziente portatore di impianti. Nonostante la letteratura in continua crescita, non esiste ancora consenso su quale protocollo di decontaminazione non chirurgica offra i risultati migliori. Questo studio clinico randomizzato controllato a bracci multipli di Eraydin-Tufek e colleghi si propone di confrontare cinque diversi approcci non chirurgici in pazienti con peri-implantite precoce, affrontando una questione clinica ancora aperta.\n\nOttanta impianti provenienti da 26 pazienti sono stati assegnati in modo randomizzato a uno dei cinque gruppi di trattamento: strumentazione meccanica da sola (MI); MI combinata con irrigazione a base di clorexidina (MI+CHX); MI combinata con applicazione di ozono (MI+OZ); MI combinata con air abrasion a polvere di glicina (MI+GPAA); e air abrasion a polvere di glicina come monoterapia (GPAA). I parametri clinici — profondità di sondaggio (PPD), sanguinamento al sondaggio (BOP) e indice di placca modificato (mPI) — sono stati rilevati al baseline, a 3 e a 6 mesi. L'analisi statistica ha utilizzato modelli lineari a effetti misti, una scelta metodologica appropriata per gestire il clustering di più impianti nello stesso paziente, che rafforza la validità interna dello studio.\n\nTutti e cinque i protocolli hanno prodotto miglioramenti statisticamente significativi per tutti i parametri clinici nell'arco dei 6 mesi di follow-up. Nessun gruppo è rimasto stazionario. Le riduzioni numericamente maggiori di PPD, BOP e mPI sono state osservate nel gruppo MI+GPAA, suggerendo un possibile effetto additivo della combinazione tra debridement meccanico e air abrasion a glicina. Tuttavia — e questo è il punto cruciale — non sono emerse differenze statisticamente significative tra i gruppi. Lo studio non era dimensionato per rilevare differenze intergruppali di piccola entità, e il follow-up relativamente breve limita le conclusioni sulla stabilità a lungo termine.\n\nSul piano clinico, il messaggio è chiaro e pragmatico: nella peri-implantite precoce, la sola strumentazione meccanica non chirurgica è in grado di produrre miglioramenti clinici significativi a breve termine, e nessuno degli approcci aggiuntivi testati — irrigazione con clorexidina, ozono o air abrasion — ha dimostrato una superiorità netta rispetto alla MI isolata. La combinazione MI+GPAA merita attenzione come protocollo potenzialmente più efficace, ma sono necessari studi con campioni più ampi e follow-up più lunghi per confermare se il vantaggio numerico si traduca in una differenza clinicamente e statisticamente rilevante.\n\nPer l'implantologi e il parodontologo clinico, questo studio ribadisce il ruolo fondamentale di un debridement meccanico accurato, lasciando spazio all'air abrasion a polvere di glicina come adiuvante di interesse — soprattutto per il suo profilo di biocompatibilità e l'assenza di effetti negativi sulle superfici implantari. Mette inoltre implicitamente in discussione l'uso routinario dell'irrigazione con clorexidina come standard adjuvant, almeno nelle lesioni in stadio precoce in cui il solo controllo meccanico potrebbe essere sufficiente.",
       "slug": "efficacy-of-different-nonsurgical-treatments-for-peri-implantitis-a-multi-arm-ra-42069893",
       "fetchedAt": "2026-05-04T11:34:10.788Z",
-      "url": "https://doi.org/10.1038/s41598-026-50332-5"
+      "url": "https://doi.org/10.1038/s41598-026-50332-5",
+      "tagsEn": [
+        "peri-implantitis",
+        "nonsurgical treatment",
+        "subgingival decontamination",
+        "randomized controlled trial",
+        "multi-arm trial",
+        "implant surface debridement",
+        "adjunctive therapy"
+      ],
+      "tagsIt": [
+        "perimplantite",
+        "trattamento non chirurgico",
+        "decontaminazione sottogengivale",
+        "studio clinico randomizzato controllato",
+        "debridement superficie implantare",
+        "terapia aggiuntiva"
+      ]
     },
     {
       "pmid": "42046838",
@@ -158,7 +195,27 @@
       "summaryIt": "Le statine esercitano effetti pleiotropici ben documentati che vanno ben oltre il controllo lipidico: proprietà antinfiammatorie, angiogeniche e osteogeniche le rendono candidate biologicamente plausibili per l'uso locale in ambito parodontale e rigenerativo. La domanda clinica al centro di questa revisione sistematica con meta-analisi è se la somministrazione locale di statine, in aggiunta alla terapia parodontale convenzionale o alle procedure di rigenerazione ossea pre-implantare, produca miglioramenti misurabili negli esiti clinici e radiografici rispetto al solo trattamento standard.\n\nLa ricerca bibliografica ha coperto PubMed e Scopus fino a luglio 2025, seguendo le linee guida PRISMA 2020 con protocollo registrato in PROSPERO. Sono stati inclusi esclusivamente trial clinici randomizzati (RCT) che valutassero l'uso locale — come terapia aggiuntiva — di atorvastatina (ATV), rosuvastatina (RSV) o simvastatina (SIM) nel contesto della terapia parodontale non chirurgica (Step 2), della terapia chirurgica (Step 3) o di procedure rigenerative pre-implantari. Gli esiti primari comprendevano la profondità di sondaggio (PPD), il livello di attacco clinico (CAL), il sanguinamento al sondaggio (BoP) e il riempimento osseo radiografico. Il rischio di bias è stato valutato con lo strumento Cochrane RoB 2; le meta-analisi a effetti casuali sono state condotte a intervalli di follow-up standardizzati — 6 mesi per lo Step 2 e 9 mesi per lo Step 3.\n\nVentuno RCT hanno soddisfatto i criteri di inclusione: 13 relativi allo Step 2, 6 allo Step 3 e 2 alla rigenerazione ossea pre-implantare. Nello Step 2, le statine locali hanno dimostrato benefici clinicamente rilevanti rispetto al solo scaling e levigatura radicolare, con differenze medie aggregate di circa 1,4–2,3 mm per la riduzione della PPD e 1,7–2,2 mm per il guadagno di CAL. La simvastatina ha mostrato effetti numericamente superiori, sebbene non siano disponibili confronti diretti tra le molecole e l'eterogeneità tra i trial sia risultata elevata. Nello Step 3, tre trial hanno contribuito alla sintesi a 9 mesi, evidenziando benefici più contenuti ma statisticamente significativi: riduzione della PPD di 0,80 mm e guadagno di CAL di 0,69 mm, con eterogeneità moderata. I due trial sulla rigenerazione pre-implantare erano troppo eterogenei — per disegno, materiali e modalità di rilevazione degli esiti — per consentire una sintesi quantitativa, con risultati radiografici non concordanti.\n\nPer il parodontologo e l'implantologochirurgo, il messaggio clinico è articolato. Le prove a sostegno delle statine locali nella terapia non chirurgica sono coerenti nel verso e clinicamente significative, specialmente in presenza di tasche residue profonde. In ambito chirurgico, il beneficio esiste ma è più modesto, e pare più tangibile quando le statine vengono integrate in protocolli rigenerativi. Sul fronte pre-implantare, i dati attuali sono insufficienti per trarre conclusioni. L'elevata eterogeneità inter-studio — in termini di molecola, veicolo, concentrazione e modalità di rilascio — limita la generalizzabilità dei risultati. In attesa di RCT multicentrici con protocolli e misure di esito standardizzati, le statine a rilascio locale vanno considerate un adiuvante biologicamente razionale con un supporto clinico in crescita, ma non ancora uno standard terapeutico consolidato.",
       "slug": "adjunctive-use-of-locally-delivered-statins-in-periodontal-therapy-and-pre-impla-42046838",
       "fetchedAt": "2026-05-04T11:34:41.826Z",
-      "url": "https://doi.org/10.1002/cre2.70364"
+      "url": "https://doi.org/10.1002/cre2.70364",
+      "tagsEn": [
+        "statins",
+        "local drug delivery",
+        "probing pocket depth",
+        "clinical attachment level",
+        "bone regeneration",
+        "systematic review",
+        "meta-analysis",
+        "non-surgical periodontal therapy"
+      ],
+      "tagsIt": [
+        "statine",
+        "rilascio farmacologico locale",
+        "profondità di sondaggio",
+        "livello di attacco clinico",
+        "rigenerazione ossea",
+        "revisione sistematica",
+        "meta-analisi",
+        "terapia parodontale non chirurgica"
+      ]
     },
     {
       "pmid": "42057175",
@@ -183,7 +240,27 @@
       "summaryIt": "La chirurgia a lembo nel settore frontale del mascellare superiore comporta un costo collaterale prevedibile: il riassorbimento della sottile parete alveolare vestibolare (LAW) dei denti adiacenti al sito chirurgico. Anche quando il sito implantare guarisce senza complicazioni, l'osso alveolare vicino può deteriorarsi silenziosamente, compromettendo il supporto dei tessuti molli e il risultato estetico complessivo. Questo studio di coorte retrospettivo pone una domanda clinica diretta: estendere il graft della GBR fino a coprire la LAW dei denti adiacenti protegge effettivamente quell'osso dal riassorbimento post-chirurgico?\n\nGli autori hanno arruolato 80 pazienti e analizzato 135 denti adiacenti, suddivisi in tre gruppi in base all'estensione intraoperatoria del graft rispetto alla parete ossea vestibolare (BBW): GBR Non Estesa (NE-GBR), con il graft confinato al sito edentulo; GBR Parzialmente Estesa (PE-GBR), con il graft che copriva parte della BBW; e GBR Completamente Estesa (FE-GBR), con il graft esteso a coprire l'intera BBW fino alla cresta alveolare. Gli esiti sono stati valutati a sei mesi tramite sovrapposizione di CBCT pre- e post-operatorie, misurando lo spessore orizzontale della LAW e la distanza verticale dalla giunzione cemento-smalto alla cresta alveolare.\n\nI risultati tracciano una linea netta tra l'estensione completa e qualsiasi altra condizione. Nei gruppi NE-GBR e PE-GBR si è verificato un riassorbimento orizzontale statisticamente significativo — rispettivamente di circa 0,40 e 0,43 mm — mentre il gruppo FE-GBR non ha mostrato variazioni significative (0,15 ± 0,75 mm, p = 0,523). In senso verticale, solo il gruppo FE-GBR ha evidenziato un guadagno dimensionale (0,43 ± 1,10 mm, p < 0,001), mentre gli altri gruppi hanno registrato una perdita ossea netta. I modelli a effetti misti hanno confermato questi risultati, identificando la FE-GBR come predittore positivo indipendente significativo sia per la preservazione dimensionale orizzontale sia per quella verticale (β = 0,48 per entrambe, p ≤ 0,001).\n\nL'implicazione clinica è diretta e immediatamente applicabile. Nell'eseguire la GBR nel settore frontale del mascellare, la tendenza convenzionale a limitare il graft al difetto edentulo può esporre inavvertitamente i denti adiacenti a una perdita ossea evitabile. Estendere completamente il materiale rigenerativo — fino al margine crestale della parete vestibolare del dente vicino — sembra sufficiente a neutralizzare questo rischio. L'estensione parziale, in modo significativo, non offre alcun vantaggio misurabile rispetto all'assenza di estensione: una mezza misura equivale, di fatto, a nessuna misura.\n\nPer i parodontologi e gli implantologi che operano nella zona estetica, dove anche variazioni sub-millimetriche del contorno alveolare possono tradursi in recessione dei tessuti molli visibile o in alterazioni del profilo di emergenza, questo studio fornisce una modifica razionale e tecnicamente praticabile al protocollo GBR standard. Il follow-up a sei mesi rappresenta un limite, e saranno necessari studi a lungo termine per confermarne la durabilità. Ciononostante, l'evidenza supporta una decisione intraoperatoria semplice: quando c'è il dubbio, conviene estendere completamente.",
       "slug": "effects-of-extended-guided-bone-regeneration-on-the-labial-alveolar-wall-of-adja-42057175",
       "fetchedAt": "2026-05-04T11:35:12.189Z",
-      "url": "https://doi.org/10.1186/s13005-026-00624-y"
+      "url": "https://doi.org/10.1186/s13005-026-00624-y",
+      "tagsEn": [
+        "guided bone regeneration",
+        "labial alveolar wall",
+        "anterior maxilla",
+        "bone resorption",
+        "aesthetic zone",
+        "retrospective cohort study",
+        "flap surgery",
+        "adjacent teeth protection"
+      ],
+      "tagsIt": [
+        "rigenerazione ossea guidata",
+        "parete alveolare vestibolare",
+        "mascellare anteriore",
+        "riassorbimento osseo",
+        "zona estetica",
+        "studio di coorte retrospettivo",
+        "chirurgia con lembo",
+        "protezione denti adiacenti"
+      ]
     },
     {
       "pmid": "42070743",
@@ -206,7 +283,27 @@
       "summaryIt": "I pazienti in terapia antiriassorbitiva — con bisfosfonati o denosumab — rappresentano una sfida clinica concreta quando si valuta il posizionamento di impianti. Il rischio di osteonecrosi dei mascellari correlata a farmaci (MRONJ) è reale, e nessun protocollo consolidato è in grado di neutralizzarlo in modo affidabile. Questo studio pone una domanda precisa: la terapia con cellule staminali mesenchimali (MSC) può recuperare la guarigione peri-implantare in un contesto di MRONJ, e il momento della somministrazione è rilevante?\n\nIl gruppo di ricerca ha sviluppato un modello riproducibile di MRONJ nel ratto e ha confrontato tre condizioni: un gruppo di controllo, un gruppo trattato solo con farmaci antiriassorbitivi, e due gruppi con MSC — uno con somministrazione preoperatoria rispetto all'inserimento implantare, l'altro con somministrazione postoperatoria. La valutazione è stata multidimensionale: micro-TC peri-implantare, istochimica, immunoistochimica per angiogenesi e infiltrazione neutrofila, e analisi del sigillo epiteliale all'interfaccia implantare. In parallelo, in vitro, sono state isolate cellule epiteliali orali primarie direttamente da tessuto peri-implantare MRONJ — una novità metodologica — ed esposte a terreno condizionato da MSC per valutare proliferazione, sopravvivenza ed espressione di proteine di barriera.\n\nI risultati sono inequivocabili su un punto: il timing è determinante. La somministrazione preoperatoria di MSC non ha prodotto miglioramenti statisticamente significativi rispetto al gruppo farmaco-solo in nessun parametro misurato. La somministrazione postoperatoria, al contrario, ha indotto guadagni significativi nella qualità ossea peri-implantare, nell'integrità della barriera epiteliale, nella densità vascolare e nella riduzione dell'osso necrotico — con diversi parametri che si avvicinavano ai valori del gruppo di controllo. In vitro, i segnali paracrini delle MSC hanno stimolato proliferazione e sopravvivenza delle cellule epiteliali e upregolato proteine essenziali per il sigillo e la chiusura della ferita.\n\nIl quadro meccanicistico che emerge è coerente: le MSC sembrano esercitare i propri effetti riparativi attraverso l'immunomodulazione e la segnalazione paracrina, ma solo quando il microambiente tissutale locale — plasmato dalla ferita chirurgica stessa — fornisce i segnali di attivazione appropriati. In fase preoperatoria questi segnali sono assenti; il sito implantare non è ancora stato creato e le cascate infiammatorie e riparative che le MSC sembrano sfruttare non sono ancora state innescate. In fase postoperatoria, il microambiente della ferita diventa permissivo e le MSC possono interagire efficacemente sia con le popolazioni immunitarie che con quelle epiteliali.\n\nPer il clinico, il messaggio traslazionale è diretto. Nei pazienti in terapia antiriassorbitiva che necessitano o optano per un trattamento implantare, la somministrazione postoperatoria di MSC — e non quella profilattica preoperatoria — dovrebbe essere considerata la finestra terapeutica razionale. Altrettanto rilevante è la dimostrazione che l'interfaccia epitelio-impianto, spesso sottovalutata rispetto ai parametri di osseointegrazione, è un bersaglio biologico reale. Il sigillo epiteliale è la prima linea di difesa contro infezione e necrosi peri-implantare; ripristinarlo in un ospite farmacologicamente compromesso può essere importante quanto la rigenerazione ossea stessa.\n\nLo studio non risolve tutte le questioni aperte — modalità di rilascio, dosaggio e stabilità a lungo termine nell'uomo restano da definire — ma stabilisce il timing terapeutico come parametro progettuale irrinunciabile per qualsiasi strategia MSC-based nella MRONJ associata agli impianti, fornendo una solida base sperimentale per futuri sviluppi traslazionali.",
       "slug": "postoperative-administration-of-mesenchymal-stem-cells-enhances-peri-implant-tis-42070743",
       "fetchedAt": "2026-05-04T11:35:46.329Z",
-      "url": "https://doi.org/10.1016/j.actbio.2026.04.063"
+      "url": "https://doi.org/10.1016/j.actbio.2026.04.063",
+      "tagsEn": [
+        "mesenchymal stem cells",
+        "MRONJ",
+        "medication-related osteonecrosis",
+        "peri-implant healing",
+        "antiresorptive therapy",
+        "bisphosphonates",
+        "tissue engineering",
+        "implant placement"
+      ],
+      "tagsIt": [
+        "cellule staminali mesenchimali",
+        "MRONJ",
+        "osteonecrosi da farmaci",
+        "guarigione perimplantare",
+        "terapia antiriassorbitiva",
+        "bisfosfonati",
+        "ingegneria tissutale",
+        "posizionamento implantare"
+      ]
     },
     {
       "pmid": "41985956",
@@ -229,7 +326,25 @@
       "summaryIt": "Parodontite e malattia renale cronica (CKD) condividono una relazione infiammatoria bidirezionale che aggrava tanto gli esiti sistemici quanto quelli orali. Nonostante la crescente evidenza epidemiologica che collega le due condizioni, mancano dati interventistici di qualità sull'impatto del trattamento parodontale nei pazienti con CKD. Questo protocollo di studio clinico randomizzato e controllato, sviluppato presso il Ninth People's Hospital affiliato alla Shanghai Jiao Tong University, affronta una questione clinicamente rilevante ma ancora poco esplorata: la terapia parodontale non chirurgica attiva (NSPT) combinata con un programma strutturato di terapia parodontale di supporto (SPC) è in grado di ridurre la perdita dentale e migliorare la funzione masticatoria in pazienti affetti contemporaneamente da parodontite di stadio III e CKD?\n\nLo studio arruolerà 86 pazienti con entrambe le diagnosi, randomizzati in rapporto 1:1 tra il braccio sperimentale — che riceve NSPT completa (levigatura radicolare) seguita da SPC programmata — e il braccio di controllo, limitato a istruzione di igiene orale e monitoraggio periodico. Il follow-up di 24 mesi prevede sei visite di valutazione (baseline e a 3, 6, 12, 18, 24 mesi), consentendo un monitoraggio longitudinale della stabilità parodontale. L'esito primario è l'incidenza di perdita dentale attribuibile alla parodontite. Gli esiti secondari comprendono il numero assoluto di denti persi, la performance masticatoria, i parametri clinici parodontali standard (profondità di sondaggio, livello di attacco clinico, sanguinamento al sondaggio, indice di placca) e la qualità della vita correlata alla salute orale.\n\nEssendo un articolo di protocollo, lo studio non riporta ancora risultati clinici. Il suo disegno merita tuttavia attenzione per diverse ragioni. In primo luogo, si rivolge a una popolazione — pazienti con CKD e parodontite avanzata — sistemicamente compromessa, spesso in terapia con immunosoppressori o anticoagulanti, e ad alto rischio sia di perdita dentale sia di compromissione funzionale. In secondo luogo, la funzione masticatoria è inclusa come endpoint esplicito, riconoscendo che la sola conservazione dei denti è insufficiente se la loro integrazione funzionale è perduta. In terzo luogo, la componente SPC formalizza ciò che molti clinici applicano empiricamente, offrendo un framework per testarne il valore protettivo a lungo termine.\n\nPer parodontologi, implantologi e chirurghi orali, la rilevanza clinica è duplice. Nel breve termine, le evidenze di questo trial potrebbero giustificare protocolli di intervento parodontale più sistematici nei percorsi di riferimento nefrologici, dove la salute orale è spesso marginalizzata. Nel lungo termine, se NSPT più SPC dimostrasse una riduzione misurabile della perdita dentale e del declino funzionale, si rafforzerebbe la base per una gestione interdisciplinare del paziente con CKD — collocando la terapia parodontale non come cura accessoria, ma come componente della gestione della malattia sistemica. La dimensione implantologica merita anch'essa considerazione: preservare la dentatura naturale in un paziente sistemicamente compromesso è sempre preferibile alla riabilitazione implantare, i cui esiti nella CKD restano scarsamente caratterizzati. Questo trial, una volta completato, potrebbe fornire la base di evidenza necessaria per ridefinire le priorità terapeutiche in questa categoria di pazienti.",
       "slug": "efficacy-of-periodontal-therapy-in-preventing-tooth-loss-and-improving-masticato-41985956",
       "fetchedAt": "2026-04-29T02:55:11.168Z",
-      "url": "https://doi.org/10.1136/bmjopen-2025-103880"
+      "url": "https://doi.org/10.1136/bmjopen-2025-103880",
+      "tagsEn": [
+        "chronic kidney disease",
+        "non-surgical periodontal therapy",
+        "tooth loss prevention",
+        "masticatory function",
+        "supportive periodontal care",
+        "RCT protocol",
+        "periodontal-systemic link"
+      ],
+      "tagsIt": [
+        "malattia renale cronica",
+        "terapia parodontale non chirurgica",
+        "prevenzione perdita dentale",
+        "funzione masticatoria",
+        "terapia parodontale di supporto",
+        "protocollo RCT",
+        "correlazione parodontale-sistemica"
+      ]
     },
     {
       "pmid": "42041646",
@@ -252,7 +367,25 @@
       "summaryIt": "La preservazione del processo alveolare dopo l'estrazione dentaria è una delle sfide più concrete della chirurgia implantare: lasciata a sé stessa, la guarigione spontanea del socket comporta un rimodellamento osseo prevedibile — prevalentemente a carico della parete buccale — che può ridurre in misura significativa il volume disponibile per il posizionamento implantare e compromettere il risultato estetico finale. Questo studio pilota randomizzato controllato di Mainetti et al. valuta un protocollo evoluto denominato Guided Alveolar Ridge Preservation (G-ARP), che integra il riempimento del socket con l'impiego di una lamina corticale come barriera strutturale, con l'obiettivo di determinare se tale configurazione possa migliorare il mantenimento volumetrico del processo alveolare rispetto alle tecniche convenzionali.\n\nLo studio ha arruolato pazienti con indicazione all'estrazione di elementi singoli in siti destinati alla successiva riabilitazione implantare. I partecipanti sono stati randomizzati in due gruppi: un gruppo test trattato con G-ARP — riempimento del socket con sostituto osseo e copertura mediante lamina corticale utilizzata come membrana per la rigenerazione ossea guidata — e un gruppo controllo sottoposto a un protocollo standard di preservazione alveolare. Le valutazioni cliniche e volumetriche, eseguite immediatamente dopo l'estrazione e al reingresso chirurgico (in genere a quattro-sei mesi), hanno incluso l'analisi tomografica cone-beam (CBCT) e misurazioni cliniche delle variazioni dimensionali orizzontali e verticali.\n\nIl dato principale emerso è che i siti trattati con G-ARP hanno mostrato una riduzione statisticamente significativa del riassorbimento del processo alveolare, in particolare nella dimensione orizzontale, rispetto ai controlli. La rigidità della lamina corticale e la sua capacità di mantenere lo spazio sembrano stabilizzare il profilo buccale in modo più efficace rispetto alle membrane riassorbibili convenzionali, notoriamente soggette al collasso sotto la pressione dei tessuti molli. Le analisi istologiche disponibili hanno evidenziato un'adeguata formazione ossea e integrazione del sostituto innestato. Il tasso di complicanze è risultato basso e comparabile tra i gruppi; la chiusura primaria della ferita, agevolata dal profilo della lamina, è stata ottenibile senza ampi scorrimenti del lembo.\n\nSul piano clinico, le implicazioni sono rilevanti. La lamina corticale risponde a un limite riconosciuto delle membrane GBR tradizionali nei socket post-estrattivi: la tendenza a deformarsi prima che la rigenerazione ossea sia consolidata. Offrendo un supporto rigido e osteoinduttivo a livello della parete buccale, il G-ARP potrebbe ridurre la necessità di procedure di aumento secondario al momento del posizionamento implantare, semplificando il percorso terapeutico e potenzialmente diminuendo la morbilità per il paziente. Per parodontologi, implantologi e chirurghi orali che gestiscono socket compromessi o a parete sottile — in cui la perdita della lamina buccale è attesa o già avvenuta — questa tecnica rappresenta un'alternativa biologicamente coerente e chirurgicamente praticabile.\n\nIn quanto studio pilota, il lavoro è giustamente prudente nelle conclusioni: la casistica è limitata e sono necessari dati a più lungo termine, inclusi gli outcome implantari. La metodologia è tuttavia rigorosa per uno studio di fattibilità, la randomizzazione solida e gli endpoint volumetrici clinicamente pertinenti. Il G-ARP con lamina corticale merita validazione in trial multicentrici più ampi prima che possano essere formulate raccomandazioni cliniche definitive.",
       "slug": "guided-alveolar-ridge-preservation-g-arp-using-a-cortical-lamina-a-pilot-randomi-42041646",
       "fetchedAt": "2026-04-29T02:35:49.837Z",
-      "url": "https://doi.org/10.3390/dj14040193"
+      "url": "https://doi.org/10.3390/dj14040193",
+      "tagsEn": [
+        "alveolar ridge preservation",
+        "cortical lamina",
+        "socket preservation",
+        "pilot RCT",
+        "post-extraction",
+        "bone graft",
+        "dimensional changes"
+      ],
+      "tagsIt": [
+        "preservazione della cresta alveolare",
+        "lamina corticale",
+        "preservazione dell'alveolo",
+        "RCT pilota",
+        "post-estrattivo",
+        "innesto osseo",
+        "variazioni dimensionali"
+      ]
     },
     {
       "pmid": "42041656",
@@ -279,7 +412,27 @@
       "summaryIt": "La parodontite è essenzialmente una malattia disbotica: lo spostamento del microbioma sottogengivale verso una comunità dominata da patogeni è il motore della risposta dell'ospite che caratterizza la malattia. Controllare questa disbiosi — non soltanto ridurre la profondità delle tasche — è riconosciuto come l'obiettivo centrale della terapia parodontale di supporto. Questo studio clinico randomizzato in triplo cieco ha valutato se l'uso aggiuntivo di probiotici e olio d'oliva ozonizzato, somministrati durante la fase di mantenimento, possa contribuire a preservare o ripristinare l'eubiosi orale in pazienti con parodontite di stadio I e II.\n\nLo studio ha arruolato pazienti già trattati per parodontite di stadio I o II, randomizzandoli in gruppo sperimentale e gruppo controllo. Il gruppo sperimentale ha ricevuto una combinazione di probiotici orali — ceppi selezionati per la loro attività documentata contro i patogeni parodontali — associati a olio d'oliva ozonizzato, un composto ad azione antimicrobica e antinfiammatoria ad ampio spettro, mediata dalle specie reattive dell'ossigeno derivate dall'ozono. Il gruppo controllo ha ricevuto i rispettivi placebo. Il disegno in triplo cieco ha minimizzato i bias di performance e di rilevazione a livello di pazienti, clinici e valutatori degli outcome. I parametri clinici — profondità di sondaggio, sanguinamento al sondaggio, indice di placca — sono stati registrati insieme a valutazioni microbiologiche per monitorare le variazioni nella composizione del microbiota sottogengivale e sopragingivale nel periodo di osservazione.\n\nI risultati hanno mostrato che la combinazione di probiotici e olio d'oliva ozonizzato ha sostenuto un equilibrio microbico più stabile rispetto al placebo, con riduzioni misurabili nella prevalenza dei principali patogeni parodontali e tendenze favorevoli negli indicatori clinici di infiammazione. Il sanguinamento al sondaggio e la profondità delle tasche hanno evidenziato miglioramenti o stabilizzazione nel gruppo sperimentale rispetto ai controlli, suggerendo che il regime aggiuntivo contribuisce a mantenere i guadagni clinici ottenuti con la terapia attiva.\n\nLa rilevanza clinica di questi risultati è concreta. Il mantenimento è la fase in cui la terapia parodontale fallisce più spesso — non per insufficienza del trattamento iniziale, ma perché la disbiosi tende a ristabilirsi nei pazienti suscettibili in assenza di un intervento ecologico mirato. Una strategia adiuvante non antibiotica capace di sostenere l'eubiosi risponde esattamente a questa vulnerabilità. I probiotici agiscono tramite esclusione competitiva, produzione di batteriocine e modulazione della risposta immunitaria dell'ospite; l'olio d'oliva ozonizzato aggiunge un'azione antimicrobica diretta con minimo rischio di induzione di resistenze. Insieme, rappresentano un'opzione biologicamente razionale e farmacologicamente conservativa da integrare nei protocolli di mantenimento.\n\nPer il parodontologo, il messaggio clinico è chiaro: nei pazienti di stadio I e II, in cui la finestra terapeutica consente una gestione conservativa, i probiotici in combinazione con l'olio d'oliva ozonizzato possono ridurre il tasso di recidiva microbiologica e clinica tra le sedute di mantenimento. Questo non sostituisce il debridement professionale accurato né l'igiene orale domiciliare, ma aggiunge uno strato ecologico attivo alla strategia di supporto — ben tollerato, a basso rischio, e coerente con la comprensione attuale della parodontite come condizione disbiotica e polimicrobica.",
       "slug": "probiotics-and-ozonated-olive-oil-to-maintain-oral-eubiosis-in-stage-i-and-ii-pe-42041656",
       "fetchedAt": "2026-04-29T02:28:36.040Z",
-      "url": "https://doi.org/10.3390/dj14040203"
+      "url": "https://doi.org/10.3390/dj14040203",
+      "tagsEn": [
+        "probiotics",
+        "ozonated olive oil",
+        "oral eubiosis",
+        "stage I periodontitis",
+        "stage II periodontitis",
+        "triple-blind RCT",
+        "subgingival microbiome",
+        "maintenance therapy"
+      ],
+      "tagsIt": [
+        "probiotici",
+        "olio d'oliva ozonizzato",
+        "eubiosi orale",
+        "parodontite stadio I",
+        "parodontite stadio II",
+        "RCT triplo cieco",
+        "microbioma sottogengivale",
+        "terapia di mantenimento"
+      ]
     },
     {
       "pmid": "42041664",
@@ -302,7 +455,23 @@
       "summaryIt": "La vitamina D è nota da tempo per le sue proprietà immunomodulatorie e antinfiammatorie, il che la rende un potenziale adiuvante nella gestione della malattia parodontale. Questa revisione sistematica di Pesce e colleghi affronta una domanda clinica precisa: la supplementazione di vitamina D, associata alla terapia parodontale non chirurgica (TPNC), produce risultati clinici significativamente migliori rispetto alla sola TPNC?\n\nGli autori hanno condotto una ricerca sistematica della letteratura nelle principali banche dati elettroniche, selezionando trial controllati randomizzati che valutavano l'effetto della supplementazione di vitamina D come adiuvante allo scaling e root planing (SRP) in pazienti con parodontite. La qualità metodologica degli studi è stata analizzata e i dati estratti si sono concentrati sui principali parametri clinici parodontali: profondità di sondaggio (PPD), livello di attacco clinico (CAL), sanguinamento al sondaggio (BOP) e, in alcuni casi, marker infiammatori sistemici come la proteina C-reattiva e i profili di interleuchine.\n\nI risultati indicano che la supplementazione di vitamina D, quando somministrata in associazione alla TPNC, è correlata a ulteriori miglioramenti dei parametri clinici parodontali rispetto alla sola terapia meccanica. Le riduzioni della PPD e i guadagni di CAL risultano più marcati nei gruppi supplementati, con un trend favorevole anche a carico dei marker infiammatori. Questi effetti sono biologicamente coerenti: la vitamina D modula la risposta immunitaria dell'ospite, riduce l'espressione di citochine pro-infiammatorie e può influenzare l'ambiente microbico sottogengivale attraverso l'induzione di peptidi antimicrobici — in particolare catelicidina e defensine.\n\nLa revisione sottolinea tuttavia limitazioni rilevanti. L'eterogeneità tra gli studi inclusi — per dosaggio, via di somministrazione, durata della supplementazione, livelli basali di 25(OH)D e caratteristiche delle popolazioni — rende difficile il confronto diretto e limita la solidità delle conclusioni aggregate. Molti trial inclusi presentano qualità metodologica moderata e follow-up di durata variabile.\n\nDal punto di vista clinico, il messaggio è cautamente ottimistico. La carenza di vitamina D è altamente prevalente nella popolazione generale ed è stata associata in modo indipendente a una maggiore gravità della malattia parodontale. Lo screening dello stato vitaminico D nei pazienti parodontali — in particolare in quelli con progressione aggressiva, scarsa risposta alla terapia convenzionale o comorbidità sistemiche come diabete e osteoporosi — appare clinicamente giustificato. Laddove la carenza venga confermata, la supplementazione è a basso rischio, economicamente accessibile e potenzialmente vantaggiosa ben oltre il distretto parodontale.\n\nPer il parodontologo e l'implantologo, questa revisione sostiene l'adozione di una prospettiva sistemica più ampia nella valutazione del paziente. Ottimizzare i livelli di vitamina D prima di interventi chirurgici — parodontali o implantari — potrebbe contribuire a migliorare la guarigione tissutale e la regolazione immunitaria. Sono necessari RCT più ampi e standardizzati per definire protocolli consolidati, ma le evidenze attuali sono già sufficienti per avviare con i pazienti una riflessione sullo stato nutrizionale come parte integrante di un piano di cura parodontale completo.",
       "slug": "the-effectiveness-of-vitamin-d-supplementation-in-association-with-non-surgical-42041664",
       "fetchedAt": "2026-04-28T20:13:07.140Z",
-      "url": "https://doi.org/10.3390/dj14040211"
+      "url": "https://doi.org/10.3390/dj14040211",
+      "tagsEn": [
+        "vitamin D supplementation",
+        "non-surgical periodontal therapy",
+        "systematic review",
+        "adjunctive supplementation",
+        "periodontal healing",
+        "micronutrients"
+      ],
+      "tagsIt": [
+        "integrazione di vitamina D",
+        "terapia parodontale non chirurgica",
+        "revisione sistematica",
+        "supplementazione aggiuntiva",
+        "guarigione parodontale",
+        "micronutrienti"
+      ]
     },
     {
       "pmid": "42041665",
@@ -327,7 +496,25 @@
       "summaryIt": "La peri-implantite avanzata nella zona estetica rappresenta uno degli scenari clinici più impegnativi dell'implantologia: la perdita ossea è spesso estesa, l'architettura dei tessuti molli è compromessa e le implicazioni — funzionali ed estetiche — sono significative. Il lavoro di Spînu e colleghi affronta una domanda che molti clinici si trovano a gestire senza disporre di protocolli chiari: quando l'espianto è inevitabile, come deve essere pianificato e in quale momento è corretto procedere al re-impianto?\n\nGli autori presentano un'analisi basata su casi clinici, incentrata su un approccio a fasi — espianto deliberato seguito da una fase strutturata di guarigione e rigenerazione prima del re-impianto differito. La metodologia si articola in una sequenza clinica sistematica: rimozione dell'impianto con tecniche minimamente traumatiche per preservare l'osso residuo, decontaminazione accurata del sito, rigenerazione ossea guidata (GBR) con membrane barriera e materiali da innesto appropriati, e un periodo di attesa definito prima del posizionamento del nuovo impianto. La gestione dei tessuti molli è parte integrante del protocollo, in particolare considerando le esigenze estetiche del mascellare anteriore.\n\nI risultati supportano la fattibilità di questo approccio a fasi nel ripristino di un volume osseo adeguato e di un profilo favorevole dei tessuti molli prima del re-impianto. I siti trattati con GBR dopo l'espianto hanno mostrato dimensioni della cresta sufficienti ad accogliere nuovi impianti con stabilità primaria. La tempistica differita — che consente la piena maturazione dell'innesto prima del carico sul sito rigenerato — appare un fattore determinante per il successo. La salute dei tessuti peri-implantari al follow-up è risultata mantenuta, senza recidive di peri-implantite nei casi ritrattati.\n\nLa rilevanza clinica di questo lavoro è considerevole. Mette in discussione la tendenza al re-impianto immediato o precoce dopo l'espianto, proponendo invece pazienza e sequenzialità biologica. Nella zona estetica, dove i livelli ossei marginali e lo zenit mucoso influenzano direttamente il risultato restaurativo finale, procedere al re-impianto in un sito non adeguatamente guarito o insufficientemente rigenerato rischia di replicare lo stesso insuccesso. Il protocollo a fasi ridefinisce l'espianto non come una sconfitta, ma come il primo passo di una strategia ricostruttiva consapevole.\n\nPer i parodontologi e gli implantologi che gestiscono casi di peri-implantite con perdita ossea avanzata, il messaggio clinico è netto: un approccio a fasi, guidato dalla biologia — espianta, rigenera, attendi, re-impianta — può produrre risultati prevedibili anche in siti esteticamente compromessi. La selezione del paziente, l'esecuzione chirurgica meticolosa e il rispetto dei tempi di guarigione rimangono i pilastri del successo. Questo protocollo non elimina la complessità, ma la struttura.",
       "slug": "management-of-advanced-peri-implantitis-with-staged-explantation-and-delayed-re-42041665",
       "fetchedAt": "2026-04-28T20:13:33.274Z",
-      "url": "https://doi.org/10.3390/dj14040212"
+      "url": "https://doi.org/10.3390/dj14040212",
+      "tagsEn": [
+        "peri-implantitis",
+        "staged explantation",
+        "delayed re-implantation",
+        "esthetic zone",
+        "implant failure management",
+        "bone regeneration",
+        "case management"
+      ],
+      "tagsIt": [
+        "perimplantite",
+        "espianto stadiato",
+        "reimpianto differito",
+        "zona estetica",
+        "gestione del fallimento implantare",
+        "rigenerazione ossea",
+        "gestione clinica"
+      ]
     },
     {
       "pmid": "42035718",
@@ -349,7 +536,27 @@
       "summaryIt": "La parodontite di stadio III e IV rappresenta una delle sfide cliniche più complesse in parodontologia, e la scelta tra terapia parodontale non chirurgica (NSPT) e chirurgica (SPT) è oggetto di dibattito costante, spesso in assenza di dati comparativi su larga scala — soprattutto nelle popolazioni asiatiche. Questo studio di coorte retrospettivo cinese affronta direttamente tale lacuna.\n\nSono stati arruolati 3.194 pazienti con diagnosi di parodontite di stadio III/IV, trattati tra aprile 2017 e settembre 2022: 2.982 con NSPT e 212 con SPT. I parametri clinici analizzati — profondità di sondaggio (PD), perdita di attacco clinico (CAL) e sanguinamento al sondaggio (BOP) — sono stati estratti da un sistema elettronico ospedaliero di cartelle parodontali. Le analisi statistiche comprendono t-test indipendenti, regressione lineare e modelli multilivello, corretti per età, sesso, abitudine al fumo e aderenza ai richiami. Il follow-up medio è stato di 1,56 anni.\n\nNel periodo di osservazione, la SPT ha prodotto riduzioni significativamente maggiori rispetto alla NSPT in tutti e tre i parametri: riduzione della PD (1,16 ± 1,06 mm vs. 0,77 ± 0,81 mm), guadagno di CAL (0,97 ± 1,13 mm vs. 0,68 ± 0,90 mm) e riduzione della percentuale di BOP (0,28% ± 0,27% vs. 0,23% ± 0,29%), con differenze statisticamente significative (P < 0,01). Questi risultati confermano la superiorità clinica a breve termine della chirurgia nelle forme avanzate. Tuttavia, estendendo l'orizzonte temporale oltre i tre anni, il vantaggio differenziale della SPT sulla NSPT si riduce in modo sostanziale. La variabile che più consistentemente predice esiti favorevoli a lungo termine — indipendentemente dalla modalità di trattamento — è l'aderenza alla terapia di supporto parodontale (SPC).\n\nPer il parodontologo, l'implantologo e il chirurgo orale, le implicazioni cliniche sono articolate. Nel breve periodo, la SPT garantisce riduzioni della profondità di tasca e guadagni di attacco clinico superiori, rendendola la scelta preferibile quando è necessaria una risposta clinica rapida e consistente — ad esempio prima del posizionamento di impianti in un paziente parodontalmente compromesso. I dati avvertono però che la chirurgia non è la soluzione definitiva: senza una manutenzione strutturata, i suoi benefici si attenuano nel tempo. Al contrario, la NSPT sostenuta da rigorosi protocolli di richiamo può raggiungere una stabilità a lungo termine paragonabile ai risultati chirurgici. Questo riposiziona la NSPT non come opzione di ripiego, ma come strategia primaria valida quando è garantita la compliance del paziente.\n\nI punti di forza dello studio risiedono nell'ampio campione e nell'utilizzo di un sistema elettronico strutturato di raccolta dati. I limiti sono quelli propri del disegno retrospettivo: possibile bias di selezione, assenza di randomizzazione e gruppo chirurgico relativamente esiguo (n = 212) rispetto alla coorte NSPT. La generalizzabilità a popolazioni non cinesi richiede cautela.\n\nIn sintesi: la chirurgia vince nel breve periodo, la manutenzione vince nel lungo. Per i clinici che gestiscono la parodontite avanzata, la scelta tra NSPT e SPT dovrebbe essere guidata non solo dalla profondità delle tasche e dalla severità della malattia, ma da una valutazione realistica della capacità di ogni paziente di aderire nel tempo alle cure di supporto.",
       "slug": "comparative-effect-of-non-surgical-versus-surgical-therapy-for-stage-iiiiv-perio-42035718",
       "fetchedAt": "2026-04-27T20:41:14.062Z",
-      "url": "https://doi.org/10.1016/j.identj.2026.109555"
+      "url": "https://doi.org/10.1016/j.identj.2026.109555",
+      "tagsEn": [
+        "non-surgical periodontal therapy",
+        "surgical periodontal therapy",
+        "stage III periodontitis",
+        "stage IV periodontitis",
+        "retrospective cohort study",
+        "probing depth reduction",
+        "clinical attachment gain",
+        "supportive periodontal care"
+      ],
+      "tagsIt": [
+        "terapia parodontale non chirurgica",
+        "terapia parodontale chirurgica",
+        "parodontite stadio III",
+        "parodontite stadio IV",
+        "studio di coorte retrospettivo",
+        "riduzione della profondità di sondaggio",
+        "guadagno di attacco clinico",
+        "terapia parodontale di supporto"
+      ]
     },
     {
       "pmid": "42035463",
@@ -372,7 +579,25 @@
       "summaryIt": "Il legame tra diabete mellito di tipo 2 (T2DM) e malattia parodontale è ormai consolidato: il T2DM agisce come modificatore di grado nella parodontite, amplificando la risposta infiammatoria e compromettendo la guarigione tissutale. Se questo stesso burden sistemico si traduca in un rischio analogo a livello dei tessuti peri-implantari è tuttavia ancora oggetto di indagine. Lo studio trasversale di Sbricoli et al. si propone di quantificare la prevalenza delle malattie peri-implantari in pazienti diabetici e non diabetici, fornendo dati clinicamente fondati su una questione che impatta direttamente la pianificazione del trattamento implantare in una popolazione in continua crescita.\n\nLo studio ha arruolato 70 pazienti — 35 con T2DM e 35 controlli non diabetici — portatori di 227 impianti in funzione da almeno un anno. Per ciascun paziente sono stati rilevati i parametri clinici e implantari essenziali: profondità di sondaggio, sanguinamento al sondaggio, suppurazione e perdita ossea radiografica, consentendo la classificazione in salute peri-implantare, mucosite peri-implantare e peri-implantite secondo i criteri del consenso attuale. I due gruppi sono stati confrontati per la prevalenza complessiva di malattia peri-implantare e per le singole diagnosi di mucosite e peri-implantite.\n\nI risultati sono, in modo piuttosto netto, controintuitivi. La prevalenza complessiva di malattia peri-implantare è elevata in entrambi i gruppi — 80% nei pazienti diabetici, 77% nei non diabetici — senza differenze statisticamente significative (p = 0,99). La disaggregazione dei dati conferma lo stesso schema: la mucosite peri-implantare è presente nel 51% dei diabetici contro il 63% dei non diabetici (p = 0,47), e la peri-implantite nel 51% contro il 43% rispettivamente (p = 0,63). Nessuno di questi confronti raggiunge la significatività statistica.\n\nQuesti dati mettono in discussione l'assunzione che il T2DM debba essere considerato un fattore di rischio indipendente per la malattia peri-implantare nello stesso modo in cui lo è per la parodontite. La razionale biologica per un'associazione esiste ed è solida — l'iperglicemia cronica promuove lo stress ossidativo, compromette la funzione neutrofila e accelera la formazione di prodotti finali di glicazione avanzata nel tessuto connettivo — ma i dati clinici presentati non traducono questo rischio teorico in una differenza misurabile negli esiti peri-implantari.\n\nVanno tuttavia segnalati alcuni limiti rilevanti. La dimensione campionaria è contenuta, riducendo la potenza statistica nel rilevare effetti di entità moderata. Il controllo metabolico (valori di HbA1c) e la durata della malattia — variabili che modulano in modo critico il danno tissutale correlato al diabete — non sono riportati nell'abstract e potrebbero non essere stati stratificati nell'analisi. Inoltre, la prevalenza straordinariamente elevata di malattia peri-implantare in entrambi i gruppi solleva interrogativi sull'igiene orale di base e sui protocolli di mantenimento della popolazione studiata, fattori che potrebbero generare un effetto soffitto confondente.\n\nPer l'implantologo e il parodontologo clinico, il messaggio è articolato: il T2DM di per sé, specie se adeguatamente compensato, potrebbe non incrementare il rischio di malattia peri-implantare in misura sostanziale rispetto a quanto già determinato dal controllo della placca e dai fattori dell'ospite comuni a tutti i pazienti. Ciò non riduce l'importanza di un mantenimento peri-implantare rigoroso nei pazienti diabetici, ma suggerisce che un T2DM ben controllato non debba essere considerato una controindicazione alla terapia implantare. Studi prospettici di maggiori dimensioni, con stratificazione per grado di compenso glicemico, sono necessari per definire soglie di rischio con maggiore precisione.",
       "slug": "prevalence-of-peri-implant-diseases-in-patients-with-type-2-diabetes-mellitus-a-42035463",
       "fetchedAt": "2026-04-27T20:41:44.814Z",
-      "url": "https://doi.org/10.1002/cre2.70352"
+      "url": "https://doi.org/10.1002/cre2.70352",
+      "tagsEn": [
+        "type 2 diabetes mellitus",
+        "peri-implant diseases",
+        "peri-implant mucositis",
+        "cross-sectional study",
+        "diabetes and implants",
+        "risk factors",
+        "systemic disease"
+      ],
+      "tagsIt": [
+        "diabete mellito tipo 2",
+        "malattie perimplantari",
+        "mucosite perimplantare",
+        "studio trasversale",
+        "diabete e impianti",
+        "fattori di rischio",
+        "malattia sistemica"
+      ]
     },
     {
       "pmid": "42026938",
@@ -394,7 +619,25 @@
       "summaryIt": "La gestione della peri-implantite rappresenta ancora oggi una delle sfide cliniche più complesse in implantologia. Tra le questioni ancora aperte, una delle più rilevanti riguarda il ruolo dell'implantoplastica — la decontaminazione meccanica della superficie implantare mediante frese al carburo di tungsteno — e, in particolare, fino a quale livello del difetto essa debba estendersi per ottimizzare i risultati terapeutici.\n\nQuesto studio clinico prospettico quasi-randomizzato e controllato, condotto da Monje e colleghi presso un singolo centro, affronta proprio questo interrogativo, confrontando due approcci all'interno di un protocollo chirurgico combinato: l'implantoplastica parziale (PLIP), limitata alla componente sopracrestale dell'impianto, e l'implantoplastica totale (FLIP), estesa a comprendere anche la componente intracrestale del difetto. Tutti i casi inclusi presentavano peri-implantite con una componente infraossea di almeno 3 mm, morfologia considerata favorevole alla ricostruzione rigenerativa.\n\nIl protocollo chirurgico ha combinato l'implantoplastica con la rigenerazione ossea guidata della componente infraossea. I risultati sono stati valutati a 12 mesi. L'endpoint primario era la riduzione della profondità di sondaggio, sulla base della quale è stato calcolato il campione. La risoluzione della malattia è stata definita mediante un endpoint composito che integrava criteri clinici — profondità di sondaggio, sanguinamento al sondaggio, suppurazione — e radiografici. L'analisi statistica ha impiegato equazioni di stima generalizzate per il calcolo degli odds ratio, aggiustati e non, tenendo conto del clustering a livello di paziente.\n\nSono stati arruolati 33 pazienti. I risultati hanno dimostrato che la terapia chirurgica combinata — indipendentemente dall'estensione dell'implantoplastica — è efficace nel bloccare la progressione della malattia e nel migliorare la salute peri-implantare a un anno. Tuttavia, FLIP ha evidenziato outcome clinici e radiografici superiori rispetto a PLIP, indicando che estendere la modifica della superficie alla componente infraossea del difetto apporta un beneficio aggiuntivo misurabile. Il meccanismo ipotizzato è una più efficace eliminazione del biofilm e un miglioramento delle caratteristiche superficiali all'interfaccia rigenerativa.\n\nQuesto vantaggio, tuttavia, non è privo di conseguenze. FLIP è risultata associata a una maggiore recessione mucosa, con implicazioni estetiche e biologiche rilevanti — in particolare nei siti con fenotipo sottile o in zona anteriore. Questo compromesso clinico impone una pianificazione preoperatoria accurata.\n\nIl messaggio pratico per il parodontologo e l'implantologo si articola su tre livelli. Primo: la combinazione di implantoplastica e rigenerazione rappresenta una strategia valida ed efficace per i difetti peri-implantari infraossei contenuti. Secondo: quando la morfologia del difetto lo consente, estendere l'implantoplastica alla componente infraossea può migliorare i tassi di risoluzione della malattia. Terzo — e crucialmente — questa scelta deve essere ponderata rispetto al rischio di recessione, richiedendo un counseling approfondito del paziente e una selezione dei casi basata su fenotipo, posizione dell'impianto e aspettative estetiche. In un'epoca in cui i protocolli per la peri-implantite si orientano verso una crescente individualizzazione, studi come questo forniscono l'evidenza tecnica e clinica di cui il professionista ha bisogno per decisioni intraoperatorie consapevoli.",
       "slug": "extent-of-implantoplasty-in-the-combined-surgical-therapy-of-peri-implantitis-a-42026938",
       "fetchedAt": "2026-04-27T20:42:16.300Z",
-      "url": "https://doi.org/10.1111/cid.70144"
+      "url": "https://doi.org/10.1111/cid.70144",
+      "tagsEn": [
+        "implantoplasty",
+        "peri-implantitis surgery",
+        "full-length implantoplasty",
+        "partial-length implantoplasty",
+        "quasi-randomized trial",
+        "implant surface modification",
+        "combined surgical therapy"
+      ],
+      "tagsIt": [
+        "implantoplastica",
+        "chirurgia della perimplantite",
+        "implantoplastica totale",
+        "implantoplastica parziale",
+        "trial quasi-randomizzato",
+        "modifica superficie implantare",
+        "terapia chirurgica combinata"
+      ]
     },
     {
       "pmid": "42006458",
@@ -411,7 +654,25 @@
       "summaryIt": "La peri-implantite rappresenta una delle complicanze più insidiose dell'implantologia moderna, e l'identificazione di terapie adiuvanti efficaci rimane una priorità clinica e di ricerca. Questa revisione sistematica di Khayat analizza se l'acido ialuronico (HA), utilizzato come adiuvante al trattamento convenzionale, sia in grado di migliorare gli esiti clinici, radiografici e biologici nei pazienti affetti da peri-implantite.\n\nCondotta secondo le linee guida PRISMA 2020, la ricerca ha interessato cinque banche dati fino al febbraio 2025 e ha portato all'inclusione di sei studi — quattro RCT, uno studio pilota controllato con disegno split-mouth e una serie prospettica di casi — per un totale di 110 pazienti. Le dimensioni campionarie erano ridotte (da 5 a 63 partecipanti) e i periodi di follow-up molto eterogenei, compresi tra 15 giorni e 12 mesi. Il rischio di bias è stato valutato con gli strumenti Cochrane RoB 2, ROBINS-I e JBI; la certezza delle prove è stata graduata secondo il metodo GRADE.\n\nI risultati sono eterogenei. Alcuni studi riportano riduzioni statisticamente significative della profondità di sondaggio (PPD) e del sanguinamento al sondaggio (BOP) nei siti trattati con HA, confermando un effetto antinfiammatorio clinicamente rilevante. Tale effetto trova riscontro anche nella riduzione dei livelli di interleuchina-1β, mediatore chiave dell'infiammazione peri-implantare, e in una certa attività nei confronti dei batteri colonizzatori precoci. Gli esiti relativi alla perdita ossea marginale (MBL) risultano invece inconsistenti: miglioramenti radiografici significativi si osservano esclusivamente negli studi che prevedevano un approccio chirurgico, con una certezza delle prove valutata come molto bassa. L'elevata eterogeneità nelle formulazioni di HA, nei pesi molecolari, nelle modalità di somministrazione e nei protocolli terapeutici rende difficile qualsiasi confronto diretto tra gli studi.\n\nSul piano clinico, il messaggio è di ottimismo prudente. L'HA sembra offrire un beneficio reale, seppur contenuto, nella riduzione dell'infiammazione dei tessuti molli peri-implantari, in particolare se integrato in un protocollo terapeutico strutturato. La sua plausibilità biologica è solida: modula le cascate infiammatorie, favorisce la guarigione tissutale e può interferire con la colonizzazione batterica precoce. Tuttavia, la base di evidenze è troppo eterogenea e staticamente insufficiente per supportare raccomandazioni cliniche definitive. I rating di certezza GRADE — bassa o molto bassa — evidenziano quanto sia prematuro inserire l'HA tra gli adiuvanti standard nel trattamento della peri-implantite.\n\nPer parodontologi, implantologi e chirurghi orali, questa revisione indica al tempo stesso una direzione e una lacuna. L'HA è un adiuvante biologicamente razionale, con un profilo di sicurezza consolidato. Tuttavia, in assenza di RCT di dimensioni adeguate, con protocolli standardizzati, formulazioni omogenee e follow-up prolungati, il suo ruolo preciso nel trattamento della peri-implantite non può ancora essere definito. L'utilizzo clinico rimane una scelta ragionevole nell'ambito di protocolli non chirurgici o chirurgici completi, ma non è ancora supportato da prove sufficienti per modificare le raccomandazioni di standard of care.",
       "slug": "clinical-efficacy-of-hyaluronic-acid-in-peri-implantitis-treatment-a-systematic-42006458",
       "fetchedAt": "2026-04-27T20:42:47.291Z",
-      "url": "https://doi.org/10.2340/biid.v13.45746"
+      "url": "https://doi.org/10.2340/biid.v13.45746",
+      "tagsEn": [
+        "hyaluronic acid",
+        "peri-implantitis treatment",
+        "systematic review",
+        "adjunctive therapy",
+        "radiographic outcomes",
+        "biological outcomes",
+        "biomaterials"
+      ],
+      "tagsIt": [
+        "acido ialuronico",
+        "trattamento della perimplantite",
+        "revisione sistematica",
+        "terapia aggiuntiva",
+        "esiti radiografici",
+        "esiti biologici",
+        "biomateriali"
+      ]
     },
     {
       "pmid": "42030755",
@@ -435,7 +696,27 @@
       "summaryIt": "Ottenere un'adeguata ampiezza di tessuto cheratinizzato (KTW) attorno agli impianti nel settore posteriore della mandibola rappresenta una delle sfide più impegnative nella gestione dei tessuti molli in implantologia. Il innesto gengivale libero (FGG) è il gold standard per l'aumento del KTW, ma la contrazione del lembo — particolarmente accentuata in una regione soggetta alle trazioni muscolari e di difficile accesso — può compromettere significativamente il risultato finale. Questa serie di casi retrospettiva di Yang et al. introduce la Dual Anchoring Technique (DAT), concepita per stabilizzare meccanicamente l'innesto durante la fase critica della guarigione, riducendo il ritiro dimensionale e migliorando la prevedibilità del risultato.\n\nLo studio ha incluso 25 pazienti sistemicamente sani (49 siti implantari) con KTW inferiore a 2 mm dopo procedure di aumento osseo. La DAT combina due elementi di fissazione: viti di ancoraggio ortodontico, posizionate al margine coronale dell'innesto per prevenire lo scivolamento apicale, e puntine per membrane, utilizzate per ancorare il corpo dell'innesto al periostio. Questo sistema di doppio ancoraggio contrasta le principali forze vettoriali responsabili della migrazione e della contrazione dell'innesto nel settore posteriore mandibolare. L'esito primario era la variazione del KTW dal baseline (T₀) a 12 mesi (T₅). Gli esiti secondari comprendevano il tasso di contrazione, i tempi operatori, le complicanze e le misure di esito riportate dal paziente tramite scala VAS.\n\nI risultati sono clinicamente rilevanti. Il KTW medio è aumentato da 0,67 ± 0,12 mm al baseline a 11,00 ± 0,87 mm a un mese, stabilizzandosi a 8,70 ± 0,84 mm a 12 mesi, con un guadagno netto di 8,02 ± 0,82 mm (p < 0,001). La contrazione dell'innesto a 12 mesi è risultata in media del 17,48 ± 3,41%, con l'85% del ritiro totale concentrato nei primi tre mesi. I tempi operatori si sono rivelati contenuti: 26,40 ± 1,90 min per i siti singoli e 33,31 ± 2,08 min per i casi a doppio sito. Non sono state registrate complicanze intra- o postoperatorie, e i punteggi VAS del dolore sono scesi a livelli trascurabili entro il quattordicesimo giorno, indicando una buona tollerabilità da parte dei pazienti.\n\nIl tasso di contrazione di circa il 17,5% appare favorevole rispetto ai valori riportati in letteratura per le tecniche FGG convenzionali, che oscillano tipicamente tra il 25% e oltre il 40% a seconda del metodo di fissazione e della sede. La concentrazione della contrazione nei primi tre mesi conferma l'importanza di una stabilizzazione meccanica precoce — proprio la finestra temporale in cui la DAT esercita la sua maggiore influenza.\n\nPer il parodontologo e l'implantologo nella pratica clinica, il messaggio è chiaro: nel settore posteriore della mandibola, dove l'anatomia e le dinamiche muscolari ostacolano la stabilità dell'innesto, una strategia di doppio ancoraggio con strumentario di comune disponibilità può migliorare concretamente i risultati. La tecnica è riproducibile, efficiente nei tempi e associata a bassa morbilità. I limiti del disegno retrospettivo e l'assenza di un gruppo di controllo impongono prudenza interpretativa, ma la consistenza dei risultati su 49 siti a 12 mesi offre una base credibile per future indagini prospettiche.",
       "slug": "a-novel-dual-anchoring-technique-for-keratinized-tissue-augmentation-in-posterio-42030755",
       "fetchedAt": "2026-04-27T20:43:14.849Z",
-      "url": "https://doi.org/10.1016/j.identj.2026.109593"
+      "url": "https://doi.org/10.1016/j.identj.2026.109593",
+      "tagsEn": [
+        "keratinized tissue augmentation",
+        "posterior mandible",
+        "dual anchoring technique",
+        "free gingival graft",
+        "orthodontic anchor screws",
+        "membrane tacks",
+        "soft tissue surgery",
+        "retrospective case series"
+      ],
+      "tagsIt": [
+        "aumento di tessuto cheratinizzato",
+        "mandibola posteriore",
+        "tecnica di doppio ancoraggio",
+        "innesto gengivale libero",
+        "viti di ancoraggio ortodontiche",
+        "chiodini da membrana",
+        "chirurgia dei tessuti molli",
+        "serie di casi retrospettiva"
+      ]
     }
   ]
 }
