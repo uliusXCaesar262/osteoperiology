@@ -1,6 +1,201 @@
 {
-  "lastUpdated": "2026-06-01T09:23:49.646774Z",
+  "lastUpdated": "2026-06-08T09:22:13.226564Z",
   "articles": [
+    {
+      "pmid": "42194656",
+      "title": "Consensus Statement on Full-Arch Implant Rehabilitations: Evidence-Based Recommendations from the Italian Consensus Conference.",
+      "titleIt": "Riabilitazioni implantari full-arch: le raccomandazioni evidence-based della Consensus Conference italiana",
+      "authors": [
+        "Rapone B",
+        "Ferrara E",
+        "Tomarelli F"
+      ],
+      "journal": "Journal of Clinical Medicine",
+      "pubDate": "2026 May 11",
+      "doi": "10.3390/jcm15103695",
+      "summaryEn": "How many implants for a full-arch? Tilted or axial? Which prosthetic material, and what maintenance keeps peri-implantitis away? On these everyday questions practice is still heterogeneous. To bring order, an Italian Consensus Conference convened 29 experts and ran a modified Delphi process, supported by a systematic review of the 2015-2024 literature with certainty of evidence graded through GRADE. Consensus was set at a demanding threshold of 90% agreement.\n\nSeven statements emerged. First, periodontal risk should be assessed with validated tools before treatment is planned. Second, guided bone regeneration (GBR) outcomes are technique-dependent, and indications must be matched to the technique. Third, in the mandibular full-arch, four implants can support rehabilitation with survival comparable to six. Fourth, tilted and axial implant configurations are clinically equivalent. Fifth, on prosthetic materials, monolithic zirconia shows high survival. Sixth, risk-stratified supportive maintenance is associated with lower peri-implantitis incidence. Seventh, systemic risk must be stratified, covering absolute and relative contraindications, MRONJ risk management, and perioperative antibiotic prophylaxis.\n\nThe value of the document is less in novelty than in arbitration: it converts scattered evidence into shared, graded recommendations a clinician can defend. For implantologists and prosthodontists it offers a structured reference for patient selection, surgical layout, material choice, and the maintenance protocol that ultimately decides whether a full-arch lasts.",
+      "summaryIt": "Quanti impianti per un full-arch? Inclinati o assiali? Quale materiale protesico, e quale mantenimento tiene lontana la perimplantite? Su queste domande quotidiane la pratica resta eterogenea. Per mettere ordine, una Consensus Conference italiana ha riunito 29 esperti con un processo Delphi modificato, sostenuto da una revisione sistematica della letteratura 2015-2024 e dalla valutazione della certezza dell'evidenza con il sistema GRADE. La soglia di consenso era esigente: accordo ≥90%.\n\nNe sono emerse sette dichiarazioni. Primo: il rischio parodontale va valutato con strumenti validati prima di pianificare. Secondo: gli esiti della rigenerazione ossea guidata (GBR) dipendono dalla tecnica, e le indicazioni vanno calibrate di conseguenza. Terzo: nel full-arch mandibolare quattro impianti possono sostenere la riabilitazione con una sopravvivenza paragonabile a sei. Quarto: configurazioni implantari inclinate e assiali sono clinicamente equivalenti. Quinto: tra i materiali protesici, la zirconia monolitica mostra alta sopravvivenza. Sesto: un mantenimento di supporto stratificato per rischio si associa a una minore incidenza di perimplantite. Settimo: il rischio sistemico va stratificato, comprendendo controindicazioni assolute e relative, gestione del rischio di osteonecrosi dei mascellari da farmaci (MRONJ) e profilassi antibiotica perioperatoria.\n\nIl valore del documento sta meno nella novità che nell'arbitrato: trasforma evidenze sparse in raccomandazioni condivise e graduate, che il clinico può difendere. Per implantologi e protesisti è un riferimento strutturato per la selezione del paziente, lo schema chirurgico, la scelta del materiale e quel protocollo di mantenimento che alla fine decide la durata di un full-arch.",
+      "tagsEn": [
+        "full-arch",
+        "dental implants",
+        "consensus statement",
+        "monolithic zirconia",
+        "tilted implants",
+        "peri-implantitis",
+        "GRADE",
+        "maintenance"
+      ],
+      "tagsIt": [
+        "full-arch",
+        "implantologia",
+        "consensus",
+        "zirconia monolitica",
+        "impianti inclinati",
+        "perimplantite",
+        "GRADE",
+        "mantenimento"
+      ],
+      "abstractText": "Full-arch implant-supported rehabilitations are widely recognized as an effective treatment option for edentulous patients. Nevertheless, clinical decision-making regarding patient selection, surgical planning, prosthetic material choice, and long-term maintenance protocols remains heterogeneous and requires structured evidence-based guidance. A modified Delphi consensus process was conducted involving 29 experts during the Italian Consensus Conference. A systematic literature review covering the period 2015-2024 was performed, and the certainty of evidence was assessed using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) framework. Consensus was predefined as &#x2265;90% agreement. Seven evidence-based consensus statements were developed addressing: (1) periodontal risk assessment using validated tools; (2) guided bone regeneration outcomes with technique-specific indications; (3) comparative survival of four versus six implants in mandibular full-arch rehabilitations; (4) equivalence of tilted and axial implant configurations; (5) prosthetic material selection, with monolithic zirconia showing high survival; (6) risk-stratified supportive maintenance protocols associated with a reduction in peri-implantitis incidence; and (7) systemic risk stratification, including absolute and relative contraindications, medication-related osteonecrosis of the jaw (MRONJ) risk management, and perioperative antibiotic prophylaxis.",
+      "slug": "consensus-statement-on-full-arch-implant-rehabilitations-evidence-based-recommen-42194656",
+      "fetchedAt": "2026-06-08T09:22:05.141061Z",
+      "url": "https://doi.org/10.3390/jcm15103695"
+    },
+    {
+      "pmid": "42214655",
+      "title": "Long-term outcomes of regenerative periodontal therapy and orthodontic treatment: 20-year results from a prospective study.",
+      "titleIt": "Rigenerazione parodontale e ortodonzia: i risultati a 20 anni di uno studio prospettico",
+      "authors": [
+        "Roccuzzo A",
+        "Li Y",
+        "Salvi GE"
+      ],
+      "journal": "Journal of Dentistry",
+      "pubDate": "2026 May 28",
+      "doi": "10.1016/j.jdent.2026.106799",
+      "summaryEn": "A tooth with a deep intrabony defect, pathologic migration, probing depth of 7 mm or more: the classic candidate for extraction. This prospective study asks whether, two decades on, that tooth can instead be kept. Forty-eight patients with Stage IV periodontitis, each contributing one severely compromised non-molar test tooth, followed a staged protocol: instrumentation; regenerative surgery with enamel matrix derivative (EMD) alone or combined with a bone graft and membrane; orthodontic treatment started 8-12 months later to correct the malposition; and tailored supportive periodontal care.\n\nThirty-three patients reached the 20-year visit, a 31% drop-out over twenty years. Estimated tooth survival at T20 was 89.1%, with an 86.3% complication-free probability; only four test teeth were lost. The periodontal numbers moved decisively: full-mouth plaque fell from 48.8% to 14.6%, bleeding from 55.5% to 10.2%, and sites with probing depth (PPD) ≥7 mm dropped from 25.8 to 0.9. At the test tooth, mean PPD went from 6.3 to 3.0 mm. Treatment success, defined as survival with PPD ≤4 mm, reached 81.8%.\n\nThe message is disciplined optimism. Moving a tooth orthodontically after regeneration does not undo the regenerative gain; it can preserve severely compromised teeth for twenty years, on one condition the authors keep returning to: a stringent, individually tailored maintenance program. Regeneration plus orthodontics is a credible alternative to extraction, but only inside that program.",
+      "summaryIt": "Un dente con un difetto infraosseo profondo, migrazione patologica, profondità di sondaggio di 7 mm o più: il candidato classico all'estrazione. Questo studio prospettico chiede se, vent'anni dopo, quel dente possa invece essere conservato. Quarantotto pazienti con parodontite di Stadio IV, ciascuno con un dente-test non molare gravemente compromesso, hanno seguito un protocollo per fasi: strumentazione; chirurgia rigenerativa con derivato della matrice dello smalto (EMD) da solo o combinato con innesto osseo e membrana; trattamento ortodontico avviato 8-12 mesi dopo per correggere la malposizione; e terapia parodontale di supporto personalizzata.\n\nTrentatré pazienti hanno raggiunto la visita a 20 anni, con un drop-out del 31% in due decenni. La sopravvivenza stimata dei denti a T20 era dell'89,1%, con una probabilità dell'86,3% di restare liberi da complicanze; solo quattro denti-test sono andati persi. I parametri parodontali si sono mossi con decisione: la placca full-mouth è scesa dal 48,8% al 14,6%, il sanguinamento dal 55,5% al 10,2%, e i siti con profondità di sondaggio (PPD) ≥7 mm sono crollati da 25,8 a 0,9. Sul dente-test, la PPD media è passata da 6,3 a 3,0 mm. Il successo terapeutico, definito come sopravvivenza con PPD ≤4 mm, ha raggiunto l'81,8%.\n\nIl messaggio è un ottimismo disciplinato. Spostare ortodonticamente un dente dopo la rigenerazione non vanifica il guadagno rigenerativo; può conservare denti gravemente compromessi per vent'anni, a una condizione su cui gli autori tornano di continuo: un programma di mantenimento rigoroso e individualizzato. Rigenerazione più ortodonzia è un'alternativa credibile all'estrazione, ma solo dentro quel programma.",
+      "tagsEn": [
+        "periodontal regeneration",
+        "orthodontics",
+        "Stage IV periodontitis",
+        "enamel matrix derivative",
+        "intrabony defect",
+        "20-year outcomes",
+        "tooth survival",
+        "supportive periodontal care"
+      ],
+      "tagsIt": [
+        "rigenerazione parodontale",
+        "ortodonzia",
+        "parodontite Stadio IV",
+        "derivato matrice smalto",
+        "difetto infraosseo",
+        "esiti a 20 anni",
+        "sopravvivenza dentale",
+        "mantenimento parodontale"
+      ],
+      "abstractText": "OBJECTIVES: To evaluate the 20-year clinical outcomes of periodontal regenerative and orthodontic treatment for severely periodontally compromised teeth.\n\nMETHODS: In this prospective study, 48 patients with Stage IV periodontitis, each with at least one non-molar tooth (n = 48 test teeth) exhibiting pathologic migration and an associated intrabony defect characterized by probing depth (PD) of &#x2265; 7 mm, were consecutively included. The treatment protocol comprised: 1) supra/sub-gingival instrumentation (Step &#x2160;-&#x2161;); 2) periodontal regenerative surgery using enamel matrix derivative (EMD) alone or combined with a bone graft and membrane (Step &#x2162;); 3) orthodontic treatment initiated 8-12 months post-surgery to correct malposition (Step R); and 4) tailored supportive periodontal care (SPC) (Step &#x2163;). Clinical parameters were recorded at baseline (T0), 10-year (T10), and 20-year (T20) follow-up visits.\n\nRESULTS: Thirty-three patients (drop-out rate: 31.2%; n = 29 test teeth) completed the 20-year follow-up. The T20 estimated tooth survival was 89.1% (CI: 79.4-99.9%), while complication-free probability was 86.3% (CI: 75.7-98.3%). Overall, five test teeth experienced complications (1 pulp necrosis, 2 root fractures, 2 periodontal disease recurrence) and four were extracted during the 20-year period. All periodontal parameters significantly improved from T0 to T20: full-mouth plaque scores decreased from 48.8% to 14.6% (34.2 &#xb1; 19.3%; 95% CI: 27.3, 41.0; p &lt; 0.001), and full-mouth bleeding scores dropped from 55.5% to 10.2% (45.4 &#xb1; 18.5%; 95% CI: 38.8, 51.9; p &lt; 0.001). The number of sites with PD &#x2265; 7 mm was reduced from 25.8 to 0.9 (24.9 &#xb1; 17.0; 95% CI: 18.9, 30.9; p &lt; 0.001). At the test tooth level, mean PD decreased from 6.3 mm to 3.0 mm (3.1 &#xb1; 1.4 mm; 95% CI: 2.6, 3.7; p &lt; 0.001). Treatment success (i.e., tooth survival + PD &#x2264; 4 mm) was observed in 81.8 % of cases.\n\nCONCLUSIONS: The 20-year results demonstrate that orthodontic treatment subsequent to periodontal regeneration is a predictable strategy for long-term tooth preservation, provided it is integrated into a stringent and tailored supportive care program. This interdisciplinary approach does not compromise the benefits of regeneration and offers a viable alternative to tooth extraction.\n\nCLINICAL SIGNIFICANCE: This study revealed that the combination of peridoontal regeneration and orthodontic therapy can successfully preserve natural teeth in severe periodontitis cases over two decades, highlighting the critical role of a tailored SPC program.",
+      "slug": "long-term-outcomes-of-regenerative-periodontal-therapy-and-orthodontic-treatment-42214655",
+      "fetchedAt": "2026-06-08T09:22:05.141061Z",
+      "url": "https://doi.org/10.1016/j.jdent.2026.106799"
+    },
+    {
+      "pmid": "42226287",
+      "title": "Ten-year outcomes of short dental implants (≤ 6 mm): a systematic review and sensitivity meta-analysis.",
+      "titleIt": "Impianti corti (≤6 mm) a dieci anni: revisione sistematica e meta-analisi di sensibilità",
+      "authors": [
+        "Lin L",
+        "Ren Y",
+        "Zhu E"
+      ],
+      "journal": "BMC Oral Health",
+      "pubDate": "2026 Jun 1",
+      "doi": "10.1186/s12903-026-08742-4",
+      "summaryEn": "Short implants promise to sidestep bone grafting in the atrophic jaw. The open question has always been time: do they hold at ten years? This systematic review and meta-analysis gathered randomized controlled trials (RCTs) and prospective studies on implants of 6 mm or less with a full decade of follow-up, searching four databases and registered on PROSPERO. Eight studies qualified, four of them RCTs.\n\nThe pooled 10-year survival was 91.2% at the patient level and 93.7% at the implant level; sensitivity analysis, handling missing data by interpolation, returned the slightly more conservative 89.7% and 92.8%. Marginal bone loss (MBL) over ten years was modest, about 0.28 mm. Biological complications were dominated by peri-implant mucositis at 33.6%, while frank peri-implantitis stayed at 0.4%; technical complications ran at 23.5%, and screw-retained restorations survived less well than cemented ones. The head-to-head RCT comparison delivered the nuance: short implants survived significantly less than long implants (relative risk around 0.92-0.94), yet showed no significant difference in complications or bone loss.\n\nSo short implants are a viable long-term option for the atrophic ridge, sparing the patient augmentation, but their survival sits slightly below standard implants and the authors flag the small evidence base. A reasonable reading: a sound choice when grafting is best avoided, chosen with eyes open rather than as a free lunch.",
+      "summaryIt": "Gli impianti corti promettono di evitare l'innesto osseo nella cresta atrofica. La domanda aperta è sempre stata il tempo: reggono a dieci anni? Questa revisione sistematica e meta-analisi ha raccolto studi clinici randomizzati (RCT) e studi prospettici su impianti di 6 mm o meno con un decennio pieno di follow-up, interrogando quattro database e registrata su PROSPERO. Otto studi hanno superato i criteri, quattro dei quali RCT.\n\nLa sopravvivenza aggregata a 10 anni era del 91,2% a livello di paziente e del 93,7% a livello di impianto; l'analisi di sensibilità, gestendo i dati mancanti per interpolazione, ha restituito valori un po' più prudenti, 89,7% e 92,8%. La perdita ossea marginale (MBL) a dieci anni era contenuta, circa 0,28 mm. Tra le complicanze biologiche dominava la mucosite perimplantare al 33,6%, mentre la perimplantite vera e propria restava allo 0,4%; le complicanze tecniche erano al 23,5%, e le ricostruzioni avvitate sopravvivevano meno di quelle cementate. Il confronto diretto tra RCT ha dato la sfumatura: gli impianti corti sopravvivono significativamente meno di quelli lunghi (rischio relativo intorno a 0,92-0,94), pur senza differenze significative in complicanze o perdita ossea.\n\nGli impianti corti sono dunque un'opzione affidabile a lungo termine per la cresta atrofica, e risparmiano al paziente l'aumento osseo, ma la loro sopravvivenza resta lievemente sotto quella degli impianti standard e gli autori segnalano la base di evidenza ancora ristretta. Una lettura ragionevole: una scelta solida quando conviene evitare l'innesto, fatta a occhi aperti più che come un pasto gratis.",
+      "tagsEn": [
+        "short implants",
+        "systematic review",
+        "meta-analysis",
+        "10-year survival",
+        "marginal bone loss",
+        "peri-implant mucositis",
+        "atrophic ridge",
+        "RCT"
+      ],
+      "tagsIt": [
+        "impianti corti",
+        "revisione sistematica",
+        "meta-analisi",
+        "sopravvivenza a 10 anni",
+        "perdita ossea marginale",
+        "mucosite perimplantare",
+        "cresta atrofica",
+        "RCT"
+      ],
+      "abstractText": "OBJECTIVE: This study aimed to explore the ten-year survival rates (SR), complication rates, and marginal bone loss (MBL) of short dental implants (&#x2264;&#x2009;6&#xa0;mm).\n\nMATERIALS AND METHODS: Literature searches were conducted in four databases: PubMed, Web of Science, Embase, and the Cochrane Library. Randomized controlled trials (RCTs) and prospective studies reporting clinical outcomes of short dental implants with ten years of follow-up were included. Both single-group meta-analyses and paired-comparison meta-analyses were conducted utilizing the statistical software R version 4.3.1. An interpolation model was employed to handle missing data for the sensitivity meta-analysis of SR. The number of PROSPERO was CRD42024522613.\n\nRESULTS: A total of 8 studies (4 RCTs and 4 prospective) were included. The single-group meta-analyses encompassed 8 studies. The pooled estimate of 10-year SR was 91.2% (95% CI: 0.843-0.965) at the patient level (PL) and 93.7% (95% CI: 0.878-0.980) at the implant level (IL). Sensitivity meta-analysis estimates were 89.7% (PL) and 92.8% (IL). Subgroup analyses revealed that screw retention implants had lower SR than cemented retention. The incidence of technical complications was 23.5%, while biological complications included peri-implant mucositis (33.6%) and peri-implantitis (0.4%). The pooled MBL estimates over ten years were 0.277&#xa0;mm for both the PL and IL. Paired-comparison meta-analyses of four RCTs showed that short implants had a significantly lower 10-year SR than long implants (RR, 0.920 (95% CI: 0.857-0.987) at the PL and RR, 0.943 (95% CI: 0.896-0.992) at the IL), but no significant differences were observed in technical, biological complications, or MBL.\n\nCONCLUSION: For patients with jawbone atrophy, short implants may represent a viable long-term treatment option, although their 10-year survival rate is slightly lower than that of standard implants. However, given the limitations of this study, the above conclusions and their clinical implications should be interpreted with caution.",
+      "slug": "ten-year-outcomes-of-short-dental-implants-6-mm-a-systematic-review-and-sensitiv-42226287",
+      "fetchedAt": "2026-06-08T09:22:05.141061Z",
+      "url": "https://doi.org/10.1186/s12903-026-08742-4"
+    },
+    {
+      "pmid": "42240865",
+      "title": "Simultaneous implant placement with guided bone regeneration for horizontal ridge augmentation using a 3D-preformed resorbable PLGA membrane: A prospective single-arm clinical study.",
+      "titleIt": "Impianto immediato e GBR per l'aumento orizzontale di cresta con membrana riassorbibile 3D preformata in PLGA",
+      "authors": [
+        "Son SH",
+        "Lim KO",
+        "Han SH"
+      ],
+      "journal": "Clinical Oral Investigations",
+      "pubDate": "2026 Jun 4",
+      "doi": "10.1007/s00784-026-06959-9",
+      "summaryEn": "Guided bone regeneration (GBR) often hinges on the membrane: it must hold space, stay where it is put, and ideally not need a second surgery to come out. This prospective single-arm study tested a three-dimensional preformed resorbable PLGA membrane (3D-PRPM) for horizontal ridge augmentation, placed at the same time as the implant. Twenty patients with 21 localized ridge defects were treated, and cone-beam CT (CBCT) tracked the bone preoperatively, immediately after surgery, and at five months.\n\nMean horizontal bone augmentation was 2.99 mm, with hard tissue gain at five months of 2.64 mm and only 0.35 mm of resorption, a hard-tissue gain rate of 87.2%. Analysis of the bony envelope confirmed a real increase after augmentation, partial settling during healing, but ridge dimensions at five months still significantly above baseline. Crucially for a barrier, there were no membrane exposures, no infections, no wound dehiscences.\n\nThe appeal is practical: a preformed, fixation-free resorbable barrier that augments predictably and never has to be removed, simplifying a procedure that is often fiddly. The caveats are the obvious ones — twenty patients, single arm, five-month horizon — so this is an encouraging early signal rather than a verdict, and it wants comparison against established membranes over longer follow-up.",
+      "summaryIt": "La rigenerazione ossea guidata (GBR) spesso si gioca sulla membrana: deve mantenere lo spazio, restare dove la si posiziona e, idealmente, non richiedere un secondo intervento per la rimozione. Questo studio prospettico a braccio singolo ha testato una membrana riassorbibile in PLGA tridimensionale e preformata (3D-PRPM) per l'aumento orizzontale di cresta, inserita contestualmente all'impianto. Venti pazienti con 21 difetti localizzati sono stati trattati, e la CBCT ha seguito l'osso prima dell'intervento, subito dopo e a cinque mesi.\n\nL'aumento osseo orizzontale medio era di 2,99 mm, con un guadagno di tessuto duro a cinque mesi di 2,64 mm e appena 0,35 mm di riassorbimento, per un tasso di guadagno dell'87,2%. L'analisi dell'involucro osseo ha confermato un incremento reale dopo l'aumento, un parziale assestamento durante la guarigione, ma dimensioni di cresta a cinque mesi ancora significativamente superiori al basale. E, dato cruciale per una barriera: nessuna esposizione della membrana, nessuna infezione, nessuna deiscenza della ferita.\n\nL'attrattiva è pratica: una barriera riassorbibile preformata e senza necessità di fissazione, che aumenta in modo prevedibile e non va mai rimossa, semplificando una procedura spesso laboriosa. I limiti sono quelli evidenti — venti pazienti, braccio singolo, orizzonte di cinque mesi — quindi è un segnale precoce incoraggiante più che un verdetto, e chiede il confronto con le membrane consolidate su follow-up più lunghi.",
+      "tagsEn": [
+        "guided bone regeneration",
+        "horizontal ridge augmentation",
+        "PLGA membrane",
+        "resorbable membrane",
+        "simultaneous implant",
+        "CBCT",
+        "ridge defect",
+        "fixation-free"
+      ],
+      "tagsIt": [
+        "rigenerazione ossea guidata",
+        "aumento orizzontale di cresta",
+        "membrana PLGA",
+        "membrana riassorbibile",
+        "impianto contestuale",
+        "CBCT",
+        "difetto di cresta",
+        "senza fissazione"
+      ],
+      "abstractText": "OBJECTIVES: This study aimed to evaluate the clinical effectiveness and safety of guided bone regeneration (GBR) using a three-dimensional preformed resorbable Polylactic-co-glycolic acid membrane (3D-PRPM) with simultaneous implant placement.\n\nMATERIALS AND METHODS: Twenty patients (21 sites) with localized ridge defects were treated using implants placed concurrently with GBR using a 3D-PRPM. Cone-beam computed tomography scans were taken preoperatively, immediately postoperatively, and at 5 months. Horizontal bone augmentation (BA), hard tissue gain (HG), bone resorption (BR), and hard tissue gain rate (HGR) were assessed. Changes beyond the original bony envelope were evaluated. Statistical analyses included the Wilcoxon signed-rank and Friedman tests.\n\nRESULTS: Mean BA was 2.99&#x2009;&#xb1;&#x2009;1.15&#xa0;mm, and mean HG at 5 months was 2.64&#x2009;&#xb1;&#x2009;1.10&#xa0;mm. Mean BR was 0.35&#x2009;&#xb1;&#x2009;0.23&#xa0;mm, and mean HGR was 87.2% &#xb1; 8.2%. Envelope analysis confirmed a significant increase after augmentation with partial reduction during healing; however, ridge dimensions at 5 months remained significantly greater than baseline (P&#x2009;&lt;&#x2009;0.001). No membrane exposure, infection, or wound dehiscence occurred.\n\nCONCLUSION: 3D-PRPM enabled predictable horizontal ridge augmentation with excellent volumetric stability and favorable short-term safety.\n\nCLINICAL RELEVANCE: A 3D-PRPM may provide a stable, fixation-free resorbable barrier for horizontal ridge augmentation, potentially simplifying GBR procedures and reducing the need for secondary removal.",
+      "slug": "simultaneous-implant-placement-with-guided-bone-regeneration-for-horizontal-ridg-42240865",
+      "fetchedAt": "2026-06-08T09:22:05.141061Z",
+      "url": "https://doi.org/10.1007/s00784-026-06959-9"
+    },
+    {
+      "pmid": "42194803",
+      "title": "Volumetric Changes at Pontic Sites After Connective Tissue Grafting: A Systematic Review.",
+      "titleIt": "Variazioni volumetriche dei siti a ponte dopo innesto di tessuto connettivo: una revisione sistematica",
+      "authors": [
+        "Todorovic J",
+        "Joda T",
+        "Eyüboğlu TF"
+      ],
+      "journal": "Journal of Clinical Medicine",
+      "pubDate": "2026 May 16",
+      "doi": "10.3390/jcm15103842",
+      "summaryEn": "A connective tissue graft (CTG) under a pontic builds back ridge contour and makes the bridge look like it grows from gum rather than rests on it. The aesthetic gain is rarely disputed; what stays unclear is whether it lasts. This systematic review pooled clinical studies measuring three-dimensional volumetric and linear soft-tissue change at CTG-treated pontic sites, with at least six months of follow-up, drawing on seven databases and assessing bias with RoB 2 and ROBINS-I.\n\nSeven studies met criteria, only two of them randomized. The pattern was consistent: CTG produced clear early improvements in ridge contour and soft-tissue volume. But over time minor dimensional reductions set in, and the gap between grafted and non-grafted sites tended to narrow after the initial remodeling phase. Long-term data, stretching to fifteen years, suggested the outcomes that remained were broadly stable.\n\nThe honest conclusion is deflating in a useful way. CTG reliably augments soft tissue at pontic sites early on, but its long-term advantage over simply letting the site heal ungrafted looks limited, and the certainty of evidence is very low — seven studies, mostly non-randomized, methodologically heterogeneous. For the clinician this argues for tempered expectations and informed consent about the durability of the result, not against grafting as such, while better randomized work is awaited.",
+      "summaryIt": "Un innesto di tessuto connettivo (CTG) sotto un elemento a ponte ricostruisce il profilo della cresta e fa sì che il ponte sembri emergere dalla gengiva anziché appoggiarvisi. Il guadagno estetico è raramente in discussione; ciò che resta incerto è quanto duri. Questa revisione sistematica ha aggregato studi clinici che misuravano la variazione tridimensionale, volumetrica e lineare, dei tessuti molli nei siti a ponte trattati con CTG, con almeno sei mesi di follow-up, attingendo a sette database e valutando il rischio di bias con RoB 2 e ROBINS-I.\n\nSette studi rispondevano ai criteri, di cui solo due randomizzati. Lo schema era coerente: il CTG produceva netti miglioramenti precoci nel profilo di cresta e nel volume dei tessuti molli. Ma con il tempo subentravano lievi riduzioni dimensionali, e la differenza tra siti innestati e non innestati tendeva a ridursi dopo la fase iniziale di rimodellamento. I dati a lungo termine, fino a quindici anni, suggerivano che gli esiti residui restassero nel complesso stabili.\n\nLa conclusione onesta delude in modo utile. Il CTG aumenta in modo affidabile i tessuti molli nei siti a ponte nella fase precoce, ma il suo vantaggio a lungo termine rispetto alla semplice guarigione senza innesto appare limitato, e la certezza dell'evidenza è molto bassa — sette studi, in gran parte non randomizzati, metodologicamente eterogenei. Per il clinico questo invita ad aspettative misurate e a un consenso informato sulla durata del risultato, non contro l'innesto in sé, in attesa di studi randomizzati migliori.",
+      "tagsEn": [
+        "connective tissue graft",
+        "pontic site",
+        "soft-tissue augmentation",
+        "systematic review",
+        "ridge contour",
+        "volumetric stability",
+        "mucogingival",
+        "esthetics"
+      ],
+      "tagsIt": [
+        "innesto di tessuto connettivo",
+        "sito a ponte",
+        "aumento tessuti molli",
+        "revisione sistematica",
+        "profilo di cresta",
+        "stabilità volumetrica",
+        "mucogengivale",
+        "estetica"
+      ],
+      "abstractText": "Background/Objectives: Connective tissue grafting (CTG) has been proposed to enhance ridge contour at pontic sites; however, its long-term volumetric stability remains unclear. This systematic review evaluated three-dimensional (3D) volumetric and linear soft-tissue changes over time following CTG at pontic sites. Methods: A systematic search was conducted in PubMed/MEDLINE, Embase, Cochrane Library, LILACS, Scopus, Web of Science, and Google Scholar. Clinical studies assessing linear and/or volumetric soft-tissue outcomes at pontic sites treated with CTG, with a minimum follow-up of six months, were included. Study selection, data extraction, and risk-of-bias assessment were performed independently by two reviewers using RoB 2 and ROBINS-I tools. Results were synthesized descriptively. Results: Seven studies (two randomized and five non-randomized) were included. CTG was associated with consistent early improvements in ridge contour and soft-tissue volume. Over time, minor dimensional reductions were observed, and differences between grafted and nongrafted sites tended to decrease after the initial remodeling phase. Long-term follow-up (up to 15 years) suggested overall stability of both volumetric and linear outcomes. However, the evidence is limited by a small number of studies, methodological heterogeneity, and predominance of non-randomized designs. Conclusions: CTG provides early soft-tissue augmentation at pontic sites, but its long-term advantage over non-grafted healing appears limited. Given the very low certainty of evidence, these findings of such studies should be interpreted with caution in clinical decision-making.",
+      "slug": "volumetric-changes-at-pontic-sites-after-connective-tissue-grafting-a-systematic-42194803",
+      "fetchedAt": "2026-06-08T09:22:05.141061Z",
+      "url": "https://doi.org/10.3390/jcm15103842"
+    },
     {
       "pmid": "42129020",
       "title": "Technical and biological complications of implant-supported fixed complete dentures: a retrospective cohort study with up to 17 years of follow-up.",
