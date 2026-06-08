@@ -7,14 +7,14 @@ import SearchableArticleList from "@/components/SearchableArticleList";
 
 const homeMeta = {
   en: {
-    title: "Osteoperionews — Periodontal & Implant Literature",
+    title: "Osteoperionews — Open-Access Periodontology & Dental Implant Research",
     description:
-      "Weekly curated summaries of open access articles in periodontology and dental implantology — Dr. Ernesto Bruschi",
+      "Weekly digest of peer-reviewed open-access research in periodontology, peri-implantitis, bone regeneration, and dental implantology. Curated by Dr. Ernesto Bruschi, periodontist and oral surgeon.",
   },
   it: {
-    title: "Osteoperionews — Letteratura parodontale e implantare",
+    title: "Osteoperionews — Ricerca Open Access in Parodontologia e Implantologia",
     description:
-      "Riassunti settimanali curati di articoli open access in parodontologia e implantologia dentale — Dr. Ernesto Bruschi",
+      "Rassegna settimanale di articoli peer-reviewed open access in parodontologia, perimplantite, rigenerazione ossea e implantologia dentale. A cura del Dr. Ernesto Bruschi, parodontologo e chirurgo orale.",
   },
 };
 
@@ -61,6 +61,16 @@ export default async function HomePage({
 
   return (
     <div>
+      {/* Hero intro — H1 for SEO */}
+      <div className="mb-10">
+        <h1 className="text-3xl sm:text-4xl font-bold mb-3" style={{ fontFamily: "var(--font-lora)" }}>
+          {dict.home.heading}
+        </h1>
+        <p className="text-base leading-relaxed" style={{ color: "var(--color-ink-secondary)" }}>
+          {dict.home.intro}
+        </p>
+      </div>
+
       <div className="flex items-center justify-between mb-8">
         <h2 className="text-2xl sm:text-3xl font-semibold">
           {dict.home.latestArticles}

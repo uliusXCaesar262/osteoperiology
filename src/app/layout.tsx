@@ -89,6 +89,38 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": `${SITE_URL}/#website`,
+      "name": "Osteoperionews",
+      "url": SITE_URL,
+      "description": "Weekly curated summaries of open-access research in periodontology, dental implantology, and peri-implant medicine.",
+      "inLanguage": ["en", "it"],
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": `${SITE_URL}/en?q={search_term_string}`,
+        },
+        "query-input": "required name=search_term_string",
+      },
+    },
+    {
+      "@type": "Person",
+      "@id": `${SITE_URL}/#author`,
+      "name": "Dr. Ernesto Bruschi",
+      "jobTitle": "Periodontist, Implantologist, Oral Surgeon",
+      "sameAs": [
+        "https://orcid.org/0000-0002-4773-5384",
+        "https://bonebenders.com",
+      ],
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -104,6 +136,10 @@ export default function RootLayout({
           type="application/rss+xml"
           title="Osteoperionews (IT)"
           href={`${SITE_URL}/feed-it.xml`}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
       <body className="min-h-full flex flex-col">
