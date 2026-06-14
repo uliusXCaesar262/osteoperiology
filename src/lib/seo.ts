@@ -1,24 +1,15 @@
 import type { Metadata } from "next";
-import { Inter, Lora } from "next/font/google";
 import { SITE_URL } from "@/lib/constants";
-import "./globals.css";
 
-const inter = Inter({
-  subsets: ["latin", "latin-ext"],
-  weight: ["300", "400", "500", "600"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const lora = Lora({
-  subsets: ["latin", "latin-ext"],
-  weight: ["400", "500", "600", "700"],
-  style: ["normal", "italic"],
-  variable: "--font-lora",
-  display: "swap",
-});
-
-export const metadata: Metadata = {
+/**
+ * Base site metadata shared by every root layout (`(home)` and `[lang]`).
+ * Kept in one place so the multiple-root-layout setup cannot drift:
+ * metadataBase, title template, default keywords, robots, Google
+ * verification, OpenGraph/Twitter defaults and the RSS alternate all live
+ * here. Per-page metadata (canonical, hreflang, localized title) is layered
+ * on top by individual pages.
+ */
+export const baseMetadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
     default: "Osteoperionews — Periodontal & Implant Literature",
@@ -89,7 +80,8 @@ export const metadata: Metadata = {
   },
 };
 
-const jsonLd = {
+/** schema.org WebSite + Person graph, injected by each root layout. */
+export const siteJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -97,7 +89,8 @@ const jsonLd = {
       "@id": `${SITE_URL}/#website`,
       "name": "Osteoperionews",
       "url": SITE_URL,
-      "description": "Weekly curated summaries of open-access research in periodontology, dental implantology, and peri-implant medicine.",
+      "description":
+        "Weekly curated summaries of open-access research in periodontology, dental implantology, and peri-implant medicine.",
       "inLanguage": ["en", "it"],
       "potentialAction": {
         "@type": "SearchAction",
@@ -120,31 +113,3 @@ const jsonLd = {
     },
   ],
 };
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="it" className={`h-full antialiased ${inter.variable} ${lora.variable}`}>
-      <head>
-        <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
-        <meta name="referrer" content="strict-origin-when-cross-origin" />
-        <link
-          rel="alternate"
-          type="application/rss+xml"
-          title="Osteoperionews (IT)"
-          href={`${SITE_URL}/feed-it.xml`}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-      </head>
-      <body className="min-h-full flex flex-col">
-        {children}
-      </body>
-    </html>
-  );
-}
