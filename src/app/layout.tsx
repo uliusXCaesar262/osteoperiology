@@ -127,7 +127,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`h-full antialiased ${inter.variable} ${lora.variable}`}>
+    <html lang="it" className={`h-full antialiased ${inter.variable} ${lora.variable}`}>
       <head>
         <meta httpEquiv="X-Content-Type-Options" content="nosniff" />
         <meta name="referrer" content="strict-origin-when-cross-origin" />
