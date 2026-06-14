@@ -39,7 +39,7 @@ export default function RootLandingPage() {
   const { articles } = getRecentArticles(6);
 
   return (
-    <main className="max-w-3xl mx-auto px-5 sm:px-8 py-14 sm:py-20">
+    <main id="main" className="max-w-3xl mx-auto px-5 sm:px-8 py-14 sm:py-20">
       {/* Wordmark */}
       <p
         className="text-xs font-semibold tracking-[0.2em] uppercase mb-3"

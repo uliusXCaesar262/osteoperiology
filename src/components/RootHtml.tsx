@@ -35,7 +35,12 @@ export default function RootHtml({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}
         />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <a href="#main" className="skip-link">
+          {lang === "en" ? "Skip to main content" : "Vai al contenuto principale"}
+        </a>
+        {children}
+      </body>
     </html>
   );
 }

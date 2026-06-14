@@ -117,6 +117,20 @@ export default async function AboutPage({
           dentipiu.it — Studio
         </a>
       </div>
+
+      <div
+        className="mt-12 p-5 rounded-xl text-xs leading-relaxed"
+        style={{
+          background: "var(--color-bg-alt)",
+          border: "1px solid var(--color-border)",
+          color: "var(--color-ink-secondary)",
+        }}
+      >
+        <p className="font-semibold mb-1" style={{ color: "var(--color-ink)" }}>
+          {dict.about.disclaimerTitle}
+        </p>
+        <p>{dict.about.disclaimer}</p>
+      </div>
     </div>
   );
 }

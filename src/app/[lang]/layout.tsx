@@ -37,7 +37,7 @@ export default async function LangRootLayout({
   return (
     <RootHtml lang={lang}>
       <Header lang={lang} dict={dict} />
-      <main className="flex-1 w-full max-w-3xl mx-auto px-5 sm:px-8 py-10 sm:py-14">
+      <main id="main" className="flex-1 w-full max-w-3xl mx-auto px-5 sm:px-8 py-10 sm:py-14">
         {children}
       </main>
       <Footer dict={dict} lang={lang} />

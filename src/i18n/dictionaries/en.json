@@ -36,7 +36,9 @@
     "text": "Osteoperionews is a curated feed of the latest open access research in periodontology and dental implantology. Every week, new articles from leading journals are selected and summarized in English and Italian.",
     "topics": "Monitored topics",
     "curatedBy": "Curated by",
-    "links": "Links"
+    "links": "Links",
+    "disclaimerTitle": "Disclaimer",
+    "disclaimer": "Osteoperionews content is provided for informational and educational purposes for dental professionals only and does not constitute medical advice, nor does it replace the clinical judgement, diagnosis, or treatment of a qualified professional. Summaries are derived from the original abstracts: always refer to the full publication for any clinical decision."
   },
   "footer": {
     "disclaimer": "Summaries of recent literature for educational and informational purposes.",
@@ -57,7 +59,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "lastUpdated": "Last updated: April 2026",
+    "lastUpdated": "Last updated: June 2026",
     "intro": "This privacy policy describes how Osteoperionews (osteoperionews.bonebenders.com), operated by Dr. Ernesto Bruschi, collects, uses, and protects your personal data in compliance with the EU General Data Protection Regulation (GDPR, Regulation 2016/679).",
     "controllerTitle": "Data Controller",
     "controllerText": "Dr. Ernesto Bruschi — dott.bruschi@gmail.com",
@@ -66,7 +68,7 @@
     "purposeTitle": "Purpose of Processing",
     "purposeText": "Your email address is used exclusively to send you a weekly newsletter containing summaries of recently published open access articles in periodontology and dental implantology. The legal basis for processing is your explicit consent (Art. 6(1)(a) GDPR).",
     "thirdPartyTitle": "Third-Party Services",
-    "thirdPartyText": "The newsletter is managed through Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 Paris, France), which acts as data processor. Brevo processes your email address solely for newsletter delivery. Brevo's privacy policy is available at https://www.brevo.com/legal/privacypolicy/. This site is hosted on GitHub Pages (GitHub Inc., San Francisco, CA, USA). GitHub may collect technical access logs (IP address, browser type). GitHub's privacy policy is available at https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement.",
+    "thirdPartyText": "The newsletter is managed through Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 Paris, France), which acts as data processor. Brevo processes your email address solely for newsletter delivery. Brevo's privacy policy is available at https://www.brevo.com/legal/privacypolicy/. This site is hosted on GitHub Pages (GitHub Inc., San Francisco, CA, USA). GitHub may collect technical access logs (IP address, browser type). GitHub's privacy policy is available at https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. The site is delivered through Cloudflare's CDN (Cloudflare, Inc., San Francisco, CA, USA), which acts as an infrastructure provider and may process technical connection data (including IP address) for security and content-delivery purposes; newsletter sign-ups are forwarded to Brevo via a Cloudflare Worker. Cloudflare's privacy policy is available at https://www.cloudflare.com/privacypolicy/.",
     "retentionTitle": "Data Retention",
     "retentionText": "Your email address is retained until you unsubscribe from the newsletter. You can unsubscribe at any time via the link at the bottom of each email.",
     "rightsTitle": "Your Rights",
