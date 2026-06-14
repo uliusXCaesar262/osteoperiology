@@ -1128,7 +1128,25 @@
       "summaryIt": "La parodontite è ormai riconosciuta come una condizione con ricadute sistemiche rilevanti, associata a rischio cardiovascolare, diabete e complicanze della gravidanza. Il suo impatto sulla muscolatura scheletrica, tuttavia, era rimasto fino ad oggi sostanzialmente inesplorato. Questo studio affronta una domanda clinicamente sottovalutata: la malattia parodontale attiva può contribuire direttamente alla perdita di massa muscolare?\n\nUtilizzando un modello murino di parodontite indotta da legatura, gli autori hanno dimostrato che l'infiammazione parodontale determina una riduzione significativa della massa muscolare e ossea, senza alterare la massa adiposa né l'introito alimentare. L'effetto non è quindi attribuibile a malnutrizione o cachessia sistemica, ma suggerisce l'esistenza di un mediatore infiammatorio specifico originato dal parodonto stesso.\n\nIl mediatore identificato è l'attivina A, membro della superfamiglia del TGF-β, già noto come potente induttore di atrofia muscolare scheletrica. L'analisi trascrittomica a singola cellula — condotta sia nel modello murino sia su tessuti umani affetti da parodontite — ha mostrato che il gene INHBA è altamente espresso nei fibroblasti gengivali, nelle cellule epiteliali, nelle cellule mieloidi infiltranti e negli osteoclasti di derivazione mieloide. Dato clinicamente cruciale: i livelli sierici di attivina A risultano elevati nei topi con parodontite e, in modo concordante, nei pazienti umani con malattia parodontale attiva.\n\nPer stabilire un nesso causale, gli autori hanno sovraespresso l'attivina A selettivamente nel tessuto gengivale tramite trasduzone con AAV-Inhba. Questa manipolazione è stata sufficiente ad attivare la via di segnalazione canonica dell'attivina nel muscolo scheletrico — documentata dall'aumento di pSMAD3 e MuRF1 — e a indurre una perdita muscolare misurabile. Al contrario, l'iniezione intragengivale di siRNA contro Inhba (siInhba) ha ridotto i livelli circolanti di attivina A, ripristinato la massa muscolare e normalizzato il diametro delle miofibre, senza evidenti effetti avversi sistemici.\n\nLe implicazioni cliniche sono di rilievo. Per il parodontologo e il chirurgo orale, questo studio ridefinisce la malattia parodontale non solo come un processo distruttivo locale, ma come una condizione capace di innescare atrofia muscolare attraverso una via endocrina ben definita. Il parodonto cronicamente infiammato diventa una fonte biologicamente attiva di attivina A sistemica — un dato di particolare rilevanza nel paziente anziano, in cui sarcopenia e malattia parodontale spesso coesistono.\n\nLa prova di concetto terapeutica è altrettanto significativa: la somministrazione locale intragengivale di siRNA diretto contro uno specifico mediatore è in grado di interrompere un asse patologico sistemico. La traduzione clinica richiede ulteriore validazione, ma l'approccio suggerisce che un trattamento parodontale mirato a livello molecolare possa estendere i propri benefici ben oltre il cavo orale.\n\nPer l'implantologo si apre inoltre una riflessione aggiuntiva: l'attivina A è implicata anche nel rimodellamento osseo, e la riduzione di massa ossea osservata nel modello sperimentale pone interrogativi su come questo asse di segnalazione possa interagire con il mantenimento del tessuto osseo perimplantare in pazienti con parodontite non controllata. Lo studio non risponde a questa domanda, ma la colloca con forza nell'agenda della ricerca futura.",
       "slug": "periodontitis-induces-skeletal-muscle-atrophy-by-increasing-circulating-levels-o-42091891",
       "fetchedAt": "2026-05-08T08:57:10.066Z",
-      "url": "https://doi.org/10.1038/s41467-026-72766-1"
+      "url": "https://doi.org/10.1038/s41467-026-72766-1",
+      "tagsEn": [
+        "periodontitis",
+        "skeletal muscle atrophy",
+        "activin A",
+        "systemic inflammation",
+        "muscle wasting",
+        "bone loss",
+        "periodontal-systemic link"
+      ],
+      "tagsIt": [
+        "parodontite",
+        "atrofia muscolare scheletrica",
+        "attivina A",
+        "infiammazione sistemica",
+        "perdita di massa muscolare",
+        "perdita ossea",
+        "connessione parodonto-sistemica"
+      ]
     },
     {
       "pmid": "42090680",
@@ -1153,7 +1171,25 @@
       "summaryIt": "Impianti dentali e denti naturali coesistono nello stesso ambiente orale, ma si comportano come entità biologiche distinte. Questo studio si è proposto di quantificare tali differenze in condizioni di salute clinica, confrontando profondità di sondaggio, dimensioni della mucosa cheratinizzata, composizione del microbiota sottogengivale ed espressione di MMP-8 tra 79 impianti e i rispettivi 79 denti omologhi controlaterali in 47 pazienti. Gli impianti appartenevano a tre design di connessione — esagono esterno (EH), esagono interno (IH) e cono Morse (MT) — consentendo un'analisi secondaria dell'influenza della geometria della connessione protesica sui parametri considerati.\n\nSul piano clinico, gli impianti presentavano profondità di sondaggio significativamente maggiori e dimensioni della mucosa cheratinizzata ridotte rispetto ai denti, confermando con dati quantitativi ciò che i clinici osservano quotidianamente. Sul piano microbiologico, i carichi batterici totali erano comparabili tra i due siti, ma la distribuzione delle specie divergeva nettamente. I denti mostravano livelli più elevati di Actinomyces naeslundii I, Actinomyces oris, Prevotella intermedia e Treponema denticola. Gli impianti, al contrario, presentavano una maggiore prevalenza di Prevotella nigrescens, Aggregatibacter actinomycetemcomitans (sierotipi A+B) e Selenomonas noxia — le ultime due particolarmente concentrate nel gruppo EH, suggerendo che la macro-geometria della connessione implanto-protesica possa influenzare i pattern di colonizzazione microbica.\n\nIl dato clinicamente più rilevante riguarda la MMP-8. Misurata nel fluido crevicolare peri-implantare e gengivale mediante analisi quantitativa, la MMP-8 risultava circa il 29% più elevata intorno agli impianti rispetto ai denti, con differenza indipendente dal design della piattaforma implantare. La MMP-8 è una collagenasi rilasciata prevalentemente dai neutrofili e rappresenta un biomarcatore riconosciuto di degradazione del tessuto connettivo. La sua elevazione in siti implantari clinicamente sani — senza correlazione con la profondità di sondaggio, il sanguinamento al sondaggio o le dimensioni della mucosa cheratinizzata, ma con correlazione esclusiva con il volume del fluido crevicolare — indica un tono infiammatorio basale intrinseco al microambiente peri-implantare.\n\nPer l'implantologo e il parodontologo che operano nella pratica clinica, questi risultati hanno implicazioni concrete. Il solco peri-implantare non è una replica biologica del solco gengivale: anche in condizioni di salute, mantiene un'ecologia microbica distinta e un'attività proteolitica misurabilmente più elevata. L'assenza di segni clinici di malattia non equivale a quiescenza biologica intorno agli impianti. L'arricchimento di specie potenzialmente patogene — tra cui A. actinomycetemcomitans — negli impianti con esagono esterno merita attenzione nella scelta del sistema implantare in pazienti con storia di parodontite aggressiva o risposta immunitaria compromessa. Infine, la MMP-8 nel fluido crevicolare si propone come biomarcatore precoce di stress tissutale peri-implantare, potenzialmente rilevabile prima che qualsiasi parametro clinico segnali la malattia. Integrare la valutazione di biomarcatori fluidici nei protocolli di mantenimento implantare potrebbe offrire una finestra più sensibile sulla biologia peri-implantare rispetto al solo sondaggio.",
       "slug": "clinical-parameters-subgingival-microbiota-and-mmp-8-expression-in-dental-implan-42090680",
       "fetchedAt": "2026-05-08T08:58:13.203Z",
-      "url": "https://doi.org/10.1590/0103-644020266921"
+      "url": "https://doi.org/10.1590/0103-644020266921",
+      "tagsEn": [
+        "dental implants",
+        "peri-implant health",
+        "subgingival microbiota",
+        "MMP-8",
+        "probing depth",
+        "keratinized mucosa",
+        "implant connection"
+      ],
+      "tagsIt": [
+        "impianti dentali",
+        "salute perimplantare",
+        "microbiota sottogengivale",
+        "MMP-8",
+        "profondità di sondaggio",
+        "mucosa cheratinizzata",
+        "connessione implantare"
+      ]
     },
     {
       "pmid": "42050510",
@@ -1173,7 +1209,25 @@
       "summaryIt": "L'atrofia severa del settore posteriore del mascellare superiore rappresenta una delle condizioni più impegnative in chirurgia implantare. Quando l'altezza ossea residua scende a 4 mm o meno, il rialzo del seno mascellare con tecnica della finestra laterale diventa un passaggio obbligato — e la scelta del materiale da innesto condiziona direttamente la qualità e la quantità dell'osso rigenerato.\n\nQuesto studio prospettico istomorfometrico, condotto su una coorte vietnamita, si è posto una domanda clinicamente diretta ed essenziale: che tipo di osso produce, dopo sei mesi di guarigione, un innesto composito formato da alloinnesto cortico-spongioso, sostituto osseo sintetico β-TCP/HA (rapporto 30/70, Osteon II) e fibrina ricca di piastrine autologa (PRF)?\n\nSono stati analizzati 60 campioni bioptici prelevati al momento del posizionamento implantare, in siti con altezza ossea residua media di soli 2,31 ± 0,93 mm. L'analisi istomorfometrica è stata eseguita su tre sezioni non consecutive per ciascun campione mediante ImageJ, garantendo un protocollo standardizzato e riproducibile.\n\nI risultati sono clinicamente confortanti. L'osso neoformato rappresentava in media il 31,28% (IC 95%: 26,70–35,85%), mentre il materiale da innesto residuo si attestava al 15,48% — una proporzione che indica un'attiva sostituzione del sostituto osseo piuttosto che una semplice persistenza passiva dello scaffold. Il tessuto connettivo costituiva il 53,23%, un dato coerente con la fase di rimodellamento intermedio attesa a sei mesi. Non sono stati osservati infiltrati infiammatori né necrosi tissutale. L'architettura istologica mostrava i caratteri di un osso maturo: lamelle ben organizzate, canali di Havers, osteociti all'interno delle lacune e fronti attivi di osteoblasti e osteoclasti alla periferia dell'innesto — tutti segni di un rimodellamento in corso, fisiologico e progressivo.\n\nSul piano della stabilità implantare, l'ISQ primario (ISQ1) era in media 58,20 ± 6,47, con un incremento sostanziale a 74,85 ± 7,68 a sei mesi (ISQ2). Le analisi correlative offrono indicazioni di particolare interesse pratico: ISQ1 correlava significativamente con l'altezza ossea residua (r = 0,626) e inversamente con la proporzione di tessuto connettivo (r = −0,627), con una correlazione moderata con l'osso neoformato (r = 0,405). In altri termini, l'osso nativo presente al momento dell'intervento rimane il principale ancoraggio meccanico iniziale, mentre la qualità della rigenerazione ossea diventa progressivamente il fattore determinante per la stabilità a lungo termine.\n\nIl messaggio clinico è netto: questo protocollo composito produce un osso istologicamente maturo e biologicamente compatibile in seni mascellari severamente atrofici, con una dinamica di riassorbimento-sostituzione favorevole all'osteointegrazione implantare. Il contributo isolato della PRF non è quantificabile in assenza di un gruppo di controllo — limite che gli autori riconoscono esplicitamente.\n\nSi tratta di uno studio descrittivo a braccio singolo: non dimostra la superiorità di questa combinazione rispetto ad alternative. Dimostra però, con precisione istologica e su un campione di dimensioni clinicamente rilevanti, che l'ambiente rigenerato è biologicamente sano e funzionalmente adeguato per il posizionamento implantare in una delle condizioni anatomiche più critiche della nostra pratica quotidiana.",
       "slug": "histological-and-histomorphometric-assessment-of-lateral-window-sinus-augmentati-42050510",
       "fetchedAt": "2026-05-08T08:58:44.883Z",
-      "url": "https://doi.org/10.1186/s12903-026-08332-4"
+      "url": "https://doi.org/10.1186/s12903-026-08332-4",
+      "tagsEn": [
+        "sinus augmentation",
+        "lateral window",
+        "maxillary atrophy",
+        "allograft",
+        "β-TCP/HA",
+        "platelet-rich fibrin",
+        "histomorphometry"
+      ],
+      "tagsIt": [
+        "rialzo del seno mascellare",
+        "finestra laterale",
+        "atrofia mascellare",
+        "innesto omologo",
+        "β-TCP/HA",
+        "fibrina ricca di piastrine (PRF)",
+        "istomorfometria"
+      ]
     },
     {
       "pmid": "42064527",
@@ -1199,7 +1253,25 @@
       "summaryIt": "La riassorbimento della cresta alveolare conseguente alla perdita dentaria rappresenta una delle sfide più frequenti nella pianificazione implantare. Quando la larghezza ossea residua risulta insufficiente, il clinico deve ricorrere a tecniche alternative come l'espansione ossea o lo splitting crestale — ma l'impatto di questi approcci sulla stabilità ossea pericrestale a lungo termine non era stato finora sistematicamente confrontato. Questo studio prospettico comparativo si è posto esattamente questo obiettivo.\n\nSono stati inclusi 72 siti implantari in pazienti di età compresa tra 25 e 55 anni, ripartiti equamente in tre gruppi (n=24 ciascuno): fresatura convenzionale (CD), espansione ossea (BE) e splitting della cresta (RS). I livelli ossei crestali sono stati valutati mediante CBCT immediatamente dopo il posizionamento implantare e a 3, 6 e 12 mesi. La perdita ossea mesiale e distale è stata misurata e analizzata con ANOVA a una via con test post hoc di Tukey per i confronti intergruppo e con ANOVA per misure ripetute per le analisi intragruppo.\n\nTutti e tre i gruppi hanno mostrato una progressiva perdita ossea crestale nell'arco dei 12 mesi di osservazione. Le differenze intergruppo sono risultate statisticamente significative a ogni intervallo di tempo (p < 0,001). Il gruppo ridge split ha registrato i valori più elevati di perdita ossea, seguito dal gruppo di espansione ossea; la fresatura convenzionale ha mostrato costantemente il minor riassorbimento crestale. I confronti a coppie tra tutti e tre i gruppi sono stati ugualmente significativi (p < 0,001). L'analisi intragruppo ha confermato un incremento significativo della perdita ossea nel tempo in tutti i gruppi, con un'eccezione rilevante: nel gruppo CD, la differenza tra 6 e 12 mesi non ha raggiunto la significatività statistica, suggerendo una tendenza alla stabilizzazione del rimodellamento dopo i primi sei mesi.\n\nLe implicazioni cliniche sono dirette. La fresatura convenzionale, applicabile in creste di larghezza adeguata, produce la risposta ossea periimplantare più favorevole — un dato coerente con i principi biomeccanici consolidati, poiché l'architettura ossea nativa viene preservata e il trauma termico o meccanico risulta minimo. Lo splitting crestale, pur indispensabile in presenza di deficit severi di larghezza, determina un rimodellamento osseo più marcato e prolungato, verosimilmente in ragione dell'osteotomia corticale, della distribuzione delle sollecitazioni meccaniche e delle dinamiche di guarigione della parete buccale mobilizzata. L'espansione ossea occupa una posizione intermedia, rappresentando un'alternativa meno traumatica allo splitting in caso di deficit moderato.\n\nPer l'implantologo clinico, il messaggio è articolato: la scelta della tecnica deve essere guidata dall'anatomia della cresta, ma i pazienti trattati con splitting o espansione ossea vanno informati della probabilità di un rimodellamento crestale precoce più accentuato, e questo dato deve essere integrato nella pianificazione protesica e nei protocolli di follow-up. Dati a lungo termine oltre i 12 mesi — e studi che correlino la perdita ossea con la sopravvivenza implantare e gli esiti protesici — saranno necessari per consolidare queste conclusioni.",
       "slug": "evaluation-and-comparison-of-crestal-bone-loss-around-dental-implants-placed-usi-42064527",
       "fetchedAt": "2026-05-08T08:59:12.145Z",
-      "url": "https://doi.org/10.7759/cureus.106119"
+      "url": "https://doi.org/10.7759/cureus.106119",
+      "tagsEn": [
+        "crestal bone loss",
+        "dental implants",
+        "bone expansion",
+        "ridge split",
+        "conventional drilling",
+        "implant stability",
+        "ridge augmentation"
+      ],
+      "tagsIt": [
+        "perdita ossea crestale",
+        "impianti dentali",
+        "espansione ossea",
+        "splitting della cresta",
+        "fresatura convenzionale",
+        "stabilità implantare",
+        "aumento di cresta"
+      ]
     },
     {
       "pmid": "42056079",
