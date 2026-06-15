@@ -1,6 +1,191 @@
 {
-  "lastUpdated": "2026-06-08T09:22:13.226564Z",
+  "lastUpdated": "2026-06-15T09:15:45.657782Z",
   "articles": [
+    {
+      "pmid": "42220644",
+      "title": "Design and applications of barrier membranes for guided bone regeneration.",
+      "titleIt": "Membrane barriera per la rigenerazione ossea guidata (GBR): progettazione e applicazioni",
+      "authors": [
+        "Liu Y",
+        "Zhang H",
+        "Zhang L"
+      ],
+      "journal": "Bioactive Materials",
+      "pubDate": "2026 Oct",
+      "doi": "10.1016/j.bioactmat.2026.05.008",
+      "abstractText": "Despite the placement of millions of dental implants annually, one-quarter to one-half of cases require concurrent guided bone regeneration (GBR), where a recent meta-analysis of 100 studies reported an approximately 26% complication rate that exposes the structural and biological limits of current barrier membranes. Conventional collagen and PTFE-based membranes function predominantly as passive occlusive barriers, lacking the bioactivity, controllable degradation, and immunomodulatory capacity demanded by the dynamic alveolar microenvironment, in which up to 50% of ridge width can be lost within 12 months post-extraction. Addressing this gap requires reframing GBR membranes as programmable interfaces. This review presents a three-lens framework - alveolar-bone-specific osteoimmune biology, metabolically active and stimuli-responsive material platforms, and translational bottlenecks - to systematically chart the field. We synthesize recent advances across four next-generation material families (polymer composites, biodegradable Mg/Zn alloys, MXene-based systems, and citrate-based polymers), four hierarchical structural strategies (bilayer, Janus, gradient, and 4D-printed architectures), and complementary functionalization strategies that include surface chemistry tailoring, bioactive ion release, and stimuli-responsive triggers, explicitly mapping how each modulates mechanical retention, degradation kinetics, antibacterial activity, and macrophage M1-to-M2 polarization. We further evaluate the clinical performance of these material platforms in alveolar ridge augmentation and identify platform-specific post-market follow-up endpoints required for regulatory translation. Finally, we articulate six open mechanistic questions and a near-term agenda integrating artificial intelligence/machine learning-driven design, microfluidic oral-microenvironment models, and standardized large-animal alveolar protocols. This framework repositions GBR membranes toward programmable, osteoimmune-active regenerative platforms, charting an actionable path from bench to clinic.",
+      "summaryEn": "Guided bone regeneration (GBR) accompanies a quarter to a half of all implant placements, yet it is far from a solved problem: a recent meta-analysis of 100 studies put the complication rate near 26%. This review starts from that uncomfortable number and asks why conventional barrier membranes keep failing. The answer, the authors argue, is conceptual. Collagen and PTFE membranes were designed to do one thing — occlude. They sit passively between soft tissue and the defect while up to half of the ridge width can vanish within twelve months of extraction. They have no bioactivity, no tunable degradation, no say in how the immune system reacts around them.\n\nThe proposal is to stop treating membranes as inert walls and start treating them as programmable interfaces. The review organises the field through three lenses: the osteoimmune biology specific to alveolar bone, material platforms that are metabolically active or stimuli-responsive, and the translational bottlenecks that keep promising materials in the lab. Within that frame it maps four next-generation material families (polymer composites, biodegradable Mg/Zn alloys, MXene systems, citrate-based polymers), four structural strategies (bilayer, Janus, gradient, 4D-printed architectures), and functionalisation routes such as bioactive ion release and stimuli-responsive triggers — showing for each how it shifts mechanical retention, degradation kinetics, antibacterial activity, and the macrophage M1-to-M2 switch that governs whether healing turns regenerative or fibrotic.\n\nFor the clinician the message is directional rather than prescriptive: the membranes of the next decade will not merely hold space, they will actively steer the immune and vascular response. The authors close with six open mechanistic questions and a near-term agenda built around AI-driven design, microfluidic models of the oral microenvironment, and standardised large-animal protocols — the unglamorous work that decides which of these materials ever reaches a patient. A useful map for anyone who wants to understand where bone augmentation is heading before the marketing arrives.",
+      "summaryIt": "La rigenerazione ossea guidata (GBR) accompagna un quarto-metà degli inserimenti implantari, eppure resta tutt'altro che risolta: una recente meta-analisi su 100 studi colloca le complicanze intorno al 26%. La revisione parte proprio da questo numero scomodo e si chiede perché le membrane barriera convenzionali continuino a deludere. La risposta, sostengono gli autori, è concettuale. Le membrane in collagene e PTFE sono nate per fare una cosa sola: occludere. Stanno passive tra tessuto molle e difetto mentre fino a metà dell'ampiezza della cresta può svanire nei dodici mesi successivi all'estrazione. Nessuna bioattività, nessuna degradazione modulabile, nessuna voce in capitolo su come reagisce il sistema immunitario.\n\nLa proposta è smettere di pensarle come muri inerti e iniziare a trattarle come interfacce programmabili. La revisione organizza il campo lungo tre direttrici: la biologia osteoimmune propria dell'osso alveolare, le piattaforme di materiali metabolicamente attive o sensibili a stimoli, e i colli di bottiglia che tengono i materiali promettenti confinati in laboratorio. Dentro questa cornice mappa quattro famiglie di materiali di nuova generazione (compositi polimerici, leghe biodegradabili di Mg/Zn, sistemi a base di MXene, polimeri a base di citrato), quattro strategie strutturali (bilayer, Janus, a gradiente, architetture in stampa 4D) e approcci di funzionalizzazione come il rilascio di ioni bioattivi e i trigger sensibili a stimoli — mostrando per ciascuno come modifica la ritenzione meccanica, la cinetica di degradazione, l'attività antibatterica e lo switch dei macrofagi da M1 a M2, che decide se la guarigione diventa rigenerativa o fibrotica.\n\nPer il clinico il messaggio è più una direzione che una ricetta: le membrane del prossimo decennio non si limiteranno a mantenere lo spazio, guideranno attivamente la risposta immunitaria e vascolare. Gli autori chiudono con sei domande meccanicistiche aperte e un'agenda a breve termine costruita su progettazione assistita da IA, modelli microfluidici del microambiente orale e protocolli standardizzati su grande animale — il lavoro poco appariscente che decide quali di questi materiali arriverà davvero al paziente. Una mappa utile per capire dove sta andando l'aumento osseo prima che arrivi il marketing.",
+      "tagsEn": [
+        "guided bone regeneration",
+        "barrier membranes",
+        "alveolar ridge augmentation",
+        "biomaterials",
+        "osteoimmunology",
+        "bioactive materials",
+        "implant dentistry"
+      ],
+      "tagsIt": [
+        "rigenerazione ossea guidata",
+        "membrane barriera",
+        "aumento di cresta alveolare",
+        "biomateriali",
+        "osteoimmunologia",
+        "materiali bioattivi",
+        "implantologia"
+      ],
+      "slug": "design-and-applications-of-barrier-membranes-for-guided-bone-regeneration-42220644",
+      "fetchedAt": "2026-06-15T09:15:34.089951Z",
+      "url": "https://doi.org/10.1016/j.bioactmat.2026.05.008"
+    },
+    {
+      "pmid": "42225503",
+      "title": "Outcomes of dental implants placed in horizontally augmented or native posterior mandibular bone: a 15-year prospective cohort study.",
+      "titleIt": "Impianti in osso mandibolare posteriore nativo o aumentato: studio prospettico a 15 anni",
+      "authors": [
+        "Raghoebar GM",
+        "Hakkers J",
+        "Telleman G"
+      ],
+      "journal": "International Journal of Oral and Maxillofacial Surgery",
+      "pubDate": "2026 Jun 1",
+      "doi": "10.1016/j.ijom.2026.05.015",
+      "abstractText": "This study assessed and compared the 15-year clinical outcomes of dental implants placed in posterior mandibular native bone versus sites augmented solely with autologous bone. A total of 39 patients received 83 implants as part of two randomized controlled trials. Clinical and radiographic parameters, biological complications, and patient satisfaction were prospectively evaluated at baseline and after 1, 5, and 15 years after placement of the restoration. Patient satisfaction was assessed with a self-administered questionnaire using a five-point scale and a visual analogue scale (0-10).After 15 years, implant survival rates were high in both groups, reaching 94.7% in native bone and 95.3% in augmented bone. Overall morbidity and complication rates were low. However, bleeding (P = 0.022), gingival index (P = 0.038), and peri-implant pocket depth (P < 0.001) were significantly worse in implants placed in native bone. Marginal bone loss from loading to the 15-year follow-up was also significantly greater in native bone (P = 0.001). In addition, peri-implantitis occurred less frequently in the augmented group (P = 0.038). Patient-reported outcomes improved significantly in both groups and remained high throughout the follow-up period.In conclusion, implants placed in both native and augmented posterior mandibular bone demonstrated high long-term survival and predictable outcomes. Nevertheless, implants placed in augmented bone showed reduced peri-implant bone loss and better peri-implant health.",
+      "summaryEn": "Does placing an implant in grafted bone compromise its long-term fate? Fifteen years of prospective data from two randomised controlled trials say the opposite — and the surprise runs counter to a common clinical instinct. Thirty-nine patients received 83 implants in the posterior mandible, either in native bone or in sites augmented solely with autologous bone. Clinical, radiographic, and patient-reported outcomes were tracked at baseline and at 1, 5, and 15 years.\n\nSurvival was high and almost identical: 94.7% in native bone, 95.3% in augmented bone. So far, a tie. But the peri-implant health picture diverged. Implants in native bone showed significantly more bleeding (P=0.022), higher gingival index (P=0.038), and deeper peri-implant pockets (P<0.001). Marginal bone loss from loading to fifteen years was also significantly greater in native bone (P=0.001), and peri-implantitis occurred less often in the augmented group (P=0.038). Patient satisfaction climbed in both groups and stayed high throughout.\n\nThe clinical reading is counterintuitive and worth sitting with. Augmentation here was not a compromise the bone had to overcome; the reconstructed sites behaved at least as well as native bone, and on every peri-implant inflammatory and bone-level metric, slightly better. The authors are careful — this is a small, single-cohort study with autologous grafts specifically — but the fifteen-year horizon is rare and valuable. For the surgeon weighing whether to augment a deficient posterior mandible or place a shorter implant in available native bone, this is evidence that grafted bone is not a liability over the long run, and may even host healthier peri-implant tissues. The mechanism is left open: whether the advantage comes from improved bone quality, more favourable implant positioning in reconstructed volume, or better soft-tissue conditions remains to be untangled.",
+      "summaryIt": "Inserire un impianto in osso innesto ne compromette il destino a lungo termine? Quindici anni di dati prospettici da due studi clinici randomizzati dicono il contrario — e la sorpresa va contro un istinto clinico diffuso. Trentanove pazienti hanno ricevuto 83 impianti nella mandibola posteriore, in osso nativo oppure in siti aumentati con solo osso autologo. Parametri clinici, radiografici e riferiti dal paziente sono stati seguiti al basale e a 1, 5 e 15 anni.\n\nLa sopravvivenza è risultata alta e quasi identica: 94,7% nell'osso nativo, 95,3% in quello aumentato. Fin qui, pareggio. Ma il quadro della salute perimplantare diverge. Gli impianti in osso nativo hanno mostrato più sanguinamento al sondaggio (P=0,022), indice gengivale più alto (P=0,038) e profondità di sondaggio perimplantare maggiore (P<0,001). Anche la perdita ossea marginale dal carico ai quindici anni è risultata significativamente superiore nell'osso nativo (P=0,001), e la perimplantite si è presentata meno spesso nel gruppo aumentato (P=0,038). La soddisfazione del paziente è cresciuta in entrambi i gruppi ed è rimasta elevata per tutto il periodo.\n\nLa lettura clinica è controintuitiva e merita di essere soppesata. Qui l'aumento non è stato un handicap da superare: i siti ricostruiti si sono comportati almeno quanto l'osso nativo e, su ogni indicatore infiammatorio e di livello osseo perimplantare, leggermente meglio. Gli autori sono prudenti — è una casistica piccola, monocentrica, con innesti specificamente autologhi — ma l'orizzonte a quindici anni è raro e prezioso. Per il chirurgo che valuta se aumentare una mandibola posteriore deficitaria o inserire un impianto più corto nell'osso nativo disponibile, è la prova che l'osso innestato non è un punto debole nel lungo periodo, e può perfino ospitare tessuti perimplantari più sani. Il meccanismo resta aperto: se il vantaggio derivi da una migliore qualità ossea, da un posizionamento implantare più favorevole nel volume ricostruito o da condizioni dei tessuti molli migliori, è ancora da chiarire.",
+      "tagsEn": [
+        "dental implants",
+        "ridge augmentation",
+        "posterior mandible",
+        "marginal bone loss",
+        "peri-implantitis",
+        "long-term outcomes",
+        "autologous bone graft"
+      ],
+      "tagsIt": [
+        "impianti dentali",
+        "aumento di cresta",
+        "mandibola posteriore",
+        "perdita ossea marginale",
+        "perimplantite",
+        "esiti a lungo termine",
+        "innesto osseo autologo"
+      ],
+      "slug": "outcomes-of-dental-implants-placed-in-horizontally-augmented-or-native-posterior-42225503",
+      "fetchedAt": "2026-06-15T09:15:34.089951Z",
+      "url": "https://doi.org/10.1016/j.ijom.2026.05.015"
+    },
+    {
+      "pmid": "42252880",
+      "title": "Guidelines for the depth of surface decontamination during peri-implantitis treatment: a scanning electron microscopy analysis.",
+      "titleIt": "Quanto in profondità decontaminare nella perimplantite: un'analisi al microscopio elettronico a scansione",
+      "authors": [
+        "Chung J",
+        "Lee JS",
+        "Kim YT"
+      ],
+      "journal": "Journal of Periodontal & Implant Science",
+      "pubDate": "2026 Apr 30",
+      "doi": "10.5051/jpis.2501940097",
+      "abstractText": "PURPOSE: The primary objective in treating peri-implantitis is the elimination of biofilm from the implant surface. This study aimed to measure the width of the contaminant-free zone in implants removed from patients and to determine the extent of surface decontamination achieved during peri-implantitis treatment.\n\nMETHODS: Patients presenting with the chief complaint of implant discomfort were recruited. The inclusion criterion was implant removal due to biological or mechanical complications, including marginal bone loss extending to the apical third of the implant fixture, fixture tearing, or fixture fractures. Removed implants were analyzed using scanning electron microscopy (SEM). The width of the contaminant-free zone was defined as the distance from the apical end of the biofilm to the apical and coronal first bone-to-implant contact, measured with a caliper in conjunction with SEM. The mean width of the contaminant-free zone was compared across implant characteristics using the independent t-test.\n\nRESULTS: A total of 49 implants were removed from 39 patients. The mean width of the contaminant-free zone was 0.66±0.67 mm (range, 0-3.0 mm). No significant differences in the width of the contaminant-free zone were observed according to sex, age, presence of diabetes, smoking habits, implant location, reason for removal, fixture type, fixture length, or prosthetic type (P>0.05). No variable significantly affected the width of the contaminant-free zone.\n\nCONCLUSIONS: The width of the contaminant-free zone was found to be less than 1 mm. Therefore, precise and delicate debridement of all fixture surfaces above the remaining marginal bone is required during peri-implantitis treatment.",
+      "summaryEn": "The first objective in treating peri-implantitis is simple to state and brutally hard to achieve: remove the biofilm from the implant surface. But how much of the surface does conventional decontamination actually reach? This study answers with hard physical measurement rather than assumption. Implants removed from patients — for biological or mechanical reasons, including bone loss into the apical third, fixture tearing, or fracture — were examined under scanning electron microscopy. The authors measured the \"contaminant-free zone\": the band of surface, between the apical edge of remaining biofilm and the first bone-to-implant contact, that decontamination had genuinely cleaned.\n\nForty-nine implants from thirty-nine patients were analysed. The mean contaminant-free zone measured just 0.66 ± 0.67 mm, with a range from zero to 3.0 mm. Crucially, no patient or implant variable moved the needle: sex, age, diabetes, smoking, implant location, fixture type, length, reason for removal, prosthetic type — none significantly affected how much surface ended up clean. The width stayed stubbornly under a millimetre regardless.\n\nThe conclusion is a direct instruction for the operating field. If decontamination reliably cleans less than one millimetre of surface, then biofilm removal during peri-implantitis treatment cannot be left to broad strokes. Every exposed fixture surface above the remaining marginal bone needs precise, deliberate, mechanical debridement — there is no margin for the assumption that a quick pass has done the job. The study is observational and limited to explanted fixtures, so it describes what decontamination has historically achieved rather than what an ideal protocol could reach. But as a reality check on the gap between intention and result at the implant surface, it is sobering and clinically actionable.",
+      "summaryIt": "Il primo obiettivo nel trattare la perimplantite è semplice da enunciare e durissimo da raggiungere: rimuovere il biofilm dalla superficie implantare. Ma quanta superficie raggiunge davvero una decontaminazione convenzionale? Lo studio risponde con una misura fisica, non con un'assunzione. Impianti rimossi da pazienti — per ragioni biologiche o meccaniche, tra cui perdita ossea fino al terzo apicale, lacerazione o frattura della fixture — sono stati esaminati al microscopio elettronico a scansione (SEM). Gli autori hanno misurato la \"zona priva di contaminazione\": la fascia di superficie, tra il margine apicale del biofilm residuo e il primo contatto osso-impianto, che la decontaminazione aveva effettivamente ripulito.\n\nSono stati analizzati 49 impianti da 39 pazienti. La zona priva di contaminazione misurava in media appena 0,66 ± 0,67 mm, con un intervallo da zero a 3,0 mm. E nessuna variabile, del paziente o dell'impianto, ha spostato l'ago: sesso, età, diabete, fumo, sede dell'impianto, tipo e lunghezza della fixture, motivo della rimozione, tipo di protesi — niente ha influito in modo significativo sulla quantità di superficie ripulita. L'ampiezza è rimasta ostinatamente sotto il millimetro.\n\nLa conclusione è un'indicazione diretta per il campo operatorio. Se la decontaminazione ripulisce in modo affidabile meno di un millimetro di superficie, la rimozione del biofilm nella perimplantite non può essere affidata a gesti approssimativi. Ogni superficie esposta della fixture al di sopra dell'osso marginale residuo richiede un debridement meccanico preciso e deliberato: non c'è spazio per dare per scontato che un passaggio rapido abbia risolto. Lo studio è osservazionale e limitato a fixture espiantate, quindi descrive ciò che la decontaminazione ha storicamente ottenuto, non ciò che un protocollo ideale potrebbe raggiungere. Ma come verifica della distanza tra intenzione e risultato sulla superficie implantare è severo e clinicamente azionabile.",
+      "tagsEn": [
+        "peri-implantitis",
+        "surface decontamination",
+        "biofilm",
+        "implant debridement",
+        "scanning electron microscopy",
+        "peri-implant maintenance",
+        "implant survival"
+      ],
+      "tagsIt": [
+        "perimplantite",
+        "decontaminazione di superficie",
+        "biofilm",
+        "debridement implantare",
+        "microscopia elettronica a scansione",
+        "mantenimento perimplantare",
+        "sopravvivenza implantare"
+      ],
+      "slug": "guidelines-for-the-depth-of-surface-decontamination-during-peri-implantitis-trea-42252880",
+      "fetchedAt": "2026-06-15T09:15:34.089951Z",
+      "url": "https://doi.org/10.5051/jpis.2501940097"
+    },
+    {
+      "pmid": "42271428",
+      "title": "Cost-effectiveness analysis of non-surgical periodontal treatment to prevent strokes and myocardial infarctions in the United Kingdom.",
+      "titleIt": "Costo-efficacia del trattamento parodontale non chirurgico nella prevenzione di ictus e infarto",
+      "authors": [
+        "Coote E",
+        "Patel N",
+        "Vijayanarayanan R"
+      ],
+      "journal": "Cost Effectiveness and Resource Allocation",
+      "pubDate": "2026 Jun 10",
+      "doi": "10.1186/s12962-026-00786-1",
+      "abstractText": "BACKGROUND: Periodontal disease (PD) is common in the UK and is associated with higher risks of stroke and myocardial infarction (MI). Non-surgical periodontal treatment (NSPT) may therefore generate downstream cardiovascular benefits, but its value for money as a CVD-prevention strategy for the NHS is unclear.\n\nMETHODS: A Markov cohort model simulated 65-year-olds with severe PD and no prior CVD over 10 years (with a 25-year scenario). Eight health states captured acute and chronic phases of stroke, MI, combined events, and death. Baseline CVD risks were derived from published sources; NSPT effects (stroke HR 0.55, MI HR 0.70) were taken from large international cohort studies. Costs (2024 € , NHS payer perspective) and QALYs (EQ-5D) were discounted at 3.5%. Deterministic and probabilistic sensitivity analyses assessed parameter and structural uncertainty and identified effect sizes required to meet NICE thresholds.\n\nRESULTS: Over a 25-year horizon, NSPT increased costs by € 9,755 and QALYs by 0.50 per patient (ICER € 19,322 per QALY). NSPT reduced non-fatal stroke and MI by 41% and 22%, respectively, with 22% of treated individuals event-free at 25 years and a 12% reduction in cumulative mortality. Probabilistic analysis resulted in a PSA mean ICER of € 19,129. The 10-year scenario produced an ICER of € 49,847, and a five-year scenario produced an ICER of € 197,614, demonstrating that NSPT is an intervention with a long payback period.\n\nCONCLUSIONS: Using a lifetime horizon and given current available evidence, NSPT potentially provides cost-effective prevention against CVD events at current NICE thresholds. Conclusions are sensitive to the magnitude of NSPT's cardiovascular effect, which is the main source of parameter uncertainty. We advocate for high-quality UK longitudinal evidence on NSPT's effect on hard CVD endpoints.",
+      "summaryEn": "Periodontal disease travels with cardiovascular risk — that link is now well established. The harder question is economic: if non-surgical periodontal treatment (NSPT) lowers the chance of stroke and myocardial infarction, is treating gums a defensible way for a health system to spend money on heart disease prevention? This UK study builds a Markov cohort model to find out. It simulates 65-year-olds with severe periodontal disease and no prior cardiovascular disease over a 10-year horizon, with a 25-year scenario. Eight health states capture the acute and chronic phases of stroke, MI, combined events, and death. The cardiovascular effect of NSPT was drawn from large international cohort studies (stroke HR 0.55, MI HR 0.70); costs were in 2024 euros from an NHS payer perspective, with QALYs from EQ-5D, both discounted at 3.5%.\n\nOver 25 years, NSPT added €9,755 in cost and 0.50 QALYs per patient — an ICER of €19,322 per QALY, comfortably within NICE thresholds, and confirmed by probabilistic analysis (mean ICER €19,129). The modelled treatment cut non-fatal stroke by 41% and MI by 22%, left 22% of treated patients event-free at 25 years, and reduced cumulative mortality by 12%. But the time horizon matters enormously: the 10-year ICER rose to €49,847 and the 5-year ICER to €197,614. This is an intervention with a long payback period.\n\nTwo honest caveats anchor the conclusion. First, cost-effectiveness here depends heavily on the size of NSPT's true cardiovascular effect, which remains the dominant source of uncertainty and rests on observational rather than interventional data. Second, the benefit only materialises over a lifetime horizon. Still, the direction is striking: routine perio therapy may be a cost-effective cardiovascular preventive, strengthening the case for treating periodontitis as part of systemic health, not just oral health. The authors call — rightly — for high-quality UK longitudinal evidence on hard cardiovascular endpoints to close the gap.",
+      "summaryIt": "La malattia parodontale viaggia insieme al rischio cardiovascolare: il legame è ormai consolidato. La domanda più difficile è economica: se il trattamento parodontale non chirurgico (NSPT) riduce la probabilità di ictus e infarto, curare le gengive è un modo difendibile, per un sistema sanitario, di spendere in prevenzione cardiovascolare? Questo studio britannico costruisce un modello di Markov per scoprirlo. Simula sessantacinquenni con parodontite grave e senza pregressa malattia cardiovascolare su un orizzonte di 10 anni, con uno scenario a 25 anni. Otto stati di salute descrivono le fasi acute e croniche di ictus, infarto, eventi combinati e morte. L'effetto cardiovascolare dell'NSPT è stato tratto da ampi studi di coorte internazionali (ictus HR 0,55; infarto HR 0,70); i costi sono in euro 2024 nella prospettiva del pagatore NHS, i QALY da EQ-5D, entrambi attualizzati al 3,5%.\n\nSu 25 anni, l'NSPT ha aggiunto 9.755 € di costo e 0,50 QALY per paziente — un ICER di 19.322 €/QALY, ampiamente entro le soglie NICE e confermato dall'analisi probabilistica (ICER medio 19.129 €). Nel modello il trattamento ha ridotto l'ictus non fatale del 41% e l'infarto del 22%, ha lasciato il 22% dei pazienti trattati liberi da eventi a 25 anni e ha abbassato la mortalità cumulativa del 12%. Ma l'orizzonte temporale pesa moltissimo: l'ICER a 10 anni sale a 49.847 € e quello a 5 anni a 197.614 €. È un intervento con un lungo tempo di ritorno.\n\nDue avvertenze oneste ancorano la conclusione. Primo, qui la costo-efficacia dipende fortemente dall'entità reale dell'effetto cardiovascolare dell'NSPT, che resta la principale fonte di incertezza e poggia su dati osservazionali, non interventistici. Secondo, il beneficio si concretizza solo su un orizzonte di vita intera. Eppure la direzione è notevole: la terapia parodontale di routine potrebbe essere una misura preventiva cardiovascolare costo-efficace, rafforzando l'idea di trattare la parodontite come parte della salute sistemica, non solo orale. Gli autori invocano — giustamente — evidenze longitudinali britanniche di alta qualità su esiti cardiovascolari concreti per colmare il divario.",
+      "tagsEn": [
+        "non-surgical periodontal treatment",
+        "cost-effectiveness",
+        "cardiovascular disease",
+        "stroke prevention",
+        "myocardial infarction",
+        "periodontal-systemic link",
+        "health economics"
+      ],
+      "tagsIt": [
+        "trattamento parodontale non chirurgico",
+        "costo-efficacia",
+        "malattia cardiovascolare",
+        "prevenzione dell'ictus",
+        "infarto del miocardio",
+        "connessione parodonto-sistemica",
+        "economia sanitaria"
+      ],
+      "slug": "cost-effectiveness-analysis-of-non-surgical-periodontal-treatment-to-prevent-str-42271428",
+      "fetchedAt": "2026-06-15T09:15:34.089951Z",
+      "url": "https://doi.org/10.1186/s12962-026-00786-1"
+    },
+    {
+      "pmid": "42254883",
+      "title": "Three Decades of Enamel Matrix Derivative: From Dental Innovation to Extra-Oral Applications.",
+      "titleIt": "Trent'anni di derivato della matrice dello smalto (EMD): dall'innovazione odontoiatrica alle applicazioni extra-orali",
+      "authors": [
+        "Mercado F",
+        "Loch C",
+        "Mustafa A"
+      ],
+      "journal": "International Journal of Dentistry",
+      "pubDate": "2026",
+      "doi": "10.1155/ijod/6556335",
+      "abstractText": "INTRODUCTION: Enamel matrix derivative (EMD; Emdogain) has been deployed for three decades as a biologically active material in periodontal regeneration. Widely adopted in periodontology, its indications are expanding into endodontics, ridge preservation, implantology, dermatology and oncology-related indication. Contemporary applications encompass vital pulp therapy, alveolar ridge preservation (ARP), peri-implantitis adjunctive therapy and soft-tissue wound healing.\n\nMATERIALS AND METHODS: This narrative review synthesises English-language literature (1996-2025) retrieved from PubMed, Scopus and Cochrane Oral Health. The scope prioritised clinical outcomes in endodontic and periodontal contexts-recession coverage, intrabony and furcation defects, osteogenesis, peri-implantitis management and wound healing. Included were clinical trials (preferentially randomised controlled trials [RCTs]) with ≥6 months follow-up; selective animal studies were incorporated to clarify tissue-level and histologic mechanisms, particularly for endodontic applications.\n\nRESULTS: Accumulated evidence indicates EMD augments the probability of complete root coverage (RC) and increases keratinised tissue (KT) width in mucogingival procedures. EMD, alone or adjunctive to bone grafts or membranes, improves clinical parameters in intrabony and certain furcation defects and demonstrates osteopromotive effects in preclinical and clinical models. Adjunctive use in peri-implantitis and implant-site regeneration shows promising amelioration of inflammatory and bone-regenerative endpoints. Conversely, EMD has limited efficacy for preservation of alveolar ridge dimensions post-extraction. In vital pulp therapy, EMD supports tertiary dentinogenesis and dentine-bridge formation. Mechanistically, EMD enhances cell migration, proliferation, extracellular matrix (ECM) deposition and angiogenesis. Preliminary data indicate potential utility in non-healing cutaneous ulcers, though evidence remains sparse.\n\nCONCLUSION: EMD is a validated adjunct in periodontal regeneration-particularly recession coverage and the management of intrabony defects-with encouraging osteogenic and reparative properties that extend to endodontic and wound-healing indications. Future investigations should standardise dosing/regimens, explore controlled-release and combination modalities and evaluate long-term clinical effectiveness and cost-benefit metrics.",
+      "summaryEn": "Few regenerative materials have aged as well as enamel matrix derivative (EMD, Emdogain). Thirty years after its introduction, it remains a fixture of periodontal regeneration — and its indications keep expanding into endodontics, ridge preservation, implantology, and even dermatology and oncology-adjacent uses. This narrative review takes stock, synthesising English-language literature from 1996 to 2025 across PubMed, Scopus, and Cochrane Oral Health, prioritising clinical trials (preferentially RCTs) with at least six months of follow-up and folding in selective animal work to explain tissue-level mechanisms.\n\nThe evidence map is clear where EMD is strongest and honest where it is not. In mucogingival surgery, EMD raises the probability of complete root coverage and increases keratinised tissue width. In intrabony and certain furcation defects, EMD — alone or alongside bone grafts or membranes — improves clinical parameters and shows osteopromotive effects across preclinical and clinical models. Adjunctive use in peri-implantitis and implant-site regeneration shows promising effects on inflammatory and bone-regenerative endpoints. In vital pulp therapy, EMD supports tertiary dentinogenesis and dentine-bridge formation. Mechanistically, the common thread is biological: EMD enhances cell migration, proliferation, extracellular matrix deposition, and angiogenesis. The notable negative: EMD does little to preserve alveolar ridge dimensions after extraction — a useful boundary to know before reaching for it.\n\nFor the clinician, this is a consolidated, practical reference rather than a new finding. EMD is a validated adjunct in periodontal regeneration — especially recession coverage and intrabony defect management — with reparative properties that genuinely extend into endodontics and wound healing, while the cutaneous-ulcer data remain preliminary and sparse. The authors' agenda for the next decade is sensible: standardise dosing and regimens, explore controlled-release and combination formulations, and generate long-term effectiveness and cost-benefit data. A clear-eyed thirty-year audit of a material most periodontists already use, worth reading to calibrate where it earns its place and where it does not.",
+      "summaryIt": "Pochi materiali rigenerativi sono invecchiati bene come il derivato della matrice dello smalto (EMD, Emdogain). A trent'anni dall'introduzione resta un punto fermo della rigenerazione parodontale — e le sue indicazioni continuano ad ampliarsi verso endodonzia, preservazione della cresta, implantologia e perfino dermatologia e ambiti contigui all'oncologia. Questa revisione narrativa fa il punto, sintetizzando la letteratura in lingua inglese dal 1996 al 2025 tra PubMed, Scopus e Cochrane Oral Health, privilegiando studi clinici (preferibilmente RCT) con almeno sei mesi di follow-up e integrando studi animali selezionati per spiegare i meccanismi a livello tissutale.\n\nLa mappa delle evidenze è netta dove l'EMD è più forte e onesta dove non lo è. Nella chirurgia mucogengivale, l'EMD aumenta la probabilità di copertura radicolare completa e accresce l'ampiezza di tessuto cheratinizzato. Nei difetti infraossei e in alcune lesioni delle forcazioni, l'EMD — da solo o associato a innesti ossei o membrane — migliora i parametri clinici e mostra effetti osteopromotori in modelli preclinici e clinici. L'uso aggiuntivo nella perimplantite e nella rigenerazione del sito implantare mostra effetti promettenti su parametri infiammatori e di rigenerazione ossea. Nella terapia della polpa vitale, l'EMD favorisce la dentinogenesi terziaria e la formazione del ponte dentinale. Sul piano meccanicistico il filo comune è biologico: l'EMD potenzia migrazione e proliferazione cellulare, deposizione di matrice extracellulare e angiogenesi. Il dato negativo rilevante: l'EMD fa poco per preservare le dimensioni della cresta alveolare dopo l'estrazione — un limite utile da conoscere prima di ricorrervi.\n\nPer il clinico è un riferimento consolidato e pratico, più che una novità. L'EMD è un adiuvante validato nella rigenerazione parodontale — soprattutto copertura delle recessioni e gestione dei difetti infraossei — con proprietà riparative che si estendono davvero a endodonzia e guarigione delle ferite, mentre i dati sulle ulcere cutanee restano preliminari e scarsi. L'agenda degli autori per il prossimo decennio è ragionevole: standardizzare dosi e protocolli, esplorare formulazioni a rilascio controllato e combinate, generare dati di efficacia a lungo termine e di costo-beneficio. Un bilancio lucido, a trent'anni, di un materiale che la maggior parte dei parodontologi già usa: utile per calibrare dove merita il suo posto e dove no.",
+      "tagsEn": [
+        "enamel matrix derivative",
+        "Emdogain",
+        "periodontal regeneration",
+        "root coverage",
+        "intrabony defects",
+        "vital pulp therapy",
+        "guided tissue regeneration"
+      ],
+      "tagsIt": [
+        "derivato della matrice dello smalto",
+        "Emdogain",
+        "rigenerazione parodontale",
+        "copertura radicolare",
+        "difetti infraossei",
+        "terapia della polpa vitale",
+        "rigenerazione tissutale guidata"
+      ],
+      "slug": "three-decades-of-enamel-matrix-derivative-from-dental-innovation-to-extra-oral-a-42254883",
+      "fetchedAt": "2026-06-15T09:15:34.089951Z",
+      "url": "https://doi.org/10.1155/ijod/6556335"
+    },
     {
       "pmid": "42194656",
       "title": "Consensus Statement on Full-Arch Implant Rehabilitations: Evidence-Based Recommendations from the Italian Consensus Conference.",
