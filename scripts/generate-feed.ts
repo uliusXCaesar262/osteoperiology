@@ -11,6 +11,7 @@ interface Article {
   journal: string;
   pubDate: string;
   slug: string;
+  doi?: string;
   summaryEn: string;
   summaryIt: string;
   fetchedAt: string;
@@ -79,6 +80,37 @@ ${items}
   console.log(`[RSS] Generated ${filename} with ${recent.length} items.`);
 }
 
+/**
+ * llms.txt — a curated, prose, link-dense map of the corpus for AI/answer
+ * engines (the highest-leverage GEO move for a small citation-seeking site).
+ * Served verbatim from /public under output:"export".
+ */
+function generateLlmsTxt(articles: Article[]) {
+  const intro = `# Osteoperionews
+
+> Weekly curated English & Italian summaries of open-access periodontology, dental-implantology and peri-implant research, by Dr. Ernesto Bruschi (periodontist, implantologist, oral surgeon; ORCID 0000-0002-4773-5384). Each entry is an original short summary of a peer-reviewed paper that links to the primary source (DOI and PubMed). English pages are under /en, Italian under /it.
+
+- Site: ${SITE_URL}
+- Author: Dr. Ernesto Bruschi — https://orcid.org/0000-0002-4773-5384
+- Feeds: ${SITE_URL}/feed.xml (EN), ${SITE_URL}/feed-it.xml (IT)
+- Full archive: ${SITE_URL}/en/articles (EN), ${SITE_URL}/it/articles (IT)
+`;
+
+  const items = articles
+    .map((a) => {
+      const title = a.title.replace(/<[^>]+>/g, "");
+      const url = `${SITE_URL}/en/articles/${a.slug}`;
+      const oneLine = a.summaryEn.replace(/\s+/g, " ").trim().slice(0, 160);
+      const src = a.doi ? ` (DOI: ${a.doi})` : "";
+      return `- [${title}](${url}): ${oneLine}… — ${a.journal}${src}`;
+    })
+    .join("\n");
+
+  const out = `${intro}\n## Articles\n\n${items}\n`;
+  fs.writeFileSync(path.join(process.cwd(), "public", "llms.txt"), out, "utf-8");
+  console.log(`[llms.txt] Generated with ${articles.length} articles.`);
+}
+
 function main() {
   let articles: Article[] = [];
 
@@ -92,6 +124,7 @@ function main() {
 
   generateFeed(articles, "en", "feed.xml");
   generateFeed(articles, "it", "feed-it.xml");
+  generateLlmsTxt(articles);
 }
 
 main();
