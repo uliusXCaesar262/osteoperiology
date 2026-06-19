@@ -15,7 +15,7 @@ export default function Header({ lang, dict }: HeaderProps) {
         <div className="flex items-start justify-between">
           <div>
             <Link href={`/${lang}`}>
-              <h1>{dict.site.title}</h1>
+              <span className="site-title">{dict.site.title}</span>
             </Link>
             <p className="mt-1">
               {dict.site.subtitle}

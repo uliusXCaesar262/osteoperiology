@@ -7,10 +7,18 @@ export const dynamic = "force-static";
 export default function sitemap(): MetadataRoute.Sitemap {
   const { articles } = getRecentArticles(500);
 
+  // Real freshness dates instead of build time, so engines can trust the
+  // lastmod signal. Home/hubs advance only when the newest article changes;
+  // about/privacy carry the date their copy was last edited.
+  const latest = articles.length
+    ? new Date(Math.max(...articles.map((a) => new Date(a.fetchedAt).getTime())))
+    : new Date();
+  const CONTENT_LAST_EDIT = new Date("2026-06-14");
+
   const staticPages: MetadataRoute.Sitemap = [
     {
       url: `${SITE_URL}/`,
-      lastModified: new Date(),
+      lastModified: latest,
       changeFrequency: "weekly",
       priority: 1.0,
       alternates: {
@@ -23,7 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/en`,
-      lastModified: new Date(),
+      lastModified: latest,
       changeFrequency: "weekly",
       priority: 1.0,
       alternates: {
@@ -36,7 +44,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/it`,
-      lastModified: new Date(),
+      lastModified: latest,
       changeFrequency: "weekly",
       priority: 1.0,
       alternates: {
@@ -49,7 +57,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/en/about`,
-      lastModified: new Date(),
+      lastModified: CONTENT_LAST_EDIT,
       changeFrequency: "monthly",
       priority: 0.7,
       alternates: {
@@ -62,7 +70,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/it/about`,
-      lastModified: new Date(),
+      lastModified: CONTENT_LAST_EDIT,
       changeFrequency: "monthly",
       priority: 0.7,
       alternates: {
@@ -75,7 +83,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/en/privacy`,
-      lastModified: new Date(),
+      lastModified: CONTENT_LAST_EDIT,
       changeFrequency: "yearly",
       priority: 0.3,
       alternates: {
@@ -88,7 +96,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     {
       url: `${SITE_URL}/it/privacy`,
-      lastModified: new Date(),
+      lastModified: CONTENT_LAST_EDIT,
       changeFrequency: "yearly",
       priority: 0.3,
       alternates: {

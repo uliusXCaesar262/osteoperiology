@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
+import { ogImages } from "@/lib/seo";
 import { getRecentArticles } from "@/lib/storage";
 
 /**
@@ -32,6 +33,7 @@ export const metadata: Metadata = {
     url: `${SITE_URL}/`,
     locale: "it_IT",
     alternateLocale: "en_US",
+    images: ogImages,
   },
 };
 

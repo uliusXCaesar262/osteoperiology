@@ -3,6 +3,7 @@ import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { getRecentArticles } from "@/lib/storage";
 import { SITE_URL } from "@/lib/constants";
+import { ogImages } from "@/lib/seo";
 import SearchableArticleList from "@/components/SearchableArticleList";
 
 const homeMeta = {
@@ -45,6 +46,7 @@ export async function generateMetadata({
       url,
       locale: l === "it" ? "it_IT" : "en_US",
       alternateLocale: l === "it" ? "en_US" : "it_IT",
+      images: ogImages,
     },
   };
 }

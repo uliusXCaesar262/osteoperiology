@@ -27,6 +27,12 @@ export default function RootHtml({
         <link
           rel="alternate"
           type="application/rss+xml"
+          title="Osteoperionews (EN)"
+          href={`${SITE_URL}/feed.xml`}
+        />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
           title="Osteoperionews (IT)"
           href={`${SITE_URL}/feed-it.xml`}
         />

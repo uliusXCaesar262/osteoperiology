@@ -2,6 +2,21 @@ import type { Metadata } from "next";
 import { SITE_URL } from "@/lib/constants";
 
 /**
+ * Shared OpenGraph/Twitter image. Exported so page-level metadata that
+ * overrides `openGraph` can re-add it — Next.js does NOT deep-merge
+ * `openGraph`, so a page that sets its own `openGraph` without `images`
+ * would otherwise drop the preview image entirely.
+ */
+export const ogImages = [
+  {
+    url: `${SITE_URL}/og-default.png`,
+    width: 1200,
+    height: 630,
+    alt: "Osteoperionews — Curated periodontal and implant literature",
+  },
+];
+
+/**
  * Base site metadata shared by every root layout (`(home)` and `[lang]`).
  * Kept in one place so the multiple-root-layout setup cannot drift:
  * metadataBase, title template, default keywords, robots, Google
@@ -31,9 +46,6 @@ export const baseMetadata: Metadata = {
     "open access", "evidence-based dentistry",
   ],
   alternates: {
-    types: {
-      "application/rss+xml": `${SITE_URL}/feed.xml`,
-    },
     languages: {
       en: `${SITE_URL}/en`,
       it: `${SITE_URL}/it`,
@@ -49,14 +61,7 @@ export const baseMetadata: Metadata = {
     url: SITE_URL,
     locale: "en_US",
     alternateLocale: "it_IT",
-    images: [
-      {
-        url: `${SITE_URL}/og-default.png`,
-        width: 1200,
-        height: 630,
-        alt: "Osteoperionews — Curated periodontal and implant literature",
-      },
-    ],
+    images: ogImages,
   },
   twitter: {
     card: "summary_large_image",

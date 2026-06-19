@@ -4,6 +4,7 @@ import { getDictionary } from "@/i18n/config";
 import { getArticleBySlug, getAllSlugs } from "@/lib/storage";
 import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
+import { toIsoDate } from "@/lib/dates";
 
 export const dynamicParams = false;
 
@@ -46,7 +47,7 @@ export async function generateMetadata({
       },
     },
     openGraph: {
-      title: plainTitle,
+      title: metaTitle,
       description,
       url,
       type: "article",
@@ -70,7 +71,7 @@ export async function generateMetadata({
     },
     twitter: {
       card: "summary_large_image",
-      title: plainTitle,
+      title: metaTitle,
       description,
       images: [`${SITE_URL}/og-default.png`],
     },
@@ -112,7 +113,8 @@ export default async function ArticlePage({
       "@type": "Person",
       name,
     })),
-    datePublished: article.pubDate,
+    datePublished: toIsoDate(article.pubDate),
+    dateModified: toIsoDate(article.fetchedAt),
     publisher: {
       "@type": "Organization",
       name: article.journal,
@@ -141,7 +143,7 @@ export default async function ArticlePage({
       <header className="flex flex-wrap items-center gap-2 mb-4">
         <span className="journal-badge">{article.journal}</span>
         <time
-          dateTime={article.pubDate}
+          dateTime={toIsoDate(article.pubDate)}
           className="text-xs"
           style={{ color: "var(--color-ink-muted)" }}
         >

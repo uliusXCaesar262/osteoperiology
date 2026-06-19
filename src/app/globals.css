@@ -66,7 +66,8 @@ a:hover {
   border-bottom: 1px solid #c8ddd9;
 }
 
-.site-header h1 {
+.site-header .site-title {
+  display: block;
   font-family: var(--font-lora), Georgia, serif;
   color: var(--color-ink);
   font-size: 1.6rem;
