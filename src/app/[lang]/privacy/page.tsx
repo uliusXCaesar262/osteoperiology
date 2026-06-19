@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { SITE_URL } from "@/lib/constants";
-import { buildAlternates } from "@/lib/seo";
+import { buildAlternates, ogImages } from "@/lib/seo";
 import Link from "next/link";
 
 export async function generateMetadata({
@@ -26,6 +26,7 @@ export async function generateMetadata({
       type: "website",
       locale: l === "it" ? "it_IT" : "en_US",
       alternateLocale: l === "it" ? "en_US" : "it_IT",
+      images: ogImages,
     },
     robots: { index: true, follow: true },
   };

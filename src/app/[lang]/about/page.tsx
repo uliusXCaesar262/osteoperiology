@@ -3,7 +3,7 @@ import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { SEARCH_TOPICS } from "@/lib/types";
 import { SITE_URL } from "@/lib/constants";
-import { buildAlternates } from "@/lib/seo";
+import { buildAlternates, ogImages } from "@/lib/seo";
 
 const aboutMeta = {
   en: {
@@ -38,6 +38,7 @@ export async function generateMetadata({
       type: "profile",
       locale: l === "it" ? "it_IT" : "en_US",
       alternateLocale: l === "it" ? "en_US" : "it_IT",
+      images: ogImages,
     },
   };
 }

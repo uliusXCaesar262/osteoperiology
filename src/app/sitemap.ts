@@ -56,6 +56,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
       },
     },
     {
+      url: `${SITE_URL}/en/articles`,
+      lastModified: latest,
+      changeFrequency: "weekly",
+      priority: 0.9,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/en/articles`,
+          it: `${SITE_URL}/it/articles`,
+          "x-default": `${SITE_URL}/en/articles`,
+        },
+      },
+    },
+    {
+      url: `${SITE_URL}/it/articles`,
+      lastModified: latest,
+      changeFrequency: "weekly",
+      priority: 0.9,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/en/articles`,
+          it: `${SITE_URL}/it/articles`,
+          "x-default": `${SITE_URL}/en/articles`,
+        },
+      },
+    },
+    {
       url: `${SITE_URL}/en/about`,
       lastModified: CONTENT_LAST_EDIT,
       changeFrequency: "monthly",
