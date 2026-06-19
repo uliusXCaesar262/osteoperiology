@@ -38,7 +38,7 @@
     "published": "Published",
     "backToList": "Back to articles",
     "related": "Related articles",
-    "aiDisclaimer": "This summary is based on the original abstract. Always refer to the original publication for clinical decisions."
+    "aiDisclaimer": "This summary is automatically generated from the original abstract and curated by Dr. Ernesto Bruschi. Always refer to the original publication for clinical decisions."
   },
   "about": {
     "title": "About",
@@ -47,7 +47,7 @@
     "curatedBy": "Curated by",
     "links": "Links",
     "disclaimerTitle": "Disclaimer",
-    "disclaimer": "Osteoperionews content is provided for informational and educational purposes for dental professionals only and does not constitute medical advice, nor does it replace the clinical judgement, diagnosis, or treatment of a qualified professional. Summaries are derived from the original abstracts: always refer to the full publication for any clinical decision."
+    "disclaimer": "Osteoperionews content is provided for informational and educational purposes for dental professionals only and does not constitute medical advice, nor does it replace the clinical judgement, diagnosis, or treatment of a qualified professional. Summaries are automatically generated from the original abstracts and curated by Dr. Ernesto Bruschi: always refer to the full publication for any clinical decision."
   },
   "footer": {
     "disclaimer": "Summaries of recent literature for educational and informational purposes.",
@@ -68,6 +68,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
+    "description": "Osteoperionews privacy policy: what data we collect (only your newsletter email address), how we process it, and your rights under the GDPR.",
     "lastUpdated": "Last updated: June 2026",
     "intro": "This privacy policy describes how Osteoperionews (osteoperionews.bonebenders.com), operated by Dr. Ernesto Bruschi, collects, uses, and protects your personal data in compliance with the EU General Data Protection Regulation (GDPR, Regulation 2016/679).",
     "controllerTitle": "Data Controller",

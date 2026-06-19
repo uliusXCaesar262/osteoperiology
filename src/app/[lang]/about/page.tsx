@@ -3,6 +3,7 @@ import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { SEARCH_TOPICS } from "@/lib/types";
 import { SITE_URL } from "@/lib/constants";
+import { buildAlternates } from "@/lib/seo";
 
 const aboutMeta = {
   en: {
@@ -24,19 +25,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const l = (lang === "it" ? "it" : "en") as Lang;
-  const otherLang = l === "en" ? "it" : "en";
   const url = `${SITE_URL}/${l}/about`;
 
   return {
     title: aboutMeta[l].title,
     description: aboutMeta[l].description,
-    alternates: {
-      canonical: url,
-      languages: {
-        [l]: url,
-        [otherLang]: `${SITE_URL}/${otherLang}/about`,
-      },
-    },
+    alternates: buildAlternates(l, "/about"),
     openGraph: {
       title: aboutMeta[l].title,
       description: aboutMeta[l].description,

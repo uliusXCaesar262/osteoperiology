@@ -1,5 +1,25 @@
 import type { Metadata } from "next";
+import type { Lang } from "@/lib/types";
 import { SITE_URL } from "@/lib/constants";
+
+/**
+ * Build a reciprocal, self-referencing hreflang/canonical set for a localized
+ * page. Centralized so every [lang] page type emits an identical, consistent
+ * map (en + it + x-default), fixing the earlier drift where about/privacy/
+ * articles omitted x-default. `path` is the suffix after the locale segment,
+ * e.g. "" for the hub, "/about", "/articles", "/articles/<slug>".
+ */
+export function buildAlternates(lang: Lang, path: string = "") {
+  const other: Lang = lang === "en" ? "it" : "en";
+  return {
+    canonical: `${SITE_URL}/${lang}${path}`,
+    languages: {
+      [lang]: `${SITE_URL}/${lang}${path}`,
+      [other]: `${SITE_URL}/${other}${path}`,
+      "x-default": `${SITE_URL}/en${path}`,
+    },
+  };
+}
 
 /**
  * Shared OpenGraph/Twitter image. Exported so page-level metadata that
@@ -97,6 +117,7 @@ export const siteJsonLd = {
       "description":
         "Weekly curated summaries of open-access research in periodontology, dental implantology, and peri-implant medicine.",
       "inLanguage": ["en", "it"],
+      "publisher": { "@id": `${SITE_URL}/#organization` },
       "potentialAction": {
         "@type": "SearchAction",
         "target": {
@@ -115,6 +136,20 @@ export const siteJsonLd = {
         "https://orcid.org/0000-0002-4773-5384",
         "https://bonebenders.com",
       ],
+    },
+    {
+      "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
+      "name": "Osteoperionews",
+      "url": SITE_URL,
+      "logo": {
+        "@type": "ImageObject",
+        "url": `${SITE_URL}/og-default.png`,
+        "width": 1200,
+        "height": 630,
+      },
+      "founder": { "@id": `${SITE_URL}/#author` },
+      "sameAs": ["https://bonebenders.com"],
     },
   ],
 };

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { SITE_URL } from "@/lib/constants";
+import { buildAlternates } from "@/lib/seo";
 import Link from "next/link";
 
 export async function generateMetadata({
@@ -11,15 +12,20 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const l = (lang === "it" ? "it" : "en") as Lang;
+  const dict = await getDictionary(l);
+  const url = `${SITE_URL}/${l}/privacy`;
 
   return {
-    title: "Privacy Policy",
-    alternates: {
-      canonical: `${SITE_URL}/${l}/privacy`,
-      languages: {
-        en: `${SITE_URL}/en/privacy`,
-        it: `${SITE_URL}/it/privacy`,
-      },
+    title: dict.privacy.title,
+    description: dict.privacy.description,
+    alternates: buildAlternates(l, "/privacy"),
+    openGraph: {
+      title: dict.privacy.title,
+      description: dict.privacy.description,
+      url,
+      type: "website",
+      locale: l === "it" ? "it_IT" : "en_US",
+      alternateLocale: l === "it" ? "en_US" : "it_IT",
     },
     robots: { index: true, follow: true },
   };

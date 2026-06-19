@@ -5,6 +5,7 @@ import { getArticleBySlug, getAllSlugs, getRelatedArticles } from "@/lib/storage
 import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 import { toIsoDate } from "@/lib/dates";
+import { buildAlternates } from "@/lib/seo";
 
 export const dynamicParams = false;
 
@@ -29,7 +30,6 @@ export async function generateMetadata({
   const metaTitle = lang === "it" && article.titleIt ? article.titleIt : plainTitle;
   const summary = lang === "it" ? article.summaryIt : article.summaryEn;
   const description = summary.slice(0, 160).replace(/\s+\S*$/, "") + "…";
-  const otherLang = lang === "en" ? "it" : "en";
   const url = `${SITE_URL}/${lang}/articles/${slug}`;
 
   const metaTags = (lang === "it" ? article.tagsIt : article.tagsEn) || [];
@@ -39,13 +39,7 @@ export async function generateMetadata({
     description,
     keywords: metaTags.length > 0 ? metaTags : undefined,
     authors: article.authors.slice(0, 5).map((name) => ({ name })),
-    alternates: {
-      canonical: url,
-      languages: {
-        [lang]: url,
-        [otherLang]: `${SITE_URL}/${otherLang}/articles/${slug}`,
-      },
-    },
+    alternates: buildAlternates(lang as Lang, `/articles/${slug}`),
     openGraph: {
       title: metaTitle,
       description,
@@ -106,29 +100,64 @@ export default async function ArticlePage({
   const articleTags = (lang === "it" ? article.tagsIt : article.tagsEn) || [];
   const related = getRelatedArticles(slug, 4);
 
+  const pageUrl = `${SITE_URL}/${lang}/articles/${article.slug}`;
+  const sourceSameAs = [
+    article.doi ? `https://doi.org/${article.doi}` : null,
+    `https://pubmed.ncbi.nlm.nih.gov/${article.pmid}/`,
+  ].filter(Boolean) as string[];
+  const sourceIdentifiers = [
+    article.doi
+      ? { "@type": "PropertyValue", propertyID: "DOI", value: article.doi }
+      : null,
+    article.pmid
+      ? { "@type": "PropertyValue", propertyID: "PMID", value: article.pmid }
+      : null,
+  ].filter(Boolean);
+
+  // Model the PAGE as its own derivative work (authored/published by the site)
+  // that *cites* the source paper via isBasedOn — instead of describing the
+  // source paper itself. This keeps ownership of the original summaries with
+  // the site, attributes them to the credentialed curator, and gives answer
+  // engines an explicit, resolvable link to the primary source.
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    headline: plainTitle,
-    author: article.authors.map((name) => ({
-      "@type": "Person",
-      name,
-    })),
+    "@id": pageUrl,
+    url: pageUrl,
+    mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
+    headline: displayTitle,
+    description: summary.slice(0, 300),
+    inLanguage: lang,
     datePublished: toIsoDate(article.pubDate),
     dateModified: toIsoDate(article.fetchedAt),
-    publisher: {
-      "@type": "Organization",
-      name: article.journal,
-    },
-    description: summary.slice(0, 300),
-    url: article.doi ? `https://doi.org/${article.doi}` : `https://pubmed.ncbi.nlm.nih.gov/${article.pmid}/`,
     isAccessibleForFree: true,
-    inLanguage: lang,
-    ...(articleTags.length > 0 && { keywords: articleTags.join(", ") }),
-    mainEntityOfPage: {
-      "@type": "WebPage",
-      "@id": `${SITE_URL}/${lang}/articles/${article.slug}`,
+    image: `${SITE_URL}/og-default.png`,
+    author: { "@id": `${SITE_URL}/#author` },
+    publisher: { "@id": `${SITE_URL}/#organization` },
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    ...(articleTags.length > 0 && {
+      keywords: articleTags.join(", "),
+      about: articleTags.map((t) => ({ "@type": "DefinedTerm", name: t })),
+    }),
+    isBasedOn: {
+      "@type": "ScholarlyArticle",
+      name: plainTitle,
+      author: article.authors.map((name) => ({ "@type": "Person", name })),
+      ...(article.doi && { url: `https://doi.org/${article.doi}` }),
+      sameAs: sourceSameAs,
+      identifier: sourceIdentifiers,
+      isPartOf: { "@type": "Periodical", name: article.journal },
     },
+  };
+
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: dict.nav.home, item: `${SITE_URL}/${lang}` },
+      { "@type": "ListItem", position: 2, name: dict.nav.articles, item: `${SITE_URL}/${lang}/articles` },
+      { "@type": "ListItem", position: 3, name: displayTitle, item: pageUrl },
+    ],
   };
 
   return (
@@ -137,9 +166,21 @@ export default async function ArticlePage({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <Link href={`/${lang}`} className="back-link mb-8 inline-block">
-        ← {dict.article.backToList}
-      </Link>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
+      <nav aria-label="Breadcrumb" className="text-xs mb-6">
+        <Link href={`/${lang}`} style={{ color: "var(--color-accent)" }}>
+          {dict.nav.home}
+        </Link>
+        <span className="mx-1.5" style={{ color: "var(--color-ink-muted)" }}>
+          /
+        </span>
+        <Link href={`/${lang}/articles`} style={{ color: "var(--color-accent)" }}>
+          {dict.nav.articles}
+        </Link>
+      </nav>
 
       <header className="flex flex-wrap items-center gap-2 mb-4">
         <span className="journal-badge">{article.journal}</span>

@@ -38,7 +38,7 @@
     "published": "Pubblicato",
     "backToList": "Torna agli articoli",
     "related": "Articoli correlati",
-    "aiDisclaimer": "Questo riassunto è basato sull'abstract originale. Fare sempre riferimento alla pubblicazione originale per le decisioni cliniche."
+    "aiDisclaimer": "Questo riassunto è generato automaticamente dall'abstract originale ed è curato dal Dr. Ernesto Bruschi. Fare sempre riferimento alla pubblicazione integrale per le decisioni cliniche."
   },
   "about": {
     "title": "Info",
@@ -47,7 +47,7 @@
     "curatedBy": "A cura di",
     "links": "Link",
     "disclaimerTitle": "Avvertenza",
-    "disclaimer": "I contenuti di Osteoperionews hanno finalità esclusivamente informative ed educative, rivolte ai professionisti del settore odontoiatrico, e non costituiscono consulenza medica né sostituiscono il giudizio clinico, la diagnosi o il trattamento da parte di un professionista qualificato. I riassunti sono elaborazioni degli abstract originali: fare sempre riferimento alla pubblicazione integrale per qualsiasi decisione clinica."
+    "disclaimer": "I contenuti di Osteoperionews hanno finalità esclusivamente informative ed educative, rivolte ai professionisti del settore odontoiatrico, e non costituiscono consulenza medica né sostituiscono il giudizio clinico, la diagnosi o il trattamento da parte di un professionista qualificato. I riassunti sono generati automaticamente a partire dagli abstract originali e curati dal Dr. Ernesto Bruschi: fare sempre riferimento alla pubblicazione integrale per qualsiasi decisione clinica."
   },
   "footer": {
     "disclaimer": "Riassunti della letteratura recente a scopo educativo e informativo.",
@@ -68,6 +68,7 @@
   },
   "privacy": {
     "title": "Privacy Policy",
+    "description": "Informativa privacy di Osteoperionews: quali dati raccogliamo (solo l'indirizzo email per la newsletter), come li trattiamo e i tuoi diritti ai sensi del GDPR.",
     "lastUpdated": "Ultimo aggiornamento: giugno 2026",
     "intro": "La presente informativa descrive le modalità con cui Osteoperionews (osteoperionews.bonebenders.com), gestito dal Dr. Ernesto Bruschi, raccoglie, utilizza e protegge i dati personali degli utenti nel rispetto del Regolamento Generale sulla Protezione dei Dati (GDPR, Regolamento UE 2016/679).",
     "controllerTitle": "Titolare del trattamento",

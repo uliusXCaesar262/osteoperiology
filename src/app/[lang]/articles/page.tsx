@@ -4,7 +4,7 @@ import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { getRecentArticles } from "@/lib/storage";
 import { SITE_URL } from "@/lib/constants";
-import { ogImages } from "@/lib/seo";
+import { ogImages, buildAlternates } from "@/lib/seo";
 
 /**
  * Full article archive (`/en/articles`, `/it/articles`).
@@ -24,20 +24,12 @@ export async function generateMetadata({
   const { lang } = await params;
   const l = (lang === "it" ? "it" : "en") as Lang;
   const dict = await getDictionary(l);
-  const otherLang = l === "en" ? "it" : "en";
   const url = `${SITE_URL}/${l}/articles`;
 
   return {
     title: dict.archive.title,
     description: dict.archive.description,
-    alternates: {
-      canonical: url,
-      languages: {
-        [l]: url,
-        [otherLang]: `${SITE_URL}/${otherLang}/articles`,
-        "x-default": `${SITE_URL}/en/articles`,
-      },
-    },
+    alternates: buildAlternates(l, "/articles"),
     openGraph: {
       title: dict.archive.title,
       description: dict.archive.description,
@@ -60,8 +52,32 @@ export default async function ArticlesArchivePage({
   const dict = await getDictionary(lang);
   const { articles, total } = getRecentArticles(500);
 
+  const itemListLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE_URL}/${lang}/articles`,
+    name: dict.archive.title,
+    description: dict.archive.description,
+    inLanguage: lang,
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: articles.length,
+      itemListElement: articles.map((a, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `${SITE_URL}/${lang}/articles/${a.slug}`,
+        name: lang === "it" && a.titleIt ? a.titleIt : a.title.replace(/<[^>]+>/g, ""),
+      })),
+    },
+  };
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }}
+      />
       <h1
         className="text-3xl sm:text-4xl font-bold mb-3"
         style={{ fontFamily: "var(--font-lora)" }}

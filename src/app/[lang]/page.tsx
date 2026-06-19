@@ -4,7 +4,7 @@ import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { getRecentArticles } from "@/lib/storage";
 import { SITE_URL } from "@/lib/constants";
-import { ogImages } from "@/lib/seo";
+import { ogImages, buildAlternates } from "@/lib/seo";
 import SearchableArticleList from "@/components/SearchableArticleList";
 
 const homeMeta = {
@@ -27,20 +27,12 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { lang } = await params;
   const l = (lang === "it" ? "it" : "en") as Lang;
-  const otherLang = l === "en" ? "it" : "en";
   const url = `${SITE_URL}/${l}`;
 
   return {
     title: homeMeta[l].title,
     description: homeMeta[l].description,
-    alternates: {
-      canonical: url,
-      languages: {
-        [l]: url,
-        [otherLang]: `${SITE_URL}/${otherLang}`,
-        "x-default": `${SITE_URL}/en`,
-      },
-    },
+    alternates: buildAlternates(l, ""),
     openGraph: {
       title: homeMeta[l].title,
       description: homeMeta[l].description,
@@ -62,8 +54,42 @@ export default async function HomePage({
   const dict = await getDictionary(lang);
   const { articles } = getRecentArticles(20);
 
+  const itemListLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "@id": `${SITE_URL}/${lang}`,
+    name: dict.home.latestArticles,
+    inLanguage: lang,
+    isPartOf: { "@id": `${SITE_URL}/#website` },
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: articles.length,
+      itemListElement: articles.map((a, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        url: `${SITE_URL}/${lang}/articles/${a.slug}`,
+        name: lang === "it" && a.titleIt ? a.titleIt : a.title.replace(/<[^>]+>/g, ""),
+      })),
+    },
+  };
+
+  // Pass only the active language's fields to the client list — Next serializes
+  // every prop into the hydration payload, and shipping BOTH summaries (plus
+  // abstractText) for 20 cards roughly doubled the home document for nothing.
+  const slimArticles = articles.map((a) => ({
+    ...a,
+    abstractText: "",
+    summaryEn: lang === "en" ? a.summaryEn : "",
+    summaryIt: lang === "it" ? a.summaryIt : "",
+    titleIt: lang === "it" ? a.titleIt : undefined,
+  }));
+
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListLd) }}
+      />
       {/* Hero intro — H1 for SEO */}
       <div className="mb-10">
         <h1 className="text-3xl sm:text-4xl font-bold mb-3" style={{ fontFamily: "var(--font-lora)" }}>
@@ -108,7 +134,7 @@ export default async function HomePage({
         </div>
       ) : (
         <SearchableArticleList
-          articles={articles}
+          articles={slimArticles}
           lang={lang}
           dict={{
             searchPlaceholder: dict.home.searchPlaceholder,
