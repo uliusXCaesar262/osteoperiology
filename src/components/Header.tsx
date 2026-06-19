@@ -22,6 +22,9 @@ export default function Header({ lang, dict }: HeaderProps) {
             </p>
           </div>
           <nav className="flex items-center gap-4 text-sm pt-1">
+            <Link href={`/${lang}/articles`} className="nav-link">
+              {dict.nav.articles}
+            </Link>
             <Link href={`/${lang}/about`} className="nav-link">
               {dict.nav.about}
             </Link>

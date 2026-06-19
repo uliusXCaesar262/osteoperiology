@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Article, Lang } from "@/lib/types";
+import { toIsoDate } from "@/lib/dates";
 
 interface ArticleCardProps {
   article: Article;
@@ -23,7 +24,7 @@ export default function ArticleCard({
       <header className="flex flex-wrap items-center gap-2 mb-3">
         <span className="journal-badge">{article.journal}</span>
         <time
-          dateTime={article.pubDate}
+          dateTime={toIsoDate(article.pubDate)}
           className="text-xs"
           style={{ color: "var(--color-ink-muted)" }}
         >

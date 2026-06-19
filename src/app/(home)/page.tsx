@@ -132,7 +132,7 @@ export default function RootLandingPage() {
           </ul>
           <div className="mt-8">
             <Link
-              href="/it"
+              href="/it/articles"
               className="text-sm font-medium"
               style={{ color: "var(--color-accent)" }}
             >

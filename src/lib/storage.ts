@@ -50,3 +50,36 @@ export function getAllSlugs(): string[] {
   const store = getArticlesStore();
   return store.articles.map((a) => a.slug);
 }
+
+/**
+ * Related articles for a given slug, ranked by shared tags, then same
+ * journal, then recency (the store is newest-first, so a stable sort keeps
+ * recency as the tiebreak). Always returns up to `limit` items — when there
+ * is no topical overlap it falls back to the most recent articles, so an
+ * article is never an internal dead-end. Build-time only (static export safe).
+ */
+export function getRelatedArticles(slug: string, limit: number = 4): Article[] {
+  const store = getArticlesStore();
+  const current = store.articles.find((a) => a.slug === slug);
+  if (!current) return [];
+
+  const currentTags = new Set(
+    [...(current.tagsEn || []), ...(current.tagsIt || [])].map((t) =>
+      t.toLowerCase()
+    )
+  );
+
+  const scored = store.articles
+    .filter((a) => a.slug !== slug)
+    .map((a) => {
+      const tags = [...(a.tagsEn || []), ...(a.tagsIt || [])].map((t) =>
+        t.toLowerCase()
+      );
+      const sharedTags = tags.filter((t) => currentTags.has(t)).length;
+      const sameJournal = a.journal === current.journal ? 1 : 0;
+      return { a, score: sharedTags * 10 + sameJournal };
+    });
+
+  scored.sort((x, y) => y.score - x.score);
+  return scored.slice(0, limit).map((s) => s.a);
+}

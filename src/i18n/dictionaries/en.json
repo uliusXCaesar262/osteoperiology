@@ -7,6 +7,7 @@
   },
   "nav": {
     "home": "Home",
+    "articles": "Articles",
     "about": "About",
     "language": "IT"
   },
@@ -22,6 +23,13 @@
     "searchNoResults": "No articles match your search.",
     "searchResultCount": "{{count}} result(s)"
   },
+  "archive": {
+    "title": "All articles",
+    "description": "Complete archive of every weekly open-access periodontology and dental-implant research summary curated by Dr. Ernesto Bruschi.",
+    "intro": "Every weekly summary published on Osteoperionews, newest first.",
+    "browseAll": "Browse all articles",
+    "count": "{{count}} articles"
+  },
   "article": {
     "originalArticle": "Read original article",
     "pubmed": "View on PubMed",
@@ -29,6 +37,7 @@
     "journal": "Journal",
     "published": "Published",
     "backToList": "Back to articles",
+    "related": "Related articles",
     "aiDisclaimer": "This summary is based on the original abstract. Always refer to the original publication for clinical decisions."
   },
   "about": {

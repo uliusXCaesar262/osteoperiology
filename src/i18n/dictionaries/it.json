@@ -7,6 +7,7 @@
   },
   "nav": {
     "home": "Home",
+    "articles": "Articoli",
     "about": "Info",
     "language": "EN"
   },
@@ -22,6 +23,13 @@
     "searchNoResults": "Nessun articolo corrisponde alla ricerca.",
     "searchResultCount": "{{count}} risultato/i"
   },
+  "archive": {
+    "title": "Tutti gli articoli",
+    "description": "Archivio completo dei riassunti settimanali di ricerca open access in parodontologia e implantologia dentale, a cura del Dr. Ernesto Bruschi.",
+    "intro": "Tutti i riassunti settimanali pubblicati su Osteoperionews, dal più recente.",
+    "browseAll": "Sfoglia tutti gli articoli",
+    "count": "{{count}} articoli"
+  },
   "article": {
     "originalArticle": "Leggi l'articolo originale",
     "pubmed": "Vedi su PubMed",
@@ -29,6 +37,7 @@
     "journal": "Rivista",
     "published": "Pubblicato",
     "backToList": "Torna agli articoli",
+    "related": "Articoli correlati",
     "aiDisclaimer": "Questo riassunto è basato sull'abstract originale. Fare sempre riferimento alla pubblicazione originale per le decisioni cliniche."
   },
   "about": {

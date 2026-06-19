@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
-import { getArticleBySlug, getAllSlugs } from "@/lib/storage";
+import { getArticleBySlug, getAllSlugs, getRelatedArticles } from "@/lib/storage";
 import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 import { toIsoDate } from "@/lib/dates";
@@ -104,6 +104,7 @@ export default async function ArticlePage({
   const displayTitle = lang === "it" && article.titleIt ? article.titleIt : plainTitle;
 
   const articleTags = (lang === "it" ? article.tagsIt : article.tagsEn) || [];
+  const related = getRelatedArticles(slug, 4);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -194,6 +195,47 @@ export default async function ArticlePage({
           {dict.article.pubmed} ↗
         </a>
       </div>
+
+      {related.length > 0 && (
+        <section
+          className="mt-12 pt-8"
+          style={{ borderTop: "1px solid var(--color-divider)" }}
+          aria-labelledby="related-heading"
+        >
+          <h2 id="related-heading" className="text-lg font-semibold mb-4">
+            {dict.article.related}
+          </h2>
+          <ul className="flex flex-col gap-4">
+            {related.map((r) => {
+              const rTitle =
+                lang === "it" && r.titleIt
+                  ? r.titleIt
+                  : r.title.replace(/<[^>]+>/g, "");
+              return (
+                <li key={r.pmid}>
+                  <Link
+                    href={`/${lang}/articles/${r.slug}`}
+                    className="block group"
+                  >
+                    <span
+                      className="block text-[11px] font-semibold tracking-wide uppercase mb-1"
+                      style={{ color: "var(--color-accent)" }}
+                    >
+                      {r.journal}
+                    </span>
+                    <span
+                      className="block text-base font-medium leading-snug group-hover:underline"
+                      style={{ color: "var(--color-ink)" }}
+                    >
+                      {rTitle}
+                    </span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
+      )}
     </div>
   );
 }

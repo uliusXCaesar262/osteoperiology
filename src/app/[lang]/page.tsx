@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import type { Lang } from "@/lib/types";
 import { getDictionary } from "@/i18n/config";
 import { getRecentArticles } from "@/lib/storage";
@@ -117,6 +118,18 @@ export default async function HomePage({
             publishedIn: dict.home.publishedIn,
           }}
         />
+      )}
+
+      {articles.length > 0 && (
+        <div className="mt-10">
+          <Link
+            href={`/${lang}/articles`}
+            className="text-sm font-medium"
+            style={{ color: "var(--color-accent)" }}
+          >
+            {dict.archive.browseAll} →
+          </Link>
+        </div>
       )}
     </div>
   );
