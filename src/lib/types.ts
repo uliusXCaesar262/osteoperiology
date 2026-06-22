@@ -14,6 +14,21 @@ export interface Article {
   slug: string;
   fetchedAt: string;
   url: string;
+
+  // Editorial differentiation layer (P3-1, anti scaled-content). All optional
+  // so existing/un-backfilled articles degrade gracefully to the paper title.
+  // editorialTitle* is an original clinical angle shown as the H1/<title>/
+  // headline instead of the verbatim paper title; the paper title is kept as a
+  // labelled "source study" citation. takeaways*/whyItMatters* are LLM-drafted
+  // added value; clinicalNoteIt is Dr. Bruschi's human review note (new
+  // articles only, via the weekly review step).
+  editorialTitleEn?: string;
+  editorialTitleIt?: string;
+  takeawaysEn?: string[];
+  takeawaysIt?: string[];
+  whyItMattersEn?: string;
+  whyItMattersIt?: string;
+  clinicalNoteIt?: string;
 }
 
 export interface ArticlesStore {

@@ -8,6 +8,8 @@ interface Article {
   pmid: string;
   title: string;
   titleIt?: string;
+  editorialTitleEn?: string;
+  editorialTitleIt?: string;
   journal: string;
   pubDate: string;
   slug: string;
@@ -43,9 +45,10 @@ function generateFeed(
     .map((a) => {
       const link = `${SITE_URL}/${lang}/articles/${a.slug}`;
       const pubDate = new Date(a.pubDate || a.fetchedAt).toUTCString();
-      const title = isIt && a.titleIt
-        ? a.titleIt
-        : a.title.replace(/<[^>]+>/g, "");
+      const editorial = isIt ? a.editorialTitleIt : a.editorialTitleEn;
+      const title =
+        editorial ||
+        (isIt && a.titleIt ? a.titleIt : a.title.replace(/<[^>]+>/g, ""));
       const summary = isIt ? a.summaryIt : a.summaryEn;
       return `    <item>
       <title>${escapeXml(title)}</title>
@@ -98,7 +101,7 @@ function generateLlmsTxt(articles: Article[]) {
 
   const items = articles
     .map((a) => {
-      const title = a.title.replace(/<[^>]+>/g, "");
+      const title = a.editorialTitleEn || a.title.replace(/<[^>]+>/g, "");
       const url = `${SITE_URL}/en/articles/${a.slug}`;
       const oneLine = a.summaryEn.replace(/\s+/g, " ").trim().slice(0, 160);
       const src = a.doi ? ` (DOI: ${a.doi})` : "";

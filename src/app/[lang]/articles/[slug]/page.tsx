@@ -6,6 +6,7 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 import { toIsoDate } from "@/lib/dates";
 import { buildAlternates } from "@/lib/seo";
+import { displayTitle, paperTitle, takeaways, whyItMatters } from "@/lib/article";
 
 export const dynamicParams = false;
 
@@ -26,10 +27,13 @@ export async function generateMetadata({
   const article = getArticleBySlug(slug);
   if (!article) return {};
 
-  const plainTitle = article.title.replace(/<[^>]+>/g, "");
-  const metaTitle = lang === "it" && article.titleIt ? article.titleIt : plainTitle;
+  const plainTitle = paperTitle(article);
+  const metaTitle = displayTitle(article, lang as Lang);
   const summary = lang === "it" ? article.summaryIt : article.summaryEn;
-  const description = summary.slice(0, 160).replace(/\s+\S*$/, "") + "…";
+  // Prefer the purpose-written "why it matters" as the meta description when
+  // present (a self-contained takeaway), else fall back to the summary opening.
+  const descSource = whyItMatters(article, lang as Lang) || summary;
+  const description = descSource.slice(0, 160).replace(/\s+\S*$/, "") + "…";
   const url = `${SITE_URL}/${lang}/articles/${slug}`;
 
   const metaTags = (lang === "it" ? article.tagsIt : article.tagsEn) || [];
@@ -94,8 +98,12 @@ export default async function ArticlePage({
   }
 
   const summary = lang === "it" ? article.summaryIt : article.summaryEn;
-  const plainTitle = article.title.replace(/<[^>]+>/g, "");
-  const displayTitle = lang === "it" && article.titleIt ? article.titleIt : plainTitle;
+  const source = paperTitle(article);
+  const title = displayTitle(article, lang);
+  const tks = takeaways(article, lang);
+  const why = whyItMatters(article, lang);
+  const clinicalNote = lang === "it" ? article.clinicalNoteIt : undefined;
+  const showSource = source !== title;
 
   const articleTags = (lang === "it" ? article.tagsIt : article.tagsEn) || [];
   const related = getRelatedArticles(slug, 4);
@@ -125,7 +133,7 @@ export default async function ArticlePage({
     "@id": pageUrl,
     url: pageUrl,
     mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
-    headline: displayTitle,
+    headline: title,
     description: summary.slice(0, 300),
     inLanguage: lang,
     datePublished: toIsoDate(article.pubDate),
@@ -141,7 +149,7 @@ export default async function ArticlePage({
     }),
     isBasedOn: {
       "@type": "ScholarlyArticle",
-      name: plainTitle,
+      name: source,
       author: article.authors.map((name) => ({ "@type": "Person", name })),
       ...(article.doi && { url: `https://doi.org/${article.doi}` }),
       sameAs: sourceSameAs,
@@ -156,7 +164,7 @@ export default async function ArticlePage({
     itemListElement: [
       { "@type": "ListItem", position: 1, name: dict.nav.home, item: `${SITE_URL}/${lang}` },
       { "@type": "ListItem", position: 2, name: dict.nav.articles, item: `${SITE_URL}/${lang}/articles` },
-      { "@type": "ListItem", position: 3, name: displayTitle, item: pageUrl },
+      { "@type": "ListItem", position: 3, name: title, item: pageUrl },
     ],
   };
 
@@ -193,24 +201,90 @@ export default async function ArticlePage({
         </time>
       </header>
 
-      <h1 className="text-2xl sm:text-4xl mb-4 font-semibold leading-tight">
-        {displayTitle}
+      <h1 className="text-2xl sm:text-4xl mb-3 font-semibold leading-tight">
+        {title}
       </h1>
-      {lang === "it" && article.titleIt && (
-        <p className="text-xs mb-4 italic" style={{ color: "var(--color-ink-muted)" }}>
-          {plainTitle}
+
+      <p className="text-sm mb-6 font-medium" style={{ color: "var(--color-ink-muted)" }}>
+        {article.authors.join(", ")}
+      </p>
+
+      {showSource && (
+        <p className="text-xs mb-8" style={{ color: "var(--color-ink-muted)" }}>
+          {dict.article.sourceStudy}:{" "}
+          <span className="italic">{source}</span> — {article.journal}
         </p>
       )}
 
-      <p className="text-sm mb-8 font-medium" style={{ color: "var(--color-ink-muted)" }}>
-        {article.authors.join(", ")}
-      </p>
+      {tks.length > 0 && (
+        <section className="mb-8" aria-labelledby="takeaways-heading">
+          <h2
+            id="takeaways-heading"
+            className="text-sm font-semibold uppercase tracking-wide mb-3"
+            style={{ color: "var(--color-accent)" }}
+          >
+            {dict.article.inBrief}
+          </h2>
+          <ul className="flex flex-col gap-2" style={{ maxWidth: "65ch" }}>
+            {tks.map((t, i) => (
+              <li
+                key={i}
+                className="flex gap-2 text-sm leading-relaxed"
+                style={{ color: "var(--color-ink-secondary)" }}
+              >
+                <span style={{ color: "var(--color-accent)" }}>•</span>
+                <span>{t}</span>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       <div className="article-summary mb-8" style={{ maxWidth: "65ch" }}>
         {summary.split("\n").map((paragraph, i) => (
           <p key={i}>{paragraph}</p>
         ))}
       </div>
+
+      {why && (
+        <section className="mb-8" style={{ maxWidth: "65ch" }} aria-labelledby="why-heading">
+          <h2 id="why-heading" className="text-lg font-semibold mb-2">
+            {dict.article.whyItMatters}
+          </h2>
+          <p
+            className="text-sm leading-relaxed"
+            style={{ color: "var(--color-ink-secondary)" }}
+          >
+            {why}
+          </p>
+        </section>
+      )}
+
+      {clinicalNote && (
+        <aside
+          className="mb-8 p-5 rounded-xl"
+          style={{
+            background: "var(--color-accent-subtle)",
+            border: "1px solid var(--color-border)",
+            maxWidth: "65ch",
+          }}
+          aria-labelledby="note-heading"
+        >
+          <h2
+            id="note-heading"
+            className="text-sm font-semibold mb-2"
+            style={{ color: "var(--color-accent)" }}
+          >
+            {dict.article.clinicalNote}
+          </h2>
+          <p
+            className="text-sm leading-relaxed italic"
+            style={{ color: "var(--color-ink)" }}
+          >
+            {clinicalNote}
+          </p>
+        </aside>
+      )}
 
       <div className="ai-disclaimer mb-8">
         {dict.article.aiDisclaimer}
@@ -248,10 +322,7 @@ export default async function ArticlePage({
           </h2>
           <ul className="flex flex-col gap-4">
             {related.map((r) => {
-              const rTitle =
-                lang === "it" && r.titleIt
-                  ? r.titleIt
-                  : r.title.replace(/<[^>]+>/g, "");
+              const rTitle = displayTitle(r, lang);
               return (
                 <li key={r.pmid}>
                   <Link

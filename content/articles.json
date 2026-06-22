@@ -36,7 +36,23 @@
       ],
       "slug": "design-and-applications-of-barrier-membranes-for-guided-bone-regeneration-42220644",
       "fetchedAt": "2026-06-15T09:15:34.089951Z",
-      "url": "https://doi.org/10.1016/j.bioactmat.2026.05.008"
+      "url": "https://doi.org/10.1016/j.bioactmat.2026.05.008",
+      "editorialTitleEn": "GBR membranes: a 26% complication rate forces a rethink beyond passive occlusion",
+      "editorialTitleIt": "Membrane per GBR: il 26% di complicanze impone di andare oltre la semplice occlusione",
+      "takeawaysEn": [
+        "A meta-analysis of 100 studies puts GBR complication rates near 26%, exposing the structural limits of conventional collagen and PTFE membranes.",
+        "Current membranes act as passive barriers only — no bioactivity, no tunable degradation, no influence on the immune response around the defect.",
+        "The review proposes repositioning membranes as programmable interfaces that actively modulate the osteoimmune environment, not merely hold space.",
+        "Four next-generation material families (polymer composites, Mg/Zn alloys, MXene systems, citrate-based polymers) and structural strategies are mapped, though clinical translation remains a near-term agenda item."
+      ],
+      "takeawaysIt": [
+        "Una meta-analisi su 100 studi colloca le complicanze della GBR intorno al 26%, evidenziando i limiti strutturali delle membrane convenzionali in collagene e PTFE.",
+        "Le membrane attuali agiscono come barriere passive: nessuna bioattività, nessuna degradazione modulabile, nessuna capacità di influenzare la risposta immunitaria locale.",
+        "La revisione propone di ripensare le membrane come interfacce programmabili, in grado di modulare attivamente l'ambiente osteoimmune anziché limitarsi a mantenere lo spazio.",
+        "Quattro famiglie di materiali di nuova generazione (compositi polimerici, leghe Mg/Zn, sistemi MXene, polimeri a base di citrato) vengono mappate, ma la traduzione clinica è ancora un'agenda futura."
+      ],
+      "whyItMattersEn": "For clinicians performing ridge augmentation, this review contextualises the persistent failure modes of the membranes they use daily and charts the conceptual shift — from passive occluder to osteoimmune-active interface — that will define next-generation products. It will not change tomorrow's case, but it provides the framework to evaluate emerging materials before the marketing arrives.",
+      "whyItMattersIt": "Per i clinici che eseguono interventi di aumento di cresta, questa revisione contestualizza le modalità di fallimento persistenti delle membrane in uso quotidiano e traccia il cambiamento concettuale — da barriera passiva a interfaccia osteoimmune attiva — che definirà i prodotti di nuova generazione. Non cambierà il caso di domani, ma fornisce il quadro per valutare i materiali emergenti prima che arrivi il marketing."
     },
     {
       "pmid": "42225503",
@@ -73,7 +89,23 @@
       ],
       "slug": "outcomes-of-dental-implants-placed-in-horizontally-augmented-or-native-posterior-42225503",
       "fetchedAt": "2026-06-15T09:15:34.089951Z",
-      "url": "https://doi.org/10.1016/j.ijom.2026.05.015"
+      "url": "https://doi.org/10.1016/j.ijom.2026.05.015",
+      "editorialTitleEn": "Augmented vs native posterior mandible: which bone hosts healthier implants at 15 years?",
+      "editorialTitleIt": "Mandibola posteriore aumentata o nativa: dopo 15 anni l'osso innestato regge meglio la salute perimplantare",
+      "takeawaysEn": [
+        "Implant survival was nearly identical at 15 years: 94.7% in native bone, 95.3% in augmented bone.",
+        "Marginal bone loss from loading to 15 years was significantly greater around implants in native bone (P=0.001).",
+        "Peri-implantitis occurred less frequently in the augmented group in this cohort (P=0.038).",
+        "Augmentation here used autologous bone only — findings may not extend to other graft materials."
+      ],
+      "takeawaysIt": [
+        "La sopravvivenza implantare a 15 anni è risultata quasi identica: 94,7% nell'osso nativo, 95,3% nell'osso aumentato.",
+        "La perdita ossea marginale dal carico ai 15 anni è stata significativamente maggiore attorno agli impianti in osso nativo (P=0,001).",
+        "La perimplantite si è verificata con minor frequenza nel gruppo aumentato in questa casistica (P=0,038).",
+        "L'aumento era eseguito con solo osso autologo: i risultati potrebbero non estendersi ad altri materiali da innesto."
+      ],
+      "whyItMattersEn": "When evaluating a deficient posterior mandible, the instinct to \"use what bone is there\" and avoid augmentation is not supported by this 15-year prospective cohort: grafted sites showed better peri-implant health on every inflammatory and bone-level metric, without compromising survival. The study is small and limited to autologous grafts, but for surgeons weighing augmentation against shorter implants in native bone, it is relevant long-term evidence.",
+      "whyItMattersIt": "Di fronte a una mandibola posteriore deficitaria, l'istinto di \"usare l'osso disponibile\" ed evitare l'aumento non trova supporto in questo studio prospettico a 15 anni: i siti ricostruiti hanno mostrato una salute perimplantare migliore su tutti gli indicatori infiammatori e di livello osseo, senza penalizzare la sopravvivenza. La casistica è ridotta e limitata agli innesti autologhi, ma per il chirurgo che valuta tra aumento e impianti corti in osso nativo rappresenta un dato di lungo periodo da considerare."
     },
     {
       "pmid": "42252880",
@@ -110,7 +142,23 @@
       ],
       "slug": "guidelines-for-the-depth-of-surface-decontamination-during-peri-implantitis-trea-42252880",
       "fetchedAt": "2026-06-15T09:15:34.089951Z",
-      "url": "https://doi.org/10.5051/jpis.2501940097"
+      "url": "https://doi.org/10.5051/jpis.2501940097",
+      "editorialTitleEn": "Peri-implantitis debridement: less than 1 mm cleaned in this SEM cohort",
+      "editorialTitleIt": "Perimplantite: meno di 1 mm di superficie decontaminata — cosa dice la SEM",
+      "takeawaysEn": [
+        "SEM analysis of 49 explanted implants found a mean contaminant-free zone of just 0.66 mm (range 0–3.0 mm).",
+        "No patient or implant variable — including diabetes, smoking, fixture type, or length — significantly affected how much surface was cleaned.",
+        "The study conclusion calls for precise, deliberate mechanical debridement of all exposed fixture surface above remaining marginal bone.",
+        "Findings are observational and limited to explanted fixtures; they describe historical real-world outcomes, not the ceiling of achievable decontamination."
+      ],
+      "takeawaysIt": [
+        "L'analisi SEM di 49 impianti espiantati ha rilevato una zona priva di contaminazione media di appena 0,66 mm (intervallo 0–3,0 mm).",
+        "Nessuna variabile del paziente o dell'impianto — diabete, fumo, tipo e lunghezza della fixture — ha influito in modo significativo sull'estensione della superficie ripulita.",
+        "Gli autori raccomandano un debridement meccanico preciso e sistematico di ogni superficie esposta della fixture al di sopra dell'osso marginale residuo.",
+        "Studio osservazionale su fixture espiantate: misura i risultati reali storici, non il limite massimo teoricamente raggiungibile dalla decontaminazione."
+      ],
+      "whyItMattersEn": "In this cohort, conventional decontamination reached less than 1 mm of implant surface regardless of clinical variables — a finding that supports meticulous, surface-by-surface mechanical debridement rather than broad-stroke approaches during peri-implantitis treatment.",
+      "whyItMattersIt": "In questa casistica, la decontaminazione convenzionale ha raggiunto meno di 1 mm di superficie implantare indipendentemente dalle variabili cliniche: un dato che sostiene un approccio di debridement meccanico meticoloso, superficie per superficie, anziché gesti approssimativi nel trattamento della perimplantite."
     },
     {
       "pmid": "42271428",
@@ -147,7 +195,23 @@
       ],
       "slug": "cost-effectiveness-analysis-of-non-surgical-periodontal-treatment-to-prevent-str-42271428",
       "fetchedAt": "2026-06-15T09:15:34.089951Z",
-      "url": "https://doi.org/10.1186/s12962-026-00786-1"
+      "url": "https://doi.org/10.1186/s12962-026-00786-1",
+      "editorialTitleEn": "Perio therapy as CVD prevention: cost-effective only over a lifetime horizon",
+      "editorialTitleIt": "NSPT e prevenzione cardiovascolare: costo-efficace solo su un orizzonte di vita intera",
+      "takeawaysEn": [
+        "Over a 25-year horizon, NSPT reached an ICER of €19,322/QALY — within NICE thresholds; at 10 years the ICER more than doubled to €49,847.",
+        "The model projected 41% fewer non-fatal strokes, 22% fewer MIs, and 12% lower cumulative mortality in treated versus untreated patients.",
+        "Cost-effectiveness conclusions rest on observational cardiovascular HRs (stroke HR 0.55, MI HR 0.70), not interventional evidence — the authors flag this as the dominant uncertainty.",
+        "High-quality longitudinal data on hard CVD endpoints are needed before NSPT can be recommended as a systemic prevention strategy."
+      ],
+      "takeawaysIt": [
+        "Su un orizzonte a 25 anni, l'NSPT ha raggiunto un ICER di 19.322 €/QALY, entro le soglie NICE; a 10 anni l'ICER sale a 49.847 €.",
+        "Il modello proietta una riduzione del 41% degli ictus non fatali, del 22% degli infarti e del 12% della mortalità cumulativa nei pazienti trattati.",
+        "Le conclusioni sulla costo-efficacia si basano su HR cardiovascolari osservazionali (ictus HR 0,55; infarto HR 0,70), non su evidenze interventistiche — gli autori lo indicano come principale fonte di incertezza.",
+        "Servono dati longitudinali di alta qualità su esiti cardiovascolari concreti prima di raccomandare l'NSPT come strategia di prevenzione sistemica."
+      ],
+      "whyItMattersEn": "This Markov model suggests that treating severe periodontitis in 65-year-olds could be cost-effective cardiovascular prevention for the NHS — but only when the full lifetime benefit is counted; a 10-year accounting roughly triples the cost per QALY. Clinicians should understand that the economic case for perio-systemic linkage depends heavily on unresolved uncertainty about the true cardiovascular effect of periodontal treatment.",
+      "whyItMattersIt": "Questo modello di Markov suggerisce che trattare la parodontite grave nei sessantacinquenni potrebbe configurarsi come prevenzione cardiovascolare costo-efficace per il NHS — ma solo se si considera l'intero orizzonte di vita; un arco a 10 anni triplica circa il costo per QALY. Il clinico deve tenere presente che il caso economico per il legame parodonto-sistemico dipende in larga misura da un'incertezza non ancora risolta sull'entità reale dell'effetto cardiovascolare del trattamento parodontale."
     },
     {
       "pmid": "42254883",
@@ -184,7 +248,23 @@
       ],
       "slug": "three-decades-of-enamel-matrix-derivative-from-dental-innovation-to-extra-oral-a-42254883",
       "fetchedAt": "2026-06-15T09:15:34.089951Z",
-      "url": "https://doi.org/10.1155/ijod/6556335"
+      "url": "https://doi.org/10.1155/ijod/6556335",
+      "editorialTitleEn": "EMD at 30: where the evidence holds — and where it does not",
+      "editorialTitleIt": "EMD a trent'anni: dove le prove reggono e dove no",
+      "takeawaysEn": [
+        "EMD remains a validated adjunct for recession coverage and intrabony defects, with consistent evidence across 30 years of literature.",
+        "Adjunctive use in peri-implantitis shows promising inflammatory and bone-regenerative effects, but evidence is not yet conclusive in this review.",
+        "EMD offers limited benefit for alveolar ridge dimension preservation after extraction — a clear negative finding to keep in mind.",
+        "Vital pulp therapy and wound healing are emerging indications; cutaneous ulcer data remain preliminary and too sparse to guide practice."
+      ],
+      "takeawaysIt": [
+        "L'EMD è un adiuvante validato per la copertura delle recessioni e i difetti infraossei, con evidenze consistenti su trent'anni di letteratura.",
+        "L'uso adiuvante nella perimplantite mostra effetti promettenti su parametri infiammatori e di rigenerazione ossea, ma l'evidenza non è ancora conclusiva in questa revisione.",
+        "L'EMD offre benefici limitati per la preservazione delle dimensioni della cresta alveolare dopo l'estrazione — un dato negativo da tenere presente nella pratica.",
+        "Terapia della polpa vitale e guarigione delle ferite sono indicazioni emergenti; i dati sulle ulcere cutanee restano preliminari e insufficienti a orientare la clinica."
+      ],
+      "whyItMattersEn": "This 30-year synthesis gives clinicians a calibrated map of EMD indications rather than a promotional inventory: it confirms the core use cases (recession, intrabony defects) while flagging where reaching for EMD — particularly for ridge preservation — is not supported by the evidence, and it contextualises the newer applications (peri-implantitis, endodontics) as promising but not yet practice-changing.",
+      "whyItMattersIt": "Questa revisione trentennale offre al clinico una mappa calibrata delle indicazioni dell'EMD, non un inventario promozionale: conferma i casi d'uso consolidati (recessioni, difetti infraossei), segnala dove il suo impiego — in particolare per la preservazione della cresta — non trova supporto nelle evidenze, e contestualizza le indicazioni più recenti (perimplantite, endodonzia) come promettenti ma non ancora in grado di modificare la pratica corrente."
     },
     {
       "pmid": "42194656",
@@ -223,7 +303,23 @@
       "abstractText": "Full-arch implant-supported rehabilitations are widely recognized as an effective treatment option for edentulous patients. Nevertheless, clinical decision-making regarding patient selection, surgical planning, prosthetic material choice, and long-term maintenance protocols remains heterogeneous and requires structured evidence-based guidance. A modified Delphi consensus process was conducted involving 29 experts during the Italian Consensus Conference. A systematic literature review covering the period 2015-2024 was performed, and the certainty of evidence was assessed using the Grading of Recommendations Assessment, Development and Evaluation (GRADE) framework. Consensus was predefined as &#x2265;90% agreement. Seven evidence-based consensus statements were developed addressing: (1) periodontal risk assessment using validated tools; (2) guided bone regeneration outcomes with technique-specific indications; (3) comparative survival of four versus six implants in mandibular full-arch rehabilitations; (4) equivalence of tilted and axial implant configurations; (5) prosthetic material selection, with monolithic zirconia showing high survival; (6) risk-stratified supportive maintenance protocols associated with a reduction in peri-implantitis incidence; and (7) systemic risk stratification, including absolute and relative contraindications, medication-related osteonecrosis of the jaw (MRONJ) risk management, and perioperative antibiotic prophylaxis.",
       "slug": "consensus-statement-on-full-arch-implant-rehabilitations-evidence-based-recommen-42194656",
       "fetchedAt": "2026-06-08T09:22:05.141061Z",
-      "url": "https://doi.org/10.3390/jcm15103695"
+      "url": "https://doi.org/10.3390/jcm15103695",
+      "editorialTitleEn": "Full-arch implants: what 29 Italian experts agreed on — and what it changes in practice",
+      "editorialTitleIt": "Full-arch implantare: le 7 raccomandazioni GRADE della Consensus italiana per standardizzare la pratica",
+      "takeawaysEn": [
+        "Four implants in the mandibular full-arch show comparable survival to six, per the consensus statements.",
+        "Tilted and axial implant configurations are considered clinically equivalent by the expert panel.",
+        "Monolithic zirconia is endorsed for prosthetic material selection based on high survival data in the reviewed literature.",
+        "Risk-stratified supportive maintenance is associated with lower peri-implantitis incidence in this framework."
+      ],
+      "takeawaysIt": [
+        "Nel full-arch mandibolare, quattro impianti mostrano sopravvivenza paragonabile a sei secondo le dichiarazioni di consenso.",
+        "Le configurazioni inclinate e assiali sono ritenute clinicamente equivalenti dal panel di esperti.",
+        "La zirconia monolitica è raccomandata come materiale protesico in base all'alta sopravvivenza rilevata dalla revisione della letteratura.",
+        "Un mantenimento di supporto stratificato per rischio si associa a una minore incidenza di perimplantite in questo framework."
+      ],
+      "whyItMattersEn": "Full-arch rehabilitation decision-making is still heterogeneous in clinical practice; this Italian Consensus Conference translates a decade of literature (2015-2024), assessed through GRADE and requiring ≥90% expert agreement, into seven actionable statements on patient selection, surgical layout, material choice, and maintenance — giving implantologists and prosthodontists a shared, graded reference they can apply and defend.",
+      "whyItMattersIt": "La gestione del full-arch implantare rimane eterogenea nella pratica clinica; questa Consensus Conference italiana traduce un decennio di letteratura (2015-2024), valutata con il sistema GRADE e con soglia di accordo ≥90%, in sette dichiarazioni operative su selezione del paziente, schema chirurgico, scelta del materiale e mantenimento — offrendo a implantologi e protesisti un riferimento condiviso e graduato da applicare e difendere."
     },
     {
       "pmid": "42214655",
@@ -262,7 +358,23 @@
       "abstractText": "OBJECTIVES: To evaluate the 20-year clinical outcomes of periodontal regenerative and orthodontic treatment for severely periodontally compromised teeth.\n\nMETHODS: In this prospective study, 48 patients with Stage IV periodontitis, each with at least one non-molar tooth (n = 48 test teeth) exhibiting pathologic migration and an associated intrabony defect characterized by probing depth (PD) of &#x2265; 7 mm, were consecutively included. The treatment protocol comprised: 1) supra/sub-gingival instrumentation (Step &#x2160;-&#x2161;); 2) periodontal regenerative surgery using enamel matrix derivative (EMD) alone or combined with a bone graft and membrane (Step &#x2162;); 3) orthodontic treatment initiated 8-12 months post-surgery to correct malposition (Step R); and 4) tailored supportive periodontal care (SPC) (Step &#x2163;). Clinical parameters were recorded at baseline (T0), 10-year (T10), and 20-year (T20) follow-up visits.\n\nRESULTS: Thirty-three patients (drop-out rate: 31.2%; n = 29 test teeth) completed the 20-year follow-up. The T20 estimated tooth survival was 89.1% (CI: 79.4-99.9%), while complication-free probability was 86.3% (CI: 75.7-98.3%). Overall, five test teeth experienced complications (1 pulp necrosis, 2 root fractures, 2 periodontal disease recurrence) and four were extracted during the 20-year period. All periodontal parameters significantly improved from T0 to T20: full-mouth plaque scores decreased from 48.8% to 14.6% (34.2 &#xb1; 19.3%; 95% CI: 27.3, 41.0; p &lt; 0.001), and full-mouth bleeding scores dropped from 55.5% to 10.2% (45.4 &#xb1; 18.5%; 95% CI: 38.8, 51.9; p &lt; 0.001). The number of sites with PD &#x2265; 7 mm was reduced from 25.8 to 0.9 (24.9 &#xb1; 17.0; 95% CI: 18.9, 30.9; p &lt; 0.001). At the test tooth level, mean PD decreased from 6.3 mm to 3.0 mm (3.1 &#xb1; 1.4 mm; 95% CI: 2.6, 3.7; p &lt; 0.001). Treatment success (i.e., tooth survival + PD &#x2264; 4 mm) was observed in 81.8 % of cases.\n\nCONCLUSIONS: The 20-year results demonstrate that orthodontic treatment subsequent to periodontal regeneration is a predictable strategy for long-term tooth preservation, provided it is integrated into a stringent and tailored supportive care program. This interdisciplinary approach does not compromise the benefits of regeneration and offers a viable alternative to tooth extraction.\n\nCLINICAL SIGNIFICANCE: This study revealed that the combination of peridoontal regeneration and orthodontic therapy can successfully preserve natural teeth in severe periodontitis cases over two decades, highlighting the critical role of a tailored SPC program.",
       "slug": "long-term-outcomes-of-regenerative-periodontal-therapy-and-orthodontic-treatment-42214655",
       "fetchedAt": "2026-06-08T09:22:05.141061Z",
-      "url": "https://doi.org/10.1016/j.jdent.2026.106799"
+      "url": "https://doi.org/10.1016/j.jdent.2026.106799",
+      "editorialTitleEn": "Regeneration then orthodontics: 20-year tooth survival in Stage IV periodontitis",
+      "editorialTitleIt": "Rigenerazione e poi ortodonzia: 20 anni di sopravvivenza in parodontite Stadio IV",
+      "takeawaysEn": [
+        "In this cohort, 89.1% estimated tooth survival at 20 years for severely compromised teeth (PPD ≥7 mm, intrabony defect, pathologic migration) treated with EMD-based regeneration followed by orthodontics.",
+        "Orthodontic tooth movement initiated 8-12 months post-regeneration did not compromise regenerative gains; mean PPD dropped from 6.3 to 3.0 mm and PPD ≥7 mm sites fell from 25.8 to 0.9 per patient.",
+        "Treatment success (tooth survival plus PPD ≤4 mm) reached 81.8% of cases — but only 33 of 48 original patients completed the 20-year visit (31% dropout).",
+        "A stringent, individually tailored supportive periodontal care program was the authors' recurring prerequisite; results cannot be extrapolated to patients outside structured maintenance."
+      ],
+      "takeawaysIt": [
+        "In questa coorte, sopravvivenza dentale stimata all'89,1% a 20 anni per denti gravemente compromessi (PPD ≥7 mm, difetto infraosseo, migrazione patologica) trattati con rigenerazione a base di EMD seguita da ortodonzia.",
+        "Il movimento ortodontico avviato 8-12 mesi dopo la rigenerazione non ha vanificato i guadagni rigenerativi: PPD media scesa da 6,3 a 3,0 mm, siti con PPD ≥7 mm da 25,8 a 0,9 per paziente.",
+        "Il successo terapeutico (sopravvivenza + PPD ≤4 mm) è stato raggiunto nell'81,8% dei casi — ma solo 33 dei 48 pazienti iniziali hanno completato la visita a 20 anni (drop-out del 31%).",
+        "Un programma di mantenimento parodontale rigoroso e individualizzato era il prerequisito ribadito dagli autori; i risultati non sono estrapolabili a pazienti fuori da un'adeguata terapia di supporto."
+      ],
+      "whyItMattersEn": "For the clinician evaluating a Stage IV tooth with deep intrabony defect and pathologic migration, this study offers 20-year data supporting a keep-and-reposition strategy over extraction — provided regenerative surgery precedes orthodontics and the patient enters a structured, long-term supportive care program. The finding that orthodontic forces do not undo regenerative gains is the clinically actionable piece.",
+      "whyItMattersIt": "Per il clinico che valuta un dente in Stadio IV con difetto infraosseo profondo e migrazione patologica, questo studio fornisce dati a 20 anni a favore di una strategia di conservazione e riposizionamento rispetto all'estrazione — a condizione che la chirurgia rigenerativa preceda l'ortodonzia e che il paziente aderisca a un programma di mantenimento strutturato e a lungo termine. Il dato clinicamente rilevante è che le forze ortodontiche non compromettono i guadagni rigenerativi ottenuti con la rigenerazione."
     },
     {
       "pmid": "42226287",
@@ -301,7 +413,23 @@
       "abstractText": "OBJECTIVE: This study aimed to explore the ten-year survival rates (SR), complication rates, and marginal bone loss (MBL) of short dental implants (&#x2264;&#x2009;6&#xa0;mm).\n\nMATERIALS AND METHODS: Literature searches were conducted in four databases: PubMed, Web of Science, Embase, and the Cochrane Library. Randomized controlled trials (RCTs) and prospective studies reporting clinical outcomes of short dental implants with ten years of follow-up were included. Both single-group meta-analyses and paired-comparison meta-analyses were conducted utilizing the statistical software R version 4.3.1. An interpolation model was employed to handle missing data for the sensitivity meta-analysis of SR. The number of PROSPERO was CRD42024522613.\n\nRESULTS: A total of 8 studies (4 RCTs and 4 prospective) were included. The single-group meta-analyses encompassed 8 studies. The pooled estimate of 10-year SR was 91.2% (95% CI: 0.843-0.965) at the patient level (PL) and 93.7% (95% CI: 0.878-0.980) at the implant level (IL). Sensitivity meta-analysis estimates were 89.7% (PL) and 92.8% (IL). Subgroup analyses revealed that screw retention implants had lower SR than cemented retention. The incidence of technical complications was 23.5%, while biological complications included peri-implant mucositis (33.6%) and peri-implantitis (0.4%). The pooled MBL estimates over ten years were 0.277&#xa0;mm for both the PL and IL. Paired-comparison meta-analyses of four RCTs showed that short implants had a significantly lower 10-year SR than long implants (RR, 0.920 (95% CI: 0.857-0.987) at the PL and RR, 0.943 (95% CI: 0.896-0.992) at the IL), but no significant differences were observed in technical, biological complications, or MBL.\n\nCONCLUSION: For patients with jawbone atrophy, short implants may represent a viable long-term treatment option, although their 10-year survival rate is slightly lower than that of standard implants. However, given the limitations of this study, the above conclusions and their clinical implications should be interpreted with caution.",
       "slug": "ten-year-outcomes-of-short-dental-implants-6-mm-a-systematic-review-and-sensitiv-42226287",
       "fetchedAt": "2026-06-08T09:22:05.141061Z",
-      "url": "https://doi.org/10.1186/s12903-026-08742-4"
+      "url": "https://doi.org/10.1186/s12903-026-08742-4",
+      "editorialTitleEn": "Short implants at 10 years: viable for the atrophic ridge, but survival stays below standard implants",
+      "editorialTitleIt": "Impianti corti a 10 anni: opzione praticabile nella cresta atrofica, ma la sopravvivenza resta inferiore agli impianti standard",
+      "takeawaysEn": [
+        "Pooled 10-year survival was 91–94% (patient/implant level); sensitivity analysis returned the more conservative 89.7–92.8%.",
+        "Compared head-to-head with long implants in RCTs, short implants showed significantly lower survival (RR ~0.92–0.94), though complication rates and marginal bone loss did not differ significantly.",
+        "Marginal bone loss over a decade was modest at ~0.28 mm; peri-implantitis incidence was low at 0.4%, though peri-implant mucositis reached 33.6%.",
+        "Evidence base remains narrow — only 8 studies qualified; authors urge caution in extrapolating conclusions to clinical practice."
+      ],
+      "takeawaysIt": [
+        "La sopravvivenza aggregata a 10 anni è risultata del 91–94% (livello paziente/impianto); l'analisi di sensibilità ha restituito stime più prudenti, 89,7–92,8%.",
+        "Nel confronto diretto con gli impianti lunghi negli RCT, gli impianti corti mostrano una sopravvivenza significativamente inferiore (RR ~0,92–0,94), senza differenze significative in complicanze o perdita ossea marginale.",
+        "La perdita ossea marginale a dieci anni era contenuta (~0,28 mm); la perimplantite è rimasta allo 0,4%, mentre la mucosite perimplantare ha raggiunto il 33,6%.",
+        "La base di evidenza è ancora ristretta — solo 8 studi inclusi; gli autori raccomandano prudenza nell'estrapolare le conclusioni alla pratica clinica."
+      ],
+      "whyItMattersEn": "For clinicians managing atrophic ridges where augmentation carries higher risk or the patient declines grafting, this review supports short implants as a defensible long-term option — but the survival gap versus standard implants, while modest, is real and statistically significant, so patient selection and informed consent should reflect that trade-off explicitly.",
+      "whyItMattersIt": "Per l'implantologo che gestisce creste atrofiche in cui l'aumento osseo è ad alto rischio o il paziente rifiuta l'innesto, questa revisione supporta gli impianti corti come scelta affidabile a lungo termine — ma il divario di sopravvivenza rispetto agli impianti standard, per quanto contenuto, è reale e statisticamente significativo: la selezione del paziente e il consenso informato devono riflettere esplicitamente questo compromesso."
     },
     {
       "pmid": "42240865",
@@ -340,7 +468,23 @@
       "abstractText": "OBJECTIVES: This study aimed to evaluate the clinical effectiveness and safety of guided bone regeneration (GBR) using a three-dimensional preformed resorbable Polylactic-co-glycolic acid membrane (3D-PRPM) with simultaneous implant placement.\n\nMATERIALS AND METHODS: Twenty patients (21 sites) with localized ridge defects were treated using implants placed concurrently with GBR using a 3D-PRPM. Cone-beam computed tomography scans were taken preoperatively, immediately postoperatively, and at 5 months. Horizontal bone augmentation (BA), hard tissue gain (HG), bone resorption (BR), and hard tissue gain rate (HGR) were assessed. Changes beyond the original bony envelope were evaluated. Statistical analyses included the Wilcoxon signed-rank and Friedman tests.\n\nRESULTS: Mean BA was 2.99&#x2009;&#xb1;&#x2009;1.15&#xa0;mm, and mean HG at 5 months was 2.64&#x2009;&#xb1;&#x2009;1.10&#xa0;mm. Mean BR was 0.35&#x2009;&#xb1;&#x2009;0.23&#xa0;mm, and mean HGR was 87.2% &#xb1; 8.2%. Envelope analysis confirmed a significant increase after augmentation with partial reduction during healing; however, ridge dimensions at 5 months remained significantly greater than baseline (P&#x2009;&lt;&#x2009;0.001). No membrane exposure, infection, or wound dehiscence occurred.\n\nCONCLUSION: 3D-PRPM enabled predictable horizontal ridge augmentation with excellent volumetric stability and favorable short-term safety.\n\nCLINICAL RELEVANCE: A 3D-PRPM may provide a stable, fixation-free resorbable barrier for horizontal ridge augmentation, potentially simplifying GBR procedures and reducing the need for secondary removal.",
       "slug": "simultaneous-implant-placement-with-guided-bone-regeneration-for-horizontal-ridg-42240865",
       "fetchedAt": "2026-06-08T09:22:05.141061Z",
-      "url": "https://doi.org/10.1007/s00784-026-06959-9"
+      "url": "https://doi.org/10.1007/s00784-026-06959-9",
+      "editorialTitleEn": "Simultaneous GBR with a 3D preformed PLGA membrane: 87% bone gain maintained at 5 months, zero exposures",
+      "editorialTitleIt": "Membrana PLGA 3D preformata per GBR contestuale: 87% di guadagno osseo a 5 mesi, nessuna esposizione",
+      "takeawaysEn": [
+        "In this 21-site single-arm study, mean horizontal bone augmentation was 2.99 mm with 87.2% of hard tissue gain preserved at 5 months.",
+        "The membrane required no fixation devices, potentially reducing procedural complexity in simultaneous-placement GBR cases.",
+        "No membrane exposures, infections, or wound dehiscences occurred across all treated sites in this short-term cohort.",
+        "Results are encouraging but limited: single arm, 20 patients, 5-month follow-up — comparative data against established membranes is still needed."
+      ],
+      "takeawaysIt": [
+        "In questa coorte di 21 siti a braccio singolo, l'aumento osseo orizzontale medio è stato di 2,99 mm, con l'87,2% del guadagno di tessuto duro mantenuto a 5 mesi.",
+        "La membrana non ha richiesto dispositivi di fissazione, riducendo potenzialmente la complessità procedurale nella GBR con impianto contestuale.",
+        "Nessuna esposizione della membrana, infezione o deiscenza della ferita si è verificata in tutta la casistica a breve termine.",
+        "I risultati sono incoraggianti ma limitati: braccio singolo, 20 pazienti, follow-up a 5 mesi — mancano ancora dati comparativi con le membrane consolidate."
+      ],
+      "whyItMattersEn": "A fixation-free resorbable membrane that holds space predictably and avoids a second removal surgery would simplify one of the more technique-sensitive steps in ridge augmentation; this early study suggests the geometry of a preformed 3D design may contribute to that stability, though clinicians should wait for controlled comparative trials before changing their membrane protocol.",
+      "whyItMattersIt": "Una membrana riassorbibile senza fissazione che mantiene lo spazio in modo prevedibile ed evita un secondo intervento di rimozione semplificherebbe una delle fasi più tecnico-dipendenti dell'aumento di cresta; questo studio preliminare suggerisce che la geometria tridimensionale preformata possa contribuire a tale stabilità, ma prima di modificare il protocollo di membrana è opportuno attendere studi controllati comparativi."
     },
     {
       "pmid": "42194803",
@@ -379,7 +523,23 @@
       "abstractText": "Background/Objectives: Connective tissue grafting (CTG) has been proposed to enhance ridge contour at pontic sites; however, its long-term volumetric stability remains unclear. This systematic review evaluated three-dimensional (3D) volumetric and linear soft-tissue changes over time following CTG at pontic sites. Methods: A systematic search was conducted in PubMed/MEDLINE, Embase, Cochrane Library, LILACS, Scopus, Web of Science, and Google Scholar. Clinical studies assessing linear and/or volumetric soft-tissue outcomes at pontic sites treated with CTG, with a minimum follow-up of six months, were included. Study selection, data extraction, and risk-of-bias assessment were performed independently by two reviewers using RoB 2 and ROBINS-I tools. Results were synthesized descriptively. Results: Seven studies (two randomized and five non-randomized) were included. CTG was associated with consistent early improvements in ridge contour and soft-tissue volume. Over time, minor dimensional reductions were observed, and differences between grafted and nongrafted sites tended to decrease after the initial remodeling phase. Long-term follow-up (up to 15 years) suggested overall stability of both volumetric and linear outcomes. However, the evidence is limited by a small number of studies, methodological heterogeneity, and predominance of non-randomized designs. Conclusions: CTG provides early soft-tissue augmentation at pontic sites, but its long-term advantage over non-grafted healing appears limited. Given the very low certainty of evidence, these findings of such studies should be interpreted with caution in clinical decision-making.",
       "slug": "volumetric-changes-at-pontic-sites-after-connective-tissue-grafting-a-systematic-42194803",
       "fetchedAt": "2026-06-08T09:22:05.141061Z",
-      "url": "https://doi.org/10.3390/jcm15103842"
+      "url": "https://doi.org/10.3390/jcm15103842",
+      "editorialTitleEn": "Connective Tissue Graft Under Pontics: Early Gain, Uncertain Long-Term Edge",
+      "editorialTitleIt": "CTG sotto elemento a ponte: il vantaggio precoce c'è, quello a lungo termine resta incerto",
+      "takeawaysEn": [
+        "CTG reliably improves ridge contour and soft-tissue volume at pontic sites in the short term.",
+        "Over time, dimensional reductions occur and the gap between grafted and non-grafted sites tends to narrow.",
+        "Long-term data (up to 15 years in this review) suggest residual outcomes are broadly stable, but the evidence base is very limited.",
+        "Only 7 studies met inclusion criteria — 2 randomized — so findings warrant caution in clinical decision-making."
+      ],
+      "takeawaysIt": [
+        "Il CTG migliora in modo affidabile il profilo di cresta e il volume dei tessuti molli nei siti a ponte nella fase precoce.",
+        "Con il tempo compaiono lievi riduzioni dimensionali e la differenza rispetto ai siti non innestati tende a ridursi dopo il rimodellamento iniziale.",
+        "I dati a lungo termine (fino a 15 anni in questa revisione) suggeriscono una sostanziale stabilità degli esiti residui, ma il corpus di prove è molto limitato.",
+        "Solo 7 studi soddisfacevano i criteri di inclusione — 2 randomizzati — e i risultati vanno interpretati con cautela nel processo decisionale clinico."
+      ],
+      "whyItMattersEn": "Clinicians routinely perform CTG at pontic sites to improve aesthetics, but this review suggests the long-term differential over ungrafted healing is uncertain at very low certainty of evidence. The practical takeaway is not to abandon the technique, but to set realistic expectations with patients about durability and to await better randomized evidence before drawing firm conclusions.",
+      "whyItMattersIt": "Il CTG ai siti a ponte è una procedura routinaria per migliorare l'estetica, ma questa revisione indica che il vantaggio differenziale a lungo termine rispetto alla guarigione spontanea è incerto, con un livello di certezza delle prove molto basso. Il messaggio pratico non è abbandonare la tecnica, bensì stabilire con il paziente aspettative realistiche sulla durabilità del risultato e attendere studi randomizzati di qualità prima di trarre conclusioni definitive."
     },
     {
       "pmid": "42129020",
@@ -416,7 +576,23 @@
       "abstractText": "PURPOSE: To retrospectively evaluate biological and technical complication rates of implant-supported fixed complete dentures (IFCDs) in edentulous jaws and to identify factors associated with complications over long-term follow-up.\n\nMETHODS: Between 2003 and 2023, 91 IFCDs supported by 498 implants were placed in 72 patients. Mean observation period was 6.8 years (0.5-17). Biological and technical complications were compared between materials. Time until first complication was estimated using Kaplan-Meier analysis and risk factors for recurrent complications were assessed through multivariable Andersen-Gill Cox regression.\n\nRESULTS: Seven IFCDs failed, corresponding to a cumulative overall IFCD survival of 92.3%. Twenty-one of 498 implants (4.2%) were explanted. Overall prosthesis survival of resin veneered (RV) and ceramic veneered (CV) IFCDs did not differ (p&#x2009;=&#x2009;0.85), whereas veneer fracture-free survival was significantly higher for CV IFCDs (p&#x2009;=&#x2009;0.0094). In total, 169 complications were recorded, including recurrent events, whereas 49.5% of prostheses remained complication-free. Technical complications predominated, with veneer fractures representing the most frequent event. Biological complications such as peri-implantitis and implant loss occurred less frequently. Compared to base metal alloy-ceramic IFCDs, titanium-resin IFCDs exhibited a significantly higher overall complication risk (HR 4.25, p&#x2009;=&#x2009;0.0015), particularly for veneer fractures (HR 7.11, p&#x2009;=&#x2009;0.0029).\n\nCONCLUSIONS: Within the limitations of this long-term retrospective cohort study, IFCDs demonstrated high prosthesis and implant survival rates, but a considerable number of predominantly technical complications. The choice of framework and veneering material appears to influence long-term complication risk and should be carefully considered during treatment planning.",
       "slug": "technical-and-biological-complications-of-implant-supported-fixed-complete-dentu-42129020",
       "fetchedAt": "2026-06-01T09:23:36.852544Z",
-      "url": "https://doi.org/10.1186/s40729-026-00689-z"
+      "url": "https://doi.org/10.1186/s40729-026-00689-z",
+      "editorialTitleEn": "Full-arch implant prostheses: the implants survive, but material choice drives complication risk",
+      "editorialTitleIt": "Protesi fissa totale su impianti: sopravvivono gli impianti, ma il materiale decide le complicanze",
+      "takeawaysEn": [
+        "Prosthesis survival was 92.3% and implant loss 4.2% over a mean 6.8 years — high reliability in this cohort.",
+        "Yet only 49.5% of prostheses remained complication-free; 169 complications were recorded, overwhelmingly technical (veneer fractures).",
+        "Titanium-resin frameworks showed a markedly higher overall complication risk (HR 4.25) and veneer fracture risk (HR 7.11) vs base metal alloy-ceramic.",
+        "Ceramic veneering achieved significantly better fracture-free survival than resin veneering — a difference decided at the planning stage."
+      ],
+      "takeawaysIt": [
+        "Sopravvivenza protesica del 92,3% e perdita implantare del 4,2% su una media di 6,8 anni — affidabilità elevata in questa coorte.",
+        "Eppure solo il 49,5% delle protesi è rimasto libero da complicanze; 169 eventi registrati, in prevalenza tecnici (fratture del rivestimento).",
+        "Le strutture titanio-resina presentavano un rischio di complicanze nettamente superiore (HR 4,25) e un rischio di frattura del rivestimento molto più alto (HR 7,11) rispetto alle protesi in lega vile-ceramica.",
+        "Il rivestimento ceramico ha garantito una sopravvivenza libera da fratture significativamente migliore rispetto alla resina — una differenza che si decide in fase di pianificazione."
+      ],
+      "whyItMattersEn": "In full-arch implant rehabilitation, osseointegration is rarely the limiting factor for long-term outcomes — in this cohort the prosthetic framework and veneering material were. Clinicians should counsel patients that the maintenance burden over decades will come primarily from the superstructure, and weigh titanium-resin frameworks against ceramic-veneered alternatives with this complication differential in mind.",
+      "whyItMattersIt": "Nella riabilitazione implantare totale, l'osteointegrazione è raramente il fattore limitante per gli esiti a lungo termine — in questa coorte lo erano la struttura protesica e il materiale di rivestimento. L'implantologo e il protesista dovrebbero informare il paziente che il carico di manutenzione negli anni deriverà principalmente dalla sovrastruttura, e valutare le strutture titanio-resina rispetto alle alternative ceramiche tenendo conto di questo differenziale di rischio."
     },
     {
       "pmid": "42178105",
@@ -453,7 +629,23 @@
       "abstractText": "OBJECTIVES: Extensive research has explored the prevalence of periodontal diseases in adult populations, however there is a paucity of synthesised data focusing on its prevalence among children and adolescents particularly in Asian countries. The objective of this scoping review was to analyse the available literature to evaluate the prevalence of periodontal diseases among children and adolescents in Asian countries.\n\nMETHODS: A scoping review was conducted in accordance with the PRISMA-ScR guidelines and registered with Open Science Framework. Electronic searches of PubMed, Embase, Scopus, and Web of Science were carried out to include cross-sectional, cohort studies and national oral health surveys published from 2010 reporting gingival and periodontal outcomes in children and adolescents (&#x2264;18 years) residing in Asia. A narrative synthesis of the findings including study information, participants demographics and the prevalence of gingivitis, periodontitis was presented.\n\nRESULTS: 84 studies from 24 Asian countries were included. \"Gingivitis\" was the most commonly reported condition, with prevalence ranging from &lt;10% to 100% across studies. \"Periodontitis\" was less frequently reported but was identified in adolescents in eight studies, with prevalence ranging from 0.7% to 44.5%.\n\nCONCLUSIONS: \"Gingivitis\" is highly prevalent among children and adolescents in Asia, and if left undiagnosed and untreated, \"Periodontitis\" may occur in a subset of this population. Periodontal assessment should be incorporated into routine dental assessment of school children for timely prevention. A critical issued in current primary studies is the considerable heterogeneity in methodology (i.e. diagnostic criteria, and indices used) and outcomes reported (i.e. socio-demographics, clinical findings). This should be rectified in future studies.\n\nCLINICAL SIGNIFICANCE: The high prevalence of periodontal disease in children and adolescents of Asian countries highlights the need for periodontal screening to detect reversible gingivitis at early stages and prevent disease progression. Therefore, the inclusion of periodontal assessment into routine oral health check-ups is required.",
       "slug": "prevalence-of-periodontal-diseases-in-children-and-adolescents-in-asian-countrie-42178105",
       "fetchedAt": "2026-06-01T09:23:36.852544Z",
-      "url": "https://doi.org/10.1016/j.jdent.2026.106790"
+      "url": "https://doi.org/10.1016/j.jdent.2026.106790",
+      "editorialTitleEn": "Periodontal disease starts in childhood — but Asia's data can't yet prove how often",
+      "editorialTitleIt": "Parodontite già in adolescenza: i dati asiatici lo confermano, ma la variabilità metodologica ne limita la misura",
+      "takeawaysEn": [
+        "Gingivitis was the dominant finding across 84 studies from 24 Asian countries, with prevalence spanning under 10% to 100% — a range that reflects inconsistent diagnostic criteria as much as real population differences.",
+        "Periodontitis was identified in adolescents in eight studies, with prevalence between 0.7% and 44.5%; the wide spread signals methodological scatter, not a settled epidemiological figure.",
+        "Routine dental visits for school-age children should include a deliberate periodontal assessment, not caries screening alone, to catch reversible gingivitis before it progresses to attachment loss.",
+        "Methodological harmonisation — consistent diagnostic criteria and indices — is the prerequisite for reliable prevalence data in this age group."
+      ],
+      "takeawaysIt": [
+        "La gengivite è la condizione predominante: 84 studi da 24 Paesi asiatici riportano una prevalenza compresa tra meno del 10% e il 100%, uno scarto che riflette criteri diagnostici disomogenei almeno quanto reali differenze di popolazione.",
+        "La parodontite è stata identificata negli adolescenti in otto studi, con prevalenza tra lo 0,7% e il 44,5%: la dispersione segnala eterogeneità metodologica, non una stima epidemiologica consolidata.",
+        "I controlli odontoiatrici di routine nei bambini in età scolare dovrebbero includere una valutazione parodontale mirata — non solo lo screening della carie — per intercettare la gengivite reversibile prima che evolva in perdita di attacco.",
+        "L'armonizzazione metodologica — criteri diagnostici e indici condivisi — è il presupposto indispensabile per dati di prevalenza affidabili in questa fascia d'età."
+      ],
+      "whyItMattersEn": "Periodontal assessment is rarely a standing item in pediatric dental check-ups, yet this review — despite its heterogeneity limits — confirms that gingivitis is common in school-age children and that periodontitis is not absent in adolescents. Adding a brief periodontal evaluation to routine visits is a low-cost intervention that can intercept reversible inflammation before it organises into bone and attachment loss.",
+      "whyItMattersIt": "La valutazione parodontale è raramente un punto fisso nei controlli odontoiatrici pediatrici, eppure questa review — pur con i suoi limiti di eterogeneità — conferma che la gengivite è frequente nei bambini in età scolare e che la parodontite non è assente negli adolescenti. Inserire una breve valutazione parodontale nelle visite di routine è un intervento a basso costo che può intercettare l'infiammazione reversibile prima che si organizzi in perdita di attacco e osso alveolare."
     },
     {
       "pmid": "42172860",
@@ -490,7 +682,23 @@
       "abstractText": "BACKGROUND: The socket shield technique (SST) is widely applied in implant treatments in aesthetic zones, demonstrating significant advantages in preserving hard and soft tissues. Although SST was developed to maintain alveolar bone and gingival architecture by retaining a buccal root fragment, its biomechanical implications - particularly under direct implant-fragment contact - and the optimal geometric parameters of the shield remain poorly defined.\n\nOBJECTIVE: This study utilized finite element analysis to evaluate the biomechanical behaviour of direct implant-root fragment contact in SST.\n\nMETHODS: Three-dimensional finite element models of a maxillary anterior socket shield implant were constructed from cone beam computed tomography data. The residual root fragment was modelled with a uniform thickness of 1.5 mm, a length of 6 mm, and labial arc angles of 60&#xb0;, 90&#xb0;, 120&#xb0;, 150&#xb0;, and 180&#xb0; at the alveolar crest level. An insertion torque of 30 N&#xb7;cm and an occlusal load of 100 N were applied to simulate clinical loading conditions. Stress distribution, peak stress, and displacement in the residual root, periodontal ligament (PDL), implant, and surrounding bone interface were analysed by Abaqus software.\n\nRESULTS: Under insertion torque of 30 N&#xb7;cm, the peak stress and displacement of the fragment and PDL decreased as the arc angle of the tooth fragment increased. The peak stress for a 60&#xb0; fragment was 101.9 MPa, which decreased significantly to 75.48 MPa for a 90&#xb0; fragment, and further to 69.62 MPa, 67.14 MPa, and 42.43 MPa for 120&#xb0;, 150&#xb0;, and 180&#xb0; fragments, respectively. The stress concentration was located at the fragment area corresponding to the implant neck's maximum diameter. The PDL's peak stress decreased from 4.073 to 1.067 MPa, and fragment displacement decreased from 0.01651 to 0.007814 mm. Under a 100 N occlusal force, as the arc angle increased, the peak stress in the PDL and cortical bone increased, while the peak stress in the fragment and implant decreased. The PDL's peak stress was lowest (1.143 MPa) for a 60&#xb0; fragment and highest (1.996 MPa) for a 180&#xb0; fragment, both below the natural tooth's PDL peak stress of 2.472 MPa. Cortical bone stress peaked at 49.74 MPa for a 60&#xb0; fragment, decreased for 90&#xb0; and 120&#xb0; fragments (47.77 and 47.62 MPa, respectively), and then increased significantly for 150&#xb0; and 180&#xb0; fragments (50.83 and 64.51 MPa).\n\nCONCLUSION: Within the limitations of this static finite element model, direct contact between the implant and a shield fragment with an arc angle of 120&#xb0; to 150&#xb0; appears to provide a favourable biomechanical environment. However, in vivo loading is cyclic and may result in long-term fatigue effects on living tissues and biomaterials that were not investigated in this study. Clinical studies are needed to validate these findings.",
       "slug": "biomechanical-effects-of-implant-root-fragment-contact-in-the-socket-shield-tech-42172860",
       "fetchedAt": "2026-06-01T09:23:36.852544Z",
-      "url": "https://doi.org/10.1016/j.identj.2026.109623"
+      "url": "https://doi.org/10.1016/j.identj.2026.109623",
+      "editorialTitleEn": "Socket Shield: FEA points to 120-150° arc as the biomechanical sweet spot for the retained fragment",
+      "editorialTitleIt": "Socket shield: l'analisi FEA indica un arco di 120-150° come geometria ottimale dello scudo radicolare",
+      "takeawaysEn": [
+        "In this finite element model, a labial arc angle of 120-150° for the retained root fragment produced the most balanced stress distribution across the implant, periodontal ligament, and cortical bone.",
+        "Wider arcs (>150°) reduced fragment stress under insertion torque but sharply raised cortical bone stress under occlusal load (64.51 MPa at 180°), suggesting diminishing returns.",
+        "Stress concentration under insertion torque localised consistently at the implant neck's widest diameter regardless of arc angle.",
+        "The model is static; cyclic fatigue effects on living tissues were not assessed, and the authors call for clinical validation before translating these findings into protocol changes."
+      ],
+      "takeawaysIt": [
+        "In questo modello agli elementi finiti, un angolo d'arco labiale di 120-150° per il frammento radicolare residuo ha prodotto la distribuzione di stress più equilibrata tra impianto, legamento parodontale e osso corticale.",
+        "Archi più ampi (>150°) riducevano lo stress nel frammento sotto coppia d'inserzione ma aumentavano bruscamente lo stress nell'osso corticale sotto carico occlusale (64,51 MPa a 180°), con rendimenti decrescenti oltre la soglia.",
+        "La concentrazione di stress durante l'inserzione si localizzava in modo costante a livello del diametro massimo del collo dell'impianto, indipendentemente dall'angolo d'arco.",
+        "Il modello è statico; gli effetti di fatica ciclica sui tessuti vivi non sono stati valutati e gli autori richiedono validazione clinica prima di tradurre questi dati in modifiche di protocollo."
+      ],
+      "whyItMattersEn": "In the socket shield technique the retained fragment geometry has historically been chosen by surgeon intuition; this FEA study provides the first quantified biomechanical target — roughly 120-150° of labial arc — for surgeons deciding how much root to preserve. The finding is hypothesis-generating rather than prescriptive, pending clinical studies, but it gives implantalogists a concrete parameter to consider and investigate in future prospective work.",
+      "whyItMattersIt": "Nella tecnica socket shield la geometria del frammento residuo è stata finora affidata al giudizio dell'operatore; questo studio FEA fornisce il primo obiettivo biomeccanico quantificato — circa 120-150° di arco labiale — per l'implantologo che deve decidere quanta radice conservare. Il dato è generatore di ipotesi più che prescrittivo, in attesa di studi clinici, ma offre un parametro concreto su cui impostare ricerche prospettiche future."
     },
     {
       "pmid": "42188380",
@@ -527,7 +735,23 @@
       "abstractText": "AIM: This study aimed to compare two-piece zirconia and two-piece titanium implants inserted into the anterior mandible for removable overdentures in a 3-year randomized split-mouth clinical trial.\n\nMETHODS: Twenty fully edentulous mandibular patients received two zirconia and two titanium implants allocated by computer-generated randomization. The primary endpoint was bleeding-on-probing (BOP) at 12 months. Secondary outcomes included implant survival and success (Albrektsson criteria), marginal bone level changes, peri-implant cytokines (IL-1&#x3b2;, IL-6, and TNF&#x3b1;), prosthetic complications, and patient-reported outcomes (PROMs).\n\nRESULTS: After 3 years, overall survival was 98.61% and overall success was 84.72%. Titanium implants showed higher success compared with zirconia implants (91.70% vs. 77.78%), while survival was 100% and 97.22%, respectively. Marginal bone loss was significantly greater around zirconia implants at 36 months (p &lt; 0.01). No significant differences were observed in IL-1&#x3b2;, IL-6, or TNF&#x3b1; levels up to 12 months. PROMs revealed a trade-off, with zirconia favored for esthetics and cleaning perception, while titanium was rated superior for stability.\n\nCONCLUSIONS: Within the limitations of this split-mouth RCT, zirconia implants demonstrated reduced success and inferior marginal bone stability compared with titanium implants in overdenture therapy. Careful case selection and close follow-up appear essential when zirconia implants are used in this indication.",
       "slug": "a-3-year-split-mouth-randomized-controlled-clinical-trial-of-zirconia-versus-tit-42188380",
       "fetchedAt": "2026-06-01T09:23:36.852544Z",
-      "url": "https://doi.org/10.3390/jfb17050213"
+      "url": "https://doi.org/10.3390/jfb17050213",
+      "editorialTitleEn": "Zirconia vs titanium for overdentures: a 14-point success gap and more bone loss at 3 years",
+      "editorialTitleIt": "Zirconia vs titanio per overdenture: successo inferiore e maggiore perdita ossea a 3 anni",
+      "takeawaysEn": [
+        "In this 3-year split-mouth RCT, titanium implant success (91.7%) outpaced zirconia (77.8%) by nearly 14 percentage points.",
+        "Marginal bone loss was significantly greater around zirconia implants at 36 months (p<0.01), the key differentiating finding.",
+        "Cytokine levels (IL-1β, IL-6, TNFα) showed no significant difference at 12 months, so the bone disadvantage lacked an early inflammatory signal.",
+        "Patients preferred zirconia for aesthetics and ease of cleaning, but rated titanium superior for perceived stability — a genuine clinical trade-off."
+      ],
+      "takeawaysIt": [
+        "In questo RCT split-mouth di 3 anni, il successo degli impianti in titanio (91,7%) ha superato quello degli impianti in zirconia (77,8%) di quasi 14 punti percentuali.",
+        "La perdita ossea marginale era significativamente maggiore attorno agli impianti in zirconia a 36 mesi (p<0,01), dato differenziante decisivo.",
+        "I livelli di citochine (IL-1β, IL-6, TNFα) non mostravano differenze significative a 12 mesi: lo svantaggio osseo non era anticipato da un segnale infiammatorio precoce.",
+        "I pazienti preferivano la zirconia per estetica e facilità di igiene, ma giudicavano il titanio superiore per stabilità percepita — un compromesso clinico reale."
+      ],
+      "whyItMattersEn": "When patients request metal-free implants for mandibular overdentures, this trial — within the limits of its split-mouth design and small cohort — shows that zirconia two-piece implants carry meaningfully lower success rates and greater marginal bone loss compared with titanium over three years. The clinical implication is not to exclude zirconia, but to reserve it for well-selected cases with heightened follow-up rather than treating it as a default equivalent to titanium.",
+      "whyItMattersIt": "Quando il paziente richiede impianti metal-free per overdenture mandibolari, questo studio — nei limiti del disegno split-mouth e della coorte ridotta — mostra che gli impianti in zirconia a due pezzi presentano tassi di successo sensibilmente inferiori e maggiore perdita ossea marginale rispetto al titanio a 3 anni. L'indicazione clinica non è escludere la zirconia, ma riservarla a casi selezionati con follow-up ravvicinato, senza equipararla al titanio come scelta di default."
     },
     {
       "pmid": "42174584",
@@ -564,7 +788,23 @@
       "abstractText": "PURPOSE: To evaluate the trueness and safety of an autonomous dental implant robotic system (ADIRS) for transcrestal maxillary sinus floor elevation (TSFE), to compare outcomes between flat and sloped sinus floor morphologies, and to summarize a morphology-specific operative workflow.\n\nMETHODS: This single-center retrospective cohort included 11 patients (12 implants) who underwent ADIRS-assisted TSFE between June 2024 and June 2025. Planned and postoperative cone-beam computed tomography datasets were superimposed to quantify global deviations at the coronal (platform) and apical levels and angular deviation. Intraoperative endoscopic inspection and the Valsalva maneuver were used to detect Schneiderian membrane perforations.\n\nRESULTS: Mean global deviations at the coronal and apical levels were 0.58&#x2009;&#xb1;&#x2009;0.38&#xa0;mm (range 0.17-1.63) and 0.64&#x2009;&#xb1;&#x2009;0.35&#xa0;mm (range 0.37-1.62), respectively, and the mean angular deviation was 1.19&#x2009;&#xb1;&#x2009;0.50&#xb0; (range 0.56-2.43). No Schneiderian membrane perforations or other intraoperative or postoperative complications occurred. Trueness metrics did not differ significantly between the flat (n&#x2009;=&#x2009;7) and sloped (n&#x2009;=&#x2009;5) groups.\n\nCONCLUSION: ADIRS-assisted TSFE achieved submillimeter positional trueness with reliable protection of the sinus membrane in posterior maxillary implant placement, supporting its use as a standardized, minimally invasive sinus augmentation protocol.",
       "slug": "autonomous-dental-implant-robotics-for-transcrestal-maxillary-sinus-floor-elevat-42174584",
       "fetchedAt": "2026-06-01T09:23:36.852544Z",
-      "url": "https://doi.org/10.1186/s12903-026-08381-9"
+      "url": "https://doi.org/10.1186/s12903-026-08381-9",
+      "editorialTitleEn": "Autonomous robotics for transcrestal sinus elevation: submillimetre trueness in a first cohort",
+      "editorialTitleIt": "Rialzo transcrestale con robot autonomo: precisione submillimetrica, zero perforazioni in una prima coorte",
+      "takeawaysEn": [
+        "In this 12-implant cohort, autonomous robotic placement achieved mean global deviations of 0.58 mm (coronal) and 0.64 mm (apical), with 1.19° mean angular error.",
+        "No Schneiderian membrane perforations occurred; intraoperative endoscopy and Valsalva maneuver confirmed membrane integrity in all cases.",
+        "Positional trueness did not differ significantly between flat and sloped sinus floor morphologies, the anatomy traditionally considered higher-risk.",
+        "The cohort is small and retrospective; results represent a proof of feasibility rather than definitive evidence of clinical superiority."
+      ],
+      "takeawaysIt": [
+        "In questa coorte di 12 impianti, il posizionamento robotico autonomo ha ottenuto deviazioni globali medie di 0,58 mm (coronale) e 0,64 mm (apicale), con errore angolare medio di 1,19°.",
+        "Non si è verificata alcuna perforazione della membrana di Schneider; integrità confermata con ispezione endoscopica intraoperatoria e manovra di Valsalva in tutti i casi.",
+        "La precisione non ha mostrato differenze significative tra pavimento sinusale piano e inclinato, l'anatomia tradizionalmente considerata a maggior rischio.",
+        "La coorte è piccola e retrospettiva: i risultati rappresentano una prova di fattibilità, non un'evidenza definitiva di superiorità clinica."
+      ],
+      "whyItMattersEn": "Transcrestal sinus elevation is inherently operator-dependent — membrane perforation risk varies with anatomy and surgical experience. This cohort, though small, suggests autonomous robotic assistance may reduce that variability and handle sloped floors without accuracy penalties; clinicians should watch for larger prospective data before integrating the technology into routine protocols.",
+      "whyItMattersIt": "Il rialzo transcrestale del seno è una procedura fortemente operatore-dipendente — il rischio di perforazione della membrana di Schneider varia con l'anatomia e l'esperienza chirurgica. Questa coorte, pur limitata, suggerisce che la robotica autonoma possa ridurre tale variabilità e gestire il pavimento inclinato senza penalizzare la precisione; prima di integrare la tecnologia nei protocolli di routine sarà necessario attendere dati prospettici su casistiche più ampie."
     },
     {
       "pmid": "42185451",
@@ -605,7 +845,23 @@
       ],
       "slug": "real-time-qpcr-evaluation-of-amino-acids-buffered-sodium-hypochlorite-gel-as-an-42185451",
       "fetchedAt": "2026-05-29T10:58:15.322Z",
-      "url": "https://doi.org/10.1038/s41598-026-54584-z"
+      "url": "https://doi.org/10.1038/s41598-026-54584-z",
+      "editorialTitleEn": "SRP alone beats the adjunct: NaOCl/AA gel adds no microbiological benefit in this RCT",
+      "editorialTitleIt": "Un gel adiuvante in più, un risultato in meno: lo SRP da solo riduce meglio P. gingivalis",
+      "takeawaysEn": [
+        "A single 30-second NaOCl/AA gel application during SRP produced no additional microbiological benefit over mechanical debridement alone.",
+        "At 12 weeks, the SRP-only group showed significantly greater reduction in P. gingivalis DNA (log₂ difference −0.79, p = 0.006).",
+        "Neither treatment significantly reduced total bacterial load as measured by the Pan Bacteria assay.",
+        "In deep pockets, significant bacterial reduction was observed only in the SRP-alone group — not in the adjunct arm."
+      ],
+      "takeawaysIt": [
+        "Una singola applicazione di 30 secondi di gel NaOCl/AA durante lo SRP non ha apportato benefici microbiologici aggiuntivi rispetto al debridement meccanico da solo.",
+        "A 12 settimane il gruppo SRP ha mostrato una riduzione significativamente maggiore del DNA di P. gingivalis (differenza in log₂: −0,79; p = 0,006).",
+        "Nessuno dei due trattamenti ha ridotto significativamente la carica batterica totale rilevata dal saggio Pan Bacteria.",
+        "Nelle tasche profonde, la riduzione batterica significativa si è osservata solo nel gruppo SRP, non nel braccio con il gel adiuvante."
+      ],
+      "whyItMattersEn": "Before adding a chemical adjunct to non-surgical periodontal therapy, this RCT is a reminder that well-executed SRP remains the microbiological cornerstone: under the tested single-application protocol, the NaOCl/AA gel not only failed to improve outcomes but was associated with attenuated pathogen reduction. Clinicians should not adopt adjunctive antimicrobial gels without evidence of clear incremental benefit from adequately dosed protocols.",
+      "whyItMattersIt": "Prima di affiancare un agente chimico alla terapia parodontale non chirurgica, questo RCT ricorda che uno SRP eseguito con rigore rimane il cardine microbiologico del trattamento: nel protocollo testato con singola applicazione, il gel NaOCl/AA non solo non ha migliorato gli esiti, ma è risultato associato a una riduzione dei patogeni inferiore. Il parodontologo clinico non dovrebbe adottare gel antimicrobici adiuvanti in assenza di evidenza di beneficio incrementale con protocolli di somministrazione adeguatamente dosati."
     },
     {
       "pmid": "42194580",
@@ -653,7 +909,23 @@
       ],
       "slug": "platelet-concentrates-in-alveolar-and-periodontal-bone-regeneration-adjunctive-b-42194580",
       "fetchedAt": "2026-05-29T10:58:49.418Z",
-      "url": "https://doi.org/10.3390/jcm15103617"
+      "url": "https://doi.org/10.3390/jcm15103617",
+      "editorialTitleEn": "PRF and platelet concentrates in bone regeneration: adjunct, not replacement — what the evidence actually supports",
+      "editorialTitleIt": "PRF e concentrati piastrinici nella rigenerazione ossea: adiuvanti, non sostituti — cosa dice davvero l'evidenza",
+      "takeawaysEn": [
+        "L-PRF and A-PRF show clinically relevant adjunctive benefit in periodontal intrabony defects, correlating with improved CAL gain and faster soft tissue healing.",
+        "In post-extraction socket preservation, outcomes were comparable or superior to xenografts in several studies included in this review.",
+        "In implant site augmentation, early vascularization appears enhanced, but long-term bone volume maintenance shows variable results across studies.",
+        "High heterogeneity in preparation protocols and centrifugation parameters limits the strength of conclusions; conventional regenerative principles remain decisive."
+      ],
+      "takeawaysIt": [
+        "L-PRF e A-PRF mostrano un beneficio aggiuntivo clinicamente rilevante nei difetti infraossei parodontali, con maggiore guadagno di attacco clinico e guarigione più rapida dei tessuti molli.",
+        "Nella preservazione del socket post-estrattivo, diversi studi della revisione riportano risultati comparabili o superiori agli xenoinnesti.",
+        "Nell'aumento del sito implantare, la vascolarizzazione precoce sembra migliorata, ma il mantenimento del volume osseo a lungo termine resta variabile tra gli studi.",
+        "L'elevata eterogeneità nei protocolli di centrifugazione e nella reportistica degli esiti limita la solidità delle conclusioni; la morfologia del difetto e la chiusura primaria restano fattori determinanti."
+      ],
+      "whyItMattersEn": "For the periodontist or implantologist already familiar with PRF, this systematic review helps calibrate expectations: autologous platelet concentrates are a biologically sound and pragmatic adjunct — especially where minimizing exogenous biomaterials matters — but the evidence supports targeted use in specific indications, not a wholesale replacement of established regenerative approaches. Protocol standardization remains the main unresolved issue.",
+      "whyItMattersIt": "Per il parodontologo e l'implantologo che già utilizzano il PRF, questa revisione sistematica aiuta a calibrare le aspettative: i concentrati piastrinici autologhi sono un adiuvante biologicamente fondato e di facile gestione chairside — specie quando si vuole ridurre il ricorso a biomateriali esogeni — ma l'evidenza sostiene un utilizzo mirato in indicazioni specifiche, non la sostituzione degli approcci rigenerativi consolidati. La standardizzazione dei protocolli di preparazione resta il principale nodo irrisolto."
     },
     {
       "pmid": "42174629",
@@ -692,7 +964,23 @@
       ],
       "slug": "impact-of--cyanoacrylate-tissue-adhesive-on-soft-tissue-healing-at-donor-sites-i-42174629",
       "fetchedAt": "2026-05-29T10:59:22.897Z",
-      "url": "https://doi.org/10.1186/s13005-026-00627-9"
+      "url": "https://doi.org/10.1186/s13005-026-00627-9",
+      "editorialTitleEn": "Free gingival graft donor site: CTA alone shortens closure time and reduces mid-healing pain",
+      "editorialTitleIt": "IGL, sito donatore palatale: il cianoacrilato da solo accorcia i tempi e riduce il dolore intermedio",
+      "takeawaysEn": [
+        "In this 60-patient RCT, α-cyanoacrylate adhesive alone shortened intraoperative wound closure time significantly vs both suture-based groups (p<0.001).",
+        "CTA-only patients reported lower pain scores on days 5 and 7 compared with the suture-plus-sponge control group (p<0.05).",
+        "Early wound healing index favored CTA alone over conventional sutures at both day-5 and day-14 assessments.",
+        "Complication rates, analgesic use, and willingness to undergo reoperation were comparable across all three groups — CTA introduced no additional risk in this cohort."
+      ],
+      "takeawaysIt": [
+        "In questo RCT su 60 pazienti, il solo adesivo cianoacrilato ha ridotto significativamente il tempo intraoperatorio di chiusura della ferita rispetto a entrambi i gruppi con sutura (p<0,001).",
+        "Il gruppo trattato con solo CTA ha riferito punteggi VAS inferiori ai giorni 5 e 7 rispetto al controllo con suture e spugna di gelatina (p<0,05).",
+        "L'indice di guarigione precoce (EHI) era migliore nel gruppo CTA rispetto alle suture convenzionali in entrambi i tempi di valutazione (giorni 5 e 14).",
+        "Complicanze, consumo di analgesici e disponibilità a ripetere l'intervento sono risultati comparabili tra i tre gruppi: in questo campione il CTA non ha introdotto rischi aggiuntivi."
+      ],
+      "whyItMattersEn": "For periodontists and implantologists performing FGG surgery, this preliminary trial suggests that tissue adhesive alone — without sutures — can simplify donor-site management and reduce patient discomfort in the intermediate healing phase, without apparent safety trade-offs; however, the sample is small and authors explicitly call the findings preliminary, so larger confirmatory trials are warranted before routine adoption.",
+      "whyItMattersIt": "Per il parodontologo e l'implantologo che eseguono chirurgia di innesto gengivale libero, questo studio preliminare indica che l'adesivo tissutale da solo — senza suture — può semplificare la gestione del sito donatore e ridurre il disagio del paziente nella fase intermedia della guarigione, senza apparenti compromissioni della sicurezza; il campione è però limitato e gli autori stessi definiscono i risultati preliminari, rendendo necessari studi confermativi su casistiche più ampie prima di un'adozione routinaria."
     },
     {
       "pmid": "42178231",
@@ -736,7 +1024,23 @@
       ],
       "slug": "histological-evaluation-of-the-soft-tissue-response-to-plasma-activated-healing-42178231",
       "fetchedAt": "2026-05-29T10:59:58.072Z",
-      "url": "https://doi.org/10.2186/jpr.JPR_D_25_00207"
+      "url": "https://doi.org/10.2186/jpr.JPR_D_25_00207",
+      "editorialTitleEn": "Plasma-activated healing abutments: a histological signal at the epithelial interface",
+      "editorialTitleIt": "Viti di guarigione attivate al plasma: un segnale istologico all'interfaccia epiteliale",
+      "takeawaysEn": [
+        "Plasma activation of healing abutments produced lower inflammation scores in the basal zone only (P = 0.04); upper and intermediate zones showed a trend but not statistical significance.",
+        "The cornified epithelial layer in direct contact with the abutment was significantly thicker in the plasma-activated group (2.89 ± 0.8 vs. 1.91 ± 0.7, P = 0.008).",
+        "Connective tissue maturation and epithelial regeneration were comparable between groups — plasma activation did not alter stromal healing.",
+        "Bleeding on probing was lower in the test group despite equivalent plaque accumulation, consistent with the histological picture of a less inflamed sulcular environment."
+      ],
+      "takeawaysIt": [
+        "L'attivazione al plasma ha ridotto il punteggio infiammatorio solo nella zona basale (P = 0,04); nelle zone superiore e intermedia il trend non ha raggiunto la significatività statistica.",
+        "Lo strato corneo epiteliale a contatto diretto con la vite era significativamente più spesso nel gruppo test (2,89 ± 0,8 vs. 1,91 ± 0,7, P = 0,008).",
+        "Maturazione del tessuto connettivo e rigenerazione epiteliale erano sovrapponibili tra i gruppi: l'attivazione al plasma non ha modificato la guarigione stromale.",
+        "Il sanguinamento al sondaggio era inferiore nel gruppo test a parità di accumulo di placca, coerente con un ambiente sulculare meno infiammato."
+      ],
+      "whyItMattersEn": "In this cohort of 30 implants at 3 months, plasma activation of healing abutments — applied chairside immediately before placement — was associated with a thicker cornified epithelial seal and reduced basal inflammation, two histological markers of a potentially more stable transmucosal barrier. Larger trials with longer follow-up are needed to determine whether this early tissue-level signal translates into measurable clinical outcomes.",
+      "whyItMattersIt": "In questa casistica di 30 impianti a 3 mesi, l'attivazione al plasma delle viti di guarigione — eseguita in studio immediatamente prima del posizionamento — si è associata a uno strato corneo più spesso e a una minore infiammazione basale, due indicatori istologici di una potenziale barriera transmucosa più stabile. Studi su casistiche più ampie e con follow-up più lunghi sono necessari per stabilire se questo segnale tissutale precoce si traduca in esiti clinici misurabili."
     },
     {
       "pmid": "42173763",
@@ -775,7 +1079,23 @@
       ],
       "slug": "dental-implant-survival-and-marginal-bone-loss-after-a-minimum-of-20-years-syste-42173763",
       "fetchedAt": "2026-05-28T07:13:05.023601Z",
-      "url": "https://doi.org/10.1016/j.ijom.2026.05.011"
+      "url": "https://doi.org/10.1016/j.ijom.2026.05.011",
+      "editorialTitleEn": "Implants at 20 years: a 93% survival rate — but half of failures are mechanical, not biological",
+      "editorialTitleIt": "Impianti a 20 anni: 93% di sopravvivenza, ma la metà dei fallimenti è meccanica, non biologica",
+      "takeawaysEn": [
+        "Pooled 20-year survival was 93.0% (CI 91.6–94.1%) across 1,028 implants in prospective studies — a reassuring baseline figure for patient counselling.",
+        "Where cause of failure was recorded (44 of 115 cases), biological and mechanical causes were almost equally split — occlusal load and prosthetic precision matter as much as peri-implant health over the long run.",
+        "Mean marginal bone loss was 1.11 mm but variability was wide (CI 0.55–1.68 mm), ranging from slight bone gain to moderate bone loss across studies; average stability conceals individual trajectories.",
+        "GRADE certainty was moderate for both endpoints, limited by substantial heterogeneity — the 93% figure should be presented to patients as a robust estimate, not a guaranteed outcome."
+      ],
+      "takeawaysIt": [
+        "Il tasso di sopravvivenza aggregato a 20 anni è stato del 93,0% (IC 91,6–94,1%) su 1.028 impianti in studi prospettici — un dato di riferimento solido per il colloquio con il paziente.",
+        "Dove la causa del fallimento era riportata (44 dei 115 casi), cause biologiche e meccaniche risultavano quasi equamente distribuite — carico occlusale e precisione protesica pesano quanto la salute peri-implantare nel lungo periodo.",
+        "La perdita ossea marginale media è stata di 1,11 mm, ma con ampia variabilità (IC 0,55–1,68 mm): tra gli studi il margine osseo andava da un lieve guadagno a una perdita moderata — la stabilità media nasconde traiettorie individuali molto diverse.",
+        "La certezza GRADE è risultata moderata per entrambi gli esiti, limitata dall'eterogeneità — il 93% va presentato al paziente come stima affidabile, non come garanzia."
+      ],
+      "whyItMattersEn": "This review provides the strongest long-term survival estimate to date for titanium implants, but its more actionable message is about failure distribution: with mechanical causes matching biological ones, long-term implant success requires the same rigour in prosthetic design and occlusal management as in peri-implant maintenance. The wide spread in marginal bone behaviour also reinforces that population averages do not predict individual outcomes — case selection, surface choice, and sustained maintenance remain decisive variables.",
+      "whyItMattersIt": "Questa revisione fornisce la stima di sopravvivenza a lungo termine più robusta finora disponibile per gli impianti in titanio, ma il messaggio più utile in clinica riguarda la distribuzione dei fallimenti: poiché le cause meccaniche sono pari a quelle biologiche, il successo implantare a vent'anni richiede lo stesso rigore nel disegno protesico e nella gestione occlusale che nel mantenimento peri-implantare. L'ampia dispersione del comportamento osseo marginale conferma inoltre che le medie di popolazione non predicono l'esito individuale — la selezione del caso, la scelta della superficie e il mantenimento continuativo restano variabili decisive."
     },
     {
       "pmid": "42177496",
@@ -814,7 +1134,23 @@
       ],
       "slug": "dental-implant-outcomes-in-patients-with-diabetes-mellitus-a-systematic-review-42177496",
       "fetchedAt": "2026-05-28T07:13:05.023601Z",
-      "url": "https://doi.org/10.1186/s12903-026-07782-0"
+      "url": "https://doi.org/10.1186/s12903-026-07782-0",
+      "editorialTitleEn": "Implants in diabetes: HbA1c below 7% is the threshold, not the diagnosis",
+      "editorialTitleIt": "Impianti nel paziente diabetico: la soglia decisiva è l'HbA1c, non la diagnosi",
+      "takeawaysEn": [
+        "Well-controlled diabetics (HbA1c ≤7%) showed outcomes comparable to non-diabetic patients in this review.",
+        "HbA1c above 8% was consistently linked to greater marginal bone loss, deeper probing depths, and elevated peri-implant inflammatory markers.",
+        "Antimicrobial photodynamic therapy (aPDT) improved clinical parameters and reduced peri-implant inflammation as an adjunct.",
+        "Bioactive surface coatings and 3D-printed porous implants enhanced osseointegration in preclinical diabetic models — not yet clinical recommendations."
+      ],
+      "takeawaysIt": [
+        "I diabetici ben controllati (HbA1c ≤7%) ottenevano esiti paragonabili ai non diabetici in questa revisione.",
+        "HbA1c sopra l'8% era costantemente associato a maggiore perdita ossea marginale, sondaggi più profondi e marcatori infiammatori peri-implantari elevati.",
+        "La terapia fotodinamica antimicrobica (aPDT) migliorava i parametri clinici e riduceva l'infiammazione peri-implantare come trattamento adiuvante.",
+        "Rivestimenti bioattivi e superfici porose stampate in 3D hanno mostrato osteointegrazione potenziata in modelli preclinici diabetici — non ancora raccomandazioni cliniche."
+      ],
+      "whyItMattersEn": "Diabetes is not a contraindication to implant therapy: the real risk factor is poor glycemic control. Before placing implants in a diabetic patient, the clinician should request the HbA1c — not just the diagnosis — and plan case selection, maintenance frequency, and adjunct strategies accordingly.",
+      "whyItMattersIt": "Il diabete non è una controindicazione alla terapia implantare: il vero fattore di rischio è il cattivo controllo glicemico. Prima di inserire impianti in un paziente diabetico, l'implantologo dovrebbe richiedere l'HbA1c — non solo la diagnosi — e pianificare la selezione del caso, la frequenza del mantenimento e le terapie adiuvanti di conseguenza."
     },
     {
       "pmid": "42168182",
@@ -853,7 +1189,23 @@
       ],
       "slug": "the-plagl1-klf4-irx5-axis-promotes-the-osteogenesis-of-periosteal-progenitors-du-42168182",
       "fetchedAt": "2026-05-28T07:13:05.023601Z",
-      "url": "https://doi.org/10.1038/s41467-026-73058-4"
+      "url": "https://doi.org/10.1038/s41467-026-73058-4",
+      "editorialTitleEn": "Mandibular bone repair: the periosteal stem-cell switch that could replace grafts",
+      "editorialTitleIt": "Rigenerazione mandibolare: l'interruttore molecolare nelle cellule staminali periostali",
+      "takeawaysEn": [
+        "The PLAGL1-KLF4-IRX5 transcription factor axis controls osteoblast differentiation of periosteal stem/progenitor cells in the mandible.",
+        "Loss of PLAGL1 in this model compromised mandibular bone regeneration, establishing it as a critical regulator.",
+        "Because PLAGL1 is imprinted, the authors reactivated its silenced maternal allele via a CRISPR-dCas9 epigenetic approach — no foreign gene introduced.",
+        "This is mouse-model basic science; the path to clinical application in jaw reconstruction remains long."
+      ],
+      "takeawaysIt": [
+        "L'asse trascrizionale PLAGL1-KLF4-IRX5 governa il differenziamento osteoblastico delle cellule staminali/progenitrici periostali mandibolari.",
+        "La perdita di PLAGL1 in questo modello comprometteva la rigenerazione ossea mandibolare, identificandolo come regolatore essenziale.",
+        "Poiché PLAGL1 è imprinted, gli autori hanno riattivato l'allele materno silenziato con un approccio epigenetico CRISPR-dCas9, senza introdurre geni estranei.",
+        "Si tratta di scienza di base su modello murino: il percorso verso un'applicazione clinica nella ricostruzione mandibolare è ancora lungo."
+      ],
+      "whyItMattersEn": "For oral surgeons and periodontists rebuilding jaw bone, today's tools — grafts, membranes, growth factors — act on the defect environment; this line of research targets the progenitor cells themselves, potentially instructing them to regenerate more efficiently. The epigenetic angle (reactivating a silenced allele rather than introducing a foreign gene) is a safety-relevant distinction worth noting when this field reaches clinical translation.",
+      "whyItMattersIt": "Per il chirurgo orale e il parodontologo che ricostruisce osso mandibolare, gli strumenti attuali — innesti, membrane, fattori di crescita — agiscono sull'ambiente del difetto; questa linea di ricerca punta invece direttamente alle cellule progenitrici, con l'obiettivo di istruirle a rigenerare in modo più efficiente. L'approccio epigenetico — che riattiva un allele silenziato invece di introdurre un gene estraneo — è una distinzione rilevante sul piano della sicurezza, da tenere a mente quando questa ricerca raggiungerà la fase traslazionale."
     },
     {
       "pmid": "42173912",
@@ -892,7 +1244,23 @@
       ],
       "slug": "ulcerative-colitis-driven-gut-dysbiosis-exacerbates-periodontal-bone-loss-throug-42173912",
       "fetchedAt": "2026-05-28T07:13:05.023601Z",
-      "url": "https://doi.org/10.1038/s41522-026-01015-6"
+      "url": "https://doi.org/10.1038/s41522-026-01015-6",
+      "editorialTitleEn": "Gut dysbiosis as a causal driver of periodontal bone loss: FMT evidence in a mouse model",
+      "editorialTitleIt": "Colite ulcerosa e parodontite: la disbiosi intestinale raddoppia la perdita ossea — la causalità dimostrata con FMT",
+      "takeawaysEn": [
+        "In a combined UC + periodontitis mouse model, gut dysbiosis causally doubled alveolar bone loss via fecal microbiota transplantation.",
+        "SCFA levels (acetate, propionate, butyrate) fell 35–60%, correlating with amplified osteoclastogenesis and systemic inflammation.",
+        "Th17/Treg imbalance and gut-barrier leakage were transmissible from colitis donors to periodontitis-prone recipients via FMT.",
+        "SCFA-producing microbes are proposed as adjunct candidates for UC-associated periodontitis; human evidence is not yet available."
+      ],
+      "takeawaysIt": [
+        "In un modello murino combinato CU + parodontite, la disbiosi intestinale ha raddoppiato la perdita ossea alveolare — causalità dimostrata tramite FMT.",
+        "I livelli di SCFA (acetato, propionato, butirrato) sono calati del 35-60%, correlando con amplificazione dell'osteoclastogenesi e dell'infiammazione sistemica.",
+        "Lo squilibrio Th17/Treg e la permeabilità della barriera intestinale erano trasmissibili da donatori con colite a riceventi predisposti alla parodontite.",
+        "I microbi produttori di SCFA sono proposti come candidati adiuvanti nella parodontite associata a CU; l'evidenza umana non è ancora disponibile."
+      ],
+      "whyItMattersEn": "The gut-oral axis here acquires a plausible causal mechanism, not just an association: in this mouse model, a diseased gut microbiome transmissibly worsens periodontal bone loss through SCFA depletion and immune dysregulation. For the clinician, this strengthens the case for a shared-care approach when periodontitis resists conventional therapy in a patient with inflammatory bowel disease — a purely local intervention may not reach the underlying dysbiotic driver.",
+      "whyItMattersIt": "L'asse intestino-bocca acquisisce qui un meccanismo causale plausibile, non solo un'associazione: in questo modello murino, un microbioma intestinale alterato peggiora in modo trasmissibile la perdita ossea parodontale attraverso la deplezione di SCFA e la disregolazione immunitaria. Per il clinico, rafforza l'indicazione a una gestione condivisa quando la parodontite è refrattaria alla terapia convenzionale in un paziente con malattia infiammatoria intestinale — il trattamento puramente locale non raggiunge il driver disbiotico di fondo."
     },
     {
       "pmid": "42168967",
@@ -931,7 +1299,23 @@
       ],
       "slug": "dentine-derived-barrier-membrane-versus-extended-platelet-rich-fibrin-for-guided-42168967",
       "fetchedAt": "2026-05-28T07:13:05.023601Z",
-      "url": "https://doi.org/10.1186/s12903-026-08582-2"
+      "url": "https://doi.org/10.1186/s12903-026-08582-2",
+      "editorialTitleEn": "Dentine vs e-PRF for GBR: equivalent outcomes, your choice",
+      "editorialTitleIt": "GBR immediata nel mandibolare: dentina o e-PRF, i risultati sono gli stessi",
+      "takeawaysEn": [
+        "In this 40-patient RCT, DDBM and e-PRF produced identical implant survival (100%) and marginal bone loss (~1.2–1.3 mm buccal) at 24 months.",
+        "No significant difference emerged in implant stability, probing depth, or bone density at any time point across two years.",
+        "Both materials are fully autologous, eliminating the cost of commercial xenogeneic or synthetic membranes.",
+        "Choice between the two can be driven by workflow: DDBM repurposes the extracted tooth; e-PRF is chairside and requires no suitable donor tooth."
+      ],
+      "takeawaysIt": [
+        "In questo RCT su 40 pazienti, DDBM ed e-PRF hanno prodotto sopravvivenza implantare identica (100%) e perdita ossea marginale (MBL) vestibolare simile (~1,2–1,3 mm) a 24 mesi.",
+        "Nessuna differenza significativa è emersa per stabilità implantare, profondità di sondaggio o densità ossea in nessun intervallo di follow-up.",
+        "Entrambi i materiali sono completamente autologhi, eliminando il costo delle membrane xenogeniche o sintetiche commerciali.",
+        "La scelta tra i due può essere guidata dalla logistica: la DDBM riutilizza il dente estratto; la e-PRF si prepara alla poltrona senza dipendere da un dente donatore."
+      ],
+      "whyItMattersEn": "For implantologists managing extractions in the posterior mandible, this trial supports a practical equivalence: an autogenous dentine membrane and extended PRF deliver comparable peri-implant stability over two years, so the decision can rest on what is available chairside rather than on expected outcome. The finding applies specifically to this indication — immediate placement in the posterior mandible in a cohort of 40 patients — and should not be extended to vertical augmentation or anterior esthetic sites.",
+      "whyItMattersIt": "Per l'implantologo che gestisce estrazioni nel mandibolare posteriore, questo trial supporta un'equivalenza pratica: membrana autologa di dentina e PRF estesa garantiscono una stabilità peri-implantare comparabile a due anni, quindi la scelta può dipendere da ciò che è disponibile in studio piuttosto che dall'esito atteso. Il risultato si applica specificamente a questa indicazione — posizionamento immediato nel mandibolare posteriore, in una coorte di 40 pazienti — e non va esteso agli aumenti verticali o alle zone estetiche anteriori."
     },
     {
       "pmid": "42132365",
@@ -974,7 +1358,23 @@
       ],
       "slug": "crestal-bone-loss-and-peri-implant-conditions-at-tissue-level-implants-influence-42132365",
       "fetchedAt": "2026-05-22T10:34:32.821Z",
-      "url": "https://doi.org/10.1111/cid.70158"
+      "url": "https://doi.org/10.1111/cid.70158",
+      "editorialTitleEn": "Tissue-level implants at 25 years: prosthesis design doesn't drive bone loss — suppuration does",
+      "editorialTitleIt": "Impianti tissue-level a 25 anni: non è il disegno protesico a determinare la perdita ossea, ma la suppurazione",
+      "takeawaysEn": [
+        "After 25 years, crestal bone loss and peri-implantitis prevalence did not differ significantly between single crowns, splinted crowns, or bridges in this cohort.",
+        "Prosthetic variables — retention type, marginal misfit, emergence geometry — were not independently associated with crestal bone loss.",
+        "Suppuration on probing was the strongest predictor of bone loss (-0.97 mm), followed by increased probing depth and incisor-region location.",
+        "Peri-implant mucositis exceeded 74% across all prosthetic groups at 25 years, underscoring the need for sustained long-term supportive care."
+      ],
+      "takeawaysIt": [
+        "A 25 anni, la perdita ossea crestale e la prevalenza di peri-implantite non differivano significativamente tra corone singole, solidarizzate o bridge in questa coorte.",
+        "Le variabili protesiche — tipo di ritenzione, disadattamento marginale, geometria di emergenza — non erano associate in modo indipendente alla perdita ossea crestale.",
+        "La suppurazione al sondaggio è risultata il predittore più forte di perdita ossea (-0,97 mm), seguita dalla profondità di sondaggio aumentata e dalla sede nella regione degli incisivi.",
+        "La mucosite peri-implantare ha superato il 74% in tutti i gruppi protesici a 25 anni, a conferma dell'importanza di un supporto peri-implantare regolare nel lungo periodo."
+      ],
+      "whyItMattersEn": "For clinicians planning fixed implant-supported rehabilitations, this study suggests that the choice between a crown, splinted unit, or bridge does not compromise long-term crestal bone stability around tissue-level implants. Long-term supportive care intensity should instead be guided by biological markers — particularly suppuration and increasing probing depths — and by implant location in the anterior region.",
+      "whyItMattersIt": "Per l'implantologo che pianifica riabilitazioni fisse implanto-supportate, questo studio suggerisce che la scelta tra corona singola, unità solidarizzata o bridge non compromette la stabilità ossea crestale a lungo termine sugli impianti tissue-level. L'intensità del supporto peri-implantare dovrebbe invece essere orientata dai marcatori biologici — in particolare suppurazione e profondità di sondaggio in aumento — e dalla localizzazione nella regione anteriore."
     },
     {
       "pmid": "42117690",
@@ -1016,7 +1416,23 @@
       ],
       "slug": "resonance-frequency-analysis-and-clinical-outcomes-in-implant-dentistry-a-system-42117690",
       "fetchedAt": "2026-05-22T10:35:08.686Z",
-      "url": "https://doi.org/10.1111/cid.70156"
+      "url": "https://doi.org/10.1111/cid.70156",
+      "editorialTitleEn": "ISQ at placement: useful stability indicator, but not a predictor of long-term survival",
+      "editorialTitleIt": "ISQ al posizionamento: indicatore di stabilità primaria, non predittore di sopravvivenza",
+      "takeawaysEn": [
+        "ISQ shows a moderate, statistically significant correlation with insertion torque (pooled r = 0.44) across 20 pooled studies, but shared variance is below 20%.",
+        "Current evidence does not support baseline ISQ as an independent predictor of marginal bone loss or implant survival.",
+        "High heterogeneity across studies — from implant systems to RFA device calibration — limits cross-study interpretation and individual-case predictive power.",
+        "RFA adds value as a complementary stability check at placement; it should not be used in isolation to decide loading protocols or predict osseointegration outcomes."
+      ],
+      "takeawaysIt": [
+        "L'ISQ mostra una correlazione moderata e statisticamente significativa con il torque di inserimento (r aggregato = 0,44 su 20 studi), ma la varianza condivisa è inferiore al 20%.",
+        "Le evidenze attuali non supportano l'ISQ basale come predittore indipendente di perdita ossea marginale o sopravvivenza implantare.",
+        "L'elevata eterogeneità tra studi — per sistemi implantari, qualità ossea e calibrazione dei dispositivi AFR — limita la confrontabilità e il potere predittivo nel singolo paziente.",
+        "L'AFR rimane un indicatore complementare utile al momento del posizionamento; non è sufficiente da solo per definire il protocollo di carico o prevedere l'esito dell'osteointegrazione."
+      ],
+      "whyItMattersEn": "Clinicians who rely on ISQ readings to clear implants for immediate or early loading, or to reassure themselves about long-term prognosis, should know that this meta-analysis finds no independent predictive value for bone maintenance or survival — ISQ is one data point, not a standalone test, and its interpretation remains device- and protocol-dependent.",
+      "whyItMattersIt": "Per l'implantologo che usa l'ISQ per autorizzare un carico precoce o come rassicurazione prognostica a lungo termine: questa meta-analisi non trova valore predittivo indipendente per la perdita ossea marginale né per la sopravvivenza implantare. L'ISQ è un dato tra altri, la cui interpretazione resta dipendente dal dispositivo e dal protocollo chirurgico."
     },
     {
       "pmid": "42129781",
@@ -1053,7 +1469,23 @@
       ],
       "slug": "association-between-attached-gingiva-width-and-peri-implant-marginal-bone-loss-a-42129781",
       "fetchedAt": "2026-05-22T10:36:14.721Z",
-      "url": "https://doi.org/10.1186/s12903-026-08572-4"
+      "url": "https://doi.org/10.1186/s12903-026-08572-4",
+      "editorialTitleEn": "Attached gingiva width: not an independent bone-loss driver in this 5-year cohort",
+      "editorialTitleIt": "Gengiva aderente e perdita ossea peri-implantare: l'associazione scompare all'analisi multivariata",
+      "takeawaysEn": [
+        "In univariate analysis, implants with <2 mm attached gingiva showed greater mean bone loss (2.17 vs 1.64 mm), but this difference did not survive multivariable GEE adjustment.",
+        "After accounting for confounders and patient clustering, attached gingiva width was not an independent predictor of peri-implant marginal bone loss in this cohort.",
+        "Smoking remained a significant independent risk factor regardless of mucosal width, outweighing soft-tissue dimensions as a bone-loss predictor.",
+        "Augmenting keratinized mucosa may still be indicated for patient comfort and plaque control, but the authors caution it should not substitute patient-level risk management."
+      ],
+      "takeawaysIt": [
+        "All'analisi univariata gli impianti con meno di 2 mm di gengiva aderente mostravano maggiore perdita ossea media (2,17 vs 1,64 mm), ma la differenza non si confermava dopo aggiustamento multivariato GEE.",
+        "Nell'analisi multivariata, la larghezza della gengiva aderente non risultava un predittore indipendente della perdita ossea marginale peri-implantare in questo campione.",
+        "Il fumo si è confermato fattore di rischio indipendente significativo, indipendentemente dall'ampiezza della mucosa cheratinizzata.",
+        "L'aumento di gengiva cheratinizzata può restare indicato per comfort e controllo di placca, ma non dovrebbe sostituire la gestione dei fattori di rischio del paziente."
+      ],
+      "whyItMattersEn": "This retrospective study challenges the reflex to augment keratinized mucosa as a bone-protective measure around implants: in this 5-year dataset, the apparent benefit of ≥2 mm attached gingiva disappeared once confounders were controlled for, while smoking consistently drove bone loss. For implantologists, this reinforces prioritizing smoking cessation counseling over soft-tissue augmentation as a primary risk-management strategy — though prospective multicenter data are still needed.",
+      "whyItMattersIt": "Questo studio retrospettivo mette in discussione la tendenza a ricorrere all'aumento di gengiva cheratinizzata come misura protettiva dell'osso peri-implantare: nel campione a cinque anni, il vantaggio apparente di ≥2 mm di gengiva aderente scompariva dopo controllo dei fattori confondenti, mentre il fumo si confermava il principale predittore di perdita ossea. Per l'implantologo, ciò rafforza la priorità della cessazione del fumo rispetto all'aumento dei tessuti molli come strategia di gestione del rischio — in attesa di studi prospettici multicentrici."
     },
     {
       "pmid": "42109340",
@@ -1093,7 +1525,23 @@
       ],
       "slug": "evaluation-of-soft-tissue-outcomes-following-keratinized-tissue-augmentation-aro-42109340",
       "fetchedAt": "2026-05-22T10:36:47.732Z",
-      "url": "https://doi.org/10.6026/973206300221193"
+      "url": "https://doi.org/10.6026/973206300221193",
+      "editorialTitleEn": "FGG vs. collagen matrix for peri-implant keratinized tissue: autograft wins at 6 months",
+      "editorialTitleIt": "Mucosa cheratinizzata periimplantare: l'innesto gengivale libero supera la matrice xenogenica a 6 mesi",
+      "takeawaysEn": [
+        "In this RCT, FGG produced significantly greater keratinized tissue width and soft tissue thickness than XCM at all three follow-up points (1, 3, and 6 months).",
+        "Peri-implant clinical parameters — probing depth and bleeding on probing — also favoured FGG over XCM throughout the observation period.",
+        "XCM was not without benefit: both techniques improved on baseline, supporting its role when donor-site morbidity must be minimised.",
+        "Six-month follow-up limits conclusions about long-term stability; larger trials with extended observation are still needed."
+      ],
+      "takeawaysIt": [
+        "In questo RCT, l'innesto gengivale libero (IGL) ha prodotto guadagni significativamente maggiori di larghezza del tessuto cheratinizzato e spessore dei tessuti molli rispetto alla matrice xenogenica in tutti e tre i tempi di osservazione (1, 3 e 6 mesi).",
+        "Anche i parametri clinici periimplantari — profondità di sondaggio e sanguinamento al sondaggio — sono risultati più favorevoli nel gruppo IGL.",
+        "La matrice xenogenica non si è rivelata priva di efficacia: entrambe le tecniche hanno migliorato i valori basali, il che ne giustifica l'impiego quando la morbilità del sito donatore è un fattore limitante.",
+        "Il follow-up a 6 mesi non consente conclusioni sulla stabilità a lungo termine; studi con campioni più ampi e osservazione prolungata restano necessari."
+      ],
+      "whyItMattersEn": "When keratinized tissue augmentation is the primary objective around implants, this study supports keeping FGG as the first-choice technique, while positioning XCM as a viable but second-line option for cases where harvesting autogenous tissue is not feasible. Clinicians should counsel patients on realistic expectations regarding the degree of keratinization achievable with a collagen matrix at six months.",
+      "whyItMattersIt": "Quando l'obiettivo primario è aumentare la mucosa cheratinizzata attorno agli impianti, questo studio supporta il mantenimento dell'innesto gengivale libero come tecnica di prima scelta, riservando la matrice xenogenica ai casi in cui il prelievo autologo non sia praticabile. È opportuno informare il paziente sulle aspettative realistiche in termini di cheratinizzazione ottenibile con la matrice a sei mesi dall'intervento."
     },
     {
       "pmid": "42103720",
@@ -1132,7 +1580,23 @@
       ],
       "slug": "cd38-endothelial-remodeling-vasculopathy-periodontitis-peri-implantitis-42103720",
       "fetchedAt": "2026-05-18T06:08:09.159451Z",
-      "url": "https://doi.org/10.1038/s41467-026-72452-2"
+      "url": "https://doi.org/10.1038/s41467-026-72452-2",
+      "editorialTitleEn": "Peri-implantitis destroys faster with less bacteria: the vascular signature that explains it",
+      "editorialTitleIt": "Perimplantite più distruttiva con meno batteri: la vasculopatia CD38⁺ come possibile spiegazione",
+      "takeawaysEn": [
+        "In this large single-cell dataset (967,000+ cells), peri-implantitis tissues showed lower bacterial load and microbial diversity than periodontitis — yet drove faster destruction.",
+        "Rapidly advancing disease in both conditions was marked by rarefaction of CD34+ vascular endothelial cells and expansion of CD38+ post-capillary venules — not by microbial burden.",
+        "CD38, an NAD⁺-consuming ectoenzyme on post-capillary venules, emerged as a spatially restricted feature of aggressive lesions, confirmed by spatial transcriptomics and proteomics.",
+        "The study suggests endothelial vasculopathy — not bacterial load — as a common driver, and identifies CD38⁺ endothelial dysfunction as a potential therapeutic axis."
+      ],
+      "takeawaysIt": [
+        "In questo ampio dataset a singola cellula (oltre 967.000 cellule), i tessuti perimplantari mostravano carica batterica e diversità microbica inferiori rispetto alla parodontite, pur causando una distruzione più rapida.",
+        "La progressione rapida in entrambe le patologie era associata a rarefazione delle cellule endoteliali CD34+ e a espansione delle venule post-capillari CD38+, indipendentemente dal carico microbico.",
+        "CD38, un ectoenzima che consuma NAD⁺ sulle venule post-capillari, risultava spazialmente ristretto alle lesioni aggressive, confermato da trascrittomica spaziale e proteomica.",
+        "Lo studio ipotizza la vasculopatia endoteliale — non la carica batterica — come motore comune della distruzione rapida, indicando la disfunzione endoteliale CD38⁺ come possibile bersaglio terapeutico."
+      ],
+      "whyItMattersEn": "If confirmed in future studies, this vascular-centric model would reframe why some peri-implantitis and periodontitis cases progress rapidly despite apparently controlled biofilm — and would point toward host-targeted therapies rather than purely antimicrobial strategies. For now, this mechanistic evidence adds biological depth to the clinical observation that bacterial reduction alone does not always halt aggressive tissue destruction.",
+      "whyItMattersIt": "Se confermato da studi futuri, questo modello vascolo-centrico aiuterebbe a spiegare perché alcune perimplantiti e parodontiti progrediscono rapidamente anche in presenza di un biofilm apparentemente controllato — e orienterebbe verso terapie mirate sull'ospite più che su strategie puramente antimicrobiche. Al momento, queste evidenze meccanicistiche offrono una base biologica all'osservazione clinica che la sola riduzione batterica non sempre arresta la distruzione tissutale aggressiva."
     },
     {
       "pmid": "42135319",
@@ -1171,7 +1635,23 @@
       ],
       "slug": "naringin-periodontitis-ampk-nrf2-nlrp3-gut-microbiota-42135319",
       "fetchedAt": "2026-05-18T06:08:09.159451Z",
-      "url": "https://doi.org/10.1038/s41522-026-01007-6"
+      "url": "https://doi.org/10.1038/s41522-026-01007-6",
+      "editorialTitleEn": "Naringin curbs alveolar bone loss in rat periodontitis — via NLRP3 and the gut axis",
+      "editorialTitleIt": "Naringina e parodontite: l'asse intestinale amplifica l'effetto anti-NLRP3 (modello murino)",
+      "takeawaysEn": [
+        "In a rat ligature model, naringin reduced alveolar bone loss and suppressed NLRP3 inflammasome activation via the AMPK/Nrf2 pathway.",
+        "The compound also reshaped oral and gut microbiota, reducing Veillonella orally and Escherichia-Shigella intestinally while enriching Lactobacillus.",
+        "Fecal microbiota transplant from naringin-treated donors reproduced anti-inflammatory effects, confirming gut-mediated amplification.",
+        "Gut microbiota reshaping and arginyl-glutamine elevation amplified the primary effect but were insufficient alone for structural bone repair."
+      ],
+      "takeawaysIt": [
+        "In un modello murino di parodontite da legatura, la naringina ha ridotto la perdita ossea alveolare e inibito l'inflammasoma NLRP3 tramite la via AMPK/Nrf2.",
+        "Il composto ha rimodellato il microbiota orale e intestinale, riducendo Veillonella e Escherichia-Shigella e arricchendo i Lactobacillus.",
+        "Il trapianto di microbiota fecale da donatori trattati ha riprodotto gli effetti antinfiammatori, confermando il ruolo amplificatore dell'asse intestinale.",
+        "Il rimodellamento del microbiota e l'aumento di arginil-glutammina amplificano l'effetto primario, ma da soli non sono sufficienti per la riparazione strutturale ossea."
+      ],
+      "whyItMattersEn": "This preclinical study adds mechanistic evidence that periodontitis is modulated by the oral-gut axis, and that natural flavonoids targeting AMPK/Nrf2 and NLRP3 may be worth investigating as adjuncts — though no clinical translation can be drawn yet. Clinicians following inflammasome-based research or microbiome-periodontal interactions will find the dual-site microbiota findings and fecal transplant validation conceptually relevant to future therapeutic directions.",
+      "whyItMattersIt": "Questo studio preclinico fornisce evidenze meccanicistiche che la parodontite è modulata dall'asse orale-intestinale e che i flavonoidi naturali attivi su AMPK/Nrf2 e NLRP3 potrebbero meritare indagini come adiuvanti — senza che sia possibile alcuna trasposizione clinica diretta allo stato attuale. Per i clinici che seguono la ricerca sull'inflammasoma e le interazioni microbiota-parodonto, i dati sull'effetto bidirezionale e la validazione mediante trapianto fecale offrono spunti concettuali per le future direzioni terapeutiche."
     },
     {
       "pmid": "42126621",
@@ -1210,7 +1690,23 @@
       ],
       "slug": "allogeneic-bone-plug-vs-dbbm-guided-bone-regeneration-rct-42126621",
       "fetchedAt": "2026-05-18T06:08:09.159451Z",
-      "url": "https://doi.org/10.1007/s00784-026-06914-8"
+      "url": "https://doi.org/10.1007/s00784-026-06914-8",
+      "editorialTitleEn": "Allogeneic bone plug vs DBBM for GBR: comparable bone, faster turnover in pilot RCT",
+      "editorialTitleIt": "Plug allogenico vs DBBM per GBR: osso equivalente, riassorbimento più rapido — primo RCT",
+      "takeawaysEn": [
+        "At 6 months, vital bone fraction did not differ significantly between ACBP and DBBM (38.8% vs 32.2%, P=0.105) in this pilot RCT.",
+        "Residual graft material was significantly lower with ACBP than DBBM (11.2% vs 19.8%, P=0.006), suggesting faster graft turnover.",
+        "Dimensional outcomes — sinus height gain and ridge dimensions — were comparable between groups at 6 months.",
+        "Results are preliminary (n=25, pilot design); larger trials are needed before definitive clinical conclusions."
+      ],
+      "takeawaysIt": [
+        "In questo RCT pilota la frazione di osso vitale a 6 mesi non differiva significativamente tra ACBP e DBBM (38,8% vs 32,2%, P=0,105).",
+        "Il materiale innestato residuo era significativamente inferiore con ACBP rispetto al DBBM (11,2% vs 19,8%, P=0,006), indicando un riassorbimento più rapido dell'innesto.",
+        "Gli esiti dimensionali — guadagno in altezza sinusale e dimensioni della cresta — erano comparabili tra i gruppi a 6 mesi.",
+        "I dati sono preliminari (n=25, disegno pilota); studi su campioni più ampi sono necessari prima di conclusioni cliniche definitive."
+      ],
+      "whyItMattersEn": "For clinicians seeking alternatives to DBBM, this pilot RCT suggests that a partially demineralized allogeneic cancellous bone plug can achieve comparable bone volume and vital bone fraction while leaving substantially less residual graft material at the standard 6-month implant timing — an advantage if minimizing residual xenograft is a clinical priority. Results warrant confirmation in adequately powered trials.",
+      "whyItMattersIt": "Per i clinici che cercano alternative al DBBM, questo RCT pilota indica che il plug di osso spongioso allogenico parzialmente demineralizzato può raggiungere un volume osseo e una frazione di osso vitale comparabili, lasciando al contempo una quantità significativamente inferiore di materiale innestato residuo al timing standard di 6 mesi per il posizionamento implantare — un vantaggio quando si voglia ridurre al minimo il materiale xenogenico residuo. I risultati attendono conferma in trial adeguatamente dimensionati."
     },
     {
       "pmid": "42126189",
@@ -1249,7 +1745,23 @@
       ],
       "slug": "one-piece-two-piece-implants-15-17-year-rct-follow-up-42126189",
       "fetchedAt": "2026-05-18T06:08:09.159451Z",
-      "url": "https://doi.org/10.1111/cid.70157"
+      "url": "https://doi.org/10.1111/cid.70157",
+      "editorialTitleEn": "One-piece vs. two-piece implants at 15+ years: better bone, but at what cost?",
+      "editorialTitleIt": "Monoblocco o due componenti a 15 anni: osso marginale vs. affidabilità protesica",
+      "takeawaysEn": [
+        "Overall implant survival reached 95% at 15-17 years, with two-piece implants showing higher survival (98.0%) than one-piece (91.8%) in this cohort.",
+        "One-piece implants preserved marginal bone significantly better (0.08 mm loss vs. 1.53 mm for two-piece) over the long term.",
+        "Technical complications were markedly higher with one-piece implants: 35.4% at implant level vs. 5.8% for two-piece, requiring substantially more prosthetic intervention.",
+        "Peri-implant mucositis was recorded in 49.7% of implants and peri-implantitis in 13.3%, with higher rates in the one-piece group."
+      ],
+      "takeawaysIt": [
+        "La sopravvivenza implantare complessiva era del 95% a 15-17 anni; gli impianti a due componenti hanno mostrato sopravvivenza superiore (98,0%) rispetto ai monoblocco (91,8%) in questa coorte.",
+        "Gli impianti monoblocco hanno preservato meglio l'osso marginale (perdita 0,08 mm vs. 1,53 mm per i due componenti) sull'orizzonte temporale lungo.",
+        "Le complicanze tecniche sono state marcatamente più frequenti con i monoblocco: 35,4% a livello implantare vs. 5,8% per i due componenti, con interventi protesici molto più numerosi.",
+        "La mucosite perimplantare era presente nel 49,7% degli impianti e la perimplantite nel 13,3%, con tassi superiori nel gruppo monoblocco."
+      ],
+      "whyItMattersEn": "Rare 15+ year RCT data on implant design are scarce; this study quantifies a clinically meaningful trade-off that should inform patient selection: one-piece implants offer a bone-preservation advantage but require accepting a substantially higher burden of prosthetic maintenance, while two-piece systems deliver greater long-term prosthetic reliability at the cost of more marginal bone remodeling.",
+      "whyItMattersIt": "I dati RCT a 15+ anni sul design implantare sono rari: questo studio quantifica un compromesso clinicamente rilevante utile nella selezione del paziente — gli impianti monoblocco offrono un vantaggio nella preservazione ossea ma comportano un carico di manutenzione protesica sostanzialmente maggiore, mentre i sistemi a due componenti garantiscono maggiore affidabilità protesica a lungo termine a fronte di un rimodellamento osseo marginale più accentuato."
     },
     {
       "pmid": "42135431",
@@ -1288,7 +1800,23 @@
       ],
       "slug": "silver-ion-coated-implants-suppress-peri-implantitis-murine-42135431",
       "fetchedAt": "2026-05-18T06:08:09.159451Z",
-      "url": "https://doi.org/10.1038/s41598-026-53121-2"
+      "url": "https://doi.org/10.1038/s41598-026-53121-2",
+      "editorialTitleEn": "Silver-coated implants curb bone loss in peri-implantitis — but only in mice, so far",
+      "editorialTitleIt": "Impianti rivestiti con ioni argento: promettente prova di concetto contro la perimplantite, ancora preclinica",
+      "takeawaysEn": [
+        "Ag⁺ ions on a hydroxyapatite/IP6 coating showed significant antibacterial activity against P. gingivalis in vitro.",
+        "In a murine ligature model, coated implants reduced alveolar bone resorption compared to uncoated titanium controls (15–20% vs 19–25% at day 28).",
+        "The IP6-hydroxyapatite chelation platform offers a controlled-release silver delivery that could integrate into existing implant manufacturing.",
+        "Results are proof-of-concept only — the murine model has recognised limits for translation to human peri-implantitis."
+      ],
+      "takeawaysIt": [
+        "Il rivestimento con ioni Ag⁺ su film idrossiapatite/IP6 ha mostrato attività antibatterica significativa contro P. gingivalis in vitro.",
+        "Nel modello murino con legatura, gli impianti rivestiti hanno ridotto il riassorbimento osseo alveolare rispetto ai controlli non rivestiti (15–20% vs 19–25% al giorno 28).",
+        "La piattaforma IP6-idrossiapatite consente un rilascio controllato degli ioni argento, potenzialmente compatibile con i processi produttivi attuali.",
+        "I risultati sono una prova di concetto preclinica: il modello murino ha limiti intrinseci nella traslazione alla perimplantite umana."
+      ],
+      "whyItMattersEn": "Surface modification of titanium implants with antibacterial agents represents a strategy to build peri-implantitis prevention into the implant itself rather than relying solely on post-placement decontamination. This study adds preclinical evidence that Ag⁺ ion coatings can reduce pathogen-driven bone loss, though clinical relevance will depend on future human data and long-term safety assessments of silver release.",
+      "whyItMattersIt": "Modificare la superficie degli impianti in titanio con agenti antibatterici significa integrare la prevenzione della perimplantite nell'impianto stesso, anziché affidarsi esclusivamente alla decontaminazione post-posizionamento. Questo studio aggiunge evidenza preclinica che il rivestimento con ioni Ag⁺ può ridurre la perdita ossea indotta da patogeni parodontali, ma la rilevanza clinica dipenderà da futuri studi sull'uomo e dalla valutazione della sicurezza a lungo termine del rilascio di argento."
     },
     {
       "pmid": "42091891",
@@ -1331,7 +1859,23 @@
         "perdita di massa muscolare",
         "perdita ossea",
         "connessione parodonto-sistemica"
-      ]
+      ],
+      "editorialTitleEn": "Periodontitis and muscle loss: gingival activin A as a systemic mediator",
+      "editorialTitleIt": "Parodontite e atrofia muscolare: l'attivina A gengivale come mediatore sistemico",
+      "takeawaysEn": [
+        "In a mouse model, periodontitis reduced skeletal muscle mass through elevated circulating activin A, independent of food intake or fat mass changes.",
+        "Gingival fibroblasts, epithelial cells, and infiltrating myeloid cells are the primary sources of activin A in inflamed periodontal tissue, confirmed by scRNA-seq in human samples.",
+        "Serum activin A levels were elevated in both periodontitis-affected mice and human patients with periodontal disease.",
+        "Intra-gingival siRNA targeting Inhba restored muscle mass in mice without detectable systemic adverse effects, establishing proof of concept for local molecular intervention."
+      ],
+      "takeawaysIt": [
+        "In un modello murino, la parodontite ha ridotto la massa muscolare scheletrica attraverso un aumento dell'attivina A circolante, indipendentemente dall'introito alimentare o dalla massa adiposa.",
+        "Fibroblasti gengivali, cellule epiteliali e cellule mieloidi infiltranti sono le principali sorgenti di attivina A nel tessuto parodontale infiammato, confermato da scRNA-seq su campioni umani.",
+        "I livelli sierici di attivina A risultano elevati sia nei topi con parodontite sia nei pazienti umani con malattia parodontale attiva.",
+        "L'iniezione intragengivale di siRNA contro Inhba ha ripristinato la massa muscolare nei topi senza effetti avversi sistemici evidenti, fornendo una prova di concetto per l'intervento molecolare locale."
+      ],
+      "whyItMattersEn": "This preclinical study identifies a defined endocrine-like axis — periodontium-derived activin A driving skeletal muscle atrophy — and confirms elevated serum activin A in human periodontitis patients, making the mechanism clinically plausible. For periodontists managing older patients where sarcopenia and periodontal disease frequently coexist, the finding raises the question of whether controlling periodontal inflammation may have consequences beyond the oral cavity; however, clinical evidence in humans is not yet available.",
+      "whyItMattersIt": "Questo studio preclinico identifica un asse endocrino-simile definito — attivina A di origine parodontale che induce atrofia muscolare scheletrica — e conferma l'aumento dei livelli sierici di attivina A in pazienti umani con parodontite, rendendo il meccanismo clinicamente plausibile. Per il parodontologo che gestisce pazienti anziani, in cui sarcopenia e malattia parodontale frequentemente coesistono, il dato pone la domanda se il controllo dell'infiammazione parodontale possa avere ricadute oltre il cavo orale; l'evidenza clinica nell'uomo resta però ancora da acquisire."
     },
     {
       "pmid": "42090680",
@@ -1374,7 +1918,23 @@
         "profondità di sondaggio",
         "mucosa cheratinizzata",
         "connessione implantare"
-      ]
+      ],
+      "editorialTitleEn": "Healthy implants, higher MMP-8: subclinical tissue stress before any clinical sign",
+      "editorialTitleIt": "Impianti sani, MMP-8 elevata: attività proteolitica aumentata anche in assenza di malattia",
+      "takeawaysEn": [
+        "In this matched-pair cohort, clinically healthy implants showed MMP-8 levels approximately 29% higher than adjacent homologous teeth (p<0.05).",
+        "The MMP-8 elevation was independent of implant platform design (external hexagon, internal hexagon, Morse taper).",
+        "Total bacterial loads were comparable between implants and teeth, but species composition differed: A. actinomycetemcomitans was more prevalent around implants, particularly in the external hexagon group.",
+        "Absence of clinical signs (no increased probing depth alarm, no bleeding on probing) did not equate to biological quiescence at peri-implant sites."
+      ],
+      "takeawaysIt": [
+        "In questa coorte a coppie appaiate, gli impianti clinicamente sani mostravano livelli di MMP-8 circa il 29% più elevati rispetto ai denti omologhi controlaterali (p<0,05).",
+        "L'aumento di MMP-8 era indipendente dal design della connessione implantare (esagono esterno, esagono interno, cono Morse).",
+        "Il carico batterico totale era comparabile tra impianti e denti, ma la composizione per specie differiva: A. actinomycetemcomitans era più prevalente intorno agli impianti, in particolare nel gruppo con esagono esterno.",
+        "L'assenza di segni clinici non equivaleva a quiescenza biologica: il solco peri-implantare mostrava un tono proteolitico basale più elevato rispetto al solco gengivale anche in condizioni di salute."
+      ],
+      "whyItMattersEn": "Even in clinically healthy peri-implant sites, MMP-8 — a collagenase and recognized biomarker of connective tissue breakdown — runs measurably higher than around natural teeth in this cohort, suggesting the peri-implant sulcus is not a biological replica of the gingival sulcus. For the practicing implantologist, this supports incorporating fluid-based biomarker monitoring into maintenance protocols as a potentially more sensitive early-warning tool than probing depth alone.",
+      "whyItMattersIt": "Anche in siti peri-implantari clinicamente sani, la MMP-8 — collagenasi e biomarcatore riconosciuto di degradazione del connettivo — risulta misurabilmente più elevata rispetto ai denti naturali in questa coorte, a indicare che il solco peri-implantare non è una replica biologica del solco gengivale. Per l'implantologo, questo dato supporta l'integrazione del monitoraggio di biomarcatori nel fluido crevicolare nei protocolli di mantenimento, come strumento di allerta precoce potenzialmente più sensibile del sondaggio."
     },
     {
       "pmid": "42050510",
@@ -1412,7 +1972,23 @@
         "β-TCP/HA",
         "fibrina ricca di piastrine (PRF)",
         "istomorfometria"
-      ]
+      ],
+      "editorialTitleEn": "Sinus lift in severe atrophy: a composite allograft + PRF protocol delivers histologically mature bone at six months",
+      "editorialTitleIt": "Rialzo del seno in atrofia severa: l'innesto composito con alloinnesto e PRF produce osso maturo a sei mesi",
+      "takeawaysEn": [
+        "In this 60-biopsy single-arm cohort (residual height ≤4 mm), newly formed bone averaged 31.28% at six months — histologically mature with lamellar architecture and active remodeling fronts.",
+        "Residual graft material was only 15.48%, indicating active resorption-substitution rather than passive scaffold persistence.",
+        "Primary implant stability (ISQ) correlated strongly with residual native bone height, not graft volume — the native bone remains the primary mechanical anchor at placement.",
+        "No control group: the individual contribution of allograft, β-TCP/HA, and PRF cannot be separated — findings are descriptive, not comparative."
+      ],
+      "takeawaysIt": [
+        "In questa coorte a braccio singolo (60 biopsie, altezza ossea residua ≤4 mm), l'osso neoformato rappresentava in media il 31,28% a sei mesi — istologicamente maturo, con architettura lamellare e fronti attivi di rimodellamento.",
+        "Il materiale da innesto residuo si attestava al 15,48%, a indicare una sostituzione attiva piuttosto che una semplice persistenza passiva dello scaffold.",
+        "La stabilità implantare primaria (ISQ) correlava significativamente con l'altezza ossea nativa residua, non con il volume dell'innesto: l'osso nativo rimane l'ancoraggio meccanico principale al momento del posizionamento.",
+        "Nessun gruppo di controllo: il contributo individuale di alloinnesto, β-TCP/HA e PRF non è quantificabile — i risultati sono descrittivi, non comparativi."
+      ],
+      "whyItMattersEn": "In severely atrophic posterior maxillae where residual bone height averages just 2.31 mm, this study provides histological evidence — not just clinical outcomes — that a composite allograft/β-TCP-HA/PRF protocol yields biologically sound, osseointegration-ready bone at six months; the correlation data also reinforce that preserving even minimal native bone at surgery matters more for initial stability than the graft composition itself.",
+      "whyItMattersIt": "In mascellari posteriori con altezza ossea residua media di soli 2,31 mm, questo studio fornisce evidenza istologica — non soltanto dati clinici — che un protocollo composito con alloinnesto, β-TCP/HA e PRF produce un osso biologicamente sano e pronto per l'osteointegrazione a sei mesi; i dati correlazionali confermano inoltre che preservare anche una minima quota di osso nativo al momento dell'intervento pesa sulla stabilità primaria più della composizione dell'innesto stesso."
     },
     {
       "pmid": "42064527",
@@ -1456,7 +2032,23 @@
         "fresatura convenzionale",
         "stabilità implantare",
         "aumento di cresta"
-      ]
+      ],
+      "editorialTitleEn": "Ridge split vs. bone expansion: which technique costs more crestal bone at 12 months?",
+      "editorialTitleIt": "Splitting vs. espansione ossea: quale tecnica sacrifica più osso crestale a 12 mesi?",
+      "takeawaysEn": [
+        "In this 72-site prospective study, conventional drilling produced the least crestal bone loss; ridge split the most, with bone expansion intermediate at every time point.",
+        "Intergroup differences were statistically significant at 3, 6, and 12 months (p < 0.001), including all pairwise comparisons.",
+        "In the conventional drilling group, remodeling appeared to stabilize between 6 and 12 months — a pattern not observed in the ridge split or bone expansion groups.",
+        "The findings suggest that wider crestal remodeling with ridge split and bone expansion should be factored into prosthetic planning and follow-up scheduling."
+      ],
+      "takeawaysIt": [
+        "In questo studio prospettico su 72 siti, la fresatura convenzionale ha mostrato la minor perdita ossea crestale; lo splitting crestale la maggiore, con l'espansione ossea in posizione intermedia a ogni intervallo.",
+        "Le differenze intergruppo sono risultate statisticamente significative a 3, 6 e 12 mesi (p < 0,001), inclusi tutti i confronti a coppie.",
+        "Nel gruppo con fresatura convenzionale il rimodellamento sembra stabilizzarsi tra 6 e 12 mesi — un andamento non osservato negli altri due gruppi.",
+        "I dati suggeriscono di considerare il maggiore rimodellamento crestale precoce nella pianificazione protesica e nei protocolli di follow-up per splitting e espansione ossea."
+      ],
+      "whyItMattersEn": "When the ridge is too narrow and the clinician must choose between bone expansion and ridge split, this cohort study provides direct comparative data — both techniques produce significantly more crestal remodeling than conventional drilling at 12 months, with ridge split showing the highest values. Clinicians should counsel patients accordingly and plan closer radiographic follow-up after these procedures.",
+      "whyItMattersIt": "Quando la cresta è insufficiente e l'implantologo deve scegliere tra espansione ossea e splitting crestale, questo studio comparativo fornisce dati diretti: entrambe le tecniche producono un rimodellamento crestale significativamente maggiore rispetto alla fresatura convenzionale a 12 mesi, con valori più elevati per lo splitting. Informare il paziente in anticipo e pianificare un follow-up radiografico più ravvicinato appare indicato dopo queste procedure."
     },
     {
       "pmid": "42056079",
@@ -1499,7 +2091,23 @@
         "rigenerazione ossea alveolare",
         "trattamento della parodontite",
         "sistema di rilascio farmacologico"
-      ]
+      ],
+      "editorialTitleEn": "One nanocarrier, three targets: can DNA frameworks redefine adjunctive periodontitis therapy?",
+      "editorialTitleIt": "Parodontite: una singola piattaforma nano-DNA per agire su batteri, infiammazione e osso contemporaneamente",
+      "takeawaysEn": [
+        "A tetrahedral DNA nanostructure (tFNA) co-delivers curcumin and defensin, showing antibacterial, anti-inflammatory, and osteogenic activity in a rat periodontitis model.",
+        "Anti-inflammatory effect is mediated through TLR4 pathway modulation, reducing inflammatory infiltration in periodontal tissues in this animal model.",
+        "The carrier degrades into nucleotides — its natural building blocks — positioning it as one of the more biocompatible nanodelivery platforms reported to date.",
+        "Translation to clinical use requires pharmacokinetic studies, subgingival delivery optimisation, and controlled human trials before any clinical applicability can be assessed."
+      ],
+      "takeawaysIt": [
+        "Una nanostruttura di DNA tetraedrica (tFNA) co-trasporta curcumina e defensina, mostrando attività antibatterica, antinfiammatoria e osteogenica in un modello murino di parodontite.",
+        "L'effetto antinfiammatorio passa dalla modulazione della via TLR4, con riduzione dell'infiltrato infiammatorio nei tessuti parodontali in questo modello animale.",
+        "Il carrier si degrada in nucleotidi — i suoi costituenti naturali — configurandosi come una delle piattaforme di rilascio nanomedicale a maggiore biocompatibilità finora descritte.",
+        "La traduzione clinica richiede studi farmacocinetici, ottimizzazione della somministrazione sottogengivale e trial controllati sull'uomo prima di poterne valutare l'applicabilità."
+      ],
+      "whyItMattersEn": "Conventional adjunctive therapy addresses the microbial load but does not simultaneously modulate the host inflammatory response or support bone regeneration; this preclinical study demonstrates, in a rat model, that a single DNA-based nanocarrier can act on all three axes at once. Clinicians should note this is bench-to-animal research: if the platform progresses to clinical trials, it could offer a genuinely new class of local adjunct for periodontitis and, potentially, peri-implant disease.",
+      "whyItMattersIt": "La terapia adiuvante convenzionale agisce sul carico microbico ma non modula simultaneamente la risposta infiammatoria dell'ospite né sostiene la rigenerazione ossea; questo studio preclinico dimostra, in un modello murino, che un singolo nanocarrier a base di DNA può intervenire su tutti e tre gli assi patologici contemporaneamente. Da segnalare che si tratta di ricerca banch-to-animal: qualora la piattaforma progredisse verso trial clinici, potrebbe configurarsi come una nuova classe di adiuvanti locali per la parodontite e, potenzialmente, per la perimplantite."
     },
     {
       "pmid": "42069893",
@@ -1535,7 +2143,23 @@
         "studio clinico randomizzato controllato",
         "debridement superficie implantare",
         "terapia aggiuntiva"
-      ]
+      ],
+      "editorialTitleEn": "Early peri-implantitis: mechanical debridement alone holds up — adjuncts show no significant edge",
+      "editorialTitleIt": "Perimplantite precoce: il debridement meccanico da solo regge — nessun adiuvante ha dimostrato superiorità",
+      "takeawaysEn": [
+        "In this 6-month RCT (80 implants, 26 patients), all five nonsurgical protocols significantly improved probing depth, bleeding on probing, and plaque index.",
+        "No statistically significant differences were found between mechanical instrumentation alone and any adjunctive approach (CHX, ozone, or glycine powder air abrasion).",
+        "MI combined with glycine powder air abrasion showed the numerically greatest reductions, but the trial was underpowered to confirm a true intergroup difference.",
+        "Chlorhexidine irrigation as a routine adjunct is implicitly questioned: mechanical control alone may suffice for early-stage lesions."
+      ],
+      "takeawaysIt": [
+        "In questo RCT a 6 mesi (80 impianti, 26 pazienti), tutti e cinque i protocolli non chirurgici hanno migliorato significativamente profondità di sondaggio, sanguinamento e indice di placca.",
+        "Nessuna differenza statisticamente significativa è emersa tra la strumentazione meccanica isolata e qualsiasi approccio adiuvante (clorexidina, ozono o air abrasion a glicina).",
+        "La combinazione MI+air abrasion a glicina ha mostrato le riduzioni numericamente maggiori, ma lo studio non era dimensionato per confermare una reale differenza intergruppo.",
+        "L'uso routinario dell'irrigazione con clorexidina come adiuvante standard viene implicitamente messo in discussione: il solo controllo meccanico può essere sufficiente nelle lesioni precoci."
+      ],
+      "whyItMattersEn": "For implantologists managing early peri-implantitis, this trial suggests that rigorous mechanical debridement remains the cornerstone of nonsurgical therapy — and that adding chlorhexidine or ozone does not demonstrably improve short-term outcomes. Glycine powder air abrasion warrants attention as a potentially useful adjunct, but larger, longer trials are needed before it can be recommended over MI alone.",
+      "whyItMattersIt": "Per l'implantologo che gestisce la perimplantite precoce, questo studio indica che un debridement meccanico accurato resta il cardine della terapia non chirurgica, e che l'aggiunta di clorexidina o ozono non migliora dimostrativamente gli esiti a breve termine. L'air abrasion a polvere di glicina merita attenzione come adiuvante potenzialmente utile, ma sono necessari studi più ampi e con follow-up più lunghi prima di poterla raccomandare rispetto alla sola strumentazione meccanica."
     },
     {
       "pmid": "42046838",
@@ -1576,7 +2200,23 @@
         "revisione sistematica",
         "meta-analisi",
         "terapia parodontale non chirurgica"
-      ]
+      ],
+      "editorialTitleEn": "Local statins in periodontal therapy: solid evidence for Step 2, limited for surgery",
+      "editorialTitleIt": "Statine locali in parodontologia: prove solide nello Step 2, ancora incerte in chirurgia",
+      "takeawaysEn": [
+        "In Step 2 (non-surgical) therapy, locally delivered statins added ~1.4–2.3 mm PPD reduction over SRP alone across 13 RCTs.",
+        "In Step 3 (surgical) therapy, the benefit exists but is modest: ~0.80 mm PPD and ~0.69 mm CAL gain at 9 months.",
+        "Pre-implant bone regeneration evidence is too heterogeneous and inconsistent for any clinical conclusion.",
+        "High inter-study heterogeneity in statin type, vehicle, and concentration limits direct comparisons and generalisability."
+      ],
+      "takeawaysIt": [
+        "Nello Step 2 (terapia non chirurgica), le statine locali hanno ridotto la PPD di circa 1,4–2,3 mm in più rispetto al solo scaling su 13 RCT.",
+        "Nello Step 3 (terapia chirurgica), il beneficio è più contenuto: circa 0,80 mm di riduzione PPD e 0,69 mm di guadagno CAL a 9 mesi.",
+        "Per la rigenerazione ossea pre-implantare, i dati disponibili sono troppo eterogenei e contradditori per trarre conclusioni cliniche.",
+        "L'elevata eterogeneità tra gli studi — per molecola, veicolo e concentrazione — limita la generalizzabilità dei risultati."
+      ],
+      "whyItMattersEn": "This meta-analysis gives periodontists the clearest available evidence map for local statin adjuncts: the case for adding them to non-surgical debridement is biologically rational and clinically consistent, particularly in deep residual pockets, while surgical and pre-implant indications still need standardised multicentre RCTs before routine adoption.",
+      "whyItMattersIt": "Questa meta-analisi fornisce al parodontologo la mappa più aggiornata delle prove sull'uso adiuvante locale delle statine: l'integrazione nella terapia non chirurgica è biologicamente razionale e clinicamente coerente — specie in presenza di tasche residue profonde — mentre le indicazioni chirurgiche e pre-implantari richiedono RCT multicentrici standardizzati prima di poter essere considerate pratica corrente."
     },
     {
       "pmid": "42057175",
@@ -1621,7 +2261,23 @@
         "studio di coorte retrospettivo",
         "chirurgia con lembo",
         "protezione denti adiacenti"
-      ]
+      ],
+      "editorialTitleEn": "Extend GBR fully or not at all: partial coverage fails to protect adjacent alveolar bone",
+      "editorialTitleIt": "GBR nel frontale: l'estensione parziale non protegge la parete alveolare dei denti adiacenti",
+      "takeawaysEn": [
+        "In this cohort, fully extended GBR (graft to the alveolar crest) prevented horizontal resorption of adjacent teeth's labial wall at 6 months.",
+        "Partial extension offered no measurable protection: adjacent bone loss was similar to the non-extended group (~0.40–0.43 mm).",
+        "Only the fully extended group showed a net vertical dimensional gain (0.43 mm); other groups experienced net loss.",
+        "Mixed-effects models confirmed full extension as an independent positive predictor for both horizontal and vertical preservation."
+      ],
+      "takeawaysIt": [
+        "In questa coorte, la GBR completamente estesa (innesto fino alla cresta alveolare) ha prevenuto il riassorbimento orizzontale della parete vestibolare dei denti adiacenti a 6 mesi.",
+        "L'estensione parziale non ha offerto alcuna protezione misurabile: la perdita ossea era sovrapponibile a quella del gruppo non esteso (~0,40–0,43 mm).",
+        "Solo il gruppo con estensione completa ha mostrato un guadagno dimensionale verticale netto (0,43 mm); gli altri gruppi hanno registrato perdita netta.",
+        "I modelli a effetti misti hanno confermato l'estensione completa come predittore positivo indipendente per la preservazione sia orizzontale sia verticale."
+      ],
+      "whyItMattersEn": "When performing GBR in the anterior maxilla, limiting the graft to the edentulous defect may inadvertently expose adjacent teeth to avoidable alveolar bone loss — even when the implant site itself heals uneventfully. This retrospective study suggests that extending the regenerative material fully to the crestal margin of the neighboring buccal wall is the threshold that makes a difference, with no intermediate benefit from partial coverage; clinicians working in the aesthetic zone may consider adopting full extension as a routine intraoperative step, pending longer-term confirmation.",
+      "whyItMattersIt": "Nell'eseguire la GBR nel settore frontale del mascellare, limitare l'innesto al solo difetto edentulo può esporre i denti adiacenti a un riassorbimento alveolare evitabile, anche quando il sito implantare guarisce senza complicazioni. Questo studio retrospettivo indica che estendere il materiale rigenerativo fino al margine crestale della parete vestibolare del dente vicino è la soglia che fa la differenza, senza alcun beneficio intermedio dall'estensione parziale; per chi opera nella zona estetica, adottare l'estensione completa come passo intraoperatorio di routine appare razionale, in attesa di conferme a più lungo termine."
     },
     {
       "pmid": "42070743",
@@ -1664,7 +2320,23 @@
         "bisfosfonati",
         "ingegneria tissutale",
         "posizionamento implantare"
-      ]
+      ],
+      "editorialTitleEn": "MRONJ and implants: timing of stem cell therapy determines whether it works at all",
+      "editorialTitleIt": "MRONJ e impianti: le cellule staminali funzionano solo se somministrate dopo il posizionamento",
+      "takeawaysEn": [
+        "In this rat MRONJ model, preoperative MSC administration produced no measurable benefit over antiresorptive drug treatment alone.",
+        "Postoperative MSC delivery significantly improved peri-implant bone quality, epithelial barrier integrity, vascular density, and necrotic bone reduction.",
+        "The wound microenvironment created by surgery appears to activate MSC reparative and immunomodulatory signalling — absent before implant placement.",
+        "The epithelial-implant interface, not only osseointegration, is identified as a biologically targetable parameter in pharmacologically compromised patients."
+      ],
+      "takeawaysIt": [
+        "In questo modello di MRONJ nel ratto, la somministrazione preoperatoria di MSC non ha prodotto vantaggi misurabili rispetto alla sola terapia antiriassorbitiva.",
+        "La somministrazione postoperatoria ha migliorato significativamente qualità ossea perimplantare, integrità della barriera epiteliale, densità vascolare e riduzione dell'osso necrotico.",
+        "Il microambiente della ferita chirurgica sembra attivare la segnalazione riparativa e immunomodulatoria delle MSC — segnali assenti prima dell'inserimento implantare.",
+        "L'interfaccia epitelio-impianto, non solo l'osseointegrazione, emerge come parametro biologicamente modulabile nel paziente farmacologicamente compromesso."
+      ],
+      "whyItMattersEn": "Patients on antiresorptive therapy (bisphosphonates, denosumab) present a genuine clinical dilemma when implant placement is considered; this preclinical study establishes that the timing of any MSC-based biologic intervention is not interchangeable — postoperative delivery is the rational window. While human translation remains to be defined, the finding shifts how future protocols should be designed for this high-risk cohort.",
+      "whyItMattersIt": "I pazienti in terapia antiriassorbitiva (bisfosfonati, denosumab) rappresentano un dilemma concreto quando si valuta il trattamento implantare; questo studio preclinico dimostra che il timing di un eventuale intervento biologico con MSC non è intercambiabile — la somministrazione postoperatoria è la finestra terapeutica razionale. La traduzione sull'uomo resta da definire, ma il dato orienta la progettazione dei protocolli futuri per questa categoria di pazienti ad alto rischio."
     },
     {
       "pmid": "41985956",
@@ -1705,7 +2377,23 @@
         "terapia parodontale di supporto",
         "protocollo RCT",
         "correlazione parodontale-sistemica"
-      ]
+      ],
+      "editorialTitleEn": "CKD + stage III periodontitis: an RCT to test whether NSPT preserves teeth and masticatory function",
+      "editorialTitleIt": "Malattia renale cronica e parodontite: un RCT per capire se la NSPT riduce davvero la perdita dentale",
+      "takeawaysEn": [
+        "This is a protocol paper — no results yet; the RCT is designed to test whether active NSPT + SPC reduces tooth loss over 24 months in CKD patients.",
+        "Primary endpoint is incidence of periodontitis-attributable tooth loss; secondary endpoints include masticatory function and OHRQoL — not just periodontal indices.",
+        "The control arm receives only oral hygiene instruction and monitoring, making the trial a direct test of structured periodontal care vs. watchful waiting in a systemically compromised population.",
+        "Evidence on periodontal intervention in CKD patients is currently scarce; this trial addresses a gap where oral health is often deprioritised in nephrology pathways."
+      ],
+      "takeawaysIt": [
+        "Si tratta di un articolo di protocollo — nessun risultato disponibile; il trial è progettato per valutare se NSPT attiva più SPC riduce la perdita dentale in 24 mesi nei pazienti con CKD.",
+        "Esito primario: incidenza di perdita dentale da parodontite; esiti secondari: funzione masticatoria e qualità di vita correlata alla salute orale — non solo parametri parodontali.",
+        "Il braccio di controllo riceve solo istruzione di igiene orale e monitoraggio, rendendo lo studio un confronto diretto tra terapia strutturata e attesa vigile in una popolazione sistemicamente compromessa.",
+        "I dati interventistici di qualità sulla terapia parodontale nel paziente con MRC sono attualmente scarsi; questo trial colma una lacuna in un ambito dove la salute orale è spesso marginalizzata nei percorsi nefrologici."
+      ],
+      "whyItMattersEn": "For periodontists managing patients with comorbid CKD, there is currently little high-quality evidence to guide the intensity of periodontal intervention. If the trial demonstrates that NSPT plus structured supportive care reduces tooth loss and functional decline in this cohort, it would support more systematic periodontal management within interdisciplinary nephrology care — and reinforce the case for preserving the natural dentition over implant rehabilitation in medically compromised patients.",
+      "whyItMattersIt": "Per il parodontologo che gestisce pazienti con MRC in comorbidità, mancano oggi evidenze di qualità per orientare l'intensità dell'intervento parodontale. Se il trial dimostrasse che NSPT più terapia di supporto strutturata riduce la perdita dentale e il declino funzionale in questa coorte, sosterrebbe un approccio parodontale più sistematico nei percorsi interdisciplinari nefrologici — e rafforzerebbe la preferenza per la conservazione della dentatura naturale rispetto alla riabilitazione implantare nel paziente sistemicamente compromesso."
     },
     {
       "pmid": "42041646",
@@ -1746,7 +2434,23 @@
         "post-estrattivo",
         "innesto osseo",
         "variazioni dimensionali"
-      ]
+      ],
+      "editorialTitleEn": "After Extraction, Why Do Resorbable Membranes Collapse — and Can a Cortical Lamina Fix That?",
+      "editorialTitleIt": "GBR post-estrattiva: la lamina corticale rigida riduce il collasso della membrana e il riassorbimento orizzontale",
+      "takeawaysEn": [
+        "In this pilot RCT, G-ARP with a cortical lamina produced significantly less horizontal ridge resorption than conventional socket preservation.",
+        "The lamina's rigidity maintains buccal contour under soft-tissue pressure — the recognized failure mode of conventional resorbable membranes.",
+        "Complication rates were low and comparable between groups; primary closure was achievable without major flap advancement.",
+        "As a pilot study with limited sample size, results are preliminary — larger multicenter trials are needed before practice change."
+      ],
+      "takeawaysIt": [
+        "In questo RCT pilota, il G-ARP con lamina corticale ha ridotto significativamente il riassorbimento orizzontale rispetto alla preservazione alveolare convenzionale.",
+        "La rigidità della lamina mantiene il profilo buccale sotto la pressione dei tessuti molli — il punto critico delle membrane riassorbibili tradizionali negli alveoli post-estrattivi.",
+        "Tasso di complicanze basso e comparabile tra i gruppi; la chiusura primaria era ottenibile senza scorrimenti ampi del lembo.",
+        "Trattandosi di uno studio pilota con casistica limitata, i risultati sono preliminari: occorrono trial multicentrici più ampi prima di modificare il protocollo clinico."
+      ],
+      "whyItMattersEn": "The main unresolved problem with GBR in post-extraction sockets is membrane collapse before bone fill is complete. If confirmed in larger trials, a rigid cortical lamina as barrier could reduce the need for secondary augmentation at implant placement — particularly relevant in thin-walled or buccally compromised sockets.",
+      "whyItMattersIt": "Il limite non risolto della GBR negli alveoli post-estrattivi è il collasso della membrana prima del completamento della rigenerazione ossea. Se confermata in trial più ampi, la lamina corticale rigida come barriera potrebbe ridurre la necessità di procedure di aumento secondario al posizionamento implantare — con ricadute pratiche soprattutto nei socket a parete buccale sottile o già compromessa."
     },
     {
       "pmid": "42041656",
@@ -1793,7 +2497,23 @@
         "RCT triplo cieco",
         "microbioma sottogengivale",
         "terapia di mantenimento"
-      ]
+      ],
+      "editorialTitleEn": "Probiotics + ozonated oil in periodontitis maintenance: can we reduce microbiological relapse?",
+      "editorialTitleIt": "Mantenimento parodontale stadio I-II: probiotici e olio ozonizzato contro la disbiosi recidivante",
+      "takeawaysEn": [
+        "In this triple-blind RCT, adjunctive probiotics combined with ozonated olive oil showed more stable subgingival microbiota vs placebo during maintenance.",
+        "Bleeding on probing and pocket depth showed improvement or stabilization in the experimental group, suggesting reduced clinical relapse.",
+        "The strategy is non-antibiotic: probiotics act via competitive exclusion and bacteriocin production; ozonated oil adds direct antimicrobial action with minimal resistance risk.",
+        "Applicable in Stage I and II patients as a conservative adjunct — does not replace professional debridement or patient oral hygiene."
+      ],
+      "takeawaysIt": [
+        "In questo RCT in triplo cieco, l'associazione probiotici + olio d'oliva ozonizzato ha mostrato un microbiota sottogengivale più stabile rispetto al placebo durante la terapia di supporto.",
+        "Sanguinamento al sondaggio e profondità di tasca hanno evidenziato miglioramento o stabilizzazione nel gruppo sperimentale, suggerendo una riduzione della recidiva clinica.",
+        "La strategia è non antibiotica: i probiotici agiscono per esclusione competitiva e produzione di batteriocine; l'olio ozonizzato aggiunge azione antimicrobica diretta con minimo rischio di resistenze.",
+        "Applicabile nei pazienti di stadio I e II come adiuvante conservativo — non sostituisce il debridement professionale né l'igiene orale domiciliare."
+      ],
+      "whyItMattersEn": "Microbiological relapse during maintenance is the main reason periodontitis recurs in susceptible patients; this trial suggests a non-antibiotic adjunct may help sustain the ecological gains of active therapy in Stage I and II cases, offering a pharmacologically conservative option to integrate into maintenance protocols.",
+      "whyItMattersIt": "La recidiva microbiologica durante il mantenimento è la principale causa di progressione della parodontite nei pazienti suscettibili; questo studio suggerisce che un adiuvante non antibiotico possa contribuire a preservare i risultati ecologici della terapia attiva nei casi di stadio I e II, rappresentando un'opzione conservativa da valutare nei protocolli di supporto."
     },
     {
       "pmid": "42041664",
@@ -1832,7 +2552,23 @@
         "supplementazione aggiuntiva",
         "guarigione parodontale",
         "micronutrienti"
-      ]
+      ],
+      "editorialTitleEn": "Vitamin D as NSPT adjunct: cautious signal, not a protocol yet",
+      "editorialTitleIt": "Vitamina D e terapia parodontale: segnale promettente, protocollo ancora da definire",
+      "takeawaysEn": [
+        "RCTs reviewed suggest vitamin D supplementation alongside SRP may improve PPD, CAL, and BOP beyond mechanical therapy alone.",
+        "The biological rationale is coherent: vitamin D modulates host immunity and may induce antimicrobial peptides (cathelicidin, defensins) in the subgingival environment.",
+        "Heterogeneity in dosage, duration, and baseline 25(OH)D levels across trials limits the strength of pooled conclusions.",
+        "Screening for vitamin D deficiency appears clinically justified in patients with aggressive disease, poor NSPT response, or systemic comorbidities such as diabetes or osteoporosis."
+      ],
+      "takeawaysIt": [
+        "Gli RCT inclusi suggeriscono che la supplementazione di vitamina D associata allo SRP possa migliorare PPD, CAL e sanguinamento al sondaggio rispetto alla sola terapia meccanica.",
+        "Il razionale biologico è solido: la vitamina D modula la risposta immunitaria dell'ospite e può indurre peptidi antimicrobici (catelicidina, defensine) nell'ambiente sottogengivale.",
+        "L'eterogeneità tra gli studi — per dosaggio, durata e livelli basali di 25(OH)D — limita la solidità delle conclusioni aggregate e impedisce di trarre indicazioni di protocollo univoche.",
+        "Lo screening della carenza di vitamina D appare clinicamente giustificato nei pazienti con progressione aggressiva, scarsa risposta alla terapia convenzionale o comorbidità come diabete e osteoporosi."
+      ],
+      "whyItMattersEn": "Vitamin D deficiency is prevalent and inexpensive to correct; this review gives periodontists and implantologists grounds to incorporate nutritional status screening into routine patient evaluation, particularly before surgical procedures, while stopping short of endorsing a standard supplementation protocol pending larger, better-standardized RCTs.",
+      "whyItMattersIt": "La carenza di vitamina D è diffusa e facilmente correggibile: questa revisione fornisce al parodontologo e all'implantologo basi sufficienti per integrare la valutazione dello stato vitaminico D nella raccolta anamnestica di routine — in particolare prima di interventi chirurgici — senza tuttavia giustificare ancora un protocollo di supplementazione standardizzato in attesa di RCT più ampi e omogenei."
     },
     {
       "pmid": "42041665",
@@ -1875,7 +2611,23 @@
         "gestione del fallimento implantare",
         "rigenerazione ossea",
         "gestione clinica"
-      ]
+      ],
+      "editorialTitleEn": "Advanced peri-implantitis in the esthetic zone: a case for staged explantation over early re-implantation",
+      "editorialTitleIt": "Perimplantite avanzata in zona estetica: espianta, rigenera, attendi — poi reimpianta",
+      "takeawaysEn": [
+        "Staged explantation — remove, decontaminate, GBR, wait, then re-implant — can restore adequate ridge volume before new fixture placement in this cohort.",
+        "Minimally traumatic explantation preserves residual bone and is the foundation of the regenerative phase.",
+        "Rushing re-implantation into an incompletely healed site risks repeating the same failure, particularly where mucosal zenith and marginal bone directly affect the esthetic outcome.",
+        "Patient selection and adherence to healing timelines are described as pillars of the protocol alongside surgical precision."
+      ],
+      "takeawaysIt": [
+        "In questa serie di casi, l'approccio stadiato — espianto atraumatico, decontaminazione, GBR e attesa di maturazione dell'innesto — ha consentito di ripristinare dimensioni della cresta sufficienti per un reimpianto con stabilità primaria.",
+        "La rimozione dell'impianto con tecnica minimamente traumatica è il presupposto della fase rigenerativa: preservare l'osso residuo è prioritario.",
+        "Il reimpianto precoce in un sito non adeguatamente guarito nella zona estetica rischia di replicare l'insuccesso, proprio dove livelli ossei marginali e zenit mucoso condizionano direttamente l'esito restaurativo.",
+        "La selezione del paziente e il rispetto rigoroso dei tempi di guarigione sono indicati come fattori determinanti quanto l'esecuzione chirurgica."
+      ],
+      "whyItMattersEn": "When advanced peri-implantitis forces explantation in the esthetic zone, the sequencing of reconstruction matters: this case-based investigation argues that a deliberate staged protocol — not early re-implantation — is the framework for a predictable second attempt. For implantologists and periodontists, the practical implication is resisting pressure to re-implant before complete graft maturation, even when esthetic demands feel urgent.",
+      "whyItMattersIt": "Quando la perimplantite avanzata impone l'espianto nella zona estetica, la sequenza della ricostruzione è determinante: questo lavoro su casi clinici propone un protocollo stadiato — non il reimpianto precoce — come schema per un secondo tentativo prevedibile. Per l'implantologo e il parodontologo, il messaggio operativo è resistere alla pressione di reimpiantare prima della piena maturazione dell'innesto, anche quando le esigenze estetiche sembrano urgenti."
     },
     {
       "pmid": "42035718",
@@ -1917,7 +2669,23 @@
         "riduzione della profondità di sondaggio",
         "guadagno di attacco clinico",
         "terapia parodontale di supporto"
-      ]
+      ],
+      "editorialTitleEn": "Stage III/IV Periodontitis: Surgery Wins Short-Term, Maintenance Wins Long-Term",
+      "editorialTitleIt": "Parodontite stadio III/IV: la chirurgia vince nel breve, la manutenzione nel lungo periodo",
+      "takeawaysEn": [
+        "In this cohort of 3,194 Chinese patients, SPT produced significantly greater PD reduction (1.16 vs 0.77 mm) and CAL gain (0.97 vs 0.68 mm) than NSPT over a mean follow-up of 1.56 years.",
+        "The clinical advantage of surgery over NSPT diminished substantially beyond three years of follow-up.",
+        "Regular supportive periodontal care was the strongest predictor of long-term outcomes, regardless of whether the initial approach was surgical or non-surgical.",
+        "NSPT with structured recall can achieve long-term stability comparable to surgery — making patient compliance capacity a key decision variable."
+      ],
+      "takeawaysIt": [
+        "In questa coorte di 3.194 pazienti cinesi, la SPT ha prodotto riduzioni della profondità di sondaggio (1,16 vs 0,77 mm) e guadagni di attacco clinico (0,97 vs 0,68 mm) significativamente superiori alla NSPT nel follow-up medio di 1,56 anni.",
+        "Il vantaggio clinico della chirurgia rispetto alla NSPT si è ridotto in modo sostanziale oltre i tre anni di follow-up.",
+        "L'aderenza alla terapia parodontale di supporto è risultata il predittore più costante degli esiti a lungo termine, indipendentemente dalla modalità di trattamento iniziale.",
+        "La NSPT con protocolli di richiamo strutturati può raggiungere una stabilità a lungo termine paragonabile agli esiti chirurgici — rendendo la capacità di compliance del paziente una variabile decisionale chiave."
+      ],
+      "whyItMattersEn": "For clinicians managing advanced periodontitis, this retrospective cohort study reframes the NSPT-vs-surgery debate: surgery offers measurably better short-term pocket reduction, but when planning treatment the patient's realistic capacity for long-term supportive care may matter more than the choice of initial modality. Findings are from a single Chinese hospital cohort with a modest surgical group (n=212) and should be interpreted with caution in other populations.",
+      "whyItMattersIt": "Per i clinici che gestiscono la parodontite avanzata, questo studio di coorte retrospettivo riformula il dibattito tra NSPT e chirurgia: la SPT offre riduzioni delle tasche superiori nel breve periodo, ma al momento di pianificare il trattamento la reale capacità del paziente di aderire alla terapia di supporto a lungo termine può essere più determinante della scelta della modalità iniziale. I risultati provengono da una singola coorte ospedaliera cinese con un gruppo chirurgico di dimensioni contenute (n=212) e vanno interpretati con cautela in altri contesti."
     },
     {
       "pmid": "42035463",
@@ -1958,7 +2726,23 @@
         "diabete e impianti",
         "fattori di rischio",
         "malattia sistemica"
-      ]
+      ],
+      "editorialTitleEn": "Type 2 diabetes and peri-implantitis: no detectable difference in this cohort",
+      "editorialTitleIt": "Diabete tipo 2 e perimplantite: in questo studio nessuna differenza rilevabile",
+      "takeawaysEn": [
+        "In 70 patients (35 T2DM / 35 controls, 227 implants), overall peri-implant disease prevalence was 80% vs 77% — not significantly different (p=0.99).",
+        "Neither peri-implant mucositis nor peri-implantitis rates differed significantly between diabetic and non-diabetic subjects.",
+        "The extremely high disease prevalence in both groups suggests plaque control and maintenance protocols may overshadow any glycemic effect.",
+        "HbA1c and diabetes duration were not reported, limiting conclusions about the role of metabolic control."
+      ],
+      "takeawaysIt": [
+        "In 70 pazienti (35 T2DM / 35 controlli, 227 impianti), la prevalenza complessiva di malattia perimplantare era 80% vs 77%, senza differenza significativa (p=0,99).",
+        "Né la mucosite perimplantare né la perimplantite differivano significativamente tra diabetici e non diabetici.",
+        "L'elevatissima prevalenza di malattia in entrambi i gruppi suggerisce che igiene orale e protocolli di mantenimento pesino più dell'iperglicemia.",
+        "L'assenza di dati su HbA1c e durata del diabete limita le conclusioni sul ruolo del compenso metabolico."
+      ],
+      "whyItMattersEn": "This cross-sectional study challenges the assumption that T2DM acts as an independent risk factor for peri-implant disease in the same way it does for periodontitis; in this cohort, well-managed diabetic patients did not show meaningfully higher peri-implant disease rates, suggesting that rigorous plaque control and maintenance — not glycemic status alone — may be the dominant modifiable driver. Larger prospective studies stratifying by HbA1c are needed before drawing firm clinical conclusions.",
+      "whyItMattersIt": "Questo studio trasversale mette in discussione l'assunzione che il T2DM sia un fattore di rischio indipendente per la malattia perimplantare nella stessa misura in cui lo è per la parodontite: in questa coorte i pazienti diabetici non mostravano tassi di malattia perimplantare significativamente più elevati, il che suggerisce che controllo della placca e mantenimento rigoroso possano essere i determinanti modificabili predominanti. Studi prospettici di maggiori dimensioni con stratificazione per HbA1c sono necessari prima di trarre conclusioni cliniche definitive."
     },
     {
       "pmid": "42026938",
@@ -1998,7 +2782,23 @@
         "trial quasi-randomizzato",
         "modifica superficie implantare",
         "terapia chirurgica combinata"
-      ]
+      ],
+      "editorialTitleEn": "Implantoplasty for peri-implantitis: how far into the defect is worth the recession risk?",
+      "editorialTitleIt": "Implantoplastica nella perimplantite: estendere alla componente infraossea migliora gli esiti, ma aumenta la recessione",
+      "takeawaysEn": [
+        "In this 33-patient quasi-randomized trial, combined implantoplasty + GBR arrested peri-implantitis progression at 12 months regardless of implantoplasty extent.",
+        "Full-length implantoplasty (FLIP, including the intrabony component) showed superior clinical and radiographic outcomes over partial supracrestal implantoplasty (PLIP) at one year.",
+        "FLIP was associated with greater mucosal recession — a meaningful trade-off for thin phenotypes or aesthetic zones.",
+        "Case selection and patient counseling on recession risk are essential before choosing full-length surface recontouring."
+      ],
+      "takeawaysIt": [
+        "In questo trial quasi-randomizzato su 33 pazienti, la terapia combinata implantoplastica + ROG ha arrestato la progressione della perimplantite a 12 mesi, indipendentemente dall'estensione dell'implantoplastica.",
+        "L'implantoplastica totale (FLIP, estesa alla componente infraossea) ha evidenziato esiti clinici e radiografici superiori rispetto all'implantoplastica parziale sopracrestale (PLIP) a un anno.",
+        "FLIP è risultata associata a maggiore recessione mucosa — compromesso rilevante nei siti con fenotipo sottile o in zona estetica.",
+        "La selezione del caso e il counseling del paziente sul rischio di recessione sono indispensabili prima di optare per la modifica completa della superficie."
+      ],
+      "whyItMattersEn": "Clinicians managing peri-implantitis with intrabony defects now have technique-level evidence that extending implantoplasty into the defect may improve outcomes — but the recession cost demands pre-surgical phenotype assessment and explicit patient consent, particularly in aesthetic sites.",
+      "whyItMattersIt": "Per il parodontologo e l'implantologo che trattano la perimplantite con difetti infraossei, questo studio fornisce dati tecnici su quando conviene estendere l'implantoplastica al difetto: il potenziale vantaggio clinico va sempre bilanciato con il rischio di recessione, da valutare preoperatoriamente in base al fenotipo e alla posizione implantare."
     },
     {
       "pmid": "42006458",
@@ -2033,7 +2833,23 @@
         "esiti radiografici",
         "esiti biologici",
         "biomateriali"
-      ]
+      ],
+      "editorialTitleEn": "Hyaluronic acid for peri-implantitis: promising biology, not yet a standard adjunct",
+      "editorialTitleIt": "Acido ialuronico nella perimplantite: biologia promettente, evidenze ancora insufficienti",
+      "takeawaysEn": [
+        "Six RCTs and controlled studies (110 patients total) show heterogeneous results: some PPD and BOP improvements, others no significant difference vs control.",
+        "Marginal bone loss outcomes were inconsistent; radiographic benefit appeared only in surgical protocols, with very low GRADE certainty.",
+        "HA reduced interleukin-1β levels and showed activity against early-colonizing bacteria, supporting biological plausibility.",
+        "High heterogeneity in formulations, molecular weights, and protocols makes cross-study comparison unreliable; larger standardized RCTs are needed."
+      ],
+      "takeawaysIt": [
+        "Sei studi controllati (110 pazienti in totale) mostrano risultati eterogenei: riduzione di PPD e BOP in alcuni, nessuna differenza significativa rispetto al controllo in altri.",
+        "Gli esiti sulla perdita ossea marginale sono inconsistenti; miglioramenti radiografici si osservano solo negli studi con approccio chirurgico, con certezza GRADE molto bassa.",
+        "L'HA riduce i livelli di interleuchina-1β e mostra attività sui batteri colonizzatori precoci, confermando una plausibilità biologica solida.",
+        "L'elevata eterogeneità tra formulazioni, pesi molecolari e protocolli rende difficile qualsiasi sintesi; sono necessari RCT più ampi e standardizzati."
+      ],
+      "whyItMattersEn": "This review signals that HA is biologically rational as an adjunct in peri-implantitis protocols — particularly for soft-tissue inflammation — but the current evidence base (low to very low GRADE certainty, only 110 patients across six heterogeneous studies) does not support a change in standard-of-care recommendations. Clinicians who already use HA have some biological backing, but should not expect consistent bone-level benefits from the current literature.",
+      "whyItMattersIt": "Questa revisione indica che l'acido ialuronico è un adiuvante biologicamente razionale nei protocolli per la perimplantite — in particolare per il controllo dell'infiammazione dei tessuti molli — ma la certezza delle prove (bassa o molto bassa secondo GRADE, 110 pazienti in totale in sei studi eterogenei) non è sufficiente per modificare le raccomandazioni di standard of care. Chi lo utilizza già in protocollo ha un razionale biologico, ma non deve attendersi un beneficio prevedibile a livello osseo sulla base della letteratura attuale."
     },
     {
       "pmid": "42030755",
@@ -2077,7 +2893,23 @@
         "chiodini da membrana",
         "chirurgia dei tessuti molli",
         "serie di casi retrospettiva"
-      ]
+      ],
+      "editorialTitleEn": "Dual fixation for FGG in the posterior mandible: 17% shrinkage and no complications at 12 months",
+      "editorialTitleIt": "Innesto gengivale libero nel settore posteriore: il doppio ancoraggio dimezza il ritiro a 12 mesi",
+      "takeawaysEn": [
+        "In this retrospective series (49 sites), a dual fixation system combining orthodontic anchor screws and membrane tacks reduced FGG shrinkage to ~17.5% at 12 months.",
+        "Mean net KTW gain was 8.02 mm; 85% of total contraction occurred within the first three months, underscoring the importance of early mechanical stability.",
+        "No intraoperative or postoperative complications were recorded; VAS pain scores were negligible by day 14.",
+        "Limitations: retrospective design, no control group — prospective comparative data are needed before broader adoption."
+      ],
+      "takeawaysIt": [
+        "In questa serie retrospettiva (49 siti implantari), il sistema a doppio ancoraggio — viti ortodontiche + chiodini da membrana — ha limitato la contrazione dell'innesto al ~17,5% a 12 mesi.",
+        "Il guadagno netto medio di KTW è stato di 8,02 mm; l'85% del ritiro totale si è concentrato nei primi tre mesi, confermando il ruolo critico della stabilizzazione precoce.",
+        "Nessuna complicanza intra- o postoperatoria; il dolore (VAS) è risultato trascurabile entro il quattordicesimo giorno.",
+        "Limiti: disegno retrospettivo senza gruppo di controllo — sono necessari studi comparativi prospettici prima di un'adozione su larga scala."
+      ],
+      "whyItMattersEn": "The posterior mandible is the most demanding site for FGG due to muscular pull and limited access; if the shrinkage reduction reported in this cohort is confirmed prospectively, a dual fixation approach using readily available hardware could become a practical adjunct to the standard technique for implant sites with minimal keratinized tissue.",
+      "whyItMattersIt": "Il settore posteriore mandibolare è la sede più critica per l'innesto gengivale libero a causa delle trazioni muscolari e della scarsa accessibilità; se la riduzione del ritiro osservata in questa coorte venisse confermata in studi prospettici, il doppio ancoraggio con strumentario di comune disponibilità potrebbe diventare un complemento pratico alla tecnica standard nei siti implantari con scarso tessuto cheratinizzato."
     }
   ]
 }

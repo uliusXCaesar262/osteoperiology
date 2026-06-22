@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 import { ogImages } from "@/lib/seo";
+import { displayTitle } from "@/lib/article";
 import { getRecentArticles } from "@/lib/storage";
 
 /**
@@ -124,7 +125,7 @@ export default function RootLandingPage() {
                     className="text-base sm:text-lg leading-snug font-medium"
                     style={{ color: "var(--color-ink)" }}
                   >
-                    {a.titleIt || a.title}
+                    {displayTitle(a, "it")}
                   </p>
                 </Link>
               </li>

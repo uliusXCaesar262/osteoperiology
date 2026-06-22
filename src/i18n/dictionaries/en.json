@@ -38,6 +38,10 @@
     "published": "Published",
     "backToList": "Back to articles",
     "related": "Related articles",
+    "sourceStudy": "Source study",
+    "inBrief": "In brief",
+    "whyItMatters": "Why it matters in practice",
+    "clinicalNote": "Periodontist's note",
     "aiDisclaimer": "This summary is automatically generated from the original abstract and curated by Dr. Ernesto Bruschi. Always refer to the original publication for clinical decisions."
   },
   "about": {

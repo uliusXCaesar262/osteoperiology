@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Article, Lang } from "@/lib/types";
 import { toIsoDate } from "@/lib/dates";
+import { displayTitle } from "@/lib/article";
 
 interface ArticleCardProps {
   article: Article;
@@ -16,8 +17,7 @@ export default function ArticleCard({
 }: ArticleCardProps) {
   const summary = lang === "it" ? article.summaryIt : article.summaryEn;
   const excerpt = summary.slice(0, 220) + (summary.length > 220 ? "..." : "");
-  const plainTitle = article.title.replace(/<[^>]+>/g, "");
-  const displayTitle = lang === "it" && article.titleIt ? article.titleIt : plainTitle;
+  const title = displayTitle(article, lang);
 
   return (
     <article className="article-card mb-4">
@@ -38,7 +38,7 @@ export default function ArticleCard({
           className="hover:underline"
           style={{ color: "var(--color-ink)" }}
         >
-          {displayTitle}
+          {title}
         </Link>
       </h2>
 
@@ -55,7 +55,7 @@ export default function ArticleCard({
         href={`/${lang}/articles/${article.slug}`}
         className="text-sm font-medium"
         style={{ color: "var(--color-accent)" }}
-        aria-label={`${readMore}: ${displayTitle}`}
+        aria-label={`${readMore}: ${title}`}
       >
         {readMore} →
       </Link>

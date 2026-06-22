@@ -5,6 +5,7 @@ import { getDictionary } from "@/i18n/config";
 import { getRecentArticles } from "@/lib/storage";
 import { SITE_URL } from "@/lib/constants";
 import { ogImages, buildAlternates } from "@/lib/seo";
+import { displayTitle } from "@/lib/article";
 
 /**
  * Full article archive (`/en/articles`, `/it/articles`).
@@ -67,7 +68,7 @@ export default async function ArticlesArchivePage({
         "@type": "ListItem",
         position: i + 1,
         url: `${SITE_URL}/${lang}/articles/${a.slug}`,
-        name: lang === "it" && a.titleIt ? a.titleIt : a.title.replace(/<[^>]+>/g, ""),
+        name: displayTitle(a, lang),
       })),
     },
   };
@@ -96,8 +97,7 @@ export default async function ArticlesArchivePage({
 
       <ul className="flex flex-col">
         {articles.map((a) => {
-          const plainTitle = a.title.replace(/<[^>]+>/g, "");
-          const displayTitle = lang === "it" && a.titleIt ? a.titleIt : plainTitle;
+          const t = displayTitle(a, lang);
           return (
             <li
               key={a.pmid}
@@ -118,7 +118,7 @@ export default async function ArticlesArchivePage({
                   className="block text-base sm:text-lg leading-snug font-medium group-hover:underline"
                   style={{ color: "var(--color-ink)" }}
                 >
-                  {displayTitle}
+                  {t}
                 </span>
               </Link>
             </li>

@@ -5,6 +5,7 @@ import { getDictionary } from "@/i18n/config";
 import { getRecentArticles } from "@/lib/storage";
 import { SITE_URL } from "@/lib/constants";
 import { ogImages, buildAlternates } from "@/lib/seo";
+import { displayTitle } from "@/lib/article";
 import SearchableArticleList from "@/components/SearchableArticleList";
 
 const homeMeta = {
@@ -68,7 +69,7 @@ export default async function HomePage({
         "@type": "ListItem",
         position: i + 1,
         url: `${SITE_URL}/${lang}/articles/${a.slug}`,
-        name: lang === "it" && a.titleIt ? a.titleIt : a.title.replace(/<[^>]+>/g, ""),
+        name: displayTitle(a, lang),
       })),
     },
   };
@@ -82,6 +83,13 @@ export default async function HomePage({
     summaryEn: lang === "en" ? a.summaryEn : "",
     summaryIt: lang === "it" ? a.summaryIt : "",
     titleIt: lang === "it" ? a.titleIt : undefined,
+    editorialTitleEn: lang === "en" ? a.editorialTitleEn : undefined,
+    editorialTitleIt: lang === "it" ? a.editorialTitleIt : undefined,
+    takeawaysEn: undefined,
+    takeawaysIt: undefined,
+    whyItMattersEn: undefined,
+    whyItMattersIt: undefined,
+    clinicalNoteIt: undefined,
   }));
 
   return (
