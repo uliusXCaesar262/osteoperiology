@@ -1,6 +1,263 @@
 {
-  "lastUpdated": "2026-06-15T09:15:45.657782Z",
+  "lastUpdated": "2026-06-22T11:28:13.860511Z",
   "articles": [
+    {
+      "pmid": "42309675",
+      "title": "Effect of smoking intensity on clinical outcomes of implants placed with simultaneous guided bone regeneration: a 5-year retrospective study.",
+      "titleIt": "Intensità del fumo ed esiti a 5 anni degli impianti con rigenerazione ossea guidata simultanea: studio retrospettivo",
+      "authors": [
+        "Song YB",
+        "Park JW"
+      ],
+      "journal": "Journal of oral science",
+      "pubDate": "2026 Jun 16",
+      "doi": "10.2334/josnusd.26-0028",
+      "abstractText": "PURPOSE: This study investigated the dose-dependent impact of smoking intensity on marginal bone loss (MBL) and the rates of implant survival and failure in patients undergoing implant placement with simultaneous guided bone regeneration (GBR) over a 5-year follow-up period.\n\nMETHODS: A retrospective cohort analysis was performed on 55 patients (130 implants) who were stratified by smoking intensity (10 or 20 cigarettes/day). MBL was assessed radiographically, and clinical outcomes were analyzed using Kaplan-Meier survival curves and multivariate logistic regression.\n\nRESULTS: At 5 years, smokers consuming &gt;10 cigarettes/day exhibited significantly greater MBL than did non-smokers and light smokers (2.67 mm vs. 1.34-1.40 mm; P &lt; 0.001). Heavy smokers (&gt;20 cigarettes/day) showed the highest MBL (2.88 mm). Multivariate analysis identified smoking &#x2265;20 cigarettes/day (odds ratio = 16.7) and the use of non-resorbable membranes (odds ratio = 10.4) as primary independent risk factors for failure. The 5-year survival rate remained 100% for non-smokers and light smokers (&#x2264;10 cigarettes/day) but decreased significantly to 88.1% for those exceeding 10 cigarettes/day.\n\nCONCLUSIONS: Smoking intensity has a profound, dose-dependent negative effect on GBR-supported implants. Consumption of more than 10 cigarettes/day significantly accelerates bone loss and diminishes implant survival, identifying heavy smoking as a critical risk factor for long-term biological complications in patients receiving implants along with concurrent GBR.",
+      "summaryEn": "How much does smoking actually cost an implant placed with simultaneous guided bone regeneration (GBR)? This 5-year retrospective cohort followed 55 patients (130 implants), stratified by smoking intensity around thresholds of 10 and 20 cigarettes/day. Marginal bone loss (MBL) was measured radiographically, and survival analysed with Kaplan-Meier curves and multivariate logistic regression.\n\nAt 5 years the gradient was steep and dose-dependent. Patients smoking more than 10 cigarettes/day lost roughly twice the marginal bone of non-smokers and light smokers (2.67 mm vs 1.34-1.40 mm; P < 0.001), and heavy smokers (>20/day) lost the most (2.88 mm). Implant survival held at 100% for non-smokers and light smokers (≤10/day) but fell to 88.1% above that threshold. On multivariate analysis, smoking ≥20 cigarettes/day (odds ratio 16.7) and the use of non-resorbable membranes (odds ratio 10.4) emerged as the dominant independent risk factors for failure.\n\nFor clinicians, the value lies in the threshold: 10 cigarettes/day behaves as a clinical inflection point for GBR-supported implants, not a smooth continuum. The membrane signal is equally practical — in this cohort the non-resorbable membrane carried a substantial independent failure risk, a variable that belongs in the planning conversation alongside the patient's smoking habit. As a single-centre retrospective study the findings are associative, not causal, but the magnitude of the effect is hard to ignore.",
+      "summaryIt": "Quanto pesa davvero il fumo su un impianto posizionato con rigenerazione ossea guidata (GBR) simultanea? Questo studio retrospettivo a 5 anni ha seguito 55 pazienti (130 impianti), stratificati per intensità di fumo attorno alle soglie di 10 e 20 sigarette al giorno. La perdita ossea marginale (MBL) è stata misurata radiograficamente e la sopravvivenza analizzata con curve di Kaplan-Meier e regressione logistica multivariata.\n\nA 5 anni il gradiente è netto e dose-dipendente. Chi fumava più di 10 sigarette/die ha perso circa il doppio dell'osso marginale rispetto a non fumatori e fumatori leggeri (2,67 mm contro 1,34-1,40 mm; P < 0,001), e i forti fumatori (>20/die) hanno perso di più (2,88 mm). La sopravvivenza implantare è rimasta al 100% fino a 10 sigarette/die, scendendo all'88,1% oltre tale soglia. All'analisi multivariata, fumare ≥20 sigarette/die (odds ratio 16,7) e l'uso di membrane non riassorbibili (odds ratio 10,4) si sono confermati i principali fattori di rischio indipendenti di fallimento.\n\nIl dato utile è la soglia: in questa coorte le 10 sigarette/die si comportano come uno spartiacque clinico per gli impianti con GBR, non come un continuum graduale. Altrettanto pratico è il segnale sulla membrana: qui quella non riassorbibile portava un rischio di fallimento indipendente rilevante, una variabile da mettere sul tavolo in fase di pianificazione insieme all'abitudine al fumo. Trattandosi di uno studio retrospettivo monocentrico, i risultati sono associativi e non causali, ma l'entità dell'effetto è difficile da ignorare.",
+      "tagsEn": [
+        "dental implants",
+        "guided bone regeneration",
+        "smoking",
+        "marginal bone loss",
+        "implant survival",
+        "risk factors",
+        "non-resorbable membrane"
+      ],
+      "tagsIt": [
+        "impianti dentali",
+        "rigenerazione ossea guidata",
+        "fumo",
+        "perdita ossea marginale",
+        "sopravvivenza implantare",
+        "fattori di rischio",
+        "membrana non riassorbibile"
+      ],
+      "editorialTitleEn": "Past 10 cigarettes a day, GBR implants lose twice the bone",
+      "editorialTitleIt": "Oltre le 10 sigarette al giorno, l'impianto con GBR perde il doppio dell'osso",
+      "takeawaysEn": [
+        "In this 5-year cohort, smokers of >10 cigarettes/day lost about twice the marginal bone (2.67 mm) of non- and light smokers (1.34-1.40 mm).",
+        "Implant survival stayed at 100% up to 10 cigarettes/day but dropped to 88.1% above that threshold.",
+        "On multivariate analysis, ≥20 cigarettes/day (OR 16.7) and non-resorbable membranes (OR 10.4) were the leading independent failure risks."
+      ],
+      "takeawaysIt": [
+        "In questa coorte a 5 anni, i fumatori di >10 sigarette/die hanno perso circa il doppio dell'osso marginale (2,67 mm) rispetto a non fumatori e fumatori leggeri (1,34-1,40 mm).",
+        "La sopravvivenza implantare è rimasta al 100% fino a 10 sigarette/die, scendendo all'88,1% oltre tale soglia.",
+        "All'analisi multivariata, fumare ≥20 sigarette/die (OR 16,7) e l'uso di membrane non riassorbibili (OR 10,4) erano i principali fattori di rischio indipendenti di fallimento."
+      ],
+      "whyItMattersEn": "When planning an implant with simultaneous GBR, smoking intensity should be quantified, not just noted: the 10-cigarettes/day mark behaves as a clinical watershed, and membrane choice enters the same risk calculation.",
+      "whyItMattersIt": "Quando si pianifica un impianto con GBR simultanea, l'intensità del fumo va quantificata, non solo registrata: la soglia delle 10 sigarette/die emerge come spartiacque clinico, e la scelta della membrana entra nello stesso calcolo del rischio.",
+      "clinicalNoteIt": "Sappiamo bene che il fumo ha un effetto sulla salute orale (e, di conseguenza, sulle guarigioni delle nostre chirurgie) simile ai batteri periopatogeni. L'odds ratio (OR) è simile. È fondamentale, quindi, discutere di questo aspetto con il paziente fumatore, e raccomandargli di sforzarsi di non superare le 10 sigarette al giorno. ",
+      "slug": "effect-of-smoking-intensity-on-clinical-outcomes-of-implants-placed-with-simulta-42309675",
+      "fetchedAt": "2026-06-22T09:17:17.157394Z",
+      "url": "https://doi.org/10.2334/josnusd.26-0028"
+    },
+    {
+      "pmid": "42298522",
+      "title": "Assessment of two treatment protocols using prebent titanium mesh and customized PEEK mesh for predominantly horizontal maxillary ridge augmentation with volumetric evaluation: a randomized clinical trial.",
+      "titleIt": "Maglia in titanio preformata e maglia in PEEK personalizzata a confronto nell'aumento orizzontale della cresta mascellare: studio clinico randomizzato",
+      "authors": [
+        "Alshikh BAA",
+        "Eid MH",
+        "Amin A"
+      ],
+      "journal": "BMC oral health",
+      "pubDate": "2026 Jun 16",
+      "doi": "10.1186/s12903-026-08720-w",
+      "abstractText": "BACKGROUND: Reconstruction of the deficient maxillary ridge in three dimensions is crucial for the successful placement of implants. Prebent titanium meshes are an established modality for GBR, while patient-specific PEEK meshes have recently emerged with some possible advantages over the former. This study compared the effectiveness of two treatment protocols involving prebent titanium mesh and customized PEEK mesh, each combined with different graft compositions for bone augmentation.\n\nMATERIALS AND METHODS: 14 patients with 28 augmented sites in the maxillary ridges of primarily horizontal bone deficiencies, often associated with minor vertical components, were randomly assigned to two groups. The control group (n&#x2009;=&#x2009;7) was augmented with a prebent titanium mesh, while the study group (n&#x2009;=&#x2009;7) was augmented with a customized milled PEEK mesh. Both were grafted with a mixture of autogenous bone and xenograft. The primary outcome was horizontal bone gain. Secondary outcomes included vertical bone gain, gained bone volume, and graft resorption. These parameters were assessed by CBCT preoperatively, immediately postoperatively, and at 6 months before implant placement.\n\nRESULTS: In this comparative three-dimensional volumetric CBCT analysis of predominantly horizontal ridge augmentation, no statistically significant differences were observed between the two groups regarding horizontal or vertical bone gain (Titanium: 3.02&#x2009;&#xb1;&#x2009;0.68&#xa0;mm vs. PEEK: 2.42&#x2009;&#xb1;&#x2009;0.38&#xa0;mm; p&#x2009;=&#x2009;0.065, and Titanium: 1.12&#x2009;&#xb1;&#x2009;0.10&#xa0;mm vs. PEEK: 1.09&#x2009;&#xb1;&#x2009;0.25&#xa0;mm; p&#x2009;=&#x2009;0.738, respectively). Regarding secondary outcomes, the PEEK group, which received a graft composed of a higher percentage of autogenous bone (70:30 autograft: xenograft), showed a significantly higher amount of gained bone volume when compared to the titanium mesh group (who received a 60:40 graft mixture) (499.47&#x2009;&#xb1;&#x2009;80.46&#xa0;mm&#xb3; vs. 370.82&#x2009;&#xb1;&#x2009;51.69&#xa0;mm&#xb3;; p&#x2009;=&#x2009;0.004), as well as a higher graft loss volume (174.83&#x2009;&#xb1;&#x2009;40.78&#xa0;mm&#xb3; vs. 127.73&#x2009;&#xb1;&#x2009;35.55&#xa0;mm&#xb3;; p&#x2009;=&#x2009;0.040). Clinical complications, including mesh exposure, were minimal and were successfully managed in both groups.\n\nCONCLUSION: Both prebent titanium mesh and custom-made PEEK mesh materials were associated with successful three-dimensional maxillary ridge augmentation within the limitations of this study. Although differences in volumetric outcomes were noted, it should be emphasized that such differences may have been influenced by differences in graft composition. Therefore, the current study represents a comparison of two treatment protocols incorporating different mesh materials and graft compositions.\n\nTRIAL REGISTRATION: The study was prospectively registered at Clinical Trials.gov (NCT07040124) on June 25, 2025, before patient enrollment.",
+      "summaryEn": "Patient-specific PEEK meshes are being marketed as a step up from prebent titanium for guided bone regeneration (GBR). Does the data support it? This randomized clinical trial enrolled 14 patients (28 maxillary sites) with predominantly horizontal ridge deficiencies, assigning prebent titanium mesh (n=7) or customized milled PEEK mesh (n=7), each with an autogenous bone plus xenograft mixture. Outcomes were measured by CBCT preoperatively, immediately after surgery, and at 6 months, with horizontal bone gain as the primary endpoint.\n\nThere was no statistically significant difference in horizontal bone gain (titanium 3.02 ± 0.68 mm vs PEEK 2.42 ± 0.38 mm; p=0.065) or vertical gain (1.12 vs 1.09 mm; p=0.738). The PEEK group showed a significantly higher gained bone volume (499.47 vs 370.82 mm³; p=0.004) but also greater graft loss volume (174.83 vs 127.73 mm³; p=0.040). Crucially, the PEEK group received a graft richer in autogenous bone (70:30 autograft:xenograft) than the titanium group (60:40), so the authors frame the result as a comparison of two protocols, not of two mesh materials in isolation. Complications, including mesh exposure, were minimal and managed in both arms.\n\nThe honest read: for horizontal augmentation, the custom PEEK mesh did not outperform prebent titanium on the dimensional endpoints that matter, and the volumetric differences track the graft composition rather than the mesh. With only 14 patients this is a pilot; it tempers, rather than confirms, the marketing case for PEEK.",
+      "summaryIt": "Le maglie in PEEK su misura vengono proposte come un passo avanti rispetto al titanio preformato nella rigenerazione ossea guidata (GBR). I dati lo confermano? Questo studio clinico randomizzato ha arruolato 14 pazienti (28 siti mascellari) con deficit di cresta prevalentemente orizzontali, assegnando maglia in titanio preformata (n=7) o maglia in PEEK fresata personalizzata (n=7), entrambe con una miscela di osso autologo e xenoinnesto. Gli esiti sono stati misurati con CBCT prima dell'intervento, subito dopo e a 6 mesi, con il guadagno osseo orizzontale come endpoint primario.\n\nNon è emersa alcuna differenza statisticamente significativa nel guadagno osseo orizzontale (titanio 3,02 ± 0,68 mm contro PEEK 2,42 ± 0,38 mm; p=0,065) né in quello verticale (1,12 contro 1,09 mm; p=0,738). Il gruppo PEEK ha mostrato un volume osseo guadagnato significativamente maggiore (499,47 contro 370,82 mm³; p=0,004) ma anche un maggiore riassorbimento dell'innesto (174,83 contro 127,73 mm³; p=0,040). Il punto chiave: il gruppo PEEK riceveva un innesto più ricco di osso autologo (70:30 autologo:xenoinnesto) rispetto al gruppo titanio (60:40), per cui gli stessi autori inquadrano il risultato come confronto tra due protocolli, non tra due materiali di maglia isolati. Le complicanze, inclusa l'esposizione della maglia, sono state minime e gestite in entrambi i gruppi.\n\nLa lettura onesta: nell'aumento orizzontale, la maglia in PEEK personalizzata non ha superato il titanio preformato sugli endpoint dimensionali che contano, e le differenze di volume seguono la composizione dell'innesto più che il materiale della maglia. Con soli 14 pazienti si tratta di uno studio pilota: ridimensiona, più che confermare, la promessa commerciale del PEEK.",
+      "tagsEn": [
+        "ridge augmentation",
+        "PEEK mesh",
+        "titanium mesh",
+        "guided bone regeneration",
+        "CBCT",
+        "bone graft",
+        "randomized controlled trial"
+      ],
+      "tagsIt": [
+        "aumento di cresta",
+        "maglia in PEEK",
+        "maglia in titanio",
+        "rigenerazione ossea guidata",
+        "CBCT",
+        "innesto osseo",
+        "studio clinico randomizzato"
+      ],
+      "editorialTitleEn": "PEEK or titanium mesh for the ridge? They tie once you control the graft",
+      "editorialTitleIt": "Maglia in PEEK o in titanio per la cresta? A parità di tecnica, pareggiano",
+      "takeawaysEn": [
+        "RCT in 14 patients (28 sites): no significant difference in horizontal bone gain between prebent titanium mesh (3.02 mm) and customized PEEK mesh (2.42 mm; p=0.065).",
+        "The PEEK group gained more bone volume (499 vs 371 mm³) but also lost more graft — and received a more autograft-rich mix (70:30), so this compares protocols, not just materials.",
+        "Complications, including mesh exposure, were minimal and successfully managed in both groups."
+      ],
+      "takeawaysIt": [
+        "RCT su 14 pazienti (28 siti): nessuna differenza significativa nel guadagno osseo orizzontale tra maglia in titanio preformata (3,02 mm) e maglia in PEEK personalizzata (2,42 mm; p=0,065).",
+        "Il gruppo PEEK ha guadagnato più volume osseo (499 contro 371 mm³) ma ha anche perso più innesto, e riceveva una miscela più ricca di osso autologo (70:30): il confronto è tra protocolli, non solo tra materiali.",
+        "Le complicanze, inclusa l'esposizione della maglia, sono state minime e gestite con successo in entrambi i gruppi."
+      ],
+      "whyItMattersEn": "For anyone weighing custom PEEK meshes against titanium for horizontal GBR, this pilot suggests comparable dimensional outcomes; what moved the volumes was graft composition, not the mesh material.",
+      "whyItMattersIt": "Per chi valuta le maglie su misura in PEEK come alternativa al titanio nella GBR orizzontale, questo studio pilota suggerisce esiti dimensionali sovrapponibili: a muovere i volumi è stata la composizione dell'innesto, non il materiale della maglia.",
+      "clinicalNoteIt": "Non sono propriamente un esperto di GBR. La faccio saltuariamente, le poche volte che le tecniche di espansione osteo-mucosa non sono sufficienti. Tuttavia, è interessante che il materiale d'innesto ha più importanza del contenitore. ",
+      "slug": "assessment-of-two-treatment-protocols-using-prebent-titanium-mesh-and-customized-42298522",
+      "fetchedAt": "2026-06-22T09:17:17.157394Z",
+      "url": "https://doi.org/10.1186/s12903-026-08720-w"
+    },
+    {
+      "pmid": "42304495",
+      "title": "A short-term randomized controlled trial of bilaminar techniques using tunnel versus envelope flap for root coverage in multiple mandibular anterior gingival recessions with thin gingival phenotype.",
+      "titleIt": "Tecnica a tunnel contro lembo a busta nel ricoprimento radicolare di recessioni multiple degli incisivi inferiori con fenotipo sottile: studio clinico randomizzato",
+      "authors": [
+        "Liu N",
+        "Chen Q",
+        "Zhao Y"
+      ],
+      "journal": "Head & face medicine",
+      "pubDate": "2026 Jun 16",
+      "doi": "10.1186/s13005-026-00631-z",
+      "abstractText": "OBJECTIVE: To compare clinical, aesthetic, and patient-reported outcomes of tunnel technique (TUN) versus envelope flap technique (ENV), both combined with connective tissue graft (CTG), for the treatment of multiple mandibular anterior gingival recession defects in patients with thin gingival phenotype.\n\nMETHODS: Fifty-nine patients contributing 103 recession sites in teeth 33-43 were enrolled. Randomisation was performed at the patient level, and all eligible sites within the same patient received the same intervention. Thirty-four patients (59 sites) received TUN&#x2009;+&#x2009;CTG and 25 patients (44 sites) received ENV&#x2009;+&#x2009;CTG. Clinical outcomes were analysed at the site level with patient-level clustering accounted for using mixed-effects models. Root coverage percentage (RC%), complete root coverage (CRC), keratinized tissue width (KTW), gingival thickness (GT), Root Esthetic Score (RES), and patient-reported outcomes were assessed at 3 and 6 months.\n\nRESULTS: At 6 months, mean RC% in the TUN group (79.18&#x2009;&#xb1;&#x2009;31.49%) was significantly higher than in the ENV group (57.93&#x2009;&#xb1;&#x2009;37.24%; adjusted mean difference 19.8%, 95% CI 6.9-32.7; P&#x2009;=&#x2009;0.003). CRC was achieved in 37/59 sites (62.7%) in TUN and 14/44 sites (31.8%) in ENV (adjusted OR 3.36, 95% CI 1.48-7.61; P&#x2009;=&#x2009;0.004). Both groups showed significant gains in KTW and GT, while RES scores and patient satisfaction were consistently higher in the TUN group.\n\nCONCLUSION: Both techniques effectively improved recession defects and soft tissue phenotype in multiple mandibular anterior gingival recessions. The tunnel technique provided superior root coverage, aesthetic integration, and patient satisfaction over 6 months while maintaining a comparable operative time and favourable safety profile.",
+      "summaryEn": "In the most demanding zone for periodontal plastic surgery — multiple mandibular anterior recessions on a thin gingival phenotype — which approach delivers better coverage? This randomized controlled trial enrolled 59 patients contributing 103 recession sites (teeth 33-43). Randomisation was at patient level: 34 patients (59 sites) received the tunnel technique plus connective tissue graft (TUN + CTG), and 25 patients (44 sites) received the envelope flap plus CTG (ENV + CTG). Site-level outcomes were analysed with mixed-effects models accounting for patient clustering, at 3 and 6 months.\n\nAt 6 months, mean root coverage was significantly higher with the tunnel (79.18 ± 31.49%) than the envelope (57.93 ± 37.24%; adjusted mean difference 19.8%, 95% CI 6.9-32.7; P=0.003). Complete root coverage was achieved in 62.7% of tunnel sites versus 31.8% of envelope sites (adjusted OR 3.36, 95% CI 1.48-7.61; P=0.004). Both techniques produced significant gains in keratinized tissue width and gingival thickness, while Root Esthetic Score and patient satisfaction were consistently higher in the tunnel group — at comparable operative time and a favourable safety profile.\n\nThe clinical signal is clear: both flaps improve the recession and the soft-tissue phenotype, but in thin-phenotype lower incisors the tunnel offers more predictable and more complete coverage without an added operative cost. At 6 months this is a short-term read; longer follow-up would confirm whether the coverage advantage holds.",
+      "summaryIt": "Nel distretto più impegnativo della chirurgia plastica parodontale — recessioni multiple degli incisivi inferiori su fenotipo gengivale sottile — quale approccio offre la copertura migliore? Questo studio clinico randomizzato ha arruolato 59 pazienti per 103 siti di recessione (denti 33-43). La randomizzazione era a livello di paziente: 34 pazienti (59 siti) hanno ricevuto la tecnica a tunnel con innesto di tessuto connettivo (TUN + CTG) e 25 pazienti (44 siti) il lembo a busta con CTG (ENV + CTG). Gli esiti per sito sono stati analizzati con modelli a effetti misti che tengono conto del clustering per paziente, a 3 e 6 mesi.\n\nA 6 mesi, la copertura radicolare media è risultata significativamente più alta con il tunnel (79,18 ± 31,49%) rispetto alla busta (57,93 ± 37,24%; differenza media aggiustata 19,8%, IC 95% 6,9-32,7; P=0,003). La copertura radicolare completa è stata raggiunta nel 62,7% dei siti a tunnel contro il 31,8% dei siti a busta (OR aggiustato 3,36, IC 95% 1,48-7,61; P=0,004). Entrambe le tecniche hanno prodotto guadagni significativi di larghezza di tessuto cheratinizzato e spessore gengivale, mentre il punteggio estetico (RES) e la soddisfazione del paziente erano costantemente più alti nel gruppo tunnel, a parità di tempo operatorio e con un buon profilo di sicurezza.\n\nIl segnale clinico è chiaro: entrambi i lembi migliorano la recessione e il fenotipo dei tessuti molli, ma negli incisivi inferiori a fenotipo sottile il tunnel offre una copertura più prevedibile e più completa senza costi operatori aggiuntivi. A 6 mesi è una lettura a breve termine: un follow-up più lungo confermerebbe se il vantaggio di copertura si mantiene.",
+      "tagsEn": [
+        "root coverage",
+        "tunnel technique",
+        "envelope flap",
+        "connective tissue graft",
+        "gingival recession",
+        "thin phenotype",
+        "periodontal plastic surgery"
+      ],
+      "tagsIt": [
+        "ricoprimento radicolare",
+        "tecnica a tunnel",
+        "lembo a busta",
+        "innesto di tessuto connettivo",
+        "recessione gengivale",
+        "fenotipo sottile",
+        "chirurgia plastica parodontale"
+      ],
+      "editorialTitleEn": "Thin-phenotype lower recessions: the tunnel beats the envelope flap",
+      "editorialTitleIt": "Recessioni mandibolari con fenotipo sottile: il tunnel batte il lembo a busta",
+      "takeawaysEn": [
+        "RCT in 59 patients (103 lower-incisor sites, thin phenotype): at 6 months the tunnel + CTG gave 79% mean root coverage vs 58% for the envelope flap.",
+        "Complete root coverage reached 62.7% of tunnel sites vs 31.8% of envelope sites (adjusted OR 3.36).",
+        "Both techniques increased keratinized tissue and gingival thickness; esthetic score and patient satisfaction were higher with the tunnel, at comparable operative time."
+      ],
+      "takeawaysIt": [
+        "RCT su 59 pazienti (103 siti su incisivi inferiori, fenotipo sottile): a 6 mesi il tunnel + CTG ha dato una copertura radicolare media del 79% contro il 58% del lembo a busta.",
+        "La copertura radicolare completa è stata raggiunta nel 62,7% dei siti a tunnel contro il 31,8% dei siti a busta (OR aggiustato 3,36).",
+        "Entrambe le tecniche hanno aumentato tessuto cheratinizzato e spessore gengivale; punteggio estetico e soddisfazione erano più alti con il tunnel, a parità di tempo operatorio."
+      ],
+      "whyItMattersEn": "In the hardest district for periodontal plastic surgery — thin-phenotype lower incisors — the tunnel approach delivers more predictable coverage than the envelope flap without added operative cost.",
+      "whyItMattersIt": "Nel distretto più difficile per la chirurgia plastica parodontale — incisivi inferiori a fenotipo sottile — l'approccio a tunnel offre una copertura più prevedibile del lembo a busta senza costi operatori aggiuntivi.",
+      "clinicalNoteIt": "Gli incisivi inferiori sono sicuramente la zona più difficile per la copertura radicolare. In molte altre zone si riesce ad evitare il fastidioso prelievo dal palato. Qui è necessario, quasi sempre. ",
+      "slug": "a-short-term-randomized-controlled-trial-of-bilaminar-techniques-using-tunnel-ve-42304495",
+      "fetchedAt": "2026-06-22T09:17:17.157394Z",
+      "url": "https://doi.org/10.1186/s13005-026-00631-z"
+    },
+    {
+      "pmid": "42292687",
+      "title": "Periodontal inflammation: A clinically significant and underrecognized cardiovascular risk factor-The Endothelial Risk Score (ERS): A narrative review with conceptual framework development.",
+      "titleIt": "Infiammazione parodontale come fattore di rischio cardiovascolare sottovalutato: l'Endothelial Risk Score (ERS), una revisione narrativa con sviluppo di un quadro concettuale",
+      "authors": [
+        "Nwhator SO",
+        "Ogunwemimo MT",
+        "Akinyele OA"
+      ],
+      "journal": "American heart journal plus : cardiology research and practice",
+      "pubDate": "2026 Jul",
+      "doi": "10.1016/j.ahjo.2026.100808",
+      "abstractText": "Periodontitis is a chronic inflammatory disease affecting the tooth-supporting structures and has been consistently associated with endothelial dysfunction, the earliest detectable stage of atherosclerosis. This article is a narrative review with conceptual framework development - not a systematic review or meta-analysis. We synthesize evidence from key studies to propose a hypothesis-generating heuristic: the Endothelial Risk Score (ERS). Despite robust biological plausibility and supportive clinical evidence, a critical translational gap persists: no quantitative framework integrates continuous periodontal inflammation with established cardiovascular risk factors. Clinicians cannot answer: \"How much endothelial dysfunction is explained by periodontal inflammation?\" This review synthesises evidence from mechanistic studies, clinical association studies, intervention trials, and established cardiovascular risk frameworks to propose the ERS. The ERS is a hypothesis-generating heuristic that integrates Periodontal Inflamed Surface Area (PISA) with age, sex, systolic blood pressure, smoking pack-years, diabetes status, and hs-CRP into a four-strata scoring system (Low, Moderate, High, Very High vascular burden). All point assignments are evidence-informed heuristics, not empirically derived coefficients. The proposed ERS is not a validated prediction tool; it is a conceptual framework to structure existing evidence, guide patient education, foster interdisciplinary collaboration, and define testable hypotheses for future empirical validation. A detailed validation blueprint is provided.",
+      "summaryEn": "Everyone agrees periodontitis is linked to cardiovascular disease — but clinicians still can't answer the patient's question: how much of my endothelial risk comes from my gums? This narrative review (explicitly not a systematic review or meta-analysis) sets out to close that translational gap by proposing a hypothesis-generating heuristic, the Endothelial Risk Score (ERS).\n\nThe premise is well established: periodontitis is consistently associated with endothelial dysfunction, the earliest detectable stage of atherosclerosis. Synthesising mechanistic studies, clinical association studies, intervention trials and existing cardiovascular risk frameworks, the authors propose integrating the Periodontal Inflamed Surface Area (PISA) with age, sex, systolic blood pressure, smoking pack-years, diabetes status and hs-CRP into a four-strata score: Low, Moderate, High and Very High vascular burden.\n\nThe authors are careful about what this is and is not. The point assignments are evidence-informed heuristics, not empirically derived coefficients, and the ERS is not a validated prediction tool — it is a conceptual scaffold to structure existing evidence, guide patient education, foster collaboration between dentistry and cardiology, and define testable hypotheses. A detailed validation blueprint is included. For the periodontist, the value is conceptual rather than immediately clinical: a structured way to talk about cardiovascular risk with patients and colleagues, and a research agenda — not yet a calculator to deploy at the chair.",
+      "summaryIt": "Che la parodontite sia collegata alla malattia cardiovascolare è un fatto condiviso, ma il clinico ancora non sa rispondere alla domanda del paziente: quanto del mio rischio endoteliale dipende dalle gengive? Questa revisione narrativa (dichiaratamente non una revisione sistematica né una meta-analisi) prova a colmare questo vuoto traslazionale proponendo un'euristica generatrice di ipotesi, l'Endothelial Risk Score (ERS).\n\nLa premessa è consolidata: la parodontite è costantemente associata alla disfunzione endoteliale, lo stadio più precoce rilevabile dell'aterosclerosi. Sintetizzando studi meccanicistici, studi di associazione clinica, trial di intervento e i quadri di rischio cardiovascolare esistenti, gli autori propongono di integrare l'area parodontale infiammata (PISA) con età, sesso, pressione arteriosa sistolica, pacchi-anno di fumo, stato diabetico e hs-CRP in un punteggio a quattro fasce: carico vascolare basso, moderato, alto e molto alto.\n\nGli autori sono espliciti su cosa sia e cosa non sia. I punteggi assegnati sono euristiche basate sull'evidenza, non coefficienti derivati empiricamente, e l'ERS non è uno strumento predittivo validato: è un'impalcatura concettuale per strutturare le evidenze esistenti, guidare l'educazione del paziente, favorire la collaborazione tra odontoiatria e cardiologia e definire ipotesi verificabili. È incluso un dettagliato schema di validazione. Per il parodontologo il valore è concettuale più che immediatamente clinico: un modo strutturato per parlare di rischio cardiovascolare con pazienti e colleghi, e un'agenda di ricerca — non ancora un calcolatore da usare alla poltrona.",
+      "tagsEn": [
+        "periodontitis",
+        "cardiovascular risk",
+        "endothelial dysfunction",
+        "PISA",
+        "oral-systemic link",
+        "risk score",
+        "narrative review"
+      ],
+      "tagsIt": [
+        "parodontite",
+        "rischio cardiovascolare",
+        "disfunzione endoteliale",
+        "PISA",
+        "connessione orale-sistemica",
+        "punteggio di rischio",
+        "revisione narrativa"
+      ],
+      "editorialTitleEn": "Putting a number on periodontitis as cardiovascular risk: a proposed score",
+      "editorialTitleIt": "Quantificare quanto la parodontite pesa sul rischio cardiovascolare: una proposta",
+      "takeawaysEn": [
+        "A narrative review proposing the Endothelial Risk Score (ERS): it combines Periodontal Inflamed Surface Area (PISA) with age, sex, systolic BP, smoking pack-years, diabetes and hs-CRP into four vascular-risk strata.",
+        "It is a hypothesis-generating heuristic, not a validated prediction tool — point values are evidence-informed, not empirically derived.",
+        "The rationale is the established link between periodontitis and endothelial dysfunction, the earliest stage of atherosclerosis."
+      ],
+      "takeawaysIt": [
+        "Una revisione narrativa propone l'Endothelial Risk Score (ERS): combina l'area parodontale infiammata (PISA) con età, sesso, pressione sistolica, pacchi-anno di fumo, diabete e hs-CRP in quattro fasce di rischio vascolare.",
+        "È un'euristica generatrice di ipotesi, non uno strumento predittivo validato: i punteggi sono basati sull'evidenza, non derivati empiricamente.",
+        "Il razionale è il legame consolidato tra parodontite e disfunzione endoteliale, lo stadio più precoce dell'aterosclerosi."
+      ],
+      "whyItMattersEn": "It bridges — conceptually — the gap between 'periodontitis harms the heart' and 'by how much', offering a structured tool for patient education and cardiology collaboration while awaiting validation.",
+      "whyItMattersIt": "Colma — sul piano concettuale — il vuoto tra 'la parodontite fa male al cuore' e 'quanto', offrendo uno strumento strutturato per l'educazione del paziente e la collaborazione col cardiologo, in attesa di validazione.",
+      "clinicalNoteIt": "È noto che la malattia parodontale influenza negativamente la salute cardiovascolare. È il legame dimostrato da più tempo. Sappiamo bene che patogeni come Porphyromonas ginvivalis e Aggregatibacter actynomicemcomitans possono invadere direttamente le cellule endoteliali e generare ateromi. ",
+      "slug": "periodontal-inflammation-a-clinically-significant-and-underrecognized-cardiovasc-42292687",
+      "fetchedAt": "2026-06-22T09:17:17.157394Z",
+      "url": "https://doi.org/10.1016/j.ahjo.2026.100808"
+    },
+    {
+      "pmid": "42290709",
+      "title": "The burden of oral disorders in Latin America and Caribbean countries from 1990 to 2023 and projections until 2050: a systematic analysis for the Global Burden of Disease Study 2023.",
+      "titleIt": "Il carico delle malattie orali in America Latina e Caraibi dal 1990 al 2023 con proiezioni al 2050: analisi sistematica del Global Burden of Disease 2023",
+      "authors": [
+        "GBD 2023 Latin America and Caribbean Oral Disorders Collaborators"
+      ],
+      "journal": "Lancet regional health. Americas",
+      "pubDate": "2026 Aug",
+      "doi": "10.1016/j.lana.2026.101517",
+      "abstractText": "BACKGROUND: Oral disorders (OD) are the most prevalent non-communicable conditions worldwide. We analyse the burden of OD in Latin America and the Caribbean (LAC) from 1990 to 2023, with projections to 2050.\n\nMETHODS: This analysis used Global Burden of Disease (GBD) 2023 estimates of incidence, prevalence, and years lived with disability (YLDs) for untreated dental caries of deciduous (UDCD) and permanent teeth (UDCP), severe periodontitis, edentulism, and other OD across 33 LAC countries. DisMod-MR 2.1, spatiotemporal regression, and MR-BRT were applied. YLDs were calculated as prevalence multiplied by disability weights. Associations with the Socio-demographic Index (SDI) were assessed using LOWESS smoothers. Forecasts to 2050 incorporated demographic and risk-factor trends.\n\nFINDINGS: In 2023, OD in LAC caused 290.8 million (95% UI 259.3-325.4) incident cases, 308.2 million (285.9-332.7) prevalent cases, and 2.41 million (1.51-3.48) YLDs. They ranked first in prevalence, second in incidence, and tenth in YLDs among all causes over the past three decades. UDCD peaked in childhood, UDCP in young adulthood and midlife; while severe periodontitis and edentulism predominated in older adults, with YLDs increasing sharply with age. Higher SDI correlated inversely with edentulism but positively with severe periodontal disability. By 2050, YLDs are projected to reach 3.81 million (2.28-5.80).\n\nINTERPRETATION: Despite progress in child oral health, OD remain a leading cause of YLDs in LAC. Integrating oral health into primary care and UHC across the life course, alongside action on upstream social and commercial determinants is essential to reduce the burden.\n\nFUNDING: The GBD2023 Study is supported by the Gates Foundation.\n\nANTECEDENTES: Los padecimientos orales (PO) destacan como las enfermedades no transmisibles m&#xe1;s prevalentes a nivel mundial. Analizamos la carga de los PO en Am&#xe9;rica Latina y el Caribe (ALC) entre 1990 y 2023, con proyecciones hasta 2050.\n\nM&#xc9;TODOS: Este an&#xe1;lisis utiliz&#xf3; estimaciones del Estudio de la Carga Global de la Enfermedad 2023 (GBD 2023) sobre incidencia, prevalencia y a&#xf1;os vividos con discapacidad (AVD) por caries dental no tratada en dentici&#xf3;n decidua (CDD) y permanente (CDP), periodontitis severa, edentulismo y otras EB en 33 pa&#xed;ses de ALC. Se usaron modelos DisMod-MR 2.1, regresi&#xf3;n espacio-temporal (ST-GPR) y MR-BRT. Los AVD se calcularon multiplicando la prevalencia por los ponderadores de discapacidad. Se evalu&#xf3; la asociaci&#xf3;n de la carga de EB con el &#xcd;ndice Sociodemographic (ISD) mediante curvas suavizadas LOWESS. Las proyecciones hasta 2050 incorporaron tendencias demogr&#xe1;ficas y de factores de riesgo.\n\nRESULTADOS: En 2023, se estimaron 290.8 millones (II 95%: 259.3&#x2013;325.4) de casos incidentes, 308.2 millones (285.9&#x2013;332.7) de casos prevalentes y 2.41 millones (1.51&#x2013;3.48) de AVDs por PO en ALC. De 1990 a 2023, las PO ocuparon el primer lugar en prevalencia, el segundo en incidencia y el d&#xe9;cimo en AVD entre todas las causas en la regi&#xf3;n. La CDD fue m&#xe1;s frecuente en la infancia, y la CDP en la adultez; mientras que la periodontitis severa y el edentulismo predominaron en adultos de 60 a&#xf1;os y m&#xe1;s, con un aumento marcado de los AVD con la edad. Un mayor ISD se asoci&#xf3; con menor edentulismo, pero con mayor carga de AVD por periodontitis severa. Para 2050, se proyecta que los AVD alcancen 3.56 millones (2.40&#x2013;5.07).\n\nINTERPRETACI&#xd3;N: A pesar de los avances en la salud bucal infantil, las EB contin&#xfa;an siendo una de las principales causas de AVD en ALC. La integraci&#xf3;n de la salud bucal en la atenci&#xf3;n primaria y en la cobertura universal de salud en todas las etapas de la vida, junto con intervenciones dirigidas a los determinantes sociales y comerciales estructurales, es esencial para reducir esta carga.\n\nFINANCIAMIENTO: El Estudio GBD 2023 fue financiado por la Fundaci&#xf3;n Gates.\n\nANTECEDENTES: As doen&#xe7;as orais (DO) constituem as condi&#xe7;&#xf5;es n&#xe3;o transmiss&#xed;veis mais prevalentes no mundo. Analisamos a carga das DO na Am&#xe9;rica Latina e no Caribe (ALC) entre 1990 e 2023, com proje&#xe7;&#xf5;es at&#xe9; 2050.\n\nM&#xc9;TODOS: Esta an&#xe1;lise utilizou estimativas do Global Burden of Disease (GBD) 2023 de incid&#xea;ncia, preval&#xea;ncia e anos vividos com incapacidade (YLDs) para c&#xe1;rie dent&#xe1;ria n&#xe3;o tratada na denti&#xe7;&#xe3;o dec&#xed;dua (UDCD) e permanente (UDCP), periodontite severa, edentulismo e outras DO em 33 pa&#xed;ses da ALC. Foram aplicadas as ferramentas DisMod-MR 2.1, regress&#xe3;o espa&#xe7;o-temporal e MR-BRT. Os YLDs foram calculados multiplicando a preval&#xea;ncia pelos pesos de incapacidade. As associa&#xe7;&#xf5;es com o &#xcd;ndice Sociodemographic (SDI) foram avaliadas por meio de suaviza&#xe7;&#xe3;o LOWESS. As proje&#xe7;&#xf5;es at&#xe9; 2050 incorporaram tend&#xea;ncias demogr&#xe1;ficas e de fatores de risco.\n\nRESULTADOS: Em 2023, as DO na ALC causaram 290.8 milh&#xf5;es (II 95%: 259.3&#x2013;325.4) de casos incidentes, 308.2 milh&#xf5;es (285.9&#x2013;332.7) de casos prevalentes e 2.41 milh&#xf5;es (1.51&#x2013;3.48) de YLDs. Nas &#xfa;ltimas tr&#xea;s d&#xe9;cadas, ocuparam o primeiro lugar em preval&#xea;ncia, o segundo em incid&#xea;ncia e o d&#xe9;cimo em YLDs entre todas as causas. A UDCD apresentou pico na inf&#xe2;ncia, na juventude e meia-idade; enquanto a periodontite severa e o edentulismo predominaram em adultos mais velhos, com YLDs aumentando acentuadamente com a idade. Um SDI mais elevado correlacionou-se inversamente com o edentulismo, mas positivamente com a incapacidade associada &#xe0; periodontite severa. At&#xe9; 2050, projeta-se que os YLDs alcancem 3.56 milh&#xf5;es (2.40&#x2013;5.07).\n\nINTERPRETA&#xc7;&#xc3;O: Apesar dos avan&#xe7;os na sa&#xfa;de bucal infantil, as DO permanecem uma importante causa de YLDs na ALC. A integra&#xe7;&#xe3;o da sa&#xfa;de bucal na aten&#xe7;&#xe3;o prim&#xe1;ria e na cobertura universal de sa&#xfa;de ao longo do curso de vida, juntamente com a&#xe7;&#xf5;es sobre determinantes sociais e comerciais estruturais, &#xe9; essencial para reduzir essa carga.\n\nFINANCIAMENTO: O Estudo GBD 2023 &#xe9; financiado pela Funda&#xe7;&#xe3;o Gates.",
+      "summaryEn": "How big is the oral-disease burden, and is it shrinking? This Global Burden of Disease (GBD) 2023 systematic analysis quantified oral disorders across 33 Latin America and Caribbean (LAC) countries from 1990 to 2023, with projections to 2050. It modelled incidence, prevalence and years lived with disability (YLDs) for untreated caries (deciduous and permanent), severe periodontitis, edentulism and other oral disorders, using DisMod-MR 2.1, spatiotemporal regression and MR-BRT, and assessed associations with the Socio-demographic Index (SDI).\n\nIn 2023, oral disorders in LAC caused 290.8 million incident cases, 308.2 million prevalent cases and 2.41 million YLDs — ranking first in prevalence, second in incidence and tenth in YLDs among all causes over three decades. The age pattern is instructive: untreated caries of deciduous teeth peaks in childhood and of permanent teeth in young adulthood and midlife, while severe periodontitis and edentulism predominate in older adults, with YLDs rising sharply with age. A telling association: higher SDI correlated inversely with edentulism but positively with severe periodontal disability. By 2050, YLDs are projected to reach 3.81 million.\n\nThe message for the profession is strategic. Oral disorders are not a receding problem — they are the most prevalent non-communicable conditions, and the periodontal share of disability grows as populations age and as societies become wealthier. The authors call for integrating oral health into primary care and universal health coverage across the life course, alongside action on social and commercial determinants. It places adult and geriatric periodontology at the centre of public health, not its margins.",
+      "summaryIt": "Quanto è grande il carico delle malattie orali, e sta diminuendo? Questa analisi sistematica del Global Burden of Disease (GBD) 2023 ha quantificato le malattie orali in 33 Paesi di America Latina e Caraibi (ALC) dal 1990 al 2023, con proiezioni al 2050. Ha modellato incidenza, prevalenza e anni vissuti con disabilità (YLD) per carie non trattata (denti decidui e permanenti), parodontite severa, edentulismo e altre malattie orali, usando DisMod-MR 2.1, regressione spazio-temporale e MR-BRT, e ha valutato le associazioni con l'Indice Socio-demografico (SDI).\n\nNel 2023, le malattie orali in ALC hanno causato 290,8 milioni di casi incidenti, 308,2 milioni di casi prevalenti e 2,41 milioni di YLD, classificandosi prime per prevalenza, seconde per incidenza e decime per YLD tra tutte le cause in tre decenni. Il profilo per età è istruttivo: la carie non trattata dei denti decidui ha il picco nell'infanzia e quella dei permanenti nel giovane adulto e nella mezza età, mentre parodontite severa ed edentulismo predominano negli anziani, con YLD che aumentano nettamente con l'età. Un'associazione significativa: un SDI più alto si correla in modo inverso con l'edentulismo ma positivo con la disabilità da parodontite severa. Entro il 2050 gli YLD sono proiettati a 3,81 milioni.\n\nIl messaggio per la professione è strategico. Le malattie orali non sono un problema in ritirata: sono le condizioni non trasmissibili più prevalenti, e la quota di disabilità dovuta alla parodontite cresce con l'invecchiamento delle popolazioni e con il benessere economico. Gli autori invocano l'integrazione della salute orale nelle cure primarie e nella copertura sanitaria universale lungo tutto il corso della vita, insieme a interventi sui determinanti sociali e commerciali. È un dato che colloca la parodontologia dell'adulto e dell'anziano al centro della salute pubblica, non ai suoi margini.",
+      "tagsEn": [
+        "global burden of disease",
+        "oral disorders",
+        "severe periodontitis",
+        "edentulism",
+        "epidemiology",
+        "Latin America",
+        "public health"
+      ],
+      "tagsIt": [
+        "global burden of disease",
+        "malattie orali",
+        "parodontite severa",
+        "edentulismo",
+        "epidemiologia",
+        "America Latina",
+        "salute pubblica"
+      ],
+      "editorialTitleEn": "Oral disease leads NCD prevalence — and periodontal disability rises with wealth",
+      "editorialTitleIt": "Malattie orali prime per prevalenza, e la disabilità da parodontite cresce col reddito",
+      "takeawaysEn": [
+        "In 2023, oral disorders in Latin America and the Caribbean caused 308 million prevalent cases and 2.41 million years lived with disability — first in prevalence among all causes.",
+        "Severe periodontitis and edentulism concentrate in older adults, with YLDs rising sharply with age.",
+        "Higher socio-demographic index meant less edentulism but more severe-periodontitis disability; by 2050 YLDs are projected to reach 3.81 million."
+      ],
+      "takeawaysIt": [
+        "Nel 2023, in America Latina e Caraibi, le malattie orali hanno causato 308 milioni di casi prevalenti e 2,41 milioni di anni vissuti con disabilità: prime per prevalenza tra tutte le cause.",
+        "Parodontite severa ed edentulismo si concentrano nell'età avanzata, con YLD che aumentano nettamente con l'età.",
+        "Un indice socio-demografico più alto si associa a meno edentulismo ma a maggiore disabilità da parodontite severa; entro il 2050 gli YLD sono proiettati a 3,81 milioni."
+      ],
+      "whyItMattersEn": "The periodontal burden does not fall with economic development — it shifts and grows, placing adult and geriatric periodontology at the centre of public health rather than its margins.",
+      "whyItMattersIt": "Il carico parodontale non scende con lo sviluppo economico: si sposta e cresce, collocando la parodontologia dell'adulto e dell'anziano al centro della salute pubblica anziché ai suoi margini.",
+      "clinicalNoteIt": "Il mondo va al contrario. E questo è un esempio lampante. Noi sappiamo come curare le malattie parodontali. Ma il Global Burden of Disease per quest'ultime non fa altro che aumentare. È un problema enorme anche per il costo sociale, non solo per le patologie orale, ma soprattutto per le malattie croniche che intasano gli ospedali. ",
+      "slug": "the-burden-of-oral-disorders-in-latin-america-and-caribbean-countries-from-1990-42290709",
+      "fetchedAt": "2026-06-22T09:17:17.157394Z",
+      "url": "https://doi.org/10.1016/j.lana.2026.101517"
+    },
     {
       "pmid": "42220644",
       "title": "Design and applications of barrier membranes for guided bone regeneration.",
