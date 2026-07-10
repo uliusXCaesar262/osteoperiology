@@ -17,7 +17,7 @@ export default function Header({ lang, dict }: HeaderProps) {
           <div className="flex-shrink-0">
             <Link href={`/${lang}`} className="block">
               <Image 
-                src="/images/logo-v3.png" 
+                src="/images/logo-v4.png" 
                 alt={dict.site.title} 
                 width={450} 
                 height={175} 
