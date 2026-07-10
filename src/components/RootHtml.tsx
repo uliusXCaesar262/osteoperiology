@@ -1,4 +1,3 @@
-import { inter, lora } from "@/app/fonts";
 import { siteJsonLd } from "@/lib/seo";
 import { SITE_URL } from "@/lib/constants";
 
@@ -19,7 +18,7 @@ export default function RootHtml({
   return (
     <html
       lang={lang}
-      className={`h-full antialiased ${inter.variable} ${lora.variable}`}
+      className={`h-full antialiased`}
     >
       <head>
         <meta httpEquiv="X-Content-Type-Options" content="nosniff" />

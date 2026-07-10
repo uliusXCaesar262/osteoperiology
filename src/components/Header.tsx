@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Lang } from "@/lib/types";
 
 interface HeaderProps {
@@ -13,13 +14,17 @@ export default function Header({ lang, dict }: HeaderProps) {
     <header className="site-header w-full">
       <div className="max-w-3xl mx-auto px-5 sm:px-8 py-8 sm:py-12">
         <div className="flex items-start justify-between">
-          <div>
-            <Link href={`/${lang}`}>
-              <span className="site-title">{dict.site.title}</span>
+          <div className="flex-shrink-0">
+            <Link href={`/${lang}`} className="block">
+              <Image 
+                src="/images/logo.png" 
+                alt={dict.site.title} 
+                width={200} 
+                height={60} 
+                className="h-auto w-auto max-h-16"
+                priority
+              />
             </Link>
-            <p className="mt-1">
-              {dict.site.subtitle}
-            </p>
           </div>
           <nav className="flex items-center gap-4 text-sm pt-1">
             <Link href={`/${lang}/articles`} className="nav-link">
