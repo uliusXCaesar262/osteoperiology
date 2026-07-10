@@ -52,10 +52,7 @@ export default function RootLandingPage() {
       </p>
 
       {/* Bilingual value proposition — Italian prominent (primary audience) */}
-      <h1
-        className="text-3xl sm:text-4xl font-bold leading-tight mb-4"
-        style={{ fontFamily: "var(--font-lora)" }}
-      >
+      <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-4">
         Ricerca clinica in parodontologia e implantologia
       </h1>
       <p
@@ -79,8 +76,8 @@ export default function RootLandingPage() {
       <div className="flex flex-col sm:flex-row gap-3 mb-14">
         <Link
           href="/it"
-          className="inline-flex items-center justify-center px-6 py-3 rounded-md text-base font-semibold text-white transition-colors"
-          style={{ background: "var(--color-accent)" }}
+          className="inline-flex items-center justify-center px-6 py-3 rounded-md text-base font-semibold transition-colors hover:brightness-110"
+          style={{ background: "var(--color-accent)", color: "#ffffff" }}
         >
           Leggi in italiano &rarr;
         </Link>
@@ -100,11 +97,7 @@ export default function RootLandingPage() {
       {/* Latest articles teaser — gives `/` real internal links and freshness */}
       {articles.length > 0 && (
         <section aria-labelledby="latest-heading">
-          <h2
-            id="latest-heading"
-            className="text-xl sm:text-2xl font-semibold mb-6"
-            style={{ fontFamily: "var(--font-lora)" }}
-          >
+          <h2 id="latest-heading" className="text-xl sm:text-2xl font-semibold mb-6">
             Ultimi articoli
           </h2>
           <ul className="flex flex-col gap-5">
