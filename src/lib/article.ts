@@ -30,3 +30,39 @@ export function takeaways(article: Article, lang: Lang): string[] {
 export function whyItMatters(article: Article, lang: Lang): string | undefined {
   return lang === "it" ? article.whyItMattersIt : article.whyItMattersEn;
 }
+
+/** Google SERP snippets truncate around ~155 chars; keep a small safety margin. */
+export const META_DESCRIPTION_MAX = 155;
+
+export function truncateMeta(text: string, max = META_DESCRIPTION_MAX): string {
+  const normalized = text.replace(/\s+/g, " ").trim();
+  if (normalized.length <= max) return normalized;
+  const cut = normalized.slice(0, max).replace(/\s+\S*$/, "");
+  return `${cut}…`;
+}
+
+/**
+ * Meta description for SERP / OG / JSON-LD: lead with the on-page "In breve"
+ * bullets when present (highest CTR signal vs. a generic summary opening), else
+ * the self-contained "why it matters" paragraph, else the summary lead.
+ */
+export function buildMetaDescription(article: Article, lang: Lang): string {
+  const bullets = takeaways(article, lang);
+  if (bullets.length > 0) {
+    const prefix = lang === "it" ? "In breve: " : "In brief: ";
+    let body = bullets[0];
+    if (bullets.length > 1) {
+      const withSecond = `${body} ${bullets[1]}`;
+      if (`${prefix}${withSecond}`.length <= META_DESCRIPTION_MAX) {
+        body = withSecond;
+      }
+    }
+    return truncateMeta(`${prefix}${body}`);
+  }
+
+  const why = whyItMatters(article, lang);
+  if (why) return truncateMeta(why);
+
+  const summary = lang === "it" ? article.summaryIt : article.summaryEn;
+  return truncateMeta(summary);
+}

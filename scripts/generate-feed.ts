@@ -1,23 +1,10 @@
 import fs from "fs";
 import path from "path";
+import type { Article } from "../src/lib/types";
+import { buildMetaDescription } from "../src/lib/article";
 
 const SITE_URL = "https://osteoperionews.bonebenders.com";
 const ARTICLES_PATH = path.join(process.cwd(), "content", "articles.json");
-
-interface Article {
-  pmid: string;
-  title: string;
-  titleIt?: string;
-  editorialTitleEn?: string;
-  editorialTitleIt?: string;
-  journal: string;
-  pubDate: string;
-  slug: string;
-  doi?: string;
-  summaryEn: string;
-  summaryIt: string;
-  fetchedAt: string;
-}
 
 function escapeXml(str: string): string {
   return str
@@ -49,13 +36,13 @@ function generateFeed(
       const title =
         editorial ||
         (isIt && a.titleIt ? a.titleIt : a.title.replace(/<[^>]+>/g, ""));
-      const summary = isIt ? a.summaryIt : a.summaryEn;
+      const description = buildMetaDescription(a, lang);
       return `    <item>
       <title>${escapeXml(title)}</title>
       <link>${link}</link>
       <guid isPermaLink="true">${link}</guid>
       <pubDate>${pubDate}</pubDate>
-      <description>${escapeXml(summary.slice(0, 500))}</description>
+      <description>${escapeXml(description)}</description>
       <category>${escapeXml(a.journal)}</category>
     </item>`;
     })
@@ -103,9 +90,9 @@ function generateLlmsTxt(articles: Article[]) {
     .map((a) => {
       const title = a.editorialTitleEn || a.title.replace(/<[^>]+>/g, "");
       const url = `${SITE_URL}/en/articles/${a.slug}`;
-      const oneLine = a.summaryEn.replace(/\s+/g, " ").trim().slice(0, 160);
+      const oneLine = buildMetaDescription(a, "en");
       const src = a.doi ? ` (DOI: ${a.doi})` : "";
-      return `- [${title}](${url}): ${oneLine}… — ${a.journal}${src}`;
+      return `- [${title}](${url}): ${oneLine} — ${a.journal}${src}`;
     })
     .join("\n");
 

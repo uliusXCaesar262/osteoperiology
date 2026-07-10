@@ -6,7 +6,13 @@ import Link from "next/link";
 import { SITE_URL } from "@/lib/constants";
 import { toIsoDate } from "@/lib/dates";
 import { buildAlternates } from "@/lib/seo";
-import { displayTitle, paperTitle, takeaways, whyItMatters } from "@/lib/article";
+import {
+  buildMetaDescription,
+  displayTitle,
+  paperTitle,
+  takeaways,
+  whyItMatters,
+} from "@/lib/article";
 
 export const dynamicParams = false;
 
@@ -27,13 +33,8 @@ export async function generateMetadata({
   const article = getArticleBySlug(slug);
   if (!article) return {};
 
-  const plainTitle = paperTitle(article);
   const metaTitle = displayTitle(article, lang as Lang);
-  const summary = lang === "it" ? article.summaryIt : article.summaryEn;
-  // Prefer the purpose-written "why it matters" as the meta description when
-  // present (a self-contained takeaway), else fall back to the summary opening.
-  const descSource = whyItMatters(article, lang as Lang) || summary;
-  const description = descSource.slice(0, 160).replace(/\s+\S*$/, "") + "…";
+  const description = buildMetaDescription(article, lang as Lang);
   const url = `${SITE_URL}/${lang}/articles/${slug}`;
 
   const metaTags = (lang === "it" ? article.tagsIt : article.tagsEn) || [];
@@ -63,7 +64,7 @@ export async function generateMetadata({
           url: `${SITE_URL}/og-default.png`,
           width: 1200,
           height: 630,
-          alt: plainTitle,
+          alt: metaTitle,
         },
       ],
     },
@@ -134,7 +135,8 @@ export default async function ArticlePage({
     url: pageUrl,
     mainEntityOfPage: { "@type": "WebPage", "@id": pageUrl },
     headline: title,
-    description: summary.slice(0, 300),
+    ...(showSource && { alternativeHeadline: source }),
+    description: buildMetaDescription(article, lang),
     inLanguage: lang,
     datePublished: toIsoDate(article.pubDate),
     dateModified: toIsoDate(article.fetchedAt),
