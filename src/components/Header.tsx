@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
 import type { Lang } from "@/lib/types";
+import SiteWordmark from "@/components/SiteWordmark";
 
 interface HeaderProps {
   lang: Lang;
@@ -12,21 +12,10 @@ export default function Header({ lang, dict }: HeaderProps) {
 
   return (
     <header className="site-header w-full">
-      <div className="max-w-3xl mx-auto px-5 sm:px-8 py-8 sm:py-12">
-        <div className="flex items-start justify-between">
-          <div className="flex-shrink-0">
-            <Link href={`/${lang}`} className="block">
-              <Image 
-                src="/images/logo-v4.png" 
-                alt={dict.site.title} 
-                width={450} 
-                height={175} 
-                className="h-auto w-56 sm:w-72 lg:w-80 object-contain"
-                priority
-              />
-            </Link>
-          </div>
-          <nav className="flex items-center gap-4 text-sm pt-1">
+      <div className="max-w-3xl mx-auto px-5 sm:px-8 py-5 sm:py-7">
+        <div className="flex items-center justify-between gap-4">
+          <SiteWordmark lang={lang} size="header" />
+          <nav className="flex items-center gap-4 text-sm">
             <Link href={`/${lang}/articles`} className="nav-link">
               {dict.nav.articles}
             </Link>

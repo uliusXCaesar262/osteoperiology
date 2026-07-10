@@ -1,5 +1,6 @@
 import { siteJsonLd } from "@/lib/seo";
 import { SITE_URL } from "@/lib/constants";
+import { inter, playfair } from "@/app/fonts";
 
 /**
  * Shared <html>/<head>/<body> shell used by both root layouts
@@ -18,7 +19,7 @@ export default function RootHtml({
   return (
     <html
       lang={lang}
-      className={`h-full antialiased`}
+      className={`h-full antialiased ${inter.variable} ${playfair.variable}`}
     >
       <head>
         <meta httpEquiv="X-Content-Type-Options" content="nosniff" />

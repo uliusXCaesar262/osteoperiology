@@ -4,6 +4,7 @@ import { SITE_URL } from "@/lib/constants";
 import { ogImages } from "@/lib/seo";
 import { displayTitle } from "@/lib/article";
 import { getRecentArticles } from "@/lib/storage";
+import SiteWordmark from "@/components/SiteWordmark";
 
 /**
  * Root landing page (`/`).
@@ -44,15 +45,10 @@ export default function RootLandingPage() {
   return (
     <main id="main" className="max-w-3xl mx-auto px-5 sm:px-8 py-14 sm:py-20">
       {/* Wordmark */}
-      <p
-        className="text-xs font-semibold tracking-[0.2em] uppercase mb-3"
-        style={{ color: "var(--color-accent)" }}
-      >
-        Osteoperionews
-      </p>
+      <SiteWordmark lang="it" size="hero" linked={false} />
 
       {/* Bilingual value proposition — Italian prominent (primary audience) */}
-      <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-4">
+      <h1 className="text-3xl sm:text-4xl font-bold leading-tight mb-4 mt-6">
         Ricerca clinica in parodontologia e implantologia
       </h1>
       <p

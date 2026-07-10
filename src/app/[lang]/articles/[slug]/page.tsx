@@ -192,51 +192,32 @@ export default async function ArticlePage({
         </Link>
       </nav>
 
-      <header className="flex flex-wrap items-center gap-2 mb-4">
+      <header className="article-meta">
         <span className="journal-badge">{article.journal}</span>
-        <time
-          dateTime={toIsoDate(article.pubDate)}
-          className="text-xs"
-          style={{ color: "var(--color-ink-muted)" }}
-        >
-          {article.pubDate}
-        </time>
+        <time dateTime={toIsoDate(article.pubDate)}>{article.pubDate}</time>
       </header>
 
-      <h1 className="text-2xl sm:text-4xl mb-3 font-semibold leading-tight">
+      <h1 className="text-2xl sm:text-[2.125rem] mb-4 font-semibold leading-snug">
         {title}
       </h1>
 
-      <p className="text-sm mb-6 font-medium" style={{ color: "var(--color-ink-muted)" }}>
-        {article.authors.join(", ")}
-      </p>
+      <p className="article-byline">{article.authors.join(", ")}</p>
 
       {showSource && (
-        <p className="text-xs mb-8" style={{ color: "var(--color-ink-muted)" }}>
+        <p className="source-citation">
           {dict.article.sourceStudy}:{" "}
-          <span className="italic">{source}</span> — {article.journal}
+          <span className="source-title">{source}</span> — {article.journal}
         </p>
       )}
 
       {tks.length > 0 && (
-        <section className="mb-8" aria-labelledby="takeaways-heading">
-          <h2
-            id="takeaways-heading"
-            className="text-sm font-semibold uppercase tracking-wide mb-3"
-            style={{ color: "var(--color-accent)" }}
-          >
+        <section className="editorial-block" aria-labelledby="takeaways-heading">
+          <h2 id="takeaways-heading" className="editorial-block__label">
             {dict.article.inBrief}
           </h2>
-          <ul className="flex flex-col gap-2" style={{ maxWidth: "65ch" }}>
+          <ul className="editorial-block__list">
             {tks.map((t, i) => (
-              <li
-                key={i}
-                className="flex gap-2 text-sm leading-relaxed"
-                style={{ color: "var(--color-ink-secondary)" }}
-              >
-                <span style={{ color: "var(--color-accent)" }}>•</span>
-                <span>{t}</span>
-              </li>
+              <li key={i}>{t}</li>
             ))}
           </ul>
         </section>
@@ -249,42 +230,28 @@ export default async function ArticlePage({
       </div>
 
       {why && (
-        <section className="mb-8" style={{ maxWidth: "65ch" }} aria-labelledby="why-heading">
-          <h2 id="why-heading" className="text-lg font-semibold mb-2">
+        <section
+          className="editorial-block"
+          style={{ maxWidth: "65ch" }}
+          aria-labelledby="why-heading"
+        >
+          <h2 id="why-heading" className="editorial-block__label">
             {dict.article.whyItMatters}
           </h2>
-          <p
-            className="text-sm leading-relaxed"
-            style={{ color: "var(--color-ink-secondary)" }}
-          >
-            {why}
-          </p>
+          <p className="editorial-block__text">{why}</p>
         </section>
       )}
 
       {clinicalNote && (
         <aside
-          className="mb-8 p-5 rounded-xl"
-          style={{
-            background: "var(--color-accent-subtle)",
-            border: "1px solid var(--color-border)",
-            maxWidth: "65ch",
-          }}
+          className="editorial-block editorial-block--note"
+          style={{ maxWidth: "65ch" }}
           aria-labelledby="note-heading"
         >
-          <h2
-            id="note-heading"
-            className="text-sm font-semibold mb-2"
-            style={{ color: "var(--color-accent)" }}
-          >
+          <h2 id="note-heading" className="editorial-block__label">
             {dict.article.clinicalNote}
           </h2>
-          <p
-            className="text-sm leading-relaxed italic"
-            style={{ color: "var(--color-ink)" }}
-          >
-            {clinicalNote}
-          </p>
+          <p className="editorial-block__text">{clinicalNote}</p>
         </aside>
       )}
 
