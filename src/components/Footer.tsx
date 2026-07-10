@@ -28,6 +28,31 @@ export default function Footer({ dict, lang }: FooterProps) {
             </a>
           </p>
         </div>
+
+        {/* Titolare del sito / informazioni sanitarie obbligatorie (Italia) */}
+        <address
+          className="not-italic space-y-1 leading-relaxed"
+          style={{ color: "var(--color-ink-muted)" }}
+        >
+          <p style={{ color: "var(--color-ink-secondary)", fontWeight: 500 }}>
+            Denti+ Centro Odontoiatrico del Dott. Ernesto Bruschi
+          </p>
+          <p>
+            Corso Lazio 17, Scala B, 2° Piano · 03100 Frosinone (FR) · Tel.{" "}
+            <a href="tel:+390775889009" className="footer-link">
+              +39 0775 889009
+            </a>{" "}
+            · Lun–Ven 10:00–18:00
+          </p>
+          <p>
+            P.IVA 15092531001 · Direttore Sanitario: Dr. Ernesto Bruschi —
+            Odontoiatra
+          </p>
+          <p>
+            Iscrizione all&apos;Albo degli Odontoiatri di Frosinone n. 594 ·
+            Autorizzazione sanitaria n. 406946 del 15/06/2020
+          </p>
+        </address>
       </div>
     </footer>
   );
