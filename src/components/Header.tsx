@@ -20,7 +20,7 @@ export default function Header({ lang, dict }: HeaderProps) {
                 src="/images/logo.png" 
                 alt={dict.site.title} 
                 width={450} 
-                height={148} 
+                height={253} 
                 className="h-auto w-56 sm:w-72 lg:w-80 object-contain"
                 priority
               />
