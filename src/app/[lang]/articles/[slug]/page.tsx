@@ -297,6 +297,9 @@ export default async function ArticlePage({
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary"
+            aria-label={`${dict.article.originalArticle} — ${
+              lang === "it" ? "si apre in una nuova scheda" : "opens in a new tab"
+            }`}
           >
             {dict.article.originalArticle} ↗
           </a>
@@ -306,6 +309,9 @@ export default async function ArticlePage({
           target="_blank"
           rel="noopener noreferrer"
           className="btn-secondary"
+          aria-label={`${dict.article.pubmed} — ${
+            lang === "it" ? "si apre in una nuova scheda" : "opens in a new tab"
+          }`}
         >
           {dict.article.pubmed} ↗
         </a>

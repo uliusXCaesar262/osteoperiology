@@ -118,14 +118,6 @@ export const siteJsonLd = {
         "Weekly curated summaries of open-access research in periodontology, dental implantology, and peri-implant medicine.",
       "inLanguage": ["en", "it"],
       "publisher": { "@id": `${SITE_URL}/#organization` },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": `${SITE_URL}/en?q={search_term_string}`,
-        },
-        "query-input": "required name=search_term_string",
-      },
     },
     {
       "@type": "Person",
@@ -135,6 +127,10 @@ export const siteJsonLd = {
       "sameAs": [
         "https://orcid.org/0000-0002-4773-5384",
         "https://bonebenders.com",
+        "https://www.instagram.com/bonebenders/",
+        "https://www.linkedin.com/in/thelastbonebender/",
+        "https://www.youtube.com/@bonebenders",
+        "https://www.facebook.com/thelastbonebender",
       ],
     },
     {

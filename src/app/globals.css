@@ -76,7 +76,9 @@ a:hover {
 }
 
 .site-header p {
-  color: var(--color-ink-muted);
+  /* ink-secondary (not ink-muted): #767676 on the mint header is only 4.03:1,
+     below WCAG AA; #4a4a4a is 7.87:1. */
+  color: var(--color-ink-secondary);
   font-size: 0.82rem;
   font-weight: 400;
   letter-spacing: 0.01em;
@@ -254,7 +256,8 @@ a:hover {
 .site-footer {
   background: #e8f4f2;
   border-top: 1px solid #c8ddd9;
-  color: var(--color-ink-muted);
+  /* ink-secondary for AA contrast on the mint background (see .site-header p) */
+  color: var(--color-ink-secondary);
 }
 
 .site-footer a {

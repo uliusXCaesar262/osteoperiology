@@ -32,9 +32,9 @@ export default function Footer({ dict, lang }: FooterProps) {
         {/* Titolare del sito / informazioni sanitarie obbligatorie (Italia) */}
         <address
           className="not-italic space-y-1 leading-relaxed"
-          style={{ color: "var(--color-ink-muted)" }}
+          style={{ color: "var(--color-ink-secondary)" }}
         >
-          <p style={{ color: "var(--color-ink-secondary)", fontWeight: 500 }}>
+          <p style={{ color: "var(--color-ink)", fontWeight: 500 }}>
             Denti+ Centro Odontoiatrico del Dott. Ernesto Bruschi
           </p>
           <p>

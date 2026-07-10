@@ -59,7 +59,9 @@ export default function NewsletterForm({ lang, dict }: NewsletterFormProps) {
   if (status === "success") {
     return (
       <div className="newsletter-form">
-        <p className="newsletter-success">{dict.newsletterSuccess}</p>
+        <p className="newsletter-success" role="status" aria-live="polite">
+          {dict.newsletterSuccess}
+        </p>
       </div>
     );
   }
@@ -76,7 +78,7 @@ export default function NewsletterForm({ lang, dict }: NewsletterFormProps) {
           onChange={(e) => setEmail(e.target.value)}
           placeholder={dict.newsletterPlaceholder}
           className="newsletter-input"
-          aria-label="Email"
+          aria-label={lang === "it" ? "Indirizzo email" : "Email address"}
         />
         <button
           type="submit"
@@ -98,7 +100,9 @@ export default function NewsletterForm({ lang, dict }: NewsletterFormProps) {
         </span>
       </label>
       {status === "error" && (
-        <p className="newsletter-error">{dict.newsletterError}</p>
+        <p className="newsletter-error" role="alert">
+          {dict.newsletterError}
+        </p>
       )}
     </div>
   );
