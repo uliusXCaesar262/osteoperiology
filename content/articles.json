@@ -1,6 +1,266 @@
 {
-  "lastUpdated": "2026-07-06T15:10:56.990621Z",
+  "lastUpdated": "2026-07-13T20:00:49.637870Z",
   "articles": [
+    {
+      "pmid": "42423273",
+      "title": "Long-Term Incidence of Peri-Implant Conditions: 25-Year Results of The Bernese Prospective Cohort Study.",
+      "titleIt": "Incidenza a lungo termine delle condizioni perimplantari: risultati a 25 anni dello studio di coorte prospettico di Berna",
+      "authors": [
+        "Couso-Queiruga E",
+        "Roccuzzo A",
+        "Raabe C"
+      ],
+      "journal": "Clinical implant dentistry and related research",
+      "pubDate": "2026 Aug",
+      "doi": "10.1111/cid.70171",
+      "summaryEn": "Long-term data on dental implants beyond 10 years remain scarce, even though clinicians increasingly place implants in younger patients who will carry them for decades. This prospective cohort study from Bern followed partially edentulous patients rehabilitated with tissue-level implant-supported prostheses, re-examining them clinically and radiographically at 10 and 25 years to track implant survival, success, and the evolution of peri-implant mucositis (PM) and peri-implantitis (PI).\n\nAt the 25-year mark, 159 patients with 252 implants were assessed (down from 303 patients/511 implants at 10 years, reflecting expected attrition). Implant survival fell from 98.8% at 10 years to 94.0% at 25 years, and success rate from 97.0% to 90.8% — both still favorable outcomes over a quarter-century. Notably, implant failure attributable to loss of osseointegration nearly tripled between the two time points (0.6% to 3.6% at implant level), and occurred exclusively in premolar and molar sites, suggesting posterior implants deserve closer long-term surveillance.\n\nPeri-implant mucositis, while still highly prevalent, actually declined over time (82.1% to 76.5% at implant level), possibly reflecting improved maintenance protocols as both patients and clinicians gained experience. Peri-implantitis, in contrast, more than doubled — from 3.5% to 9.1% at implant level and from 10.0% to 18.1% at patient level — confirming that peri-implantitis risk accumulates with time rather than plateauing.\n\nMultivariate analysis identified two variables independently associated with peri-implant disease: a history of periodontitis (associated with over threefold higher odds of mucositis) and facial mucosal thickness, where thinner tissue was linked to both higher mucositis and higher peri-implantitis risk. These findings reinforce two well-established but still underapplied clinical principles: patients with a periodontitis history need more intensive, indefinite peri-implant maintenance, and soft-tissue thickness at placement is a modifiable risk factor worth addressing prophylactically rather than only after disease onset.\n\nFor clinicians counseling patients on implant longevity, this study offers rare, methodologically rigorous 25-year benchmarks: implant loss and peri-implantitis both continue to accrue well beyond the first decade, underscoring that osseointegration is not a permanent, \"install-and-forget\" outcome but a condition requiring lifelong monitoring — particularly in patients with a periodontal history or thin peri-implant soft tissue.",
+      "summaryIt": "I dati a lungo termine sugli impianti oltre i 10 anni restano scarsi, nonostante si posizionino sempre più impianti in pazienti giovani che li porteranno per decenni. Questo studio di coorte prospettico di Berna ha seguito pazienti parzialmente edentuli riabilitati con protesi su impianti tissue-level, rivalutandoli clinicamente e radiograficamente a 10 e 25 anni per tracciare sopravvivenza, successo implantare ed evoluzione di mucosite perimplantare (PM) e perimplantite (PI).\n\nA 25 anni sono stati valutati 159 pazienti con 252 impianti (rispetto ai 303 pazienti/511 impianti a 10 anni, per l'attrito atteso della coorte). La sopravvivenza implantare è scesa dal 98,8% a 10 anni al 94,0% a 25 anni, e il tasso di successo dal 97,0% al 90,8% — risultati comunque favorevoli su un quarto di secolo. Da notare: il fallimento implantare per perdita di osteointegrazione è quasi triplicato tra i due follow-up (dallo 0,6% al 3,6% a livello di impianto), verificandosi esclusivamente in sede premolare o molare.\n\nLa mucosite perimplantare, pur restando molto prevalente, è diminuita nel tempo (dall'82,1% al 76,5%), forse per il miglioramento dei protocolli di mantenimento. La perimplantite, al contrario, è più che raddoppiata — dal 3,5% al 9,1% a livello di impianto e dal 10,0% al 18,1% a livello di paziente — confermando che il rischio si accumula nel tempo, senza plateau.\n\nL'analisi multivariata ha identificato due variabili indipendenti: una storia di parodontite (rischio di mucosite più che triplicato) e lo spessore della mucosa vestibolare, dove tessuti più sottili si associavano a rischio maggiore sia di mucosite sia di perimplantite. Risultati che rafforzano due principi clinici solidi ma sottoutilizzati: mantenimento più intensivo e indefinito nei pazienti con storia parodontale, e attenzione preventiva allo spessore dei tessuti molli al momento del posizionamento.\n\nPer il clinico che deve informare il paziente sulla durata attesa dell'impianto, questo studio offre benchmark a 25 anni rari e metodologicamente solidi: sia la perdita implantare sia la perimplantite continuano ad accumularsi ben oltre il primo decennio, a conferma che l'osteointegrazione non è un risultato permanente ma una condizione che richiede monitoraggio per tutta la vita.",
+      "tagsEn": [
+        "dental implants",
+        "peri-implantitis",
+        "peri-implant mucositis",
+        "long-term follow-up",
+        "implant survival",
+        "cohort study",
+        "osseointegration"
+      ],
+      "tagsIt": [
+        "impianti dentali",
+        "perimplantite",
+        "mucosite perimplantare",
+        "follow-up a lungo termine",
+        "sopravvivenza implantare",
+        "studio di coorte",
+        "osteointegrazione"
+      ],
+      "editorialTitleIt": "A 25 anni la perimplantite raddoppia: la lezione della coorte di Berna",
+      "editorialTitleEn": "At 25 years, peri-implantitis doubles — the lesson from the Bern cohort",
+      "takeawaysIt": [
+        "Sopravvivenza implantare 94,0% e successo 90,8% a 25 anni — ma la perimplantite sale dal 3,5% al 9,1% (impianto) e dal 10% al 18,1% (paziente)",
+        "Il fallimento per perdita di osteointegrazione quasi triplica (0,6%→3,6%) e si concentra in sede premolare/molare",
+        "Storia di parodontite e mucosa vestibolare sottile sono i due fattori di rischio indipendenti identificati"
+      ],
+      "takeawaysEn": [
+        "Implant survival 94.0% and success 90.8% at 25 years — but peri-implantitis rises from 3.5% to 9.1% (implant level) and 10% to 18.1% (patient level)",
+        "Failure from loss of osseointegration nearly triples (0.6%→3.6%), concentrated in premolar/molar sites",
+        "History of periodontitis and thin facial mucosa are the two independent risk factors identified"
+      ],
+      "whyItMattersIt": "Conferma che l'osteointegrazione non è un traguardo permanente: il rischio di perimplantite continua ad accumularsi ben oltre il decimo anno, soprattutto nei pazienti con storia parodontale o tessuti perimplantari sottili, che richiedono un mantenimento più intensivo e indefinito.",
+      "whyItMattersEn": "Confirms osseointegration is not a permanent endpoint: peri-implantitis risk keeps accumulating well past year ten, especially in patients with a periodontitis history or thin peri-implant tissue, who need more intensive, indefinite maintenance.",
+      "slug": "long-term-incidence-of-peri-implant-conditions-25-year-results-of-the-bernese-p-42423273",
+      "fetchedAt": "2026-07-13T09:22:27.112791Z",
+      "url": "https://doi.org/10.1111/cid.70171",
+      "abstractText": "OBJECTIVE: To assess 25-year implant survival, success rates, peri-implant conditions, and variables influencing peri-implant mucositis (PM), peri-implantitis (PI), and loss of osseointegration.\n\nMETHODS: Partially edentulous patients rehabilitated with tissue-level implant-supported prostheses were evaluated. Calibrated examiners performed clinical and radiographic assessments, and potential variables for PM and PI were analyzed at the final follow-up.\n\nRESULTS: At the 10- and 25-year follow-ups, 303 and 159 patients with 511 and 252 implants, respectively, were included. Implant failure (IF) was 1.2% at 10&#x2009;years and 6.0% at 25&#x2009;years, with implant survival rates of 98.8% and 94.0%, respectively (p&#x2009;&lt;&#x2009;0.001). Implant success rates ranged from 97.0% at 10&#x2009;years to 90.8% at 25&#x2009;years (p&#x2009;&lt;&#x2009;0.001). IF due to loss of osseointegration increased from 0.6% to 3.6% at the implant level and from 1.0% to 2.5% at the patient level, and were located only in premolar or molar sites. At implant level, peri-implant health (PH) was 14.4% at 10 and 25&#x2009;years (p&#x2009;=&#x2009;1.00), while PM decreased from 82.1% to 76.5% (p&#x2009;=&#x2009;0.08), and PI increased from 3.5% to 9.1% (p&#x2009;=&#x2009;0.001). At patient level, PH remained stable between 10 and 25&#x2009;years, ranging from 10.0% to 10.3% (p&#x2009;=&#x2009;0.94), while PM decreased from 80.0% to 71.6% (p&#x2009;=&#x2009;0.06), and PI increased from 10.0% to 18.1% (p&#x2009;=&#x2009;0.01). In the multivariate analysis, history of periodontitis (OR&#x2009;=&#x2009;3.87) and facial mucosal thickness (OR&#x2009;=&#x2009;0.42) were associated with PM, whereas facial mucosal thickness was associated with PI (OR&#x2009;=&#x2009;0.02).\n\nCONCLUSIONS: After 25&#x2009;years, implant survival and success exceeded 90%. Loss of osseointegration accounted for approximately 60% of IF. While PI and IF increased over time, PM decreased but remained prevalent.",
+      "clinicalNoteIt": "Molti di noi notano che nel corso della vita dei pazienti, che si spera più lunga e prospera possibile, capita che impianti perfettamente osteointegrati per tanti anni sviluppino problemi improvvisi. Questo articolo affronta l'argomento in modo scientifico. "
+    },
+    {
+      "pmid": "42426686",
+      "title": "Efficacy of Leukocyte and Platelet-Rich Fibrin (L-PRF) as an adjunct to Open Flap Debridement (OFD) in periodontal intrabony defects: a systematic review and meta-analysis.",
+      "titleIt": "Fibrina ricca di piastrine e leucociti (L-PRF) come adiuvante al lembo di accesso nei difetti intraossei parodontali: revisione sistematica e meta-analisi",
+      "authors": [
+        "Shahmoradi M",
+        "Sehat M",
+        "Iranmanesh P"
+      ],
+      "journal": "BMC oral health",
+      "pubDate": "2026 Jul 9",
+      "doi": "10.1186/s12903-026-09163-z",
+      "summaryEn": "Open flap debridement (OFD) remains a mainstay for treating periodontal intrabony defects, but clinicians have long sought biomaterials that improve regenerative outcomes without the cost or complexity of membranes and bone grafts. Leukocyte and platelet-rich fibrin (L-PRF) — an autologous, chairside-prepared scaffold rich in growth factors — has been proposed as one such adjunct. This systematic review and meta-analysis pooled evidence from 23 randomized controlled trials to determine whether adding L-PRF to OFD improves clinical and radiographic outcomes compared with OFD alone.\n\nFollowing PRISMA methodology, two independent reviewers searched PubMed, Scopus, Web of Science and Cochrane CENTRAL through November 2025. Risk of bias (Cochrane RoB 2) was low in 12 of the 23 included trials, with some concerns in eight and high risk in three. At the 9-month follow-up (reported by 16 studies), L-PRF plus OFD produced statistically significant improvements over OFD alone: probing depth reduction of 1.11 mm (95% CI 0.84–1.38) and clinical attachment level gain of 1.13 mm (95% CI 0.79–1.48). Secondary outcomes — radiographic bone fill and gingival margin level — also favored the L-PRF group.\n\nExploratory subgroup analyses suggested that defect morphology, the application protocol, and centrifugation settings used to prepare the L-PRF may all influence the benefit seen, though the authors caution these findings are based on limited data. Overall certainty of evidence, graded with GRADE, ranged from very low to moderate — reflecting substantial heterogeneity across the pooled trials.\n\nThe clinical takeaway is measured rather than definitive: adjunctive L-PRF appears to provide real, statistically significant additional benefit in probing depth and attachment level gain — a magnitude (~1.1 mm on both measures) that is clinically meaningful, not just statistically so. But because certainty of evidence remains low-to-moderate and preparation protocols are not yet standardized, the authors stop short of a firm clinical recommendation, calling for larger, multicenter RCTs with longer follow-up and standardized L-PRF protocols.",
+      "summaryIt": "Il lembo di accesso (OFD) resta un cardine nel trattamento dei difetti intraossei parodontali, ma la ricerca clinica continua a cercare biomateriali capaci di migliorare l'esito rigenerativo senza i costi e la complessità di membrane e innesti ossei. La fibrina ricca di piastrine e leucociti (L-PRF) — uno scaffold autologo preparato alla poltrona, ricco di fattori di crescita — è stata proposta come uno di questi adiuvanti. Questa revisione sistematica con meta-analisi ha raccolto le evidenze di 23 RCT per stabilire se l'aggiunta di L-PRF all'OFD migliori gli esiti clinici e radiografici rispetto al solo OFD.\n\nSeguendo la metodologia PRISMA, due revisori indipendenti hanno interrogato PubMed, Scopus, Web of Science e Cochrane CENTRAL fino a novembre 2025. Il rischio di bias (Cochrane RoB 2) era basso in 12 dei 23 studi inclusi, con alcune criticità in otto e rischio elevato in tre. Al follow-up di 9 mesi (16 studi), L-PRF più OFD ha prodotto miglioramenti statisticamente significativi rispetto al solo OFD: riduzione della profondità di sondaggio (PPD) di 1,11 mm (IC 95% 0,84-1,38) e guadagno di livello di attacco clinico (CAL) di 1,13 mm (IC 95% 0,79-1,48). Anche gli esiti secondari — riempimento osseo radiografico e livello del margine gengivale — hanno favorito il gruppo L-PRF.\n\nAnalisi esplorative per sottogruppi suggeriscono che morfologia del difetto, protocollo di applicazione e parametri di centrifugazione possano influenzare l'entità del beneficio, ma su dati limitati. La certezza complessiva delle evidenze (GRADE) va da molto bassa a moderata, per l'eterogeneità tra gli studi inclusi.\n\nIl messaggio clinico è misurato più che definitivo: la L-PRF come adiuvante offre un beneficio aggiuntivo reale e statisticamente significativo su profondità di sondaggio e guadagno di attacco — un'entità (~1,1 mm) clinicamente rilevante, non solo statistica. Ma poiché la certezza delle evidenze resta bassa-moderata e i protocolli di preparazione non sono ancora standardizzati, gli autori non si spingono fino a una raccomandazione clinica ferma, chiedendo RCT multicentrici più ampi con follow-up più lunghi.",
+      "tagsEn": [
+        "L-PRF",
+        "platelet-rich fibrin",
+        "intrabony defects",
+        "open flap debridement",
+        "periodontal regeneration",
+        "systematic review",
+        "meta-analysis"
+      ],
+      "tagsIt": [
+        "L-PRF",
+        "fibrina ricca di piastrine",
+        "difetti intraossei",
+        "lembo di accesso",
+        "rigenerazione parodontale",
+        "revisione sistematica",
+        "meta-analisi"
+      ],
+      "editorialTitleIt": "L-PRF nei difetti intraossei: 1,1 mm di guadagno reale, ma l'evidenza resta debole",
+      "editorialTitleEn": "L-PRF in intrabony defects: a real 1.1 mm gain, but evidence stays weak",
+      "takeawaysIt": [
+        "23 RCT in meta-analisi: L-PRF+OFD vs OFD da solo a 9 mesi",
+        "Guadagno di 1,11 mm in PPD e 1,13 mm in CAL, statisticamente significativo",
+        "Certezza delle evidenze bassa-moderata (GRADE) per eterogeneità di difetti e protocolli — non ancora una raccomandazione clinica ferma"
+      ],
+      "takeawaysEn": [
+        "23 RCTs pooled: L-PRF+OFD vs OFD alone at 9 months",
+        "1.11 mm PPD reduction and 1.13 mm CAL gain, statistically significant",
+        "Low-to-moderate certainty of evidence (GRADE) due to heterogeneity — not yet a firm clinical recommendation"
+      ],
+      "whyItMattersIt": "Un'opzione a basso costo e autologa che nella meta-analisi migliora davvero gli esiti clinici dei difetti intraossei, ma con protocolli di preparazione ancora da standardizzare — utile come adiuvante, non come sostituto di innesti/membrane nei casi complessi.",
+      "whyItMattersEn": "A low-cost, autologous option that genuinely improves clinical outcomes for intrabony defects in this meta-analysis, though preparation protocols still need standardizing — useful as an adjunct, not a substitute for grafts/membranes in complex cases.",
+      "slug": "efficacy-of-leukocyte-and-platelet-rich-fibrin-l-prf-as-an-adjunct-to-open-fla-42426686",
+      "fetchedAt": "2026-07-13T09:22:27.113101Z",
+      "url": "https://doi.org/10.1186/s12903-026-09163-z",
+      "abstractText": "BACKGROUND: Leukocyte and platelet-rich fibrin (L-PRF) is an autologous biomaterial used in periodontal regenerative therapy due to its scaffold properties and sustained release of growth factors. This study aimed to evaluate the efficacy of L-PRF as an adjunct to open flap debridement (OFD) in the treatment of periodontal intrabony defects.\n\nMETHODS: In accordance with PRISMA guidelines, a literature search of PubMed, Scopus, Web of Science and Cochrane CENTRAL was conducted up to November 2025 by two independent reviewers for randomized controlled trials (RCTs) evaluating L-PRF as an adjunct to OFD. Primary outcomes assessed were changes in probing depth (PD) and clinical attachment level (CAL); secondary outcomes included changes in radiographic bone fill (RBF) and gingival margin level (GML). Risk of bias and certainty of evidence were assessed using Cochrane RoB 2 and the GRADE approach, respectively. Pooled mean differences (MD) and 95% confidence intervals (CI) were calculated. Exploratory subgroup analyses evaluated lesion type, application protocols and centrifugation settings.\n\nRESULTS: Twenty-three RCTs were included. Twelve studies had low risk of bias, eight had some concerns and three had high risk. At 9 months (16 studies), L-PRF&#x2009;+&#x2009;OFD significantly improved PD (MD: 1.11&#xa0;mm; 95% CI: 0.84-1.38) and CAL (MD: 1.13&#xa0;mm; 95% CI: 0.79-1.48) compared with OFD alone (p&#x2009;&lt;&#x2009;0.05). Secondary outcomes (RBF and GML) also showed significant improvements. The certainty of evidence ranged from very low to moderate. Subgroup analyses suggested that defect morphology, application approach and centrifugation parameters may influence outcomes; however, these findings are exploratory and based on limited data.\n\nCONCLUSIONS: Adjunctive L-PRF appears to provide additional clinical and radiographic benefits in the management of periodontal intrabony defects when used as an adjunct to OFD. However, overall confidence in these findings is limited by very low to moderate certainty of evidence and substantial heterogeneity. Although outcomes may be influenced by defect characteristics and preparation protocols, current evidence does not support definitive clinical recommendations. Further well-designed, standardized multicenter RCTs with longer follow-up are required.\n\nTRIAL REGISTRATION: PROSPERO registration number CRD42020168521.",
+      "clinicalNoteIt": "Sappiamo da tanto tempo che il L-PRF ha ottime capacità rigenerative. Questo studio le conferma per quanto attiene i difetti infraossei parodontali. "
+    },
+    {
+      "pmid": "42432636",
+      "title": "Cost-effectiveness of short implants (6-8.5 mm) compared to regular length implants (> 10 mm) with bone regeneration in posterior atrophic mandible: a 8-year microsimulation model.",
+      "titleIt": "Costo-efficacia degli impianti corti vs impianti standard con GBR nella mandibola posteriore atrofica: un modello di microsimulazione a 8 anni",
+      "authors": [
+        "Sáenz-Ravello G",
+        "Baeza M",
+        "Fan S"
+      ],
+      "journal": "BMC oral health",
+      "pubDate": "2026 Jul 10",
+      "doi": "10.1186/s12903-026-09152-2",
+      "summaryEn": "Choosing between a short implant (6–8.5 mm) placed without bone augmentation and a regular-length implant (>10 mm) placed after vertical guided bone regeneration (GBR) is a common decision point when rehabilitating the posterior atrophic mandible. Both approaches are clinically viable, but they differ substantially in cost, morbidity, and treatment time — a tradeoff seldom quantified with formal economic modeling. This study built a discrete-time state-transition microsimulation model to compare the two strategies over an 8-year horizon from a private-payer perspective, using clinical inputs drawn from a recent meta-analysis of randomized trials and unit costs from Chilean fee schedules (converted to 2025 USD via purchasing power parity).\n\nOutcomes were expressed as implant-years (IY) and the stricter complication-free implant-years (CFIY), with incremental cost-effectiveness ratios (ICERs) calculated between strategies. Over the 8-year horizon, short implants without GBR were both cheaper and modestly more effective: mean cost of USD 3,662 versus USD 6,030 for regular-length implants with GBR, and 6.77 versus 6.49 implant-years (6.71 versus 6.27 complication-free implant-years). This translates into incremental savings of USD 2,367 alongside incremental gains of 0.28 IY and 0.44 CFIY for the short-implant strategy — meaning short implants dominated the comparison rather than merely being \"non-inferior at lower cost.\"\n\nOne-way deterministic sensitivity analysis identified initial implant cost as the most influential parameter, and probabilistic sensitivity analysis across 2,000 Monte Carlo iterations confirmed the finding was robust: the large majority of simulated scenarios fell in the cost-saving, more-effective quadrant of the cost-effectiveness plane.\n\nFor clinicians and practice managers weighing treatment planning against patient cost and chairside time, this is one of the more rigorous economic arguments yet published for defaulting to short implants in posterior atrophic mandible cases rather than routinely reaching for vertical GBR — provided the clinical scenario (Seibert type II defects) and bone quantity support a short implant in the first place. The authors caution that absolute cost figures are specific to the Chilean private-payer setting, but the underlying clinical/effectiveness relationship is likely to generalize.",
+      "summaryIt": "Scegliere tra un impianto corto (6-8,5 mm) posizionato senza rigenerazione ossea e un impianto di lunghezza standard (>10 mm) inserito dopo GBR verticale è una decisione clinica frequente nella riabilitazione della mandibola posteriore atrofica. Entrambi gli approcci sono clinicamente validi, ma differiscono in modo sostanziale per costo, morbidità e tempo di trattamento — un trade-off raramente quantificato con un modello economico formale. Questo studio ha costruito un modello di microsimulazione a stati discreti per confrontare le due strategie su un orizzonte di 8 anni dalla prospettiva di un pagatore privato, con input clinici da una recente meta-analisi di RCT e costi dai tariffari cileni (convertiti in USD 2025 tramite parità di potere d'acquisto).\n\nGli esiti sono stati espressi in anni-impianto (IY) e nella misura più stringente di anni-impianto liberi da complicanze (CFIY), con calcolo dei rapporti incrementali di costo-efficacia (ICER). Sull'orizzonte di 8 anni, gli impianti corti senza GBR sono risultati sia più economici sia modestamente più efficaci: costo medio di 3.662 USD contro 6.030 USD per gli impianti standard con GBR, e 6,77 contro 6,49 anni-impianto (6,71 contro 6,27 CFIY). Un risparmio incrementale di 2.367 USD insieme a un guadagno incrementale di 0,28 IY e 0,44 CFIY per la strategia con impianti corti — che quindi hanno dominato il confronto, non semplicemente \"non inferiori a costo minore\".\n\nL'analisi di sensibilità deterministica ha identificato il costo iniziale dell'impianto come il parametro più influente, e l'analisi probabilistica su 2.000 iterazioni Monte Carlo ha confermato la robustezza del dato: la grande maggioranza degli scenari simulati è caduta nel quadrante costo-risparmio/maggiore efficacia.\n\nPer il clinico che pianifica il trattamento in rapporto al costo per il paziente e al tempo alla poltrona, questo è uno degli argomenti economici più rigorosi finora pubblicati a favore degli impianti corti come opzione di default nella mandibola posteriore atrofica, piuttosto che ricorrere di routine alla GBR verticale — a condizione che lo scenario clinico (difetti Seibert tipo II) lo consenta. Gli autori precisano che le cifre assolute sono specifiche del contesto privato cileno, ma la relazione clinica/di efficacia sottostante è verosimilmente generalizzabile.",
+      "tagsEn": [
+        "short implants",
+        "guided bone regeneration",
+        "cost-effectiveness",
+        "posterior atrophic mandible",
+        "microsimulation",
+        "health economics",
+        "implant survival"
+      ],
+      "tagsIt": [
+        "impianti corti",
+        "rigenerazione ossea guidata",
+        "costo-efficacia",
+        "mandibola posteriore atrofica",
+        "microsimulazione",
+        "economia sanitaria",
+        "sopravvivenza implantare"
+      ],
+      "editorialTitleIt": "Impianti corti vs GBR verticale: il modello a 8 anni premia la scelta più semplice",
+      "editorialTitleEn": "Short implants vs vertical GBR: the 8-year model favors the simpler choice",
+      "takeawaysIt": [
+        "Modello di microsimulazione a 8 anni: impianti corti (6-8,5mm) senza GBR vs standard (>10mm) con GBR verticale",
+        "Impianti corti più economici (3.662 vs 6.030 USD) E più efficaci (6,77 vs 6,49 anni-impianto)",
+        "Risultato robusto alla sensitivity analysis probabilistica (2.000 iterazioni) — ma cifre specifiche del contesto cileno"
+      ],
+      "takeawaysEn": [
+        "8-year microsimulation model: short implants (6-8.5mm) without GBR vs regular (>10mm) with vertical GBR",
+        "Short implants cheaper (USD 3,662 vs 6,030) AND more effective (6.77 vs 6.49 implant-years)",
+        "Robust to probabilistic sensitivity analysis (2,000 iterations) — though absolute figures are context-specific to Chile"
+      ],
+      "whyItMattersIt": "Quando la cresta lo consente, questo modello economico rigoroso sostiene l'impianto corto come prima scelta nella mandibola posteriore atrofica, non solo come alternativa 'di ripiego' alla GBR verticale — con implicazioni dirette su costo per il paziente e complessità chirurgica.",
+      "whyItMattersEn": "When ridge anatomy allows it, this rigorous economic model supports the short implant as the first choice in the posterior atrophic mandible, not merely a 'fallback' to vertical GBR — with direct implications for patient cost and surgical complexity.",
+      "slug": "cost-effectiveness-of-short-implants-6-8-5-mm-compared-to-regular-length-impla-42432636",
+      "fetchedAt": "2026-07-13T09:22:27.113209Z",
+      "url": "https://doi.org/10.1186/s12903-026-09152-2",
+      "abstractText": "BACKGROUND: To evaluate the cost-effectiveness of short implants (6-8.5&#xa0;mm) placed without guided bone regeneration (GBR) vs. regular length implants (&gt;&#x2009;10&#xa0;mm) placed with vertical GBR for the rehabilitation of the posterior atrophic mandible (Seibert type II defects).\n\nMETHODS: A discrete-time state-transition microsimulation model was developed to compare two strategies over an 8-year horizon from a private-payer perspective. Clinical inputs were extracted from a recent meta-analysis of randomized trials, while unit costs were obtained from publicly available Chilean fee schedules and converted to 2025 USD using purchasing power parity. Outcomes included implant survival, biological and prosthetic complications, summarized as implant-years (IY) and complication-free IY (CFIY) as a stricter secondary measure. Incremental cost-effectiveness ratios (ICERs) were calculated. Uncertainty was addressed through one-way deterministic sensitivity analysis (OWSA), and probabilistic sensitivity analysis (PSA, 2,000 iterations).\n\nRESULTS: Over an 8-year horizon, short implants were associated with lower mean costs (USD 3,662 vs. 6,030) and modestly greater effectiveness (6.77 vs. 6.49 IY; 6.71 vs. 6.27 CFIY) compared with regular-length implants with GBR, yielding incremental savings of USD 2,367 and incremental gains of 0.28 IY and 0.44 CFIY. OWSA identified initial implant costs as the most influential parameters. PSA across 2,000 iterations corroborated these findings, with the great majority of simulations falling in the south-east quadrant of the cost-effectiveness plane.\n\nCONCLUSIONS: Within the Chilean private-payer setting and over an 8-year horizon, single-tooth short implants (6-8.5&#xa0;mm) placed without GBR were cost-saving and at least non-inferior in effectiveness compared with regular-length implants with vertical GBR for the posterior atrophic mandible. This cost advantage remained consistent across deterministic, probabilistic, and scenario analyses, although transferability to other settings requires re-estimation using local cost structures.",
+      "clinicalNoteIt": "Gli impianti corti sono sempre un ottimo ausilio terapeutico che consente di risovere casi con discrepanze verticali in mandibola senza innesti. Ne ho usati molti con soddisfazione e successo a lungo termine. "
+    },
+    {
+      "pmid": "42388444",
+      "title": "Safety and feasibility of immediate implant placement in diabetic patients: A systematic review and meta-analysis.",
+      "titleIt": "Impianto post-estrattivo immediato nei pazienti diabetici: revisione sistematica e meta-analisi",
+      "authors": [
+        "Li Z",
+        "Yu H",
+        "Liang H"
+      ],
+      "journal": "Biomedical reports",
+      "pubDate": "2026 Aug",
+      "doi": "10.3892/br.2026.2173",
+      "summaryEn": "As dental implants become routine even in medically complex patients, clinicians increasingly face the question of whether immediate implant placement (IIP) — inserting the implant at the same appointment as tooth extraction — is safe in patients with diabetes. Prior evidence on this specific combination has been fragmented. This systematic review and meta-analysis searched PubMed, Embase, Web of Science, Cochrane, Google Scholar and CNKI (January 2000–March 2025) for studies comparing implant survival rate (SR), marginal bone loss (MBL), probing depth (PD) and bleeding on probing (BOP) between diabetic (well- and poorly-controlled) and healthy patients undergoing IIP.\n\nTen studies met inclusion criteria, covering 1,350 patients and 1,623 implants, with moderate-to-high overall methodological quality (Newcastle-Ottawa Scale). The headline finding: implant survival was not significantly different between diabetics and healthy controls, regardless of glycemic control — well-controlled diabetics showed RR 1.00 (95% CI 0.97–1.02) and even poorly-controlled diabetics showed RR 0.96 (95% CI 0.88–1.06) versus healthy patients.\n\nHowever, survival is not the whole picture. Marginal bone loss was significantly higher in diabetics than in healthy patients, and — critically — the magnitude scaled with glycemic control: well-controlled diabetics showed a modest but significant MBL increase (MD 0.08 mm), while poorly-controlled diabetics showed a much larger increase (MD 0.39 mm). A similar gradient appeared for inflammatory markers: well-controlled diabetics had significantly higher BOP than healthy patients but comparable probing depth, while poorly-controlled diabetics showed significantly higher values for both BOP (MD 0.24) and PD (MD 0.62).\n\nThe clinical message is nuanced rather than reassuring-or-alarming: IIP is feasible in diabetic patients, including as an evidence-based option rather than a contraindication, but glycemic control is the variable that determines how much peri-implant bone and soft-tissue health is traded away. For well-controlled patients, the added risk is small; for poorly-controlled patients, it is substantial enough to warrant either deferring implant placement until control improves or intensifying postoperative monitoring. The authors flag notable heterogeneity as a limitation, but the consistency of the dose-response pattern strengthens confidence in the underlying biological relationship.",
+      "summaryIt": "Con l'implantologia ormai routine anche in pazienti clinicamente complessi, il clinico si trova sempre più spesso a chiedersi se l'impianto post-estrattivo immediato (IIP) — inserito nella stessa seduta dell'estrazione — sia sicuro nei pazienti diabetici. Le evidenze precedenti su questa combinazione specifica erano frammentarie. Questa revisione sistematica con meta-analisi ha interrogato PubMed, Embase, Web of Science, Cochrane, Google Scholar e CNKI (gennaio 2000-marzo 2025) alla ricerca di studi che confrontassero sopravvivenza implantare (SR), perdita ossea marginale (MBL), profondità di sondaggio (PPD) e sanguinamento al sondaggio (BOP) tra pazienti diabetici (a controllo buono o scarso) e sani sottoposti a IIP.\n\nDieci studi hanno soddisfatto i criteri di inclusione, per un totale di 1.350 pazienti e 1.623 impianti, con qualità metodologica da moderata ad alta (scala Newcastle-Ottawa). Il dato principale: la sopravvivenza implantare non differiva in modo significativo tra diabetici e controlli sani, indipendentemente dal controllo glicemico — i diabetici ben controllati mostravano RR 1,00 (IC 95% 0,97-1,02) e persino i diabetici a controllo scarso mostravano RR 0,96 (IC 95% 0,88-1,06) rispetto ai sani.\n\nLa sopravvivenza, però, non racconta tutta la storia. La perdita ossea marginale era significativamente maggiore nei diabetici rispetto ai sani e — punto cruciale — la sua entità scalava con il controllo glicemico: i diabetici ben controllati mostravano un aumento di MBL modesto ma significativo (MD 0,08 mm), mentre i diabetici a controllo scarso mostravano un aumento molto più ampio (MD 0,39 mm). Un gradiente simile emergeva per i marcatori infiammatori: BOP più alto nei ben controllati rispetto ai sani ma PPD comparabile, mentre i diabetici a controllo scarso mostravano valori più alti sia di BOP (MD 0,24) sia di PPD (MD 0,62).\n\nIl messaggio clinico è sfumato più che rassicurante o allarmante: l'IIP è fattibile nei pazienti diabetici, un'opzione basata sull'evidenza più che una controindicazione, ma è il controllo glicemico la variabile che determina quanto salute ossea e dei tessuti molli perimplantari venga sacrificata. Nei pazienti ben controllati il rischio aggiuntivo è modesto; in quelli a controllo scarso è sostanziale, al punto da giustificare il differimento dell'impianto o un mantenimento postoperatorio più intensivo. Gli autori segnalano una notevole eterogeneità come limite, ma la coerenza del pattern dose-risposta rafforza la fiducia nella relazione biologica sottostante.",
+      "tagsEn": [
+        "immediate implant placement",
+        "diabetes",
+        "marginal bone loss",
+        "glycemic control",
+        "implant survival",
+        "systematic review",
+        "meta-analysis"
+      ],
+      "tagsIt": [
+        "impianto post-estrattivo immediato",
+        "diabete",
+        "perdita ossea marginale",
+        "controllo glicemico",
+        "sopravvivenza implantare",
+        "revisione sistematica",
+        "meta-analisi"
+      ],
+      "editorialTitleIt": "Impianto immediato nel paziente diabetico: sopravvive, ma l'osso paga il conto del controllo glicemico",
+      "editorialTitleEn": "Immediate implants in diabetics survive — but bone pays the price of glycemic control",
+      "takeawaysIt": [
+        "Meta-analisi di 10 studi (1.350 pazienti, 1.623 impianti): sopravvivenza implantare NON differisce tra diabetici e sani, a prescindere dal controllo glicemico",
+        "MBL aumenta con il peggiorare del controllo: +0,08 mm (buon controllo) vs +0,39 mm (controllo scarso) rispetto ai sani",
+        "BOP e PPD seguono lo stesso gradiente — il controllo glicemico, non il diabete in sé, guida l'esito perimplantare"
+      ],
+      "takeawaysEn": [
+        "Meta-analysis of 10 studies (1,350 patients, 1,623 implants): implant survival does NOT differ between diabetics and healthy patients, regardless of glycemic control",
+        "MBL rises with worsening control: +0.08 mm (well-controlled) vs +0.39 mm (poorly-controlled) vs healthy",
+        "BOP and PD follow the same gradient — glycemic control, not diabetes itself, drives peri-implant outcome"
+      ],
+      "whyItMattersIt": "Il diabete non è di per sé una controindicazione all'impianto post-estrattivo immediato, ma il controllo glicemico va verificato e ottimizzato prima dell'intervento: nei pazienti scompensati il rischio di perdita ossea marginale e infiammazione perimplantare è sostanzialmente più alto.",
+      "whyItMattersEn": "Diabetes itself is not a contraindication to immediate implant placement, but glycemic control should be verified and optimized beforehand: in poorly-controlled patients, the risk of marginal bone loss and peri-implant inflammation is substantially higher.",
+      "slug": "safety-and-feasibility-of-immediate-implant-placement-in-diabetic-patients-a-sy-42388444",
+      "fetchedAt": "2026-07-13T09:22:27.113385Z",
+      "url": "https://doi.org/10.3892/br.2026.2173",
+      "abstractText": "The increasing use of dental implants raises questions about their efficacy in diabetic patients, particularly for immediate implant placement (IIP). Well-controlled diabetic patients may achieve success rates comparable with healthy individuals. To the best of our knowledge, however, comprehensive meta-analyses on IIP outcomes in diabetics remain limited. The present study aimed to judge whether IIP could be adopted in diabetic patients. A systematic search was conducted in PubMed, Embase, Web of Science, Cochrane, Google Scholar and China National Knowledge Infrastructure databases (January 2000 to March 2025). Studies comparing implant survival rates (SR), marginal bone loss (MBL), probing depth (PD) and bleeding on probing (BOP) between diabetic (well-/poorly controlled) and healthy patients undergoing IIP were included. The methodological quality and risk of bias of the included studies were assessed using the Newcastle-Ottawa Scale. Meta-analysis was performed using RevMan 5.4 software to calculate mean difference (MD) and risk ratio (RR) with 95% confidence interval (CI). A random-effects model was employed to address heterogeneity. A total of 10 studies (1,350 patients, 1,623 implants) were included in the analysis, demonstrating moderate to high methodological quality overall. Compared with healthy patients, well-controlled diabetic patients showed no significant difference in SR (RR=1.00, 95% CI: 0.97-1.02, P=0.79); similarly, poorly controlled diabetic patients also exhibited SR comparable with what of healthy patients (RR=0.96, 95% CI: 0.88-1.06, P=0.47). However, well-controlled diabetic patients had significantly higher MBL than healthy patients (MD=0.08, 95% CI: 0.03-0.14, P=0.004), while poorly-controlled diabetic patients showed greater MBL (MD=0.39, 95% CI: 0.25-0.53, P&lt;0.00001). Additionally, well-controlled diabetic patients showed no significant difference in PD compared with healthy patients (MD=0.17, 95% CI: -0.02-0.37, P=0.09), but had significantly higher BOP (MD=0.12, 95% CI: 0.07-0.17, P&lt;0.00001). Poorly-controlled diabetic patients demonstrated significantly higher PD (MD=0.62, 95% CI: 0.38-0.86) and BOP (MD=0.24, 95% CI: 0.23-0.24; both P&lt;0.00001). There was notable heterogeneity among studies included in the meta-analysis and individual studies may influence the overall findings. Despite these limitations, the present results suggested that for diabetic patients, particularly those with optimal glycemic control, IIP demonstrates comparable implant SR with healthy individuals, confirming its clinical feasibility. However, diabetic patients, especially those with poor glycemic control, face increased risks of peri-implant bone loss and inflammation. Strict preoperative glycemic management and diligent postoperative care are key to minimize complications and ensure long-term implant SR.",
+      "clinicalNoteIt": "I pazienti diabetici, purché compensati con le adeguate terapie (e oggi abbiamo molte terapie per il diabete), sono pazienti che rispondono alla terapia implantare in modo sovrapponibile alla popolazione generale. Questo articolo lo dimostra nel caso dell'impianto immediato. "
+    },
+    {
+      "pmid": "42425934",
+      "title": "P. gingivalis-host interactions direct antibiotic adjuvants for periodontitis antimicrobial therapy.",
+      "titleIt": "Interazioni P. gingivalis-ospite come bersaglio per adiuvanti antibiotici nella terapia antimicrobica della parodontite",
+      "authors": [
+        "Liu X",
+        "Yuan Z",
+        "Wan Z"
+      ],
+      "journal": "International journal of oral science",
+      "pubDate": "2026 Jul 9",
+      "doi": "10.1038/s41368-026-00448-1",
+      "summaryEn": "A major reason periodontal antibiotic therapy sometimes falls short is that Porphyromonas gingivalis, the keystone pathogen of periodontitis, can invade host cells and hide from antibiotics that only act extracellularly — a mechanism that helps explain disease recurrence even after apparently successful treatment. Rather than developing a new antibiotic, this study pursued a host-directed strategy: blocking the host cellular machinery P. gingivalis exploits to invade cells in the first place, using drugs that are already clinically available for other indications.\n\nThe researchers targeted four host factors implicated in bacterial invasion: collagen I (inhibited with FT011), lipid rafts (inhibited with simvastatin — the widely used cholesterol-lowering statin), integrin β1 (inhibited with ATN-161), and FAK signaling (inhibited with YH-306). Blocking any of these targets significantly reduced P. gingivalis infection in human oral keratinocytes and periodontal ligament stem cells (PDLSCs) in vitro. Simvastatin stood out further: beyond blocking invasion, it restored the osteogenic capacity of PDLSCs that had already been infected by P. gingivalis.\n\nThe therapeutic payoff came when these host-targeting drugs were combined with metronidazole, the standard-of-care antibiotic for periodontitis. Simvastatin or YH-306 paired with metronidazole produced potent synergistic effects, eradicating intracellular bacteria at markedly reduced antibiotic doses compared with metronidazole alone. In a rat periodontitis model, simvastatin-metronidazole combination therapy significantly reduced bacterial load, local inflammation, and alveolar bone loss compared with either agent alone.\n\nThe clinical relevance lies in drug repurposing: simvastatin is an inexpensive, well-characterized, already-approved medication, which makes this a readily translatable adjuvant strategy rather than a distant basic-science finding requiring a novel drug development pipeline. While this remains preclinical (cell culture and rodent model, not yet human trials), the combination of mechanistic clarity with a repurposed, low-cost drug makes simvastatin-metronidazole a plausible near-term candidate for adjunctive periodontal antimicrobial protocols worth watching as it moves toward clinical testing.",
+      "summaryIt": "Uno dei motivi per cui la terapia antibiotica parodontale a volte non basta è che Porphyromonas gingivalis, il patogeno chiave della parodontite, riesce a invadere le cellule dell'ospite e a nascondersi dagli antibiotici che agiscono solo a livello extracellulare — un meccanismo che contribuisce a spiegare le recidive anche dopo un trattamento apparentemente riuscito. Invece di sviluppare un nuovo antibiotico, questo studio ha perseguito una strategia host-directed: bloccare i meccanismi cellulari dell'ospite che P. gingivalis sfrutta per invadere le cellule, usando farmaci già disponibili clinicamente per altre indicazioni.\n\nI ricercatori hanno colpito quattro bersagli dell'ospite coinvolti nell'invasione batterica: collagene I (inibito con FT011), lipid raft (inibiti con simvastatina — la comune statina ipocolesterolemizzante), integrina β1 (inibita con ATN-161) e la segnalazione FAK (inibita con YH-306). Il blocco di ciascuno di questi bersagli ha ridotto significativamente l'infezione da P. gingivalis in cheratinociti orali umani e in cellule staminali del legamento parodontale (PDLSC) in vitro. La simvastatina si è distinta ulteriormente: oltre a bloccare l'invasione, ha ripristinato la capacità osteogenica delle PDLSC già infettate.\n\nIl vantaggio terapeutico è emerso quando questi farmaci host-directed sono stati combinati con il metronidazolo, l'antibiotico standard di cura per la parodontite. Simvastatina o YH-306 associati a metronidazolo hanno prodotto un potente effetto sinergico, eradicando i batteri intracellulari a dosaggi antibiotici marcatamente ridotti rispetto al solo metronidazolo. In un modello murino di parodontite, la terapia combinata simvastatina-metronidazolo ha ridotto in modo significativo la carica batterica, l'infiammazione locale e la perdita di osso alveolare rispetto a ciascun agente da solo.\n\nLa rilevanza clinica sta nel drug repurposing: la simvastatina è un farmaco economico, ben caratterizzato e già approvato, il che rende questa strategia adiuvante rapidamente traducibile in clinica. Pur trattandosi ancora di dati preclinici (colture cellulari e modello murino, non ancora trial sull'uomo), la combinazione di chiarezza meccanicistica con un farmaco riposizionato e a basso costo rende simvastatina-metronidazolo un candidato plausibile a breve termine per protocolli antimicrobici parodontali adiuvanti, da seguire con attenzione mentre si avvicina alla sperimentazione clinica.",
+      "tagsEn": [
+        "Porphyromonas gingivalis",
+        "antibiotic adjuvant",
+        "simvastatin",
+        "drug repurposing",
+        "periodontitis",
+        "host-directed therapy",
+        "metronidazole"
+      ],
+      "tagsIt": [
+        "Porphyromonas gingivalis",
+        "adiuvante antibiotico",
+        "simvastatina",
+        "riposizionamento farmacologico",
+        "parodontite",
+        "terapia host-directed",
+        "metronidazolo"
+      ],
+      "editorialTitleIt": "Una statina come adiuvante antibiotico: come stanare il P. gingivalis nascosto nelle cellule",
+      "editorialTitleEn": "A statin as antibiotic adjuvant: flushing out P. gingivalis hiding inside host cells",
+      "takeawaysIt": [
+        "P. gingivalis invade le cellule dell'ospite e sfugge agli antibiotici extracellulari, favorendo le recidive",
+        "Simvastatina + metronidazolo: sinergia che eradica i batteri intracellulari a dosi antibiotiche ridotte",
+        "Nel modello murino, la combinazione riduce carica batterica, infiammazione e perdita ossea alveolare — dato ancora preclinico"
+      ],
+      "takeawaysEn": [
+        "P. gingivalis invades host cells and evades extracellular antibiotics, fueling recurrence",
+        "Simvastatin + metronidazole: synergy that eradicates intracellular bacteria at reduced antibiotic doses",
+        "In the rat model, the combination reduced bacterial load, inflammation, and alveolar bone loss — still preclinical data"
+      ],
+      "whyItMattersIt": "Un possibile adiuvante antibiotico a costo quasi nullo — la simvastatina è già in uso diffuso per altre indicazioni — che potrebbe migliorare la risposta alla terapia antimicrobica parodontale nei casi di recidiva, sebbene i dati siano ancora preclinici e non trasferibili direttamente alla pratica.",
+      "whyItMattersEn": "A near-zero-cost potential antibiotic adjuvant — simvastatin is already widely used for other indications — that could improve response to periodontal antimicrobial therapy in recurrent cases, though the data remain preclinical and not yet directly applicable to practice.",
+      "slug": "p-gingivalis-host-interactions-direct-antibiotic-adjuvants-for-periodontitis-an-42425934",
+      "fetchedAt": "2026-07-13T09:22:27.113664Z",
+      "url": "https://doi.org/10.1038/s41368-026-00448-1",
+      "abstractText": "Porphyromonas gingivalis (P. gingivalis) invades host cells to evade antibiotics, driving the recurrence of periodontitis. However, current clinical treatment strategies remain ineffective in addressing this intracellular invasion by the bacteria. Here, we report a host-directed strategy that blocks bacterial invasion by targeting key host factors, including collagen I (using FT011), lipid rafts (using simvastatin), integrin &#x3b2;1 (using ATN-161), and FAK signaling (using YH-306). Inhibiting these targets significantly reduced P. gingivalis infection in human oral keratinocytes and periodontal ligament stem cells. Crucially, simvastatin restored the osteogenic ability of P. gingivalis-infected PDLSCs. These drugs subsequently functioned as effective antibiotic adjuvants. The combination of simvastatin or YH-306 with metronidazole, a standard-of-care antibiotic for periodontitis, exhibited potent synergistic effects, significantly eradicating intracellular bacteria at reduced antibiotic dosages. In a rat periodontitis model, simvastatin-metronidazole therapy yielded superior outcomes, significantly mitigating bacterial load, inflammation, and alveolar bone loss. The repurposing of clinically available drugs, such as simvastatin, as antibiotic adjuvants represents a promising, readily translatable therapeutic approach for periodontitis.",
+      "clinicalNoteIt": "Le statine ha un effetto osteoinduttivo in caso di impianti dentali. Questo studio dimostra anche effetti antibatterici. La simvastatina sarebbe capace di un effetto antibatterico sui patogeni parodontali in combinazione con la terapia antibiotica nei casi recidivanti. "
+    },
     {
       "pmid": "42320591",
       "title": "Correlation between periodontal parameters at teeth and implants: An up to 20-year long-term observational cohort study in periodontitis patients.",
