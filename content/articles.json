@@ -1,6 +1,272 @@
 {
-  "lastUpdated": "2026-07-13T20:00:49.637870Z",
+  "lastUpdated": "2026-07-20T16:28:38.846658Z",
   "articles": [
+    {
+      "pmid": "42466869",
+      "title": "Failure of Wide-Diameter Dental Implants (Predominantly 5.0 mm) Show Distinct Risk Profiles-A Large Cohort Study.",
+      "titleIt": "Il fallimento degli impianti a diametro largo (prevalentemente 5,0 mm) mostra profili di rischio distinti - Uno studio di coorte ampio",
+      "authors": [
+        "Better H",
+        "Asbi T",
+        "Better K"
+      ],
+      "journal": "Clinical implant dentistry and related research",
+      "pubDate": "2026 Aug",
+      "doi": "10.1111/cid.70173",
+      "abstractText": "AIM: To evaluate survival rates and identify temporally distinct risk factors for early and late failure of wide-diameter dental implants (&#x2265;&#x2009;5.0&#x2009;mm) in a large real-world cohort using landmark analysis.\n\nMATERIALS AND METHODS: This retrospective cohort study analyzed 12&#x2009;041 wide-diameter implants (&#x2265;&#x2009;5.0&#x2009;mm), predominantly 5.0&#x2009;mm, placed in 9247 patients at a single center between January 2014 and December 2023. Implant survival was defined as the fixture remaining in&#xa0;situ without clinical loss or replacement at the same site. Failures were classified as early (&#x2264;&#x2009;1&#x2009;year) or late (&gt;&#x2009;1&#x2009;year). Kaplan-Meier survival curves and a multivariable Cox proportional hazards model clustered by patient were generated. Schoenfeld residuals revealed time-varying effects for penicillin allergy, implant length, and kidney disease, prompting a landmark analysis at 365&#x2009;days with separate multivariable logistic regression models for early and late failure.\n\nRESULTS: Overall implant survival was 97.5%. Kaplan-Meier estimates were 98.1% (95% CI: 97.9%-98.4%) at 1&#x2009;year, 97.8% (95% CI: 97.5%-98.0%) at 3&#x2009;years, and 97.6% (95% CI: 97.4%-97.9%) at 5&#x2009;years. Of 301 failures, 225 (74.8%) were early and 76 (25.2%) were late. In the Cox model, short implants (&#x2264;&#x2009;8&#x2009;mm; HR&#x2009;=&#x2009;1.94, 95% CI: 1.43-2.62, p&#x2009;&lt;&#x2009;0.001), maxillary placement (HR&#x2009;=&#x2009;2.13 vs. mandible, p&#x2009;&lt;&#x2009;0.001), male sex (HR&#x2009;=&#x2009;1.39, p&#x2009;=&#x2009;0.010), penicillin allergy (HR&#x2009;=&#x2009;1.66, p&#x2009;=&#x2009;0.014), and older age (HR&#x2009;=&#x2009;0.84 per SD, p&#x2009;=&#x2009;0.008) independently predicted failure; smoking was borderline (HR&#x2009;=&#x2009;1.33, p&#x2009;=&#x2009;0.065). Landmark analysis showed that early failure was driven by penicillin allergy (OR&#x2009;=&#x2009;2.26, p&#x2009;&lt;&#x2009;0.001), maxillary placement (OR&#x2009;=&#x2009;2.42, p&#x2009;&lt;&#x2009;0.001), male sex (OR&#x2009;=&#x2009;1.40, p&#x2009;=&#x2009;0.016), and short length (OR&#x2009;=&#x2009;1.70, p&#x2009;=&#x2009;0.007), whereas late failure was driven by short length (OR&#x2009;=&#x2009;3.19, p&#x2009;&lt;&#x2009;0.001) and kidney disease (OR&#x2009;=&#x2009;6.11, p&#x2009;=&#x2009;0.003).\n\nCONCLUSIONS: Wide-diameter implants achieve excellent long-term survival. Early and late failures arise from distinct mechanisms: perioperative, anatomical, and sex-related factors predominate early, while short implant length and renal disease predominate late. These findings support tailored perioperative protocols, individualized risk stratification, and targeted long-term surveillance.",
+      "summaryEn": "Clinical question: do wide-diameter implants (≥5.0 mm) fail for the same reasons regardless of when failure occurs, or do early and late failures follow different mechanisms?\n\nMethodology: this retrospective cohort study analyzed 12,041 wide-diameter implants placed in 9,247 patients at a single center between 2014 and 2023. Implant survival was tracked with Kaplan-Meier curves and a multivariable Cox proportional hazards model clustered by patient. Because Schoenfeld residuals showed that penicillin allergy, implant length, and kidney disease had time-varying effects, the authors ran a landmark analysis at 365 days, fitting separate logistic regression models for early (≤1 year) and late (>1 year) failure.\n\nMain findings: overall implant survival was 97.5%, with Kaplan-Meier estimates of 98.1% at 1 year, 97.8% at 3 years, and 97.6% at 5 years. Of 301 total failures, three-quarters (74.8%) occurred early. In the overall Cox model, short implants (≤8 mm, HR 1.94), maxillary placement (HR 2.13), male sex (HR 1.39), and self-reported penicillin allergy (HR 1.66) independently predicted failure, while older age was protective. The landmark analysis sharpened the picture: early failure was driven by penicillin allergy (OR 2.26), maxillary placement (OR 2.42), male sex (OR 1.40), and short length (OR 1.70) — largely perioperative and anatomical factors. Late failure, instead, was dominated by short implant length (OR 3.19) and kidney disease (OR 6.11) — systemic and mechanical factors that act over time.\n\nClinical relevance: wide-diameter implants perform very well overall, but the study's real contribution is showing that \"implant failure\" is not one phenomenon. Perioperative protocols — antibiotic choice, surgical technique in the maxilla — matter most for the first year, while length selection and screening for renal disease matter for long-term surveillance. This supports individualized risk stratification rather than a single follow-up protocol for every patient, and flags penicillin-allergic patients and those with reduced renal function as groups warranting closer monitoring at different phases of care.",
+      "summaryIt": "Domanda clinica: gli impianti a diametro largo (≥5,0 mm) falliscono per le stesse ragioni indipendentemente dal momento in cui il fallimento si verifica, oppure il fallimento precoce e quello tardivo rispondono a meccanismi diversi?\n\nMetodologia: questo studio di coorte retrospettivo ha analizzato 12.041 impianti a diametro largo posizionati in 9.247 pazienti in un singolo centro tra il 2014 e il 2023. La sopravvivenza implantare è stata seguita con curve di Kaplan-Meier e un modello di Cox multivariabile clusterizzato per paziente. Poiché i residui di Schoenfeld mostravano effetti variabili nel tempo per allergia alla penicillina, lunghezza implantare e insufficienza renale, gli autori hanno condotto un'analisi landmark a 365 giorni, con modelli di regressione logistica separati per il fallimento precoce (≤1 anno) e tardivo (>1 anno).\n\nRisultati principali: la sopravvivenza implantare complessiva è stata del 97,5%, con stime di Kaplan-Meier del 98,1% a 1 anno, 97,8% a 3 anni e 97,6% a 5 anni. Dei 301 fallimenti totali, tre quarti (74,8%) sono avvenuti precocemente. Nel modello di Cox complessivo, impianti corti (≤8 mm, HR 1,94), posizionamento mascellare (HR 2,13), sesso maschile (HR 1,39) e allergia riferita alla penicillina (HR 1,66) predicevano in modo indipendente il fallimento, mentre l'età avanzata risultava protettiva. L'analisi landmark ha affinato il quadro: il fallimento precoce era guidato da allergia alla penicillina (OR 2,26), posizionamento mascellare (OR 2,42), sesso maschile (OR 1,40) e lunghezza ridotta (OR 1,70) — fattori prevalentemente perioperatori e anatomici. Il fallimento tardivo, invece, era dominato da lunghezza implantare ridotta (OR 3,19) e insufficienza renale (OR 6,11) — fattori sistemici e meccanici che agiscono nel tempo.\n\nRilevanza clinica: gli impianti a diametro largo hanno prestazioni complessivamente eccellenti, ma il vero contributo dello studio è dimostrare che il \"fallimento implantare\" non è un fenomeno unico. I protocolli perioperatori — scelta antibiotica, tecnica chirurgica al mascellare — contano soprattutto nel primo anno, mentre la selezione della lunghezza e lo screening della funzione renale contano per la sorveglianza a lungo termine. Questo supporta una stratificazione del rischio individualizzata piuttosto che un protocollo di follow-up uguale per tutti, e segnala i pazienti allergici alla penicillina e quelli con funzione renale ridotta come gruppi da monitorare più da vicino in fasi diverse della cura.",
+      "tagsEn": [
+        "dental implants",
+        "wide-diameter implants",
+        "implant survival",
+        "risk factors",
+        "penicillin allergy",
+        "cohort study",
+        "osseointegration"
+      ],
+      "tagsIt": [
+        "impianti dentali",
+        "impianti a diametro largo",
+        "sopravvivenza implantare",
+        "fattori di rischio",
+        "allergia alla penicillina",
+        "studio di coorte",
+        "osteointegrazione"
+      ],
+      "editorialTitleEn": "Wide-diameter implants: failure risk shifts with time after placement",
+      "editorialTitleIt": "Impianti a diametro largo: il rischio di fallimento cambia nel tempo",
+      "takeawaysEn": [
+        "97.5% overall survival across more than 12,000 implants ≥5.0 mm followed for up to 10 years.",
+        "Early failure (within 1 year) is linked to penicillin allergy, maxillary placement, and short length.",
+        "Late failure is driven mainly by short implant length and kidney disease.",
+        "Post-loading surveillance should be calibrated to the patient's risk profile, not uniform over time."
+      ],
+      "takeawaysIt": [
+        "Sopravvivenza globale del 97,5% su oltre 12.000 impianti ≥5,0 mm seguiti fino a 10 anni.",
+        "Il fallimento precoce (entro 1 anno) è legato ad allergia alla penicillina, posizionamento mascellare e lunghezza ridotta.",
+        "Il fallimento tardivo è guidato soprattutto da lunghezza ridotta e insufficienza renale.",
+        "La sorveglianza post-carico dovrebbe essere calibrata sul profilo di rischio del paziente, non uniforme nel tempo."
+      ],
+      "whyItMattersEn": "Distinguishing early- from late-failure mechanisms allows perioperative protocols and long-term follow-up to be tailored to when risk actually concentrates, instead of applying one surveillance schedule to every patient.",
+      "whyItMattersIt": "Distinguere i meccanismi del fallimento precoce da quello tardivo permette di personalizzare il protocollo perioperatorio e il follow-up a lungo termine, invece di applicare uno schema di controllo uguale per tutti i pazienti.",
+      "clinicalNoteIt": "Personalmente amo gli impianti a largo diametro. Ritengo risolvano diversi problemi in caso di osso poco denso e nei post-estrattivi immediati. Questo studio ci dice che nel caso di impianti con diametro 5mm o superiore il fallimento precoce avviene più frequentemente in caso di allergia alla penicillina, mentre il fallimento tardivo è in relazione a 1) posizionamente nel mascellare 2) lunghezza ridotta e 3) insufficienza renale. ",
+      "slug": "failure-of-wide-diameter-dental-implants-predominantly-5-0-mm-show-distinct-risk-42466869",
+      "fetchedAt": "2026-07-20T09:46:31.857651Z",
+      "url": "https://doi.org/10.1111/cid.70173"
+    },
+    {
+      "pmid": "42460466",
+      "title": "Obstructive sleep apnea and periodontitis: a systematic review with considerations on CPAP therapy.",
+      "titleIt": "Apnea ostruttiva del sonno e parodontite: una revisione sistematica con considerazioni sulla terapia CPAP",
+      "authors": [
+        "Kukila A",
+        "Manzoor M",
+        "Salminen A"
+      ],
+      "journal": "Acta odontologica Scandinavica",
+      "pubDate": "2026 Jul 16",
+      "doi": "10.2340/aos.v85.46512",
+      "abstractText": "OBJECTIVE: To evaluate the association between obstructive sleep apnoea (OSA) and periodontitis and to assess the available evidence on the effects of continuous positive airway pressure (CPAP) therapy on periodontal status.\n\nMATERIALS AND METHODS: This review was conducted in accordance with Preferred Reporting Items for Systematic reviews and Meta-Analyses 2020 guidelines. Comprehensive literature searches were performed in Cochrane, PubMed, Scopus, and Web of Science. Study selection and data extraction were carried out independently by two reviewers. A total of 20 original studies met the inclusion criteria. Methodological quality was assessed using the Joanna Briggs Institute critical appraisal tool.\n\nRESULTS: Fourteen of the 20 studies (70%) reported a significant association between OSA and periodontitis. However, only two studies fulfilled all methodological quality criteria, indicating an overall moderate to low quality of evidence. Data on the effects of CPAP therapy on periodontal outcomes were limited, and the available studies generally showed no significant impact.\n\nCONCLUSIONS: Current evidence supports an association between OSA and periodontitis, suggesting that OSA may contribute to periodontitis. Robust, well-designed studies with larger sample sizes and rigorous methodology are needed to clarify the nature of this relationship and to determine whether CPAP therapy influences periodontal health.",
+      "summaryEn": "Clinical question: is obstructive sleep apnea (OSA) associated with periodontitis, and does CPAP therapy improve periodontal status?\n\nMethodology: this systematic review followed PRISMA 2020 guidelines, searching Cochrane, PubMed, Scopus, and Web of Science. Two reviewers independently screened studies and extracted data; methodological quality was assessed with the Joanna Briggs Institute (JBI) critical appraisal tool. Twenty original studies met the inclusion criteria.\n\nMain findings: fourteen of the twenty studies (70%) reported a significant association between OSA and periodontitis. However, only two studies met all JBI quality criteria, meaning the overall body of evidence is of moderate-to-low methodological quality. Data on CPAP's effect on periodontal outcomes were sparse, and the few available studies generally found no significant impact of CPAP therapy on periodontal status.\n\nClinical relevance: the review supports a plausible association between OSA and periodontitis — intermittent hypoxia, sleep fragmentation, and mouth breathing are proposed mechanistic links — but the certainty of that evidence remains low. Just as important, CPAP should not currently be presented to patients as a periodontal intervention: the data do not support treating sleep apnea as a way to improve periodontal outcomes, and periodontal therapy should proceed on its own merits regardless of OSA treatment status. The authors call for larger, more rigorously designed studies, ideally with objective sleep study data (polysomnography) rather than self-reported OSA, before the relationship can inform clinical screening or referral pathways. For clinicians, the practical takeaway today is a lower threshold of suspicion — screening questions about snoring, daytime sleepiness, and diagnosed OSA may be reasonable in patients with unexplained or refractory periodontitis — without over-promising CPAP as a periodontal treatment.",
+      "summaryIt": "Domanda clinica: l'apnea ostruttiva del sonno (OSA) è associata alla parodontite, e la terapia CPAP migliora lo stato parodontale?\n\nMetodologia: questa revisione sistematica ha seguito le linee guida PRISMA 2020, con ricerca su Cochrane, PubMed, Scopus e Web of Science. Due revisori hanno selezionato gli studi ed estratto i dati in modo indipendente; la qualità metodologica è stata valutata con lo strumento di critical appraisal del Joanna Briggs Institute (JBI). Venti studi originali hanno soddisfatto i criteri di inclusione.\n\nRisultati principali: quattordici dei venti studi inclusi (70%) riportano un'associazione significativa tra OSA e parodontite. Tuttavia, solo due studi soddisfano tutti i criteri di qualità JBI, il che significa che il corpo complessivo di evidenza è di qualità metodologica da moderata a bassa. I dati sull'effetto della CPAP sugli esiti parodontali sono scarsi, e i pochi studi disponibili non mostrano generalmente un impatto significativo della terapia CPAP sullo stato parodontale.\n\nRilevanza clinica: la revisione sostiene un'associazione plausibile tra OSA e parodontite — ipossia intermittente, frammentazione del sonno e respirazione orale sono i meccanismi proposti — ma la certezza di questa evidenza resta bassa. Altrettanto importante: oggi la CPAP non dovrebbe essere presentata ai pazienti come un intervento parodontale. I dati non supportano il trattamento dell'apnea del sonno come strategia per migliorare gli esiti parodontali, e la terapia parodontale deve procedere secondo la propria indicazione, indipendentemente dallo stato di trattamento dell'OSA. Gli autori chiedono studi più ampi e rigorosi, idealmente basati su dati oggettivi di polisonnografia anziché su OSA autoriferita, prima che questa relazione possa orientare percorsi di screening o invio clinico. Nella pratica, il messaggio operativo di oggi è una soglia di sospetto più bassa — domande di screening su russamento, sonnolenza diurna e diagnosi di OSA possono essere ragionevoli nei pazienti con parodontite inspiegata o refrattaria — senza però promettere la CPAP come trattamento parodontale.",
+      "tagsEn": [
+        "obstructive sleep apnea",
+        "periodontitis",
+        "CPAP therapy",
+        "systematic review",
+        "periodontal-systemic link",
+        "sleep medicine"
+      ],
+      "tagsIt": [
+        "apnea ostruttiva del sonno",
+        "parodontite",
+        "terapia CPAP",
+        "revisione sistematica",
+        "connessione parodonto-sistemica",
+        "medicina del sonno"
+      ],
+      "editorialTitleEn": "Sleep apnea and periodontitis: a plausible link resting on weak evidence",
+      "editorialTitleIt": "Apnea del sonno e parodontite: un legame plausibile, ma le prove restano deboli",
+      "takeawaysEn": [
+        "70% of included studies (14/20) report a significant association between OSA and periodontitis.",
+        "Only 2 of 20 studies met all JBI methodological quality criteria: certainty of evidence stays low-to-moderate.",
+        "Data on CPAP's effect on periodontal status are scarce and, where available, show no significant impact.",
+        "Larger, more rigorous randomized studies are needed before this can guide clinical decisions."
+      ],
+      "takeawaysIt": [
+        "Il 70% degli studi inclusi (14/20) riporta un'associazione significativa tra apnea ostruttiva del sonno e parodontite.",
+        "Solo 2 studi su 20 soddisfano tutti i criteri di qualità metodologica JBI: la certezza dell'evidenza resta bassa-moderata.",
+        "I dati sull'effetto della CPAP sullo stato parodontale sono scarsi e, dove presenti, non mostrano un impatto significativo.",
+        "Servono studi randomizzati più ampi e rigorosi prima di trarre conclusioni cliniche operative."
+      ],
+      "whyItMattersEn": "In patients with obstructive sleep apnea, periodontitis may deserve closer screening, but current evidence does not support CPAP as a periodontal intervention or as a substitute for causal periodontal therapy.",
+      "whyItMattersIt": "Nei pazienti con apnea ostruttiva del sonno, la parodontite può meritare uno screening più attento, ma oggi le prove non giustificano la CPAP come intervento parodontale né sostituiscono la terapia parodontale causale.",
+      "clinicalNoteIt": "Interessante questo studio. Non soprende che le apnee del sonno possano aggravare la parodontite. ",
+      "slug": "obstructive-sleep-apnea-and-periodontitis-a-systematic-review-with-consideration-42460466",
+      "fetchedAt": "2026-07-20T09:46:31.857972Z",
+      "url": "https://doi.org/10.2340/aos.v85.46512"
+    },
+    {
+      "pmid": "42454622",
+      "title": "Self-Reported Penicillin Allergy, Alternative Antibiotics, and Implant Outcomes: A Retrospective Study.",
+      "titleIt": "Allergia riferita alla penicillina, antibiotici alternativi ed esiti implantari: uno studio retrospettivo",
+      "authors": [
+        "Fetner A",
+        "Vilela N",
+        "Lu X"
+      ],
+      "journal": "Clinical implant dentistry and related research",
+      "pubDate": "2026 Aug",
+      "doi": "10.1111/cid.70169",
+      "abstractText": "INTRODUCTION: The effects of self-reported penicillin allergy and alternative antibiotic regimens on implant outcomes remain poorly investigated. Therefore, the aim of this study was to evaluate the association between self-reported penicillin allergy and the use of alternative antibiotics with post-implant placement surgical complications, early implant failure, and preloading crestal bone loss (PLCBL).\n\nMETHODS: This retrospective cohort study examined dental records of patients who received at least one dental implant. Patients who reported a penicillin allergy were identified as the exposed group, whereas patients without a reported penicillin allergy were selected as unexposed in a 1:2 exposed-to-unexposed ratio. Relevant patient- and implant-related factors were recorded. Implants were evaluated for postsurgical complications, PLCBL, and early failure. Data were analyzed using bivariate analyzes and mixed-effects regression models.\n\nRESULTS: A total of 179 subjects and 374 implants were evaluated. Early implant failure and surgical complications occurred in 6.1% and 8.0% of implants, respectively, while PLCBL was observed in 32.5% of implants. A higher prevalence of surgical complications and implant failure was observed among patients who reported a penicillin allergy compared with those without a reported allergy (p&#x2009;&lt;&#x2009;0.05). Implants prescribed azithromycin showed a higher prevalence of surgical complications, and those prescribed azithromycin or clindamycin had higher early failure rates compared with penicillin (p&#x2009;&lt;&#x2009;0.05). Regression analyzes showed that self-reported penicillin allergy was not independently associated with surgical complications, PLCBL, or early implant failure (p&#x2009;&gt;&#x2009;0.05). In exploratory multivariable analyzes, azithromycin and other alternative antibiotics were associated with higher odds of surgical complications compared with penicillin (p&#x2009;&lt;&#x2009;0.05). No significant associations were found between antibiotic type and PLCBL or early implant failure (p&#x2009;&gt;&#x2009;0.05).\n\nCONCLUSION: Self-reported penicillin allergy was not independently associated with early implant outcomes in this cohort. Certain alternative antibiotics were associated with a higher prevalence of early surgical complications, warranting further investigation in larger studies.",
+      "summaryEn": "Clinical question: does self-reported penicillin allergy — and the alternative antibiotics it triggers — affect implant surgical complications, early failure, and crestal bone loss?\n\nMethodology: this retrospective cohort study reviewed dental records of implant patients, comparing those with self-reported penicillin allergy (exposed) to those without (unexposed), matched at roughly a 1:2 ratio. A total of 179 subjects and 374 implants were evaluated for postsurgical complications, preloading crestal bone loss (PLCBL), and early failure, using bivariate analyses and mixed-effects regression models.\n\nMain findings: overall, early implant failure occurred in 6.1% of implants and surgical complications in 8.0%; PLCBL was observed in 32.5%. In simple bivariate comparisons, patients reporting penicillin allergy had a higher prevalence of surgical complications and implant failure than those without. But once the analysis controlled for other variables in multivariable regression, self-reported penicillin allergy itself was not an independent predictor of surgical complications, PLCBL, or early failure. What did matter was the alternative antibiotic chosen: implants where azithromycin was prescribed showed a higher rate of surgical complications, and both azithromycin and clindamycin were associated with higher early failure rates compared with penicillin. No significant association was found between antibiotic type and PLCBL.\n\nClinical relevance: this reframes a common perioperative decision. The allergy label itself is not the risk factor — the substitute antibiotic is. Azithromycin and clindamycin, the default alternatives for penicillin-allergic patients, appear to carry a higher burden of surgical complications and early failure than penicillin, at least in this single-center cohort. That does not mean penicillin-allergic patients should receive penicillin, but it does suggest the alternative should be chosen deliberately — amoxicillin-clavulanate desensitization protocols, cephalosporins in patients without severe/immediate-type allergy, or other options may deserve consideration over reflexive azithromycin or clindamycin prescribing, pending confirmation in larger, multicenter cohorts.",
+      "summaryIt": "Domanda clinica: l'allergia riferita alla penicillina — e gli antibiotici alternativi che comporta — influenza le complicanze chirurgiche implantari, il fallimento precoce e la perdita ossea crestale?\n\nMetodologia: questo studio di coorte retrospettivo ha analizzato le cartelle cliniche di pazienti implantari, confrontando chi riferiva allergia alla penicillina (esposti) con chi non la riferiva (non esposti), in un rapporto di circa 1:2. Sono stati valutati 179 soggetti e 374 impianti per complicanze postchirurgiche, perdita ossea crestale pre-carico (PLCBL) e fallimento precoce, con analisi bivariate e modelli di regressione a effetti misti.\n\nRisultati principali: nel complesso, il fallimento implantare precoce si è verificato nel 6,1% degli impianti e le complicanze chirurgiche nell'8,0%; la PLCBL è stata osservata nel 32,5% dei casi. Nei confronti bivariati semplici, i pazienti con allergia riferita alla penicillina mostravano una prevalenza maggiore di complicanze chirurgiche e fallimento implantare rispetto a chi non la riferiva. Ma una volta controllate le altre variabili nella regressione multivariata, l'allergia riferita alla penicillina in sé non è risultata un predittore indipendente di complicanze chirurgiche, PLCBL o fallimento precoce. Ciò che invece contava era l'antibiotico alternativo scelto: gli impianti trattati con azitromicina mostravano un tasso maggiore di complicanze chirurgiche, e sia azitromicina sia clindamicina erano associate a tassi di fallimento precoce più alti rispetto alla penicillina. Nessuna associazione significativa è emersa tra tipo di antibiotico e PLCBL.\n\nRilevanza clinica: questo studio ridefinisce una decisione perioperatoria comune. L'etichetta di allergia in sé non è il fattore di rischio — lo è l'antibiotico sostitutivo. Azitromicina e clindamicina, le alternative di default per i pazienti allergici alla penicillina, sembrano comportare un onere maggiore di complicanze chirurgiche e fallimento precoce rispetto alla penicillina, almeno in questa coorte monocentrica. Questo non significa che ai pazienti allergici vada somministrata penicillina, ma suggerisce che l'alternativa vada scelta con attenzione — protocolli di desensibilizzazione all'amoxicillina-clavulanato, cefalosporine nei pazienti senza allergia grave o immediata, o altre opzioni potrebbero meritare considerazione rispetto alla prescrizione riflessa di azitromicina o clindamicina, in attesa di conferma su coorti più ampie e multicentriche.",
+      "tagsEn": [
+        "penicillin allergy",
+        "antibiotic prophylaxis",
+        "dental implants",
+        "implant failure",
+        "crestal bone loss",
+        "azithromycin",
+        "clindamycin"
+      ],
+      "tagsIt": [
+        "allergia alla penicillina",
+        "profilassi antibiotica",
+        "impianti dentali",
+        "fallimento implantare",
+        "perdita ossea crestale",
+        "azitromicina",
+        "clindamicina"
+      ],
+      "editorialTitleEn": "It's not the penicillin allergy — it's the alternative antibiotic chosen",
+      "editorialTitleIt": "Non è l'allergia alla penicillina il problema, ma l'antibiotico alternativo scelto",
+      "takeawaysEn": [
+        "Across 374 implants, early failure was 6.1% and surgical complications 8.0%.",
+        "In multivariable analysis, self-reported penicillin allergy was not an independent risk factor.",
+        "Azithromycin and clindamycin were linked to more surgical complications and early failure than penicillin.",
+        "The alternative antibiotic choice, not the allergy label itself, appears to drive the implant outcome."
+      ],
+      "takeawaysIt": [
+        "Su 374 impianti, il fallimento precoce è stato del 6,1% e le complicanze chirurgiche dell'8,0%.",
+        "Nell'analisi multivariata, l'allergia riferita alla penicillina non è risultata un fattore indipendente di rischio.",
+        "Azitromicina e clindamicina si associano a più complicanze chirurgiche e fallimento precoce rispetto alla penicillina.",
+        "La scelta dell'antibiotico alternativo, più che l'allergia in sé, sembra incidere sull'esito implantare."
+      ],
+      "whyItMattersEn": "For patients reporting penicillin allergy, this study suggests choosing the substitute antibiotic carefully: azithromycin and clindamycin deserve caution pending confirmation in larger cohorts.",
+      "whyItMattersIt": "Nei pazienti che riferiscono allergia alla penicillina, questo studio suggerisce di scegliere con attenzione l'antibiotico sostitutivo: azitromicina e clindamicina meritano cautela, in attesa di conferme su coorti più ampie.",
+      "clinicalNoteIt": "Lo sappiamo da tempo. La penicillina è l'antibiotico di elezione per gl impianti e non usarla rende più frequente il fallimento. Bisogna spiegare ai pazienti che la copertura è importante e scegliere con cura l'eventuale antibiotico alternativo. ",
+      "slug": "self-reported-penicillin-allergy-alternative-antibiotics-and-implant-outcomes-a-42454622",
+      "fetchedAt": "2026-07-20T09:46:31.858125Z",
+      "url": "https://doi.org/10.1111/cid.70169"
+    },
+    {
+      "pmid": "42461408",
+      "title": "Partial-mouth plaque recording revisited: evaluation of tooth- and surface-based subsets using a data-driven benchmark.",
+      "titleIt": "Il rilevamento della placca a bocca parziale rivisitato: valutazione di sottoinsiemi per dente e per superficie con un benchmark basato sui dati",
+      "authors": [
+        "Jung K",
+        "Eilert F",
+        "Hewing P"
+      ],
+      "journal": "Clinical oral investigations",
+      "pubDate": "2026 Jul 16",
+      "doi": "10.1007/s00784-026-07024-1",
+      "abstractText": "OBJECTIVES: To evaluate the validity of established and newly developed partial-mouth recording subsets for approximating full-mouth plaque across different plaque metrics and oral hygiene states, and to determine whether surface-based subsets derived from the observed plaque distribution offer advantages over established recording schemes.\n\nMATERIALS AND METHODS: Disclosed-plaque intraoral scans from 30 adults (24.0&#x2009;&#xb1;&#x2009;4.1 years) were obtained at baseline, after 72 h plaque accumulation, and after toothbrushing. Plaque was quantified planimetrically (percentage plaque coverage, P%) and using two plaque indices (Turesky modified Quigley-Hein Plaque Index (TQHPI); Rustogi modified Navy Plaque Index (RMNPI)). Established Ramfjord (6 teeth/12 surfaces) and Community-Periodontal-Index-of-Treatment-Needs (CPITN; 6 teeth/12 surfaces or 10 teeth/20 surfaces) subsets, optimised subsets derived from the observed plaque distribution to represent overall plaque levels, and additional subsets representing plaque-prone sites with elevated plaque levels were compared with full-mouth recordings. Performance was assessed using bias, root-mean-square error, intraclass correlation coefficients (ICC), and mixed-effects modelling.\n\nRESULTS: An Optimised-12 surface subset showed near-perfect agreement with P% full-mouth recordings (bias 0.03, ICC 0.962); the 12-surface CPITN revealed similar results (bias -0.07, ICC 0.967). The Ramfjord subset showed slight underestimation but high agreement (bias -1.23, ICC 0.970), whereas the 20-surface CPITN consistently overestimated full-mouth plaque (bias 4.33, ICC 0.839). A reduced 6-surface Ramfjord subset also preserved high agreement with full-mouth recordings (bias -0.76, ICC 0.954). For surfaces with elevated plaque levels, newly developed 12- and 6-surface subsets closely matched the elevated-plaque reference. Subset performance patterns were consistent across all oral hygiene stages and across plaque metrics (P%, TQHPI, RMNPI).\n\nCONCLUSIONS: Except for the 20-surface CPITN, all subsets provided a robust approximation of full-mouth plaque. Surface-based subsets derived from the observed plaque distribution offer accurate alternatives for assessing overall plaque, while the elevated-plaque subsets provided a useful approach for monitoring plaque-prone sites.\n\nCLINICAL RELEVANCE: Time-efficient partial-mouth recording may support feasible plaque monitoring in clinical research and preventive care, particularly when full-mouth assessment is impractical.",
+      "summaryEn": "Clinical question: can a reduced, partial-mouth plaque recording protocol reliably approximate full-mouth plaque scores, and can data-driven subsets outperform established schemes like Ramfjord or CPITN?\n\nMethodology: disclosed-plaque intraoral scans were obtained from 30 adults at three timepoints — baseline, after 72 hours of plaque accumulation, and after toothbrushing. Plaque was quantified both planimetrically (percentage plaque coverage) and with two established indices (Turesky-modified Quigley-Hein and Rustogi-modified Navy Plaque Index). The established Ramfjord (6 teeth/12 surfaces) and CPITN (6 teeth/12 surfaces or 10 teeth/20 surfaces) subsets were compared against full-mouth recordings, alongside newly optimized subsets derived directly from the observed plaque distribution and additional subsets targeting plaque-prone sites. Agreement was assessed with bias, root-mean-square error, and intraclass correlation coefficients (ICC).\n\nMain findings: an optimized 12-surface subset showed near-perfect agreement with full-mouth percentage plaque coverage (bias 0.03, ICC 0.962); the 12-surface CPITN performed similarly well (ICC 0.967). The classic Ramfjord subset slightly underestimated full-mouth plaque but retained high agreement (ICC 0.970), and even a reduced 6-surface Ramfjord subset preserved strong agreement (ICC 0.954). The clear outlier was the 20-surface CPITN, which consistently overestimated full-mouth plaque (bias 4.33, ICC 0.839) — more surfaces did not mean better accuracy. Subset performance was consistent across oral hygiene stages and across all three plaque metrics tested.\n\nClinical relevance: this study offers practical reassurance for time-pressed practice and research settings — with one important exception. Most partial-mouth schemes, including the well-established Ramfjord index and a compact 6-surface variant, closely track full-mouth plaque scores, making them defensible shortcuts for monitoring hygiene over time. The 20-surface CPITN, however, is the one scheme shown here to systematically overestimate plaque, a useful caution for anyone relying on it as a proxy for full-mouth status. For plaque-prone-site monitoring specifically, the newly developed elevated-plaque subsets offered the best targeted alternative.",
+      "summaryIt": "Domanda clinica: un protocollo di rilevamento della placca a bocca parziale può approssimare in modo affidabile il punteggio a bocca intera, e i sottoinsiemi basati sui dati possono superare schemi consolidati come Ramfjord o CPITN?\n\nMetodologia: sono state acquisite scansioni intraorali con placca rivelata da 30 adulti in tre momenti — al basale, dopo 72 ore di accumulo di placca e dopo lo spazzolamento. La placca è stata quantificata sia planimetricamente (percentuale di copertura, P%) sia con due indici consolidati (Turesky modificato Quigley-Hein e Rustogi modificato Navy Plaque Index). I sottoinsiemi consolidati Ramfjord (6 denti/12 superfici) e CPITN (6 denti/12 superfici o 10 denti/20 superfici) sono stati confrontati con il rilevamento a bocca intera, insieme a sottoinsiemi ottimizzati derivati direttamente dalla distribuzione di placca osservata e a sottoinsiemi mirati ai siti più soggetti a placca. La concordanza è stata valutata con bias, errore quadratico medio e coefficienti di correlazione intraclasse (ICC).\n\nRisultati principali: un sottoinsieme ottimizzato di 12 superfici ha mostrato una concordanza quasi perfetta con la copertura di placca a bocca intera (bias 0,03, ICC 0,962); il CPITN a 12 superfici ha ottenuto risultati altrettanto buoni (ICC 0,967). Il classico sottoinsieme di Ramfjord sottostimava leggermente la placca a bocca intera ma manteneva un'ottima concordanza (ICC 0,970), e persino un sottoinsieme ridotto di Ramfjord a 6 superfici conservava una forte concordanza (ICC 0,954). L'eccezione chiara è stata il CPITN a 20 superfici, che sovrastimava sistematicamente la placca a bocca intera (bias 4,33, ICC 0,839) — più superfici non significava maggiore accuratezza. Le prestazioni dei sottoinsiemi sono risultate coerenti in tutte le fasi di igiene orale e con tutti e tre gli indici testati.\n\nRilevanza clinica: questo studio offre una rassicurazione pratica per la clinica quotidiana e la ricerca con tempi limitati — con un'eccezione importante. La maggior parte degli schemi a bocca parziale, compreso il consolidato indice di Ramfjord e una sua variante compatta a 6 superfici, segue da vicino il punteggio di placca a bocca intera, rendendoli scorciatoie difendibili per monitorare l'igiene nel tempo. Il CPITN a 20 superfici, invece, è l'unico schema qui dimostrato a sovrastimare sistematicamente la placca — un'utile cautela per chi lo usa come proxy dello stato a bocca intera. Per il monitoraggio specifico dei siti più soggetti a placca, i nuovi sottoinsiemi mirati all'accumulo elevato hanno offerto l'alternativa più mirata.",
+      "tagsEn": [
+        "plaque index",
+        "partial-mouth recording",
+        "oral hygiene assessment",
+        "Ramfjord index",
+        "CPITN",
+        "periodontal diagnostics",
+        "clinical methodology"
+      ],
+      "tagsIt": [
+        "indice di placca",
+        "rilevamento a bocca parziale",
+        "valutazione dell'igiene orale",
+        "indice di Ramfjord",
+        "CPITN",
+        "diagnostica parodontale",
+        "metodologia clinica"
+      ],
+      "editorialTitleEn": "Fewer teeth, same accuracy: a faster way to score plaque",
+      "editorialTitleIt": "Misurare la placca in meno denti, senza perdere affidabilità",
+      "takeawaysEn": [
+        "An optimized 12-surface subset reproduces full-mouth plaque scores almost perfectly (ICC 0.962).",
+        "The 12-surface CPITN and the classic Ramfjord index also give excellent approximations.",
+        "The 20-surface CPITN, instead, systematically overestimates true plaque levels.",
+        "A reduced 6-surface subset stays accurate — useful when clinical time is limited."
+      ],
+      "takeawaysIt": [
+        "Un sottoinsieme ottimizzato di 12 superfici riproduce quasi perfettamente il punteggio di placca a bocca intera (ICC 0,962).",
+        "Il CPITN a 12 superfici e l'indice di Ramfjord classico offrono anch'essi un'ottima approssimazione.",
+        "Il CPITN a 20 superfici, invece, sovrastima sistematicamente la placca reale.",
+        "Un sottoinsieme ridotto a 6 superfici resta accurato: utile quando il tempo clinico è limitato."
+      ],
+      "whyItMattersEn": "For everyday plaque monitoring in practice and research, a well-chosen partial-mouth recording saves time without sacrificing accuracy compared with a full-mouth exam — except for the 20-surface CPITN, which should be used with caution.",
+      "whyItMattersIt": "Per il monitoraggio della placca nella pratica quotidiana e nella ricerca, un rilevamento parziale ben scelto risparmia tempo senza sacrificare l'accuratezza rispetto all'esame a bocca intera — fatta eccezione per il CPITN a 20 superfici, da usare con cautela.",
+      "clinicalNoteIt": "Fare un'analisi completa parodontale richiede tempo. Gli esami parziali, in particolare se effettuati da personale con esperienza, sono utili e precisi. ",
+      "slug": "partial-mouth-plaque-recording-revisited-evaluation-of-tooth-and-surface-based-s-42461408",
+      "fetchedAt": "2026-07-20T09:46:31.858519Z",
+      "url": "https://doi.org/10.1007/s00784-026-07024-1"
+    },
+    {
+      "pmid": "42432278",
+      "title": "One-year marginal bone loss and survival rate of triangular-neck dental implants: a systematic review and meta-analysis.",
+      "titleIt": "Perdita ossea marginale a un anno e tasso di sopravvivenza degli impianti a collo triangolare: revisione sistematica e meta-analisi",
+      "authors": [
+        "Xie Z",
+        "Sammour SR",
+        "Shigemitsu R"
+      ],
+      "journal": "International journal of implant dentistry",
+      "pubDate": "2026 Jul 11",
+      "doi": "10.1186/s40729-026-00702-5",
+      "abstractText": "PURPOSE: This systematic review aimed to evaluate the clinical performance of dental implants with a triangular neck, focusing on 1-year marginal bone loss (MBL) and implant survival rate.\n\nMETHODS: This review was conducted in accordance with the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines. A comprehensive search of databases (PubMed, Scopus, and Web of Science) was completed on June 8, 2025. Randomized controlled trials (RCTs), retrospective and prospective studies, and case series that studied&#x2009;&#x2265;&#x2009;10 implants, reporting on triangular-neck implants, were included. The Cochrane risk of bias 2 tool was used for RCTs, and the Joanna Briggs Institute case series checklist was used for nonrandomized studies. The results were summarized using a random-effects meta-analysis and sensitivity analysis was performed to assess robustness. The Grading of Recommendations Assessment, Development, and Evaluation (GRADE) method was used to determine the certainty of evidence.\n\nRESULTS: The search provided 115 titles after removal of duplicates. Eight studies met the inclusion criteria, five of which provided sufficient data for quantitative synthesis. The pooled analysis demonstrated a 1-year mean MBL of 0.35&#xa0;mm (95% confidence interval [CI]: 0.24-0.46; heterogeneity; I2 = 23.2%; p&#x2009;=&#x2009;0.25) and an implant survival rate of 97.8% (95% CI: 95.4%-99.4%; I2 = 0.0%; p&#x2009;=&#x2009;0.96).\n\nCONCLUSIONS: Available single-arm evidence indicates that triangular-neck implants were associated with high implant survival rates and limited marginal bone level changes during the first year of follow-up. However, the current evidence does not permit conclusions regarding comparative clinical benefits relative to other implant designs.",
+      "summaryEn": "Clinical question: what is the clinical performance of triangular-neck dental implants, specifically in terms of 1-year marginal bone loss (MBL) and survival rate?\n\nMethodology: this PRISMA-guided systematic review and meta-analysis searched PubMed, Scopus, and Web of Science through June 2025. Randomized controlled trials, retrospective and prospective studies, and case series reporting on ≥10 triangular-neck implants were eligible. Risk of bias was assessed with the Cochrane RoB 2 tool for RCTs and the Joanna Briggs Institute checklist for nonrandomized studies; results were pooled with random-effects meta-analysis, and evidence certainty was graded with GRADE.\n\nMain findings: of 115 titles identified after de-duplication, 8 studies met inclusion criteria, with 5 providing sufficient data for quantitative synthesis. The pooled 1-year mean marginal bone loss was 0.35 mm (95% CI: 0.24-0.46), with low heterogeneity (I² = 23.2%), and the pooled implant survival rate was 97.8% (95% CI: 95.4%-99.4%), with essentially no heterogeneity (I² = 0.0%).\n\nClinical relevance: triangular-neck implant designs — intended to improve mechanical stability and crestal bone preservation through their macro-geometry — show excellent single-arm outcomes: low first-year bone loss and high survival, consistent across the available studies. However, every included study was single-arm; none directly compared triangular-neck implants against other neck or collar designs in the same trial. That means the review can credibly say triangular-neck implants perform well in isolation, but it cannot yet say whether they perform better, worse, or the same as alternative implant geometries. For clinicians evaluating implant systems, this is a useful reassurance on baseline performance, but not yet grounds for choosing a triangular-neck design over another for its bone-preservation properties specifically — that comparative question awaits head-to-head RCTs.",
+      "summaryIt": "Domanda clinica: qual è la performance clinica degli impianti dentali a collo triangolare, in particolare in termini di perdita ossea marginale (MBL) a un anno e tasso di sopravvivenza?\n\nMetodologia: questa revisione sistematica e meta-analisi condotta secondo PRISMA ha effettuato la ricerca su PubMed, Scopus e Web of Science fino a giugno 2025. Erano eleggibili studi randomizzati controllati, studi retrospettivi e prospettici e case series che riportassero dati su ≥10 impianti a collo triangolare. Il rischio di bias è stato valutato con lo strumento Cochrane RoB 2 per gli RCT e con la checklist del Joanna Briggs Institute per gli studi non randomizzati; i risultati sono stati aggregati con meta-analisi a effetti casuali e la certezza dell'evidenza è stata classificata con il metodo GRADE.\n\nRisultati principali: dei 115 titoli identificati dopo la rimozione dei duplicati, 8 studi hanno soddisfatto i criteri di inclusione, di cui 5 con dati sufficienti per la sintesi quantitativa. La perdita ossea marginale media aggregata a 1 anno è stata di 0,35 mm (IC 95%: 0,24-0,46), con bassa eterogeneità (I² = 23,2%), e il tasso di sopravvivenza implantare aggregato è stato del 97,8% (IC 95%: 95,4%-99,4%), con eterogeneità sostanzialmente nulla (I² = 0,0%).\n\nRilevanza clinica: i design implantari a collo triangolare — pensati per migliorare la stabilità meccanica e la conservazione dell'osso crestale attraverso la loro macro-geometria — mostrano risultati a braccio singolo eccellenti: bassa perdita ossea nel primo anno e sopravvivenza elevata, in modo coerente tra gli studi disponibili. Tuttavia, ogni studio incluso era a braccio singolo: nessuno ha confrontato direttamente gli impianti a collo triangolare con altri design di collo nello stesso trial. Questo significa che la revisione può affermare in modo credibile che gli impianti a collo triangolare funzionano bene in isolamento, ma non può ancora dire se funzionino meglio, peggio o allo stesso modo rispetto a geometrie implantari alternative. Per il clinico che valuta i sistemi implantari, questo è un dato rassicurante sulla performance di base, ma non ancora un motivo per preferire un design a collo triangolare rispetto a un altro specificamente per le sue proprietà di conservazione ossea — quella domanda comparativa attende RCT testa a testa.",
+      "tagsEn": [
+        "triangular-neck implants",
+        "marginal bone loss",
+        "implant survival",
+        "systematic review",
+        "meta-analysis",
+        "implant design"
+      ],
+      "tagsIt": [
+        "impianti a collo triangolare",
+        "perdita ossea marginale",
+        "sopravvivenza implantare",
+        "revisione sistematica",
+        "meta-analisi",
+        "design implantare"
+      ],
+      "editorialTitleEn": "Triangular-neck implants perform well — but nobody has compared them head-to-head",
+      "editorialTitleIt": "Impianti a collo triangolare: buoni risultati, ma senza confronto diretto",
+      "takeawaysEn": [
+        "Pooled analysis of 5 studies shows mean 1-year marginal bone loss of just 0.35 mm.",
+        "Pooled implant survival rate is 97.8%.",
+        "Every included study is single-arm: there is no direct comparison with other implant neck designs.",
+        "The results are promising but preliminary, pending comparative RCTs."
+      ],
+      "takeawaysIt": [
+        "La meta-analisi su 5 studi mostra una perdita ossea marginale media a 1 anno di soli 0,35 mm.",
+        "Il tasso di sopravvivenza implantare aggregato è del 97,8%.",
+        "Tutti gli studi inclusi sono a braccio singolo: manca un confronto diretto con altri design implantari.",
+        "Le conclusioni restano promettenti ma preliminari, in attesa di RCT comparativi."
+      ],
+      "whyItMattersEn": "Preliminary data on triangular-neck design are encouraging for peri-implant bone preservation, but without head-to-head comparative studies it remains premature to systematically prefer them over other designs.",
+      "whyItMattersIt": "I dati preliminari sul design a collo triangolare sono incoraggianti per la conservazione ossea periimplantare, ma senza studi comparativi diretti resta prematuro preferirli ad altri design in modo sistematico.",
+      "clinicalNoteIt": "Chissà. Forse un giorno tutti gli impianti avranno un collo triangolare. ",
+      "slug": "one-year-marginal-bone-loss-and-survival-rate-of-triangular-neck-dental-implants-42432278",
+      "fetchedAt": "2026-07-20T09:46:31.858590Z",
+      "url": "https://doi.org/10.1186/s40729-026-00702-5"
+    },
     {
       "pmid": "42423273",
       "title": "Long-Term Incidence of Peri-Implant Conditions: 25-Year Results of The Bernese Prospective Cohort Study.",
