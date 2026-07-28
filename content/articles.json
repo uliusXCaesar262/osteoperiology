@@ -1,6 +1,278 @@
 {
-  "lastUpdated": "2026-07-20T16:28:38.846658Z",
+  "lastUpdated": "2026-07-28T15:32:33.161352Z",
   "articles": [
+    {
+      "pmid": "42452670",
+      "title": "Artificial Intelligence for Radiographic Diagnosis of Peri-Implantitis: A Comprehensive Review on Detection, Measurement, and Risk Stratification.",
+      "titleIt": "Intelligenza artificiale per la diagnosi radiografica della perimplantite: revisione su rilevamento, misurazione e stratificazione del rischio",
+      "authors": [
+        "Fanelli F",
+        "Tisci A",
+        "Lo Muzio L"
+      ],
+      "journal": "Journal of Clinical Medicine",
+      "pubDate": "2026 Jul 3",
+      "doi": "10.3390/jcm15135210",
+      "abstractText": "Background/Objectives: Peri-implantitis is a major complication in implant dentistry, and its radiographic diagnosis remains challenging because conventional assessment is operator-dependent and bone loss is often detected only after measurable changes occur. Artificial intelligence (AI) may support the detection, quantification, and prognostic assessment of peri-implant bone conditions. This review aimed to synthesize evidence on AI-based radiographic approaches for peri-implantitis detection, marginal bone loss measurement, and risk stratification. Methods: PubMed and Scopus were searched for original studies published between 2013 and 2025 that applied artificial intelligence (AI), including machine learning and deep learning, to peri-implantitis. Eligible studies focused on peri-implant bone assessment and reported quantitative performance metrics. Extracted data included imaging modality, AI model, task, dataset, reference standard, validation strategy, performance, and clinical relevance. A qualitative synthesis was performed. Results: Eleven studies met the eligibility criteria; however, one full text could not be retrieved, and ten studies were included. In most of the studies, peri-implant marginal bone loss detection or measurement was performed using periapical/intraoral radiographs, while only few studies used panoramic or combined imaging. Common architectures included YOLO variants, Faster R-CNN, Mask R-CNN, U-Net, ResNet, and AlexNet. Performance was generally encouraging for implant localization, bone loss detection, keypoint identification, and severity classification. Only one study addressed outcome prediction. All studies were retrospective and internally validated. Conclusions: AI may support radiographic detection and quantification of peri-implant bone loss as an adjunctive diagnostic tool. However, evidence is limited by retrospective designs, heterogeneous reference standards, lack of external validation, and limited clinical-data integration. Future studies should prioritize prospective multicenter validation, longitudinal imaging, and multimodal models.",
+      "summaryEn": "Radiographic diagnosis of peri-implantitis is notoriously operator-dependent, and measurable marginal bone loss is often detected only after the disease has progressed. This comprehensive review set out to synthesize the evidence on artificial intelligence (AI)-based radiographic approaches for detecting peri-implantitis, quantifying marginal bone loss, and stratifying patient risk. The authors searched PubMed and Scopus for original studies published between 2013 and 2025 that applied machine learning or deep learning to peri-implant bone assessment and reported quantitative performance metrics. Ten studies met the eligibility criteria (of eleven initially identified, one full text could not be retrieved), and their imaging modalities, AI architectures, validation strategies, and clinical relevance were extracted for a qualitative synthesis.\n\nMost studies used periapical or intraoral radiographs, with only a handful relying on panoramic or combined imaging. Reported architectures spanned object-detection and segmentation models (YOLO variants, Faster R-CNN, Mask R-CNN, U-Net) as well as classification networks (ResNet, AlexNet). Performance was generally encouraging across tasks including implant localization, bone loss detection, keypoint identification on the implant-bone interface, and severity classification. Only one study went further and attempted to predict clinical outcomes rather than simply describe current bone status.\n\nDespite these promising results, the review is clear about important caveats: every included study was retrospective and validated only internally, reference standards for bone loss varied across studies, and clinical data (smoking status, oral hygiene, prosthetic design) were rarely integrated into the models. This limits how confidently the findings can be generalized to everyday clinical populations.\n\nFor clinicians, the take-home message is that AI-assisted radiographic analysis is a maturing adjunctive tool — one that could eventually flag early or subtle marginal bone loss that a human eye might miss on a busy recall day — but it is not yet ready to replace clinical judgment or standardized radiographic protocols. The authors call for prospective, multicenter studies with external validation, longitudinal imaging series, and models that combine imaging with clinical risk factors before AI tools can be recommended for routine peri-implantitis screening.",
+      "summaryIt": "La diagnosi radiografica della perimplantite è tradizionalmente operatore-dipendente, e la perdita ossea marginale misurabile viene spesso rilevata solo quando la malattia è già in fase avanzata. Questa revisione ampia si propone di sintetizzare le evidenze sugli approcci radiografici basati sull'intelligenza artificiale (IA) per la rilevazione della perimplantite, la quantificazione della perdita ossea marginale e la stratificazione del rischio. Gli autori hanno condotto una ricerca su PubMed e Scopus per studi originali pubblicati tra il 2013 e il 2025 che applicassero machine learning o deep learning alla valutazione dell'osso perimplantare, con metriche di performance quantitative. Dieci studi hanno soddisfatto i criteri di inclusione (su undici individuati inizialmente, di uno non è stato possibile recuperare il testo integrale), e per ciascuno sono state estratte modalità di imaging, architettura IA, strategia di validazione e rilevanza clinica per una sintesi qualitativa.\n\nLa maggior parte degli studi utilizzava radiografie endorali periapicali, mentre solo pochi si basavano su ortopantomografie o imaging combinato. Le architetture riportate comprendevano modelli di object-detection e segmentazione (varianti YOLO, Faster R-CNN, Mask R-CNN, U-Net) oltre a reti di classificazione (ResNet, AlexNet). Le performance sono risultate generalmente incoraggianti per compiti come la localizzazione dell'impianto, il rilevamento della perdita ossea, l'identificazione di keypoint all'interfaccia osso-impianto e la classificazione della gravità. Un solo studio si è spinto oltre, tentando di prevedere l'esito clinico anziché descrivere semplicemente lo stato osseo attuale.\n\nNonostante questi risultati promettenti, la revisione è chiara sui limiti: tutti gli studi inclusi erano retrospettivi e validati solo internamente, gli standard di riferimento per la perdita ossea variavano tra gli studi, e i dati clinici (fumo, igiene orale, design protesico) venivano raramente integrati nei modelli. Questo limita la generalizzabilità dei risultati alla popolazione clinica quotidiana.\n\nPer il clinico, il messaggio pratico è che l'analisi radiografica assistita da IA è uno strumento adiuvante ancora in maturazione — capace, in prospettiva, di segnalare perdite ossee marginali precoci o sottili che l'occhio umano potrebbe non cogliere in un richiamo affollato — ma non ancora pronto a sostituire il giudizio clinico o i protocolli radiografici standardizzati. Gli autori auspicano studi prospettici multicentrici con validazione esterna, serie di imaging longitudinali e modelli che integrino imaging e fattori di rischio clinici prima che gli strumenti di IA possano essere raccomandati per lo screening di routine della perimplantite.",
+      "tagsEn": [
+        "artificial intelligence",
+        "machine learning",
+        "peri-implantitis",
+        "radiographic diagnosis",
+        "marginal bone loss",
+        "deep learning",
+        "dental implants",
+        "systematic review"
+      ],
+      "tagsIt": [
+        "intelligenza artificiale",
+        "machine learning",
+        "perimplantite",
+        "diagnosi radiografica",
+        "perdita ossea marginale",
+        "deep learning",
+        "impianti dentali",
+        "revisione sistematica"
+      ],
+      "editorialTitleEn": "What AI Can (and Can't Yet) See on a Peri-Implantitis X-Ray",
+      "editorialTitleIt": "Cosa l'intelligenza artificiale vede (e non ancora) su una radiografia di perimplantite",
+      "takeawaysEn": [
+        "Ten qualifying studies show AI models (YOLO, U-Net, ResNet, etc.) can localize implants, detect marginal bone loss, and classify severity on periapical radiographs.",
+        "All evidence is retrospective and internally validated only — no external multicenter validation yet.",
+        "Only one study attempted outcome prediction rather than just describing current bone status.",
+        "Clinical data (smoking, hygiene, prosthetic design) is rarely combined with imaging in current models."
+      ],
+      "takeawaysIt": [
+        "Dieci studi idonei mostrano che i modelli di IA (YOLO, U-Net, ResNet, ecc.) possono localizzare l'impianto, rilevare la perdita ossea marginale e classificarne la gravità su radiografie periapicali.",
+        "Tutte le evidenze sono retrospettive e validate solo internamente — manca ancora una validazione esterna multicentrica.",
+        "Un solo studio ha tentato di prevedere l'esito clinico, anziché descrivere solo lo stato osseo attuale.",
+        "I dati clinici (fumo, igiene, design protesico) sono raramente integrati nei modelli attuali insieme all'imaging."
+      ],
+      "whyItMattersEn": "AI-assisted radiographic screening could eventually flag subtle marginal bone loss earlier at recall visits, but with only retrospective, internally validated evidence so far, it should be treated as an emerging adjunct — not a substitute for standardized clinical and radiographic assessment.",
+      "whyItMattersIt": "Lo screening radiografico assistito da IA potrebbe in futuro segnalare più precocemente perdite ossee marginali sottili durante i richiami, ma con evidenze finora solo retrospettive e validate internamente, va considerato uno strumento adiuvante emergente — non un sostituto della valutazione clinica e radiografica standardizzata.",
+      "clinicalNoteIt": "Sicuramente l'AI può essere un aiuto anche nel nostro campo. La speranza che è che non diventi un boomerang con perdita di competenza da parte degli stessi medici. Un aiuto si. Come per questo stesso sito. ",
+      "slug": "artificial-intelligence-for-radiographic-diagnosis-of-peri-implantitis-a-compre-42452670",
+      "fetchedAt": "2026-07-28T15:32:33.161352Z",
+      "url": "https://doi.org/10.3390/jcm15135210"
+    },
+    {
+      "pmid": "42467269",
+      "title": "The association between Trichomonas tenax and Entamoeba gingivalis and periimplantitis and periodontitis.",
+      "titleIt": "L'associazione tra Trichomonas tenax ed Entamoeba gingivalis con perimplantite e parodontite",
+      "authors": [
+        "Sari A",
+        "Kaya OM",
+        "Arisan V"
+      ],
+      "journal": "Clinical Oral Investigations",
+      "pubDate": "2026 Jul 17",
+      "doi": "10.1007/s00784-026-07036-x",
+      "abstractText": "OBJECTIVE: The aim of the study was to evaluate the association between T. tenax and E. gingivalis with peri-implant and periodontal diseases compared to healthy controls.\n\nMATERIAL AND METHODS: A total of 140 participants were included in four groups in this study. The groups included 35 patients with peri-implantitis and periodontitis (IP+P group); 35 patients with peri-implant and periodontal health (IH+PH group); 35 patients with periodontitis (P group), and 35 periodontally healthy individuals (PH group). Clinical periodontal and peri-implantitis parameters were recorded. Plaque samples were taken from around teeth in P and PH groups and around implants and teeth in IP+P and IH+PH groups. The presence of T. tenaxandE. gingivalis was determined under a microscope.\n\nRESULTS: The detection of T. tenax and E. gingivalis parasites in tooth samples was higher in the IP+P and P groups than in the IH+PH and PH groups (p&lt;0.001). Both parasites were detected more frequently in peri-implant samples in the IP+P group than in the IH+PH group (p&lt;0.001 and p=0.001, respectively). There was no difference in parasite detection between tooth and peri-implant samples in the same host in the IP+P and IH+PH groups (p&#xb3;0.05). The presence of T. tenax andE. gingivalis was associated with the presence of periodontal disease, and severity and grading of periodontitis independently of other factors (p&lt;0.05).\n\nCONCLUSION: The presence of T. tenax and E. gingivalis might be associated with peri-implantitis and periodontitis lesions. The detection of parasites is similar on tooth and implant surfaces in the same mouth.\n\nCLINICAL RELEVANCE: Protozoa found at sites of disease may not imply a direct causal relationship with the disease; nevertheless, their detection can indicate opportunistic microbial activity or ongoing oral inflammation.",
+      "summaryEn": "Oral protozoa such as Trichomonas tenax and Entamoeba gingivalis have long been observed in periodontal pockets, but their relationship to peri-implant disease has received far less attention. This cross-sectional study set out to evaluate the association between these two parasites and both periodontitis and peri-implantitis. The authors enrolled 140 participants across four groups of 35: patients with concurrent peri-implantitis and periodontitis, patients with peri-implant and periodontal health, patients with periodontitis alone (natural dentition), and periodontally healthy controls. Clinical periodontal and peri-implant parameters were recorded, and plaque samples were collected from around teeth (in the two tooth-only groups) and from around both teeth and implants (in the two mixed groups), then examined microscopically for the presence of the two protozoa.\n\nBoth T. tenax and E. gingivalis were detected significantly more often in tooth samples from the diseased groups (peri-implantitis+periodontitis and periodontitis-only) than in the healthy groups (p<0.001). Around implants, both parasites were also significantly more frequent in the diseased group than in the healthy group. Within the same mouth, detection rates on tooth and implant surfaces did not differ, suggesting a shared microbial ecosystem. Critically, the presence of both protozoa was independently associated with periodontitis presence, severity, and grading, even after accounting for other factors.\n\nThe authors are careful to frame this as an association rather than proof of causation: finding protozoa at diseased sites does not establish that they cause the disease. It may instead reflect opportunistic colonization of an already inflamed, biofilm-rich environment. Still, for clinicians the finding adds a piece to the puzzle of peri-implant and periodontal microbiology, alongside the more familiar bacterial pathogens. It also raises the practical possibility that oral protozoa could eventually serve as an additional biomarker of disease activity, or as a target if future research clarifies a causal role. For now, the take-home is descriptive: T. tenax and E. gingivalis track closely with periodontal and peri-implant inflammation, on both natural teeth and implants in the same patient.",
+      "summaryIt": "I protozoi orali come Trichomonas tenax ed Entamoeba gingivalis sono da tempo osservati nelle tasche parodontali, ma il loro rapporto con la malattia perimplantare è stato molto meno indagato. Questo studio trasversale ha valutato l'associazione tra questi due parassiti e sia la parodontite sia la perimplantite. Gli autori hanno arruolato 140 partecipanti in quattro gruppi da 35: pazienti con perimplantite e parodontite concomitanti, pazienti con salute perimplantare e parodontale, pazienti con sola parodontite (dentatura naturale) e controlli parodontalmente sani. Sono stati registrati i parametri clinici parodontali e perimplantari, e sono stati raccolti campioni di placca attorno ai denti (nei due gruppi senza impianti) e attorno a denti e impianti (nei due gruppi misti), poi esaminati al microscopio per la presenza dei due protozoi.\n\nSia T. tenax sia E. gingivalis sono stati rilevati significativamente più spesso nei campioni dentali dei gruppi con malattia (perimplantite+parodontite e sola parodontite) rispetto ai gruppi sani (p<0,001). Attorno agli impianti, entrambi i parassiti sono risultati significativamente più frequenti nel gruppo con malattia rispetto al gruppo sano. Nello stesso cavo orale, i tassi di rilevamento su superfici dentali e implantari non differivano, suggerendo un ecosistema microbico condiviso. Un dato rilevante: la presenza di entrambi i protozoi era associata in modo indipendente alla presenza, gravità e grading della parodontite, anche dopo aver considerato altri fattori.\n\nGli autori sono attenti a inquadrare questo come un'associazione e non una prova di causalità: trovare protozoi nei siti malati non dimostra che ne siano la causa. Potrebbe invece riflettere una colonizzazione opportunistica di un ambiente già infiammato e ricco di biofilm. Per il clinico, il dato aggiunge comunque un tassello al quadro della microbiologia parodontale e perimplantare, accanto ai più noti patogeni batterici. Apre anche la possibilità pratica che i protozoi orali possano in futuro fungere da biomarcatore aggiuntivo di attività di malattia, o da bersaglio se la ricerca ne chiarirà un ruolo causale. Per ora il messaggio è descrittivo: T. tenax ed E. gingivalis seguono da vicino l'infiammazione parodontale e perimplantare, sia sui denti naturali sia sugli impianti dello stesso paziente.",
+      "tagsEn": [
+        "Trichomonas tenax",
+        "Entamoeba gingivalis",
+        "peri-implantitis",
+        "periodontitis",
+        "oral protozoa",
+        "microbiology",
+        "biofilm"
+      ],
+      "tagsIt": [
+        "Trichomonas tenax",
+        "Entamoeba gingivalis",
+        "perimplantite",
+        "parodontite",
+        "protozoi orali",
+        "microbiologia",
+        "biofilm"
+      ],
+      "editorialTitleEn": "Two Oral Protozoa Track Closely With Peri-Implant and Periodontal Disease",
+      "editorialTitleIt": "Due protozoi orali seguono da vicino parodontite e perimplantite",
+      "takeawaysEn": [
+        "T. tenax and E. gingivalis were detected far more often at diseased sites (periodontitis, peri-implantitis) than at healthy sites, on both natural teeth and implants.",
+        "Detection rates were similar on teeth and implants within the same mouth, suggesting a shared oral ecosystem for these parasites.",
+        "Presence of both protozoa was independently associated with periodontitis severity and grading, even adjusting for other factors.",
+        "The authors stress this is an association, not proof that the protozoa cause disease."
+      ],
+      "takeawaysIt": [
+        "T. tenax ed E. gingivalis sono stati rilevati molto più spesso nei siti malati (parodontite, perimplantite) rispetto ai siti sani, sia sui denti naturali sia attorno agli impianti.",
+        "I tassi di rilevamento erano simili tra denti e impianti nello stesso cavo orale, a suggerire un ecosistema orale condiviso per questi parassiti.",
+        "La presenza di entrambi i protozoi era associata in modo indipendente a gravità e grading della parodontite, anche correggendo per altri fattori.",
+        "Gli autori sottolineano che si tratta di un'associazione, non di una prova che i protozoi causino la malattia."
+      ],
+      "whyItMattersEn": "Beyond the familiar bacterial pathogens, oral protozoa may be another marker worth watching in periodontal and peri-implant microbiology — a descriptive finding for now, but one that could inform future biomarker or diagnostic research.",
+      "whyItMattersIt": "Oltre ai più noti patogeni batterici, i protozoi orali potrebbero essere un ulteriore marcatore da tenere d'occhio nella microbiologia parodontale e perimplantare — per ora un dato descrittivo, ma che potrebbe orientare future ricerche su biomarcatori o strumenti diagnostici.",
+      "clinicalNoteIt": " Anche i protozoi potrebbero contribuire alle malattie parodontali e peri-implantari. Uno studio pilota, senza conclusioni definitive. Ma interessante. ",
+      "slug": "the-association-between-trichomonas-tenax-and-entamoeba-gingivalis-and-periimpla-42467269",
+      "fetchedAt": "2026-07-28T15:32:33.161352Z",
+      "url": "https://doi.org/10.1007/s00784-026-07036-x"
+    },
+    {
+      "pmid": "42474735",
+      "title": "Clinical and radiographic evaluation of local application of insulin versus hyaluronic acid using resorbable collagen sponge in management of periodontal intra-bony defects: a pilot randomized controlled clinical trial.",
+      "titleIt": "Valutazione clinica e radiografica dell'applicazione locale di insulina rispetto ad acido ialuronico con spugna di collagene riassorbibile nella gestione dei difetti intraossei parodontali: uno studio clinico randomizzato pilota",
+      "authors": [
+        "El-Wakeel N",
+        "Abdelgawad N",
+        "Nour Eldien M"
+      ],
+      "journal": "Clinical Oral Investigations",
+      "pubDate": "2026 Jul 20",
+      "doi": "10.1007/s00784-026-07015-2",
+      "abstractText": "OBJECTIVES: We aimed to evaluate the clinical and radiographic effectiveness of locally applied insulin versus hyaluronic acid (HA), each combined with absorbable collagen sponge (ACS), using the single flap approach (SFA) in the management of periodontal intra-bony defects.\n\nMATERIALS AND METHODS: 21 periodontitis patients with intra-bony defects were randomly assigned to 3 groups: group I (SFA&#x2009;+&#x2009;insulin&#x2009;+&#x2009;ACS; n&#x2009;=&#x2009;7), group II (SFA&#x2009;+&#x2009;HA&#x2009;+&#x2009;ACS; n&#x2009;=&#x2009;7), and group III (SFA&#x2009;+&#x2009;ACS; n&#x2009;=&#x2009;7). Primary outcome was clinical attachment level (CAL), assessed at baseline and 6 months postoperatively; secondary outcomes included probing pocket depth (PPD), measured at baseline and 6 months; postoperative pain, using visual analogue scale (VAS) at 24 and 48&#xa0;h; and radiographic parameters, including radiographic linear defect depth (RLDD) and bone density, assessed at baseline and 6 months.\n\nRESULTS: PPD and CAL improved significantly over time in all groups (P&#x2009;&lt;&#x2009;0.001), with no intergroup differences. VAS scores were significantly lower in the insulin and HA groups than in controls at 24&#xa0;h (P&#x2009;=&#x2009;0.004) and 48&#xa0;h (P&#x2009;=&#x2009;0.007), with the lowest scores in the insulin group (P&#x2009;=&#x2009;0.008). RLDD decreased significantly in all groups (P&#x2009;&lt;&#x2009;0.001), with a greater reduction in HA&#x2009;+&#x2009;ACS compared to insulin and controls at 6 months (P&#x2009;=&#x2009;0.027). Bone density increased significantly over time in insulin&#x2009;+&#x2009;ACS (P&#x2009;&lt;&#x2009;0.001) and HA&#x2009;+&#x2009;ACS (P&#x2009;=&#x2009;0.022), with no change in the ACS group (P&#x2009;=&#x2009;0.860), with non-significant intergroup differences.\n\nCONCLUSION: In the management of periodontal intrabony defects, SFA with both insulin and HA soaked in collagen sponge showed favorable clinical and radiographic improvements.\n\nCLINICAL RELEVANCE: Local insulin may represent a promising, simple, and cost-effective biomaterial in periodontal treatment; however, more studies are needed.\n\nCLINICAL TRIAL REGISTRATION: NCT05746676.",
+      "summaryEn": "Local application of biomaterials alongside conventional periodontal surgery is an active area of research for boosting regenerative outcomes in intrabony defects. This pilot randomized controlled trial compared two candidate adjuncts — insulin and hyaluronic acid (HA) — each delivered via an absorbable collagen sponge (ACS), during single flap approach (SFA) surgery for periodontal intrabony defects. Twenty-one patients with periodontitis and intrabony defects were randomized into three groups of seven: SFA plus insulin plus ACS, SFA plus HA plus ACS, and SFA plus ACS alone as control. The primary outcome was clinical attachment level (CAL) at baseline and 6 months; secondary outcomes included probing pocket depth (PPD), postoperative pain (VAS at 24 and 48 hours), and radiographic linear defect depth and bone density.\n\nAll three groups showed significant improvement in PPD and CAL over the 6-month follow-up, with no significant differences between groups — meaning insulin and HA did not outperform the collagen sponge alone on these core periodontal measures in this small sample. Where the adjuncts did show an edge was postoperative comfort: VAS pain scores were significantly lower in both the insulin and HA groups than in controls at both 24 and 48 hours, with insulin producing the lowest pain scores. Radiographically, defect depth decreased significantly in all groups, with HA+ACS showing a somewhat greater reduction than insulin or control at 6 months; bone density increased significantly in the insulin and HA groups but not in the ACS-alone group.\n\nThe study is registered (NCT05746676) and clearly labeled as a pilot, and its small group sizes (n=7) limit how much weight the between-group comparisons can bear. Still, for clinicians looking for low-cost, accessible adjuncts to periodontal regenerative surgery, the signal is that local insulin — an inexpensive, widely available biomaterial — produced favorable clinical and radiographic changes and reduced postoperative pain, positioning it as a promising candidate worth testing in larger trials. HA remained the stronger radiographic performer on defect fill. Neither result should yet change standard practice, but both merit follow-up in adequately powered studies.",
+      "summaryIt": "L'applicazione locale di biomateriali insieme alla chirurgia parodontale convenzionale è un'area di ricerca attiva per potenziare gli esiti rigenerativi nei difetti intraossei. Questo studio clinico randomizzato pilota ha confrontato due possibili coadiuvanti — insulina e acido ialuronico (HA) — ciascuno veicolato tramite spugna di collagene riassorbibile (ACS), durante un intervento con approccio a lembo singolo (single flap approach, SFA) per difetti intraossei parodontali. Ventuno pazienti con parodontite e difetti intraossei sono stati randomizzati in tre gruppi da sette: SFA più insulina più ACS, SFA più HA più ACS, e SFA più sola ACS come controllo. L'esito primario era il livello di attacco clinico (CAL) al basale e a 6 mesi; gli esiti secondari includevano la profondità di sondaggio (PPD), il dolore postoperatorio (VAS a 24 e 48 ore) e, radiograficamente, la profondità lineare del difetto e la densità ossea.\n\nTutti e tre i gruppi hanno mostrato un miglioramento significativo di PPD e CAL nel follow-up a 6 mesi, senza differenze significative tra gruppi — a indicare che, in questo campione ridotto, insulina e HA non hanno superato la sola spugna di collagene sui parametri parodontali principali. Dove i coadiuvanti hanno mostrato un vantaggio è stato il comfort postoperatorio: i punteggi VAS del dolore erano significativamente più bassi sia nel gruppo insulina sia nel gruppo HA rispetto ai controlli, a 24 e 48 ore, con l'insulina che produceva i punteggi di dolore più bassi. Dal punto di vista radiografico, la profondità del difetto si è ridotta significativamente in tutti i gruppi, con HA+ACS che mostrava una riduzione leggermente maggiore rispetto a insulina e controllo a 6 mesi; la densità ossea è aumentata significativamente nei gruppi insulina e HA, ma non nel gruppo con sola ACS.\n\nLo studio è registrato (NCT05746676) ed è chiaramente definito come pilota, e le dimensioni ridotte dei gruppi (n=7) limitano il peso che si può attribuire ai confronti tra gruppi. Ciò detto, per il clinico alla ricerca di coadiuvanti economici e accessibili alla chirurgia rigenerativa parodontale, il segnale è che l'insulina applicata localmente — un biomateriale economico e ampiamente disponibile — ha prodotto variazioni cliniche e radiografiche favorevoli e ha ridotto il dolore postoperatorio, ponendosi come candidato promettente da testare in trial più ampi. L'HA è rimasto il coadiuvante radiograficamente più efficace sul riempimento del difetto. Nessuno dei due risultati dovrebbe ancora modificare la pratica standard, ma entrambi meritano approfondimento in studi adeguatamente dimensionati.",
+      "tagsEn": [
+        "randomized controlled trial",
+        "insulin",
+        "hyaluronic acid",
+        "intrabony defects",
+        "single flap approach",
+        "collagen sponge",
+        "periodontal regeneration"
+      ],
+      "tagsIt": [
+        "studio randomizzato controllato",
+        "insulina",
+        "acido ialuronico",
+        "difetti intraossei",
+        "approccio a lembo singolo",
+        "spugna di collagene",
+        "rigenerazione parodontale"
+      ],
+      "editorialTitleEn": "A Cheap Adjunct That Cut Post-Op Pain — Pilot RCT on Local Insulin",
+      "editorialTitleIt": "Un coadiuvante economico che riduce il dolore post-operatorio: RCT pilota sull'insulina locale",
+      "takeawaysEn": [
+        "In this pilot RCT (n=21, 7/group), insulin, HA, and collagen sponge alone all improved CAL and PPD equally at 6 months in intrabony defects treated with the single flap approach.",
+        "Both insulin and HA reduced postoperative pain (VAS) versus control at 24 and 48 hours, with insulin producing the lowest pain scores.",
+        "HA+ACS showed slightly greater radiographic defect fill than insulin at 6 months; both insulin and HA increased bone density versus ACS alone.",
+        "Sample sizes are very small (n=7/arm) — findings are hypothesis-generating, not practice-changing yet."
+      ],
+      "takeawaysIt": [
+        "In questo RCT pilota (n=21, 7/gruppo), insulina, HA e sola spugna di collagene hanno migliorato in modo simile CAL e PPD a 6 mesi nei difetti intraossei trattati con approccio a lembo singolo.",
+        "Sia insulina sia HA hanno ridotto il dolore postoperatorio (VAS) rispetto al controllo a 24 e 48 ore, con l'insulina che ha dato i punteggi di dolore più bassi.",
+        "HA+ACS ha mostrato un riempimento radiografico del difetto leggermente maggiore rispetto all'insulina a 6 mesi; sia insulina sia HA hanno aumentato la densità ossea rispetto alla sola ACS.",
+        "I campioni sono molto piccoli (n=7/braccio) — i risultati generano ipotesi, non cambiano ancora la pratica clinica."
+      ],
+      "whyItMattersEn": "Local insulin is inexpensive and widely available; this pilot suggests it may ease postoperative discomfort after regenerative periodontal surgery without compromising clinical outcomes, but larger trials are needed before it can be recommended.",
+      "whyItMattersIt": "L'insulina locale è economica e ampiamente disponibile; questo studio pilota suggerisce che potrebbe alleviare il disagio postoperatorio dopo chirurgia rigenerativa parodontale senza compromettere gli esiti clinici, ma servono trial più ampi prima di poterla raccomandare.",
+      "clinicalNoteIt": "L'insulina in una spugna di collagene come antidolorifico. Uno spunto interessante.",
+      "slug": "clinical-and-radiographic-evaluation-of-local-application-of-insulin-versus-hyal-42474735",
+      "fetchedAt": "2026-07-28T15:32:33.161352Z",
+      "url": "https://doi.org/10.1007/s00784-026-07015-2"
+    },
+    {
+      "pmid": "42482032",
+      "title": "Patient- and implant-level factors associated with peri-implant diseases: a retrospective clinical and radiographic study of 968 implants.",
+      "titleIt": "Fattori a livello di paziente e di impianto associati alle malattie perimplantari: uno studio clinico e radiografico retrospettivo su 968 impianti",
+      "authors": [
+        "Mashadiyev U",
+        "Gürkan İM",
+        "Gündoğar H"
+      ],
+      "journal": "BMC Oral Health",
+      "pubDate": "2026 Jul 22",
+      "doi": "10.1186/s12903-026-09338-8",
+      "abstractText": "BACKGROUND: Peri-implant diseases are among the most clinically significant biological complications of implant therapy, yet the relative contribution of patient- and implant-related factors to their development remains incompletely understood. This retrospective study examined the associations between demographic, clinical, and implant-related variables and peri-implant disease status in a large clinical cohort.\n\nMETHODS: A total of 199 patients with 968 dental implants placed between January 2015 and January 2023 were evaluated. Variables recorded included demographic characteristics, systemic conditions, smoking status, oral hygiene habits, implant-related parameters, clinical indices (plaque index, gingival index, probing depth, attached gingiva width, and gingival thickness), and radiographic marginal bone loss. Peri-implant disease status - classified as peri-implant health, peri-implant mucositis, or peri-implantitis according to the 2017 World Workshop criteria - was the primary outcome. Multivariable generalized estimating equations (GEE) models were applied to account for the clustering of multiple implants per patient.\n\nRESULTS: Of the 968 implants, 713 (73.6%) were classified as peri-implant health, 173 (17.9%) as peri-implant mucositis, and 82 (8.5%) as peri-implantitis. In multivariable GEE analysis, smoking&#x2009;&#x2265;&#x2009;10 cigarettes/day (OR&#x2009;=&#x2009;2.55, 95% CI: 1.07-6.10 for mucositis; OR&#x2009;=&#x2009;4.40, 95% CI: 1.60-12.08 for peri-implantitis), inadequate tooth brushing (OR&#x2009;=&#x2009;4.65, 95% CI: 1.99-10.86; OR&#x2009;=&#x2009;5.90, 95% CI: 2.21-15.77), and thin gingival phenotype (OR&#x2009;=&#x2009;4.22, 95% CI: 2.09-8.51; OR&#x2009;=&#x2009;15.64, 95% CI: 6.08-40.23) were independently associated with both conditions. Longer implant functional duration was additionally associated with peri-implantitis (OR&#x2009;=&#x2009;1.57, 95% CI: 1.30-1.90; p&#x2009;&lt;&#x2009;0.001).\n\nCONCLUSION: Within the limitations of this retrospective study, smoking, inadequate oral hygiene, thin gingival phenotype, and longer implant functional duration were independently associated with peri-implant diseases. These findings suggest that peri-implant soft tissue assessment and patient-level risk assessment should be integral components of long-term implant maintenance protocols.",
+      "summaryEn": "Peri-implant mucositis and peri-implantitis remain among the most common biological complications of implant therapy, but how much patient-level versus implant-level factors each contribute is still debated. This retrospective study analyzed 968 dental implants placed in 199 patients between January 2015 and January 2023, recording demographic data, systemic conditions, smoking status, oral hygiene habits, implant-related parameters, clinical indices (plaque index, gingival index, probing depth, attached gingiva width, gingival thickness), and radiographic marginal bone loss. Peri-implant disease status was classified per the 2017 World Workshop criteria as health, mucositis, or peri-implantitis, and multivariable generalized estimating equations (accounting for multiple implants per patient) identified independent risk factors.\n\nOf the 968 implants, 73.6% were peri-implant healthy, 17.9% had mucositis, and 8.5% had peri-implantitis. Four factors emerged as independently associated with both mucositis and peri-implantitis: smoking ≥10 cigarettes/day (odds ratio 2.55 for mucositis, 4.40 for peri-implantitis), inadequate tooth-brushing (OR 4.65 and 5.90 respectively), and — the strongest signal in the study — thin gingival phenotype (OR 4.22 for mucositis, and a striking OR 15.64 for peri-implantitis). Longer implant functional duration was an additional independent risk factor specifically for peri-implantitis (OR 1.57 per unit of time).\n\nFor everyday practice, this large, well-powered cohort reinforces a maintenance-focused message: patients who smoke heavily, brush inadequately, or present with a thin gingival phenotype around their implants are at substantially higher risk of biological complications, and thin phenotype in particular stands out as a strong, modifiable-at-treatment-planning-stage risk marker. The authors argue that peri-implant soft tissue assessment — including phenotype — and individualized risk stratification should be built into long-term implant maintenance protocols, not treated as an afterthought once problems appear. As with any retrospective design, causation cannot be proven, but the size of the cohort and the consistency of the associations make this a solid addition to the risk-factor evidence base for peri-implant disease.",
+      "summaryIt": "La mucosite e la perimplantite restano tra le complicanze biologiche più comuni della terapia implantare, ma quanto contribuiscano i fattori a livello di paziente rispetto a quelli a livello di impianto è ancora dibattuto. Questo studio retrospettivo ha analizzato 968 impianti dentali inseriti in 199 pazienti tra gennaio 2015 e gennaio 2023, registrando dati demografici, condizioni sistemiche, abitudine al fumo, igiene orale, parametri implantari, indici clinici (indice di placca, indice gengivale, profondità di sondaggio, ampiezza di gengiva aderente, spessore gengivale) e perdita ossea marginale radiografica. Lo stato di malattia perimplantare è stato classificato secondo i criteri del World Workshop 2017 come salute, mucosite o perimplantite, e modelli multivariabili di equazioni di stima generalizzata (che tengono conto dei più impianti per paziente) hanno identificato i fattori di rischio indipendenti.\n\nDei 968 impianti, il 73,6% era in salute perimplantare, il 17,9% presentava mucosite e l'8,5% perimplantite. Quattro fattori sono emersi come indipendentemente associati sia a mucosite sia a perimplantite: fumo ≥10 sigarette/giorno (odds ratio 2,55 per la mucosite, 4,40 per la perimplantite), spazzolamento inadeguato (OR rispettivamente 4,65 e 5,90) e — il segnale più forte dello studio — il fenotipo gengivale sottile (OR 4,22 per la mucosite, e un notevole OR 15,64 per la perimplantite). Una maggiore durata funzionale dell'impianto è risultata un ulteriore fattore di rischio indipendente specificamente per la perimplantite (OR 1,57 per unità di tempo).\n\nPer la pratica quotidiana, questa coorte ampia e ben potenziata rafforza un messaggio orientato al mantenimento: i pazienti forti fumatori, con spazzolamento inadeguato o con fenotipo gengivale sottile attorno agli impianti presentano un rischio sostanzialmente più elevato di complicanze biologiche, e il fenotipo sottile in particolare emerge come un marcatore di rischio forte, valutabile già in fase di pianificazione del trattamento. Gli autori sostengono che la valutazione dei tessuti molli perimplantari — incluso il fenotipo — e la stratificazione individualizzata del rischio dovrebbero essere integrate nei protocolli di mantenimento implantare a lungo termine, e non trattate come un ripensamento una volta comparsi i problemi. Come in ogni disegno retrospettivo, la causalità non può essere dimostrata, ma l'ampiezza della coorte e la coerenza delle associazioni rendono questo studio un solido contributo alla base di evidenze sui fattori di rischio della malattia perimplantare.",
+      "tagsEn": [
+        "peri-implant disease",
+        "risk factors",
+        "smoking",
+        "gingival phenotype",
+        "oral hygiene",
+        "retrospective study",
+        "peri-implantitis"
+      ],
+      "tagsIt": [
+        "malattia perimplantare",
+        "fattori di rischio",
+        "fumo",
+        "fenotipo gengivale",
+        "igiene orale",
+        "studio retrospettivo",
+        "perimplantite"
+      ],
+      "editorialTitleEn": "Thin Gingival Phenotype Emerges as the Strongest Peri-Implant Risk Signal in a 968-Implant Cohort",
+      "editorialTitleIt": "Il fenotipo gengivale sottile è il segnale di rischio perimplantare più forte in una coorte di 968 impianti",
+      "takeawaysEn": [
+        "In 968 implants (199 patients), 26.4% showed some degree of peri-implant disease (17.9% mucositis, 8.5% peri-implantitis).",
+        "Thin gingival phenotype showed the strongest association with disease, especially peri-implantitis (OR 15.64).",
+        "Heavy smoking (≥10 cigarettes/day) and inadequate tooth-brushing were both independently associated with mucositis and peri-implantitis.",
+        "Longer implant functional duration was an additional independent risk factor specifically for peri-implantitis."
+      ],
+      "takeawaysIt": [
+        "Su 968 impianti (199 pazienti), il 26,4% presentava un qualche grado di malattia perimplantare (17,9% mucosite, 8,5% perimplantite).",
+        "Il fenotipo gengivale sottile ha mostrato l'associazione più forte con la malattia, in particolare con la perimplantite (OR 15,64).",
+        "Fumo pesante (≥10 sigarette/giorno) e spazzolamento inadeguato erano entrambi indipendentemente associati a mucosite e perimplantite.",
+        "Una maggiore durata funzionale dell'impianto era un ulteriore fattore di rischio indipendente specifico per la perimplantite."
+      ],
+      "whyItMattersEn": "This large cohort strengthens the case for assessing gingival phenotype at treatment planning and building individualized risk stratification — not just hygiene reinforcement — into long-term implant maintenance protocols.",
+      "whyItMattersIt": "Questa ampia coorte rafforza l'indicazione a valutare il fenotipo gengivale già in fase di pianificazione del trattamento e a integrare nei protocolli di mantenimento implantare a lungo termine una stratificazione del rischio individualizzata, non solo il rinforzo dell'igiene.",
+      "clinicalNoteIt": "Il fenotipo è importante anche per la terapia implantare. Non c'è dubbio e tutti gli \"addetti ai lavori\" lo sanno. ",
+      "slug": "patient-and-implant-level-factors-associated-with-peri-implant-diseases-a-retr-42482032",
+      "fetchedAt": "2026-07-28T15:32:33.161352Z",
+      "url": "https://doi.org/10.1186/s12903-026-09338-8"
+    },
+    {
+      "pmid": "42472808",
+      "title": "Medium-term clinical outcomes of the all-on-4 system in different bone types: a retrospective analysis.",
+      "titleIt": "Esiti clinici a medio termine del sistema All-on-4 in diversi tipi di osso: un'analisi retrospettiva",
+      "authors": [
+        "Topdagi B",
+        "Kurum M",
+        "Guler CC"
+      ],
+      "journal": "BMC Oral Health",
+      "pubDate": "2026 Jul 20",
+      "doi": "10.1186/s12903-026-09299-y",
+      "abstractText": "BACKGROUND: This study aimed to determine the independent influence of bone quality and prosthetic material on medium-term implant survival, peri-implant complications, prosthetic complications, and patient-reported outcomes following All-on-4 rehabilitation.\n\nMETHODS: This retrospective, observational, multicenter cohort study included 250 edentulous patients (125 maxillary and 125 mandibular cases) who received All-on-4 implant-supported full-arch prostheses between September 2018 and September 2021. Patients were categorized by bone type (Types 1-4) according to the Lekholm and Zarb classification. Clinical parameters, insertion torque, implant stability quotient (ISQ), peri-implant and prosthetic complications, and patient satisfaction (VAS score) were recorded and analyzed. Prosthetic materials used were either metal-acrylic or monolithic zirconia prostheses.\n\nRESULTS: A total of 1,000 implants were evaluated over a mean follow-up period of 3.6&#x2009;&#xb1;&#x2009;0.4 years. The overall implant survival rate was 94.8%, with significantly lower survival in Type 4 bone (89.1%) compared to Type 1 (98.3%) (p&#x2009;&lt;&#x2009;0.05). Peri-implant complications, particularly peri-implantitis and screw loosening, were significantly more frequent in lower-density bone types. Prosthetic complications were analyzed at the prosthesis level and were more frequent in the metal-acrylic group (26.9%) than in the zirconia group (8.9%) (p&#x2009;&lt;&#x2009;0.001). Despite these differences, patient satisfaction scores were high across all bone types (Mean VAS: 8.7&#x2009;&#xb1;&#x2009;1.2).\n\nCONCLUSIONS: The All-on-4 concept demonstrated predictable medium-term clinical outcomes, with high implant survival and favorable patient satisfaction in completely edentulous patients. However, poorer bone quality, particularly Type 4 bone, was independently associated with lower implant survival, reduced primary stability, and a higher frequency of peri-implant complications. In addition, monolithic zirconia prostheses were associated with fewer mechanical complications than metal-acrylic prostheses. These findings highlight the importance of individualized treatment planning that integrates bone quality assessment and prosthetic material selection to optimize medium-term clinical outcomes. Although the findings should be interpreted in light of the retrospective observational design and medium-term follow-up, they provide clinically relevant evidence to support risk-informed clinical decision-making in full-arch implant rehabilitation.",
+      "summaryEn": "The All-on-4 concept has become a mainstay for rehabilitating the edentulous arch, but how bone quality and prosthetic material choice interact to affect medium-term outcomes is less well documented in large, multicenter cohorts. This retrospective observational study followed 250 edentulous patients (125 maxillary, 125 mandibular) who received All-on-4 full-arch implant-supported prostheses between September 2018 and September 2021, for a mean follow-up of 3.6 years. Patients were categorized by bone type (Lekholm and Zarb Types 1-4), and the study tracked implant survival, peri-implant and prosthetic complications, insertion torque, implant stability quotient (ISQ), and patient-reported satisfaction (VAS), comparing metal-acrylic versus monolithic zirconia prostheses.\n\nAcross 1,000 implants, overall survival was 94.8%, but this masked a clear bone-quality gradient: survival was 98.3% in Type 1 (dense) bone versus only 89.1% in Type 4 (low-density) bone (p<0.05). Peri-implant complications — notably peri-implantitis and screw loosening — were also significantly more frequent in lower-density bone. On the prosthetic side, metal-acrylic restorations had roughly three times the complication rate of monolithic zirconia (26.9% vs 8.9%, p<0.001). Despite these technical differences, patient satisfaction remained high across all bone types (mean VAS 8.7/10), suggesting patients often don't perceive the complications clinicians are managing behind the scenes.\n\nThe clinical message for full-arch treatment planning is twofold: bone quality assessment should directly inform risk counseling and possibly protocol adjustments (e.g., closer follow-up, delayed loading, or additional implants) in Type 4 bone, and prosthetic material selection matters mechanically — monolithic zirconia held up better than metal-acrylic over the medium term in this cohort. The authors frame these as risk-informed planning considerations rather than absolute rules, appropriately noting the limits of a retrospective, medium-term design, but the sample size (1,000 implants across 250 patients, multiple centers) gives the associations real clinical weight for treatment planning discussions in complex full-arch cases.",
+      "summaryIt": "Il concetto All-on-4 è diventato un caposaldo della riabilitazione dell'arcata edentula, ma il modo in cui qualità ossea e scelta del materiale protesico interagiscono nell'influenzare gli esiti a medio termine è meno documentato in coorti multicentriche ampie. Questo studio retrospettivo osservazionale ha seguito 250 pazienti edentuli (125 mascellari, 125 mandibolari) sottoposti a riabilitazione full-arch implanto-supportata con protocollo All-on-4 tra settembre 2018 e settembre 2021, con un follow-up medio di 3,6 anni. I pazienti sono stati classificati per tipo di osso (classificazione di Lekholm e Zarb, Tipi 1-4), e lo studio ha monitorato la sopravvivenza implantare, le complicanze perimplantari e protesiche, la coppia di inserimento, l'implant stability quotient (ISQ) e la soddisfazione riferita dal paziente (VAS), confrontando protesi in resina-metallo e in zirconia monolitica.\n\nSu 1.000 impianti, la sopravvivenza complessiva è stata del 94,8%, ma questo dato medio nascondeva un chiaro gradiente legato alla qualità ossea: la sopravvivenza è stata del 98,3% nell'osso di Tipo 1 (denso) contro solo l'89,1% nell'osso di Tipo 4 (bassa densità) (p<0,05). Anche le complicanze perimplantari — in particolare perimplantite e allentamento delle viti — sono risultate significativamente più frequenti nell'osso a bassa densità. Sul fronte protesico, i restauri in resina-metallo hanno mostrato un tasso di complicanze circa tre volte superiore rispetto alla zirconia monolitica (26,9% vs 8,9%, p<0,001). Nonostante queste differenze tecniche, la soddisfazione del paziente è rimasta elevata in tutti i tipi di osso (VAS media 8,7/10), a suggerire che i pazienti spesso non percepiscono le complicanze che il clinico gestisce dietro le quinte.\n\nIl messaggio clinico per la pianificazione full-arch è duplice: la valutazione della qualità ossea dovrebbe orientare direttamente il counseling sul rischio ed eventuali adattamenti di protocollo (ad esempio follow-up più ravvicinati, carico differito o impianti aggiuntivi) nell'osso di Tipo 4, e la scelta del materiale protesico conta dal punto di vista meccanico — in questa coorte la zirconia monolitica ha retto meglio della resina-metallo nel medio termine. Gli autori inquadrano questi dati come considerazioni per una pianificazione risk-informed piuttosto che regole assolute, riconoscendo correttamente i limiti di un disegno retrospettivo a medio termine, ma la dimensione campionaria (1.000 impianti su 250 pazienti, multicentrica) conferisce alle associazioni un reale peso clinico nelle discussioni di pianificazione dei casi full-arch complessi.",
+      "tagsEn": [
+        "All-on-4",
+        "full-arch rehabilitation",
+        "bone quality",
+        "implant survival",
+        "zirconia",
+        "prosthetic complications",
+        "edentulism"
+      ],
+      "tagsIt": [
+        "All-on-4",
+        "riabilitazione full-arch",
+        "qualità ossea",
+        "sopravvivenza implantare",
+        "zirconia",
+        "complicanze protesiche",
+        "edentulia"
+      ],
+      "editorialTitleEn": "Bone Type and Zirconia Choice Both Move the Needle in All-on-4 Outcomes",
+      "editorialTitleIt": "Tipo di osso e scelta della zirconia incidono entrambi sugli esiti dell'All-on-4",
+      "takeawaysEn": [
+        "In 1,000 All-on-4 implants (250 patients), overall survival was 94.8%, dropping to 89.1% in low-density Type 4 bone versus 98.3% in dense Type 1 bone.",
+        "Peri-implant complications (peri-implantitis, screw loosening) were more frequent in lower-density bone.",
+        "Monolithic zirconia prostheses had about a third the complication rate of metal-acrylic (8.9% vs 26.9%).",
+        "Patient satisfaction stayed high (VAS 8.7/10) across all bone types despite these technical differences."
+      ],
+      "takeawaysIt": [
+        "Su 1.000 impianti All-on-4 (250 pazienti), la sopravvivenza complessiva è stata del 94,8%, scendendo all'89,1% nell'osso di Tipo 4 a bassa densità contro il 98,3% nell'osso denso di Tipo 1.",
+        "Le complicanze perimplantari (perimplantite, allentamento delle viti) erano più frequenti nell'osso a bassa densità.",
+        "Le protesi in zirconia monolitica hanno mostrato circa un terzo del tasso di complicanze rispetto alla resina-metallo (8,9% vs 26,9%).",
+        "La soddisfazione del paziente è rimasta elevata (VAS 8,7/10) in tutti i tipi di osso, nonostante queste differenze tecniche."
+      ],
+      "whyItMattersEn": "For full-arch treatment planning, bone quality assessment and prosthetic material choice both carry medium-term consequences — this cohort supports closer follow-up in low-density bone and favors monolithic zirconia when mechanical complications are a concern.",
+      "whyItMattersIt": "Per la pianificazione full-arch, la valutazione della qualità ossea e la scelta del materiale protesico hanno entrambe conseguenze a medio termine — questa coorte supporta un follow-up più ravvicinato nell'osso a bassa densità e orienta verso la zirconia monolitica quando le complicanze meccaniche sono una preoccupazione.",
+      "clinicalNoteIt": "L'osso di bassa densità influisce sul risultato, com'è ovvio che sia in questo tipo di carico immediato. Le complicanze meccaniche sono note, addirittura il 27% in caso di all-on-4 tradizionali. Scendono a quasi il 9% con le protesi in zirconia, ma anche il 9% è troppo. Bisognerebbe forse tornare ai materiali classici e più sperimentati?",
+      "slug": "medium-term-clinical-outcomes-of-the-all-on-4-system-in-different-bone-types-a-42472808",
+      "fetchedAt": "2026-07-28T15:32:33.161352Z",
+      "url": "https://doi.org/10.1186/s12903-026-09299-y"
+    },
     {
       "pmid": "42466869",
       "title": "Failure of Wide-Diameter Dental Implants (Predominantly 5.0 mm) Show Distinct Risk Profiles-A Large Cohort Study.",
