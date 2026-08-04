@@ -1,6 +1,278 @@
 {
-  "lastUpdated": "2026-07-28T15:32:33.161352Z",
+  "lastUpdated": "2026-08-04T10:08:02.532218Z",
   "articles": [
+    {
+      "pmid": "42480567",
+      "title": "Oral health and diabetes: a systematic review and meta-analysis.",
+      "titleIt": "Salute orale e diabete: revisione sistematica e meta-analisi",
+      "authors": [
+        "Botelho J",
+        "Singh S",
+        "Varenne B"
+      ],
+      "journal": "The Lancet Public Health",
+      "pubDate": "2026 Aug",
+      "doi": "10.1016/S2468-2667(26)00149-0",
+      "summaryEn": "Diabetes and oral disease are both massive global burdens — roughly 828 million people live with diabetes, 3.7 billion with some form of oral disease — and the two are often assumed to interact, but the direction and strength of that relationship had never been synthesised from longitudinal evidence alone. This PRISMA-conforming systematic review and meta-analysis, commissioned by the WHO Oral Health Programme, pooled 28 prospective longitudinal studies from 16 countries and over 300,000 participants, screened from more than 45,000 records.\n\nThe synthesis found a genuinely bidirectional temporal association. People with periodontitis at baseline had an 18-25% higher rate of newly diagnosed type 2 diabetes during follow-up. The reverse direction also held: people with diabetes at baseline were more likely to develop incident periodontitis, though this association was less consistent across studies. Tooth loss independently predicted incident type 2 diabetes (HR 1.12-1.20), and edentulous individuals at baseline showed an even higher rate of incident diabetes (RR 1.30) — though the edentulism data could not be formally pooled. Evidence for dental caries was too sparse and heterogeneous to synthesise, and no longitudinal data existed at all linking diabetes to oral cancer.\n\nMethodological quality was moderate-to-high across most included cohorts (Newcastle-Ottawa Scale), lending real weight to the periodontitis-diabetes and tooth loss-diabetes findings specifically. The authors frame this as evidence to integrate oral health screening into diabetes prevention and management pathways, and vice versa — a call that lands squarely in the territory periodontists have argued for years, now backed by the largest longitudinal synthesis to date.",
+      "summaryIt": "Diabete e malattie orali sono entrambi enormi fardelli sanitari globali — circa 828 milioni di persone convivono con il diabete, 3,7 miliardi con una qualche forma di malattia orale — e si è spesso ipotizzata un'interazione tra i due, ma finora nessuno aveva sintetizzato solo l'evidenza longitudinale per stabilirne direzione e intensità. Questa revisione sistematica e meta-analisi conforme PRISMA, commissionata dal Programma OMS per la Salute Orale, ha aggregato 28 studi prospettici longitudinali provenienti da 16 Paesi e oltre 300.000 partecipanti, selezionati da più di 45.000 record.\n\nLa sintesi ha rilevato un'associazione temporale realmente bidirezionale. Chi presentava parodontite al basale ha mostrato un'incidenza di diabete di tipo 2 di nuova diagnosi superiore del 18-25% durante il follow-up. Anche la direzione opposta si conferma: chi era diabetico al basale aveva maggiore probabilità di sviluppare parodontite incidente, sebbene con evidenza meno coerente tra gli studi. La perdita dei denti prediceva in modo indipendente il diabete di tipo 2 incidente (HR 1,12-1,20), e i soggetti edentuli al basale mostravano un'incidenza di diabete ancora più elevata (RR 1,30) — anche se per l'edentulia non è stato possibile un pooling formale. L'evidenza sulla carie era troppo scarsa ed eterogenea per essere sintetizzata, e non esisteva alcun dato longitudinale che collegasse il diabete al cancro orale.\n\nLa qualità metodologica era da moderata ad alta nella maggior parte delle coorti incluse (Newcastle-Ottawa Scale), il che dà peso reale in particolare ai risultati su parodontite-diabete e perdita dei denti-diabete. Gli autori propongono di integrare lo screening della salute orale nei percorsi di prevenzione e gestione del diabete, e viceversa — una richiesta che i parodontologi avanzano da anni, ora sostenuta dalla più ampia sintesi longitudinale mai realizzata sul tema.",
+      "tagsEn": [
+        "periodontitis",
+        "type 2 diabetes",
+        "systematic review",
+        "meta-analysis",
+        "oral-systemic link",
+        "tooth loss",
+        "edentulism",
+        "public health"
+      ],
+      "tagsIt": [
+        "parodontite",
+        "diabete di tipo 2",
+        "revisione sistematica",
+        "meta-analisi",
+        "connessione orale-sistemica",
+        "perdita dei denti",
+        "edentulia",
+        "salute pubblica"
+      ],
+      "abstractText": "BACKGROUND: Diabetes is a major public health challenge, affecting nearly 828 million people worldwide. Similarly, oral diseases such as dental caries, periodontal diseases, and oral cancers are highly prevalent, affecting approximately 3&#xb7;7 billion individuals globally. Diabetes and oral diseases share common risk factors and studies suggest a potential relationship in which poor management of one potentially exacerbates the other. However, the direction, magnitude, and consistency of these associations remain unclear, and oral health remains largely overlooked in diabetes prevention and management strategies. The aim of this study is to systematically assess and synthesise the evidence on the longitudinal association between diabetes and oral diseases.\n\nMETHODS: We conducted a systematic review and meta-analysis reported in accordance with PRISMA guidelines. We searched four electronic databases (Embase, PubMed, Web of Science, and LILACS) and grey literature from database inception to Oct 27, 2025. Eligible studies included longitudinal prospective studies examining associations between diabetes (type 1, type 2, or gestational) and core WHO oral diseases (periodontitis, dental caries, tooth loss or edentulism [complete tooth loss], and oral cancer). Random-effects meta-analyses were performed using the restricted maximum likelihood method to estimate pooled effect sizes with 95% CIs of hazard ratios (HRs) and risk ratio (RR). Methodological quality was assessed using the Newcastle-Ottawa Scale for cohort studies.\n\nFINDINGS: We screened 45&#x2008;477 records and included 28 longitudinal studies from 16 countries, encompassing over 300&#x2008;000 participants. Most studies were population-based and of moderate-to-high methodological quality. A bidirectional temporal association in incidence patterns was observed between diabetes and periodontitis. Individuals with periodontitis at baseline showed a 18-25% higher occurrence of newly incident type 2 diabetes during follow-up, and baseline diabetes status was associated with a higher newly incident cases of periodontitis, with pooled RRs indicating modest differences between groups. Tooth loss was also associated with newly incident type 2 diabetes over time (HR 1&#xb7;12-1&#xb7;20). Quantitative pooling was not feasible for edentulism outcomes; however, individuals who were edentulous at baseline showed a higher occurrence of newly incident type 2 diabetes (RR 1&#xb7;30). Evidence regarding dental caries was scarce and heterogeneous, precluding meta-analysis. No longitudinal evidence was identified for oral cancer.\n\nINTERPRETATION: Findings from this longitudinal synthesis indicate associations between diabetes and oral diseases in both directions; however, the strength and consistency of evidence are asymmetric. Evidence suggests that people with periodontitis and edentulism are more likely to be diagnosed with type 2 diabetes than people without periodontitis and edentulism in the future. People with diabetes are more likely to be diagnosed with periodontitis than people without diabetes, but with less consistent evidence. Our findings support integrating oral health within interdisciplinary diabetes prevention and management strategies.\n\nFUNDING: WHO Oral Health Programme.",
+      "slug": "oral-health-and-diabetes-a-systematic-review-and-meta-analysis-42480567",
+      "fetchedAt": "2026-08-03T19:50:59.669661Z",
+      "url": "https://doi.org/10.1016/S2468-2667(26)00149-0",
+      "editorialTitleEn": "Periodontitis and diabetes: the risk really does run both ways",
+      "editorialTitleIt": "Parodontite e diabete: il rischio è davvero bidirezionale",
+      "takeawaysEn": [
+        "Periodontitis at baseline predicted 18-25% more newly diagnosed type 2 diabetes over follow-up.",
+        "Diabetes at baseline also raised incident periodontitis risk, though less consistently across studies.",
+        "Tooth loss and edentulism independently tracked with higher rates of incident type 2 diabetes.",
+        "Evidence on caries and oral cancer remains too thin to draw conclusions."
+      ],
+      "takeawaysIt": [
+        "La parodontite al basale ha predetto il 18-25% in più di nuove diagnosi di diabete di tipo 2 durante il follow-up.",
+        "Anche il diabete al basale ha aumentato il rischio di parodontite incidente, con evidenza però meno coerente.",
+        "Perdita dei denti ed edentulia si associavano in modo indipendente a tassi più alti di diabete di tipo 2 incidente.",
+        "L'evidenza su carie e cancro orale resta troppo scarsa per trarre conclusioni."
+      ],
+      "whyItMattersEn": "For periodontitis patients, one more reason to screen glycemic status; for diabetic patients, one more reason a periodontal exam belongs in routine diabetes care.",
+      "whyItMattersIt": "Per i pazienti con parodontite, un motivo in più per uno screening glicemico; per i pazienti diabetici, un motivo in più perché la visita parodontale rientri nella gestione di routine del diabete.",
+      "clinicalNoteIt": "Una revisione sistematica sulla rivista medica più importante e rinomata al mondo, The Lancet, che conferma la ormai nota relazione bidirezionale tra diabete e parodontite. Molto interessante. "
+    },
+    {
+      "pmid": "42503518",
+      "title": "Targeting IFN-I driven tertiary lymphoid structures halts B cell-mediated bone loss in periodontitis.",
+      "titleIt": "Colpire le strutture linfoidi terziarie indotte da IFN-I blocca la perdita ossea mediata dai linfociti B nella parodontite",
+      "authors": [
+        "Lu J",
+        "Wu X",
+        "Xiong Z"
+      ],
+      "journal": "International Journal of Oral Science",
+      "pubDate": "2026 Jul 27",
+      "doi": "10.1038/s41368-026-00450-7",
+      "summaryEn": "Lymphocytes are the principal source of RANKL in periodontitis, but exactly how they get organised and activated within inflamed gingiva has been unclear. This mechanistic study looks at tertiary lymphoid structures (TLS) — ectopic lymphoid aggregates that normally form at sites of chronic inflammation — as the missing organisational layer.\n\nUsing multiplex immunohistochemistry on gingival tissue, the authors show that TLS form and mature as inflammatory severity increases, and that their presence correlates with worse surgical outcomes. Single-cell RNA sequencing and in vitro assays trace the mechanism: oral pathogens activate the IFN-I-IRF7 axis in gingival fibroblasts, driving IFNβ overproduction and pushing a subset of fibroblasts toward a CXCL13-producing phenotype that recruits and organises the TLS. Inside these structures, IgD+CD80+ B cells promote osteoclastogenesis and bone resorption via RANKL secretion — demonstrated directly in a mouse periodontitis model.\n\nThe therapeutic test is the most clinically relevant part: blocking IFN-I signalling disrupted TLS formation and downstream RANKL production, and measurably reduced periodontitis-associated bone loss in the animal model. This establishes TLS as a specific, targetable hub coordinating B cell-driven bone destruction, and positions the IFN-I pathway as a candidate for future host-modulation therapy in periodontitis — still preclinical, but a clear mechanistic target where current adjunctive therapies are largely non-specific.",
+      "summaryIt": "I linfociti sono la principale fonte di RANKL nella parodontite, ma il modo in cui si organizzano e si attivano all'interno della gengiva infiammata restava poco chiaro. Questo studio meccanicistico indaga le strutture linfoidi terziarie (TLS) — aggregati linfoidi ectopici che si formano normalmente nei siti di infiammazione cronica — come possibile livello organizzativo mancante.\n\nCon immunoistochimica multiplex su tessuto gengivale, gli autori mostrano che le TLS si formano e maturano con l'aumentare della gravità infiammatoria, e che la loro presenza si associa a esiti chirurgici peggiori. Il sequenziamento single-cell RNA e saggi in vitro ricostruiscono il meccanismo: i patogeni orali attivano l'asse IFN-I-IRF7 nei fibroblasti gengivali, inducendo una sovrapproduzione di IFNβ e spingendo un sottoinsieme di fibroblasti verso un fenotipo produttore di CXCL13 che recluta e organizza la TLS. All'interno di queste strutture, i linfociti B IgD+CD80+ promuovono l'osteoclastogenesi e il riassorbimento osseo tramite secrezione di RANKL — dimostrato direttamente in un modello murino di parodontite.\n\nLa parte più rilevante clinicamente è il test terapeutico: bloccare la segnalazione IFN-I ha interrotto la formazione delle TLS e la produzione di RANKL a valle, riducendo in modo misurabile la perdita ossea associata a parodontite nel modello animale. Lo studio stabilisce le TLS come hub specifico e colpibile che coordina la distruzione ossea mediata dai linfociti B, e propone l'asse IFN-I come candidato per future terapie di modulazione dell'ospite nella parodontite — ancora preclinico, ma un bersaglio meccanicistico chiaro laddove le attuali terapie aggiuntive restano in gran parte aspecifiche.",
+      "tagsEn": [
+        "periodontitis",
+        "tertiary lymphoid structures",
+        "RANKL",
+        "osteoclastogenesis",
+        "IFN-I signaling",
+        "B cells",
+        "bone loss",
+        "host modulation"
+      ],
+      "tagsIt": [
+        "parodontite",
+        "strutture linfoidi terziarie",
+        "RANKL",
+        "osteoclastogenesi",
+        "segnalazione IFN-I",
+        "linfociti B",
+        "perdita ossea",
+        "modulazione dell'ospite"
+      ],
+      "abstractText": "Lymphocytes play a central role in adaptive immunity and represent the primary source of RANKL in periodontitis. Understanding their organization and activation within gingiva is therefore essential. This study investigates the role of tertiary lymphoid structures (TLSs), ectopic lymphoid aggregates that orchestrate local immune responses. Using multiplex immunohistochemistry staining, we found that TLSs form and mature with increasing inflammatory severity. These structures function as hubs for B cell activation and were associated with poorer surgical outcomes. Given the known role of fibroblasts in initiating TLS assembly, we explored the underlying mechanism. Using single-cell RNA sequencing and in vitro assays, we identified that oral pathogens activate the IFN-I-IRF7 axis in gingival fibroblasts, leading to overproduction of IFN&#x3b2; and driving their differentiation into a CXCL13-producing subtype that facilitates TLS organization. Furthermore, in a mouse periodontitis model, we demonstrated that activated IgD+CD80+ B cells within TLSs promote osteoclastogenesis and bone resorption via RANKL secretion. Therapeutically, inhibition of IFN-I signaling disrupted this pathogenic cascade by suppressing TLS formation and subsequent RANKL production, thereby mitigating periodontitis bone loss. In conclusion, our findings establish TLSs as pathological hubs that coordinate B cell-mediated bone destruction in periodontitis and highlight the IFN-I signaling pathway as a promising target for therapeutic intervention.",
+      "slug": "targeting-ifn-i-driven-tertiary-lymphoid-structures-halts-b-cell-mediated-bone-l-42503518",
+      "fetchedAt": "2026-08-03T19:50:59.669661Z",
+      "url": "https://doi.org/10.1038/s41368-026-00450-7",
+      "editorialTitleEn": "A new cellular hub behind bone loss in periodontitis",
+      "editorialTitleIt": "Un nuovo hub cellulare dietro la perdita ossea nella parodontite",
+      "takeawaysEn": [
+        "Ectopic immune structures (tertiary lymphoid structures) form in gingiva as inflammation worsens and track with worse surgical outcomes.",
+        "Oral pathogens drive gingival fibroblasts to organize these structures via the IFN-I-IRF7 pathway.",
+        "B cells within these structures fuel bone resorption through RANKL, confirmed in a mouse model.",
+        "Blocking IFN-I signaling reduced bone loss in the animal model — still preclinical."
+      ],
+      "takeawaysIt": [
+        "Strutture immunitarie ectopiche (linfoidi terziarie) si formano nella gengiva col peggiorare dell'infiammazione e si associano a esiti chirurgici peggiori.",
+        "I patogeni orali spingono i fibroblasti gengivali a organizzare queste strutture tramite la via IFN-I-IRF7.",
+        "I linfociti B al loro interno alimentano il riassorbimento osseo tramite RANKL, confermato in un modello murino.",
+        "Bloccare la segnalazione IFN-I ha ridotto la perdita ossea nel modello animale — ancora a livello preclinico."
+      ],
+      "whyItMattersEn": "Maps a specific, potentially druggable pathway behind periodontal bone loss beyond generic anti-inflammatory approaches — worth watching, though clinical translation is still years away.",
+      "whyItMattersIt": "Mappa un percorso specifico e potenzialmente farmacologico dietro la perdita ossea parodontale, oltre i generici approcci antinfiammatori — da tenere d'occhio, anche se la traduzione clinica resta lontana anni.",
+      "clinicalNoteIt": "Estremamente interessante e illuminante per spiegare la patologia parodontale. I periopatogeni inducono la formazione di strutture linfocitarie organizzate di Linfociti B che, a loro volta, causano riassorbimento osseo via RANKL. Potenziale farmacologia antiriassorbimento. "
+    },
+    {
+      "pmid": "42515938",
+      "title": "Residual Periodontal Pockets at Implant Placement as Risk Indicator for Peri-Implantitis: A Systematic Review.",
+      "titleIt": "Tasche parodontali residue al posizionamento implantare come indicatore di rischio per la perimplantite: revisione sistematica",
+      "authors": [
+        "Ferrarotti F",
+        "Baima G",
+        "Campagna A"
+      ],
+      "journal": "Clinical Implant Dentistry and Related Research",
+      "pubDate": "2026 Aug",
+      "doi": "10.1111/cid.70174",
+      "summaryEn": "Treated periodontitis patients make up a large share of implant candidates, but whether residual probing pocket depth (PPD) left over after active periodontal therapy actually raises peri-implant risk has never been reviewed systematically. This PROSPERO-registered systematic review (CRD42024567630) searched MEDLINE, Scopus, Embase and Cochrane Library and screened 3,870 records, narrowing to 4 cohort studies with follow-up ranging from 1 to 23 years — all evaluating residual PPD as the exposure of interest; none specifically assessed furcation involvement.\n\nDespite heterogeneous exposure and outcome definitions across the four studies, the direction of effect was consistent: residual PPD persisting after active periodontal therapy was associated with a higher incidence of peri-implantitis. Deeper residual pockets (≥5 or ≥6 mm) and a higher proportion of residual diseased sites carried greater risk, and one study found that ongoing periodontal inflammation at adjacent natural teeth also raised peri-implantitis risk around the implant. Substantial methodological heterogeneity meant meta-analysis was not feasible, and most studies carried a moderate risk of bias (Newcastle-Ottawa Scale).\n\nThe clinical read is straightforward even without pooled effect sizes: periodontal therapy that leaves deep residual pockets is not a closed chapter before implant placement — it is a carried-over risk factor. The authors call for prospective studies with standardized peri-implantitis case definitions to quantify that risk more precisely, but the consistent direction across four independent cohorts already supports treating residual PPD as a modifiable checkpoint before moving a periodontally treated patient to implant therapy.",
+      "summaryIt": "I pazienti con parodontite trattata rappresentano una quota rilevante dei candidati a terapia implantare, ma se le tasche parodontali residue (PPD) dopo la terapia parodontale attiva aumentino realmente il rischio perimplantare non era mai stato oggetto di una revisione sistematica. Questa revisione sistematica registrata su PROSPERO (CRD42024567630) ha interrogato MEDLINE, Scopus, Embase e Cochrane Library, esaminando 3.870 record e selezionando 4 studi di coorte con follow-up da 1 a 23 anni — tutti focalizzati sulla PPD residua come esposizione di interesse; nessuno ha valutato specificamente il coinvolgimento delle forcazioni.\n\nNonostante l'eterogeneità nelle definizioni di esposizione ed esito tra i quattro studi, la direzione dell'effetto è risultata coerente: la persistenza di PPD residue dopo la terapia parodontale attiva si associava a una maggiore incidenza di perimplantite. Tasche residue più profonde (≥5 o ≥6 mm) e una maggiore proporzione di siti ancora malati comportavano un rischio maggiore, e uno studio ha rilevato che l'infiammazione parodontale in atto sui denti naturali adiacenti aumentava a sua volta il rischio di perimplantite attorno all'impianto. L'eterogeneità metodologica sostanziale ha impedito la meta-analisi, e la maggior parte degli studi presentava un rischio di bias moderato (Newcastle-Ottawa Scale).\n\nLa lettura clinica resta chiara anche senza effect size aggregati: una terapia parodontale che lascia tasche residue profonde non è un capitolo chiuso prima del posizionamento implantare, ma un fattore di rischio che si trascina. Gli autori chiedono studi prospettici con definizioni standardizzate di perimplantite per quantificare il rischio con maggiore precisione, ma la direzione coerente osservata in quattro coorti indipendenti già supporta il trattare le PPD residue come un checkpoint modificabile prima di avviare alla terapia implantare un paziente parodontale trattato.",
+      "tagsEn": [
+        "peri-implantitis",
+        "residual pockets",
+        "periodontal therapy",
+        "systematic review",
+        "dental implants",
+        "risk factor",
+        "periodontally compromised patients"
+      ],
+      "tagsIt": [
+        "perimplantite",
+        "tasche residue",
+        "terapia parodontale",
+        "revisione sistematica",
+        "impianti dentali",
+        "fattore di rischio",
+        "pazienti parodontali compromessi"
+      ],
+      "abstractText": "INTRO: The present systematic review aimed to assess whether the presence of residual periodontal pockets (PPD) after active periodontal therapy increases the risk of developing peri-implantitis in patients with treated periodontitis who undergo implant therapy.\n\nMETHODS: An electronic search was performed in MEDLINE via PubMed, Scopus, Embase, and Cochrane Library. Studies including patients receiving at least one dental implant, in whom residual PPD or furcation involvement were recorded, were selected. The primary outcome was the incidence of peri-implantitis. Risk of bias was assessed using the Newcastle-Ottawa Scale. No meta-analysis could be performed due to heterogeneity across studies.\n\nRESULTS: From 3870 retrieved records, 4 cohort studies fulfilled the inclusion criteria, with follow-up ranging from 1 to 23&#x2009;years. All included studies evaluated residual PPD as the exposure of interest, whereas no study specifically assessed furcation involvement. Despite substantial heterogeneity in exposure definitions and peri-implantitis case definitions, all studies consistently suggested that residual PPD persisting after active periodontal therapy was associated with increased peri-implantitis occurrence. In particular, deeper PPD (&#x2265;&#x2009;5 or &#x2265;&#x2009;6&#x2009;mm) and higher proportions of residual diseased sites were associated with greater peri-implantitis risk. One study additionally reported that inflammatory periodontal conditions affecting adjacent teeth increased peri-implantitis risk. Most studies were judged to be at moderate risk of bias.\n\nCONCLUSION: Residual PPD persisting after active periodontal therapy can increase the risk of peri-implantitis in treated periodontitis patients receiving dental implants. Prospective studies adopting standardized case definitions of peri-implantitis are needed to further clarify the influence of residual PPDs and furcation involvement on implant outcomes.\n\nTRIAL REGISTRATION: PROSPERO: CRD42024567630.",
+      "slug": "residual-periodontal-pockets-at-implant-placement-as-risk-indicator-for-peri-imp-42515938",
+      "fetchedAt": "2026-08-03T19:50:59.669661Z",
+      "url": "https://doi.org/10.1111/cid.70174",
+      "editorialTitleEn": "Leftover pockets after perio therapy don't stay quiet at implants",
+      "editorialTitleIt": "Le tasche residue dopo la terapia non restano silenti attorno agli impianti",
+      "takeawaysEn": [
+        "Four cohort studies (1-23 year follow-up) consistently linked residual periodontal pockets after therapy to higher peri-implantitis rates.",
+        "Deeper residual pockets (≥5-6mm) and more residual diseased sites carried greater risk.",
+        "One study found ongoing inflammation at adjacent natural teeth also raised peri-implant risk.",
+        "Heterogeneity prevented meta-analysis; the direction was consistent, not a precise risk estimate."
+      ],
+      "takeawaysIt": [
+        "Quattro studi di coorte (follow-up 1-23 anni) hanno collegato in modo coerente le tasche parodontali residue dopo la terapia a tassi più alti di perimplantite.",
+        "Tasche residue più profonde (≥5-6mm) e più siti ancora malati comportavano un rischio maggiore.",
+        "Uno studio ha rilevato che l'infiammazione in atto sui denti naturali adiacenti aumentava anch'essa il rischio perimplantare.",
+        "L'eterogeneità ha impedito la meta-analisi; la direzione era coerente, non una stima di rischio precisa."
+      ],
+      "whyItMattersEn": "Before moving a periodontally treated patient to implant therapy, residual pocket depth is worth treating as an unresolved risk factor, not a closed chapter.",
+      "whyItMattersIt": "Prima di avviare alla terapia implantare un paziente parodontale trattato, la profondità di tasca residua merita di essere considerata un fattore di rischio ancora aperto, non un capitolo chiuso.",
+      "clinicalNoteIt": "Le tasche residue nei pazienti parodontali sono un fattore di rischio per gli impianti. È logico, direi. "
+    },
+    {
+      "pmid": "42516003",
+      "title": "Prevalence of Peri-Implantitis Around Zirconia Implants: A Systematic Review and Meta-Analysis of Current Evidence.",
+      "titleIt": "Prevalenza della perimplantite attorno agli impianti in zirconia: revisione sistematica e meta-analisi",
+      "authors": [
+        "Moraschini V",
+        "de Moraes JB",
+        "de Oliveira Silva AM"
+      ],
+      "journal": "Clinical Implant Dentistry and Related Research",
+      "pubDate": "2026 Aug",
+      "doi": "10.1111/cid.70176",
+      "summaryEn": "Zirconia implants (ZIs) are increasingly proposed as a metal-free alternative to titanium (TIs), marketed on esthetic and biological grounds, but solid prevalence data on peri-implantitis around ZIs — and whether implant material itself changes the risk — has been thin. This systematic review and meta-analysis searched four databases and grey literature through February 2026, including randomized controlled trials and cohort studies, and pooled 19 studies covering 687 patients and 995 implants with a mean follow-up of about 49 months.\n\nThe pooled implant-level prevalence of peri-implantitis around ZIs was low in the short-to-mid term: 2% (95% CI 0-6%) at ≤3 years, 2% (95% CI 0-8%) at >3-5 years, rising to 8% (95% CI 0-23%) beyond 5 years — though heterogeneity was substantial (I² 38.9-82.1%) and the long-term estimate carries a wide confidence interval. A separate comparative analysis restricted to five RCTs found no statistically significant difference in peri-implantitis prevalence between zirconia and titanium implants (RR 1.66, 95% CI 0.48-5.71, p=0.42) — meaning current evidence does not support material choice alone as a peri-implantitis risk modifier, in either direction.\n\nThe authors are candid about the limits: methodological heterogeneity, inconsistent peri-implantitis case definitions, sparse patient-level reporting, and a real shortage of long-term comparative data keep the certainty of evidence low. For clinicians already using or considering zirconia, the practical takeaway is that short-to-mid-term prevalence looks reassuringly low and roughly comparable to titanium — but the >5-year picture is still built on thin, wide-uncertainty data, so it is not yet a settled question for long-term risk counselling.",
+      "summaryIt": "Gli impianti in zirconia sono proposti sempre più spesso come alternativa metal-free al titanio, sulla base di proprietà estetiche e biologiche favorevoli, ma i dati solidi sulla prevalenza di perimplantite attorno agli impianti in zirconia — e su se il materiale stesso modifichi il rischio — erano finora scarsi. Questa revisione sistematica e meta-analisi ha interrogato quattro database e la letteratura grigia fino a febbraio 2026, includendo studi clinici randomizzati e di coorte, aggregando 19 studi per 687 pazienti e 995 impianti con un follow-up medio di circa 49 mesi.\n\nLa prevalenza aggregata di perimplantite a livello implantare attorno agli impianti in zirconia è risultata bassa nel breve-medio termine: 2% (IC 95% 0-6%) entro i 3 anni, 2% (IC 95% 0-8%) tra 3 e 5 anni, salendo all'8% (IC 95% 0-23%) oltre i 5 anni — sebbene l'eterogeneità fosse sostanziale (I² 38,9-82,1%) e la stima a lungo termine porti con sé un intervallo di confidenza molto ampio. Un'analisi comparativa separata, limitata a cinque RCT, non ha rilevato differenze statisticamente significative nella prevalenza di perimplantite tra impianti in zirconia e in titanio (RR 1,66, IC 95% 0,48-5,71, p=0,42) — a indicare che l'evidenza attuale non supporta la sola scelta del materiale come modificatore del rischio di perimplantite, in nessuna delle due direzioni.\n\nGli autori sono onesti sui limiti: eterogeneità metodologica, definizioni di perimplantite non uniformi, dati a livello di paziente scarsi e una vera carenza di confronti a lungo termine tengono bassa la certezza dell'evidenza. Per chi già utilizza o valuta la zirconia, il messaggio pratico è che la prevalenza a breve-medio termine appare rassicurante e sostanzialmente paragonabile al titanio — ma il quadro oltre i 5 anni resta costruito su dati esigui e con ampia incertezza, quindi non ancora una questione definita per il counseling sul rischio a lungo termine.",
+      "tagsEn": [
+        "zirconia implants",
+        "peri-implantitis",
+        "prevalence",
+        "systematic review",
+        "meta-analysis",
+        "titanium implants",
+        "implant material"
+      ],
+      "tagsIt": [
+        "impianti in zirconia",
+        "perimplantite",
+        "prevalenza",
+        "revisione sistematica",
+        "meta-analisi",
+        "impianti in titanio",
+        "materiale implantare"
+      ],
+      "abstractText": "BACKGROUND: Zirconia implants (ZIs) have emerged as a metal-free alternative to titanium implants (TIs) because of their favorable esthetic and biological properties. However, the prevalence of peri-implantitis associated with ZIs and the potential influence of implant material on peri-implant disease remain unclear.\n\nOBJECTIVE: To estimate the implant-level prevalence of peri-implantitis associated with ZIs and to assess whether implant material influences peri-implantitis prevalence by comparing ZIs and TIs.\n\nMETHODS: Electronic searches were conducted in four databases and gray literature sources up to February 2026. Randomized clinical trials (RCTs) and cohort studies evaluating peri-implantitis associated with ZIs were included. The risk of bias was assessed using the RoB 2 and ROBINS-I tools. Random-effects meta-analyses were performed to estimate the pooled peri-implantitis prevalence at the implant level. Subgroup analyses according to follow-up duration and sensitivity analyses were additionally conducted.\n\nRESULTS: Nineteen studies comprising 687 patients and 995 implants were included. The mean follow-up reported across studies was approximately 49&#x2009;months. In studies with follow-up &#x2264;&#x2009;3&#x2009;years, the pooled prevalence of peri-implantitis associated with ZIs was 2% (95% CI: 0%-6%; I2&#x2009;=&#x2009;79.3%). Studies with follow-up &gt;&#x2009;3 to 5&#x2009;years demonstrated a pooled prevalence of 2% (95% CI: 0%-8%; I2&#x2009;=&#x2009;38.9%), whereas studies with follow-up &gt;&#x2009;5&#x2009;years showed a pooled prevalence of 8% (95% CI: 0%-23%; I2&#x2009;=&#x2009;82.1%). Comparative analysis of five RCTs demonstrated no statistically significant difference in peri-implantitis prevalence between ZIs and TIs (RR&#x2009;=&#x2009;1.66; 95% CI: 0.48-5.71; p&#x2009;=&#x2009;0.42). Sensitivity analyses did not identify studies with a critical risk of bias as the primary source of heterogeneity.\n\nCONCLUSIONS: Current evidence suggests a low short- to mid-term implant-level prevalence of peri-implantitis around ZIs, with higher estimates observed in studies with longer follow-up. However, the certainty of evidence remains limited because of methodological heterogeneity, variability in diagnostic definitions, inconsistent patient-level reporting, and the lack of long-term comparative studies. Limited comparative evidence did not demonstrate a statistically significant difference in peri-implantitis prevalence between ZIs and TIs.",
+      "slug": "prevalence-of-peri-implantitis-around-zirconia-implants-a-systematic-review-and-42516003",
+      "fetchedAt": "2026-08-03T19:50:59.669661Z",
+      "url": "https://doi.org/10.1111/cid.70176",
+      "editorialTitleEn": "Zirconia implants: low peri-implantitis rates, at least short-term",
+      "editorialTitleIt": "Impianti in zirconia: tassi di perimplantite bassi, almeno nel breve termine",
+      "takeawaysEn": [
+        "Pooled peri-implantitis prevalence around zirconia implants was 2% up to 5 years, rising to 8% beyond 5 years (wide CI).",
+        "Five RCTs found no significant difference in peri-implantitis rates between zirconia and titanium implants.",
+        "Certainty of evidence is limited by heterogeneity and few long-term comparative studies."
+      ],
+      "takeawaysIt": [
+        "La prevalenza aggregata di perimplantite attorno agli impianti in zirconia era del 2% fino a 5 anni, salendo all'8% oltre i 5 anni (IC ampio).",
+        "Cinque RCT non hanno rilevato differenze significative nei tassi di perimplantite tra impianti in zirconia e in titanio.",
+        "La certezza dell'evidenza resta limitata da eterogeneità e scarsità di studi comparativi a lungo termine."
+      ],
+      "whyItMattersEn": "For clinicians offering zirconia as a metal-free option, short-to-mid-term peri-implantitis risk looks comparable to titanium — but the long-term picture is still too thin to promise.",
+      "whyItMattersIt": "Per chi propone la zirconia come opzione metal-free, il rischio di perimplantite a breve-medio termine appare paragonabile al titanio — ma il quadro a lungo termine resta ancora troppo esiguo per essere garantito.",
+      "clinicalNoteIt": "I dati sono relativemente pochi perché le statistiche sugli impianti in zirconia sono ridotte. Tuttavia, gli impianti in zirconia sembrano ugualmente sensibili alla peri-implantite. "
+    },
+    {
+      "pmid": "42524765",
+      "title": "Evolution of the fecal and oral microbiota after prophylactic antibiotics administered for dental surgeries.",
+      "titleIt": "Evoluzione del microbiota fecale e orale dopo antibiotico-profilassi per chirurgia dentale",
+      "authors": [
+        "Littlejohn C",
+        "Chang YC",
+        "Teles F"
+      ],
+      "journal": "Journal of the American Dental Association",
+      "pubDate": "2026 Jul 29",
+      "doi": "10.1016/j.adaj.2026.04.020",
+      "summaryEn": "Prophylactic antibiotics are routine before many dental surgical procedures, yet how they actually reshape the oral and gut microbiome — and whether that disruption resolves — has been surprisingly under-studied. This prospective cohort followed 64 patients undergoing dental surgery with prophylactic antibiotics, collecting saliva and stool at baseline and again at 3, 10, 30 and 90 days post-op, using 16S rRNA sequencing for the full cohort and shotgun metagenomics on a subset to track antimicrobial resistance genes.\n\nBoth the oral and gut microbiomes showed significant drops in alpha diversity (p<.01), most pronounced at days 3 and 10, with near-complete recovery to baseline by day 90 — confirming the authors' hypothesis of disruption followed by recovery. Notably, the oral microbiome was more disrupted than the gut microbiome, suggesting it is more susceptible to postoperative antibiotic exposure than commonly assumed. Patient-level factors — sex, race, gastroesophageal reflux disease, and which antibiotic was used — all influenced baseline diversity as well as the degree of disruption and speed of recovery. Taxonomic analysis showed substantial shifts in key health-associated bacterial genera after surgery, and — the finding with the longest practical shadow — some antimicrobial resistance genes increased in relative abundance over time rather than reverting, a signal of possible lasting ecological consequences from a single prophylactic course.\n\nThe take-home for practice is not that prophylaxis should be abandoned, but that it is not microbiologically free: even a standard single-course antibiotic regimen measurably disturbs both oral and gut ecosystems, disruption and recovery vary by patient, and resistance gene enrichment can outlast the clinical recovery window. The authors frame this squarely as a stewardship argument — prophylaxis decisions should weigh patient-specific factors, not just procedure type.",
+      "summaryIt": "L'antibiotico-profilassi è prassi routinaria prima di molte procedure di chirurgia dentale, eppure come questa effettivamente rimodelli il microbiota orale e intestinale — e se tale perturbazione si risolva — è rimasto sorprendentemente poco studiato. Questo studio di coorte prospettico ha seguito 64 pazienti sottoposti a chirurgia dentale con antibiotico-profilassi, raccogliendo saliva e feci al basale e poi a 3, 10, 30 e 90 giorni post-operatori, con sequenziamento 16S rRNA sull'intera coorte e metagenomica shotgun su un sottogruppo per tracciare i geni di resistenza antimicrobica.\n\nSia il microbiota orale sia quello intestinale hanno mostrato cali significativi di alfa-diversità (p<0,01), più marcati ai giorni 3 e 10, con un recupero quasi completo al basale entro il giorno 90 — confermando l'ipotesi degli autori di una perturbazione seguita da recupero. In particolare, il microbiota orale è risultato più perturbato di quello intestinale, un dato che suggerisce una suscettibilità all'esposizione antibiotica postoperatoria maggiore di quanto comunemente si ritenga. Fattori legati al paziente — sesso, etnia, malattia da reflusso gastroesofageo e tipo di antibiotico utilizzato — hanno influenzato sia la diversità al basale sia il grado di perturbazione e la velocità di recupero. L'analisi tassonomica ha mostrato variazioni sostanziali nei generi batterici associati alla salute dopo l'intervento, e — il dato con l'ombra pratica più lunga — alcuni geni di resistenza antimicrobica sono aumentati in abbondanza relativa nel tempo anziché regredire, un segnale di possibili conseguenze ecologiche durature anche da un singolo ciclo profilattico.\n\nIl messaggio pratico non è abbandonare la profilassi, ma riconoscere che non è microbiologicamente gratuita: anche un regime antibiotico standard a ciclo singolo perturba in modo misurabile sia l'ecosistema orale sia quello intestinale, la perturbazione e il recupero variano da paziente a paziente, e l'arricchimento in geni di resistenza può superare la finestra di recupero clinico. Gli autori la inquadrano esplicitamente come un argomento di stewardship antibiotica — le decisioni sulla profilassi dovrebbero pesare i fattori specifici del paziente, non solo il tipo di procedura.",
+      "tagsEn": [
+        "prophylactic antibiotics",
+        "oral microbiome",
+        "gut microbiome",
+        "antibiotic stewardship",
+        "antimicrobial resistance",
+        "dental surgery",
+        "16S rRNA sequencing"
+      ],
+      "tagsIt": [
+        "antibiotico-profilassi",
+        "microbiota orale",
+        "microbiota intestinale",
+        "stewardship antibiotica",
+        "resistenza antimicrobica",
+        "chirurgia dentale",
+        "sequenziamento 16S rRNA"
+      ],
+      "abstractText": "BACKGROUND: The human oral and gut microbiomes play critical roles in maintaining overall health. Although systemic antibiotics are frequently prescribed perioperatively in dental procedures, their impact on microbiota composition and diversity remains inadequately understood. The authors' objective was to characterize the evolution of the gut and oral microbiomes after a course of antibiotics administered for dental surgeries. The authors hypothesized that the microbiome would experience disruption but eventually recover to baseline levels and that patient-related factors would influence the extent of disruption and recovery.\n\nMETHODS: Saliva and stool samples were collected from patients undergoing dental surgeries and receiving prophylactic antibiotics (n = 64) at baseline and then at 3, 10, 30, and 90 days after surgery. Microbial diversity and composition were assessed using 16S ribosomal RNA sequencing. Shotgun metagenomics sequencing was applied to a subset of samples to evaluate changes in antimicrobial resistance genes.\n\nRESULTS: Significant (P &lt; .01) declines in alpha diversity were observed in both oral and fecal microbiomes, most notably at days 3 and 10, with near recovery at day 90. The oral microbiome exhibited greater disruption than the gut microbiome, suggesting higher susceptibility to postoperative disturbance. Patient-level factors including sex, race, gastroesophageal reflux disease, and antibiotic type influenced baseline diversity, disruption, and recovery. Results of taxonomic analyses revealed that key health-associated genera were substantially altered postsurgery. Some antimicrobial resistance genes increased in relative abundance over time, consistent with potential long-term ecological consequences of antibiotic use.\n\nCONCLUSIONS: The findings highlight the dynamic response of the human microbiome to antibiotic exposure and oral surgery and underscore the importance of antibiotic stewardship in practice. Further research on functional outcomes and host-microbiome interactions is warranted to optimize perioperative care in dentistry.\n\nPRACTICAL IMPLICATIONS: Consideration of patient factors is essential to minimize unnecessary disruption of the microbiome and mitigate the risk of developing resistance.",
+      "slug": "evolution-of-the-fecal-and-oral-microbiota-after-prophylactic-antibiotics-admini-42524765",
+      "fetchedAt": "2026-08-03T19:50:59.669661Z",
+      "url": "https://doi.org/10.1016/j.adaj.2026.04.020",
+      "editorialTitleEn": "Even routine antibiotic prophylaxis leaves a mark on the microbiome",
+      "editorialTitleIt": "Anche l'antibiotico-profilassi di routine lascia un segno sul microbiota",
+      "takeawaysEn": [
+        "A single prophylactic antibiotic course before dental surgery significantly disrupted oral and gut microbial diversity, peaking at days 3-10.",
+        "The oral microbiome was more disrupted than the gut microbiome — and recovered by day 90 in most patients.",
+        "Patient factors (sex, race, GERD, antibiotic choice) shaped the degree of disruption and recovery speed.",
+        "Some antimicrobial resistance genes increased over time rather than reverting."
+      ],
+      "takeawaysIt": [
+        "Un singolo ciclo di antibiotico-profilassi prima di chirurgia dentale ha perturbato in modo significativo la diversità microbica orale e intestinale, con un picco ai giorni 3-10.",
+        "Il microbiota orale è risultato più perturbato di quello intestinale — e nella maggior parte dei pazienti è tornato al basale entro il giorno 90.",
+        "Fattori del paziente (sesso, etnia, reflusso gastroesofageo, tipo di antibiotico) hanno influenzato il grado di perturbazione e la velocità di recupero.",
+        "Alcuni geni di resistenza antimicrobica sono aumentati nel tempo anziché regredire."
+      ],
+      "whyItMattersEn": "A reminder that prophylaxis isn't cost-free for the microbiome — worth weighing patient-specific factors rather than defaulting to the same regimen for everyone.",
+      "whyItMattersIt": "Un promemoria che la profilassi non è a costo zero per il microbiota — vale la pena pesare i fattori specifici del paziente, invece di applicare lo stesso schema a tutti.",
+      "clinicalNoteIt": "È vero, purtroppo, che gli antibiotici alterano l'equilibrio del microbiota, sia orale che il più importante intestinale. "
+    },
     {
       "pmid": "42452670",
       "title": "Artificial Intelligence for Radiographic Diagnosis of Peri-Implantitis: A Comprehensive Review on Detection, Measurement, and Risk Stratification.",
