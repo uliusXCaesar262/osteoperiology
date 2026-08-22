@@ -1,6 +1,272 @@
 {
-  "lastUpdated": "2026-08-10T14:51:46.761980Z",
+  "lastUpdated": "2026-08-22T19:51:14.809039Z",
   "articles": [
+    {
+      "pmid": "42602466",
+      "title": "Combined oral and peripheral blood detection of Porphyromonas gingivalis associates with coronary heart disease and gut microbiota alterations in a coronary angiography cohort.",
+      "titleIt": "Rilevazione combinata di Porphyromonas gingivalis nel cavo orale e nel sangue periferico: associazione con la cardiopatia coronarica e alterazioni del microbiota intestinale in una coorte da angiografia coronarica",
+      "authors": [
+        "Wu Y",
+        "Zheng L",
+        "Song C"
+      ],
+      "journal": "Journal of oral microbiology",
+      "pubDate": "2026",
+      "doi": "10.1080/20002297.2026.2712022",
+      "abstractText": "BACKGROUND: Periodontal pathogens are associated with cardiovascular disease, but clinical evidence linking Porphyromonas gingivalis (Pg) detection with coronary heart disease (CHD) and gut microbiota features remains limited. This study evaluated associations between oral and peripheral blood Pg detection status, CHD prevalence and exploratory gut microbiota characteristics in participants undergoing coronary angiography (CAG).\n\nMATERIALS AND METHODS: This analytical cross-sectional study included 165 CAG participants, including 124 patients with CAG-confirmed CHD and 41 non-CHD controls. Oral and peripheral blood Pg were detected by TaqMan quantitative polymerase chain reaction. Modified Poisson regression with robust standard errors was used to estimate adjusted prevalence ratios (PRs). Gut microbiota profiles were assessed by 16S rRNA gene sequencing.\n\nRESULTS: Oral Pg positivity was more frequent in CHD participants than in non-CHD controls and remained associated with CHD in the primary adjusted model (PR = 1.237, 95% CI 1.044-1.465). The oral+/blood+ group showed the strongest association with CHD prevalence (PR = 1.362, 95% CI 1.099-1.688). Five FDR-significant ASVs were enriched in oral Pg-positive participants, whereas predicted pathways were not significant after FDR correction.\n\nCONCLUSIONS: Oral Pg positivity, especially combined oral and peripheral blood Pg nucleic acid positivity, was associated with CHD prevalence in this CAG-defined cohort.\n\nOral Pg positivity was associated with CHD prevalence in a CAG-defined cohort.Combined oral and peripheral blood Pg nucleic acid positivity showed the strongest association with CHD prevalence.The association increased with the number of Pg-positive detection sites.Pg positivity was associated with selected gut microbiota ASV-level features.Predicted functional pathway differences were exploratory and did not remain significant after FDR correction.",
+      "summaryEn": "Periodontal pathogens have long been implicated in cardiovascular disease, but direct evidence linking bacterial detection \u2014 rather than periodontal diagnosis alone \u2014 to coronary heart disease (CHD) has remained limited. This cross-sectional study enrolled 165 patients undergoing coronary angiography (124 with angiographically confirmed CHD, 41 controls) and used TaqMan quantitative PCR to detect Porphyromonas gingivalis (Pg) DNA in both oral samples and peripheral blood. Gut microbiota composition was profiled by 16S rRNA sequencing in a subset.\n\nOral Pg positivity was more common among CHD patients than controls and remained independently associated with CHD after adjustment (prevalence ratio 1.237, 95% CI 1.044\u20131.465). The association strengthened further when blood Pg positivity was added: patients positive at both oral and blood sites showed the highest adjusted prevalence ratio (1.362, 95% CI 1.099\u20131.688), and the association increased stepwise with the number of positive detection sites. Five amplicon sequence variants were significantly enriched in the gut microbiota of oral Pg-positive participants, though predicted functional pathway differences did not survive correction for multiple testing.\n\nThe design is cross-sectional and cannot establish causality, and the sample is drawn entirely from patients already referred for angiography \u2014 a population enriched for cardiovascular risk. Still, the dose-response pattern (oral-only vs. oral-plus-blood positivity) and the biologically plausible gut microbiota signal add weight to the hypothesis that periodontal pathogen burden, not just periodontal disease status, tracks coronary risk. For clinicians, this reinforces two points: first, periodontal screening has a place in comprehensive cardiovascular risk assessment, even absent a diagnosed periodontal condition; second, systemic dissemination of oral pathogens \u2014 detectable in peripheral blood \u2014 may be a more informative marker than local disease severity alone. Confirmation in prospective cohorts, with causal-inference designs, is needed before this translates into altered screening protocols.",
+      "summaryIt": "I patogeni parodontali sono da tempo chiamati in causa nella malattia cardiovascolare, ma le prove che collegano direttamente la loro rilevazione \u2014 non solo la diagnosi di parodontite \u2014 alla cardiopatia coronarica (CHD) restano limitate. Questo studio trasversale ha arruolato 165 pazienti sottoposti ad angiografia coronarica (124 con CHD confermata angiograficamente, 41 controlli) e ha usato la PCR quantitativa TaqMan per rilevare il DNA di Porphyromonas gingivalis (Pg) sia in campioni orali sia nel sangue periferico. In un sottogruppo \u00e8 stato profilato anche il microbiota intestinale mediante sequenziamento del gene 16S rRNA.\n\nLa positivit\u00e0 orale a Pg era pi\u00f9 frequente nei pazienti con CHD rispetto ai controlli e restava associata alla CHD dopo aggiustamento (prevalence ratio 1,237, IC 95% 1,044\u20131,465). L'associazione si rafforzava ulteriormente aggiungendo la positivit\u00e0 ematica: i pazienti positivi sia a livello orale sia ematico mostravano il prevalence ratio aggiustato pi\u00f9 alto (1,362, IC 95% 1,099\u20131,688), con un incremento progressivo all'aumentare dei siti positivi. Cinque varianti di sequenza amplificate risultavano significativamente arricchite nel microbiota intestinale dei partecipanti Pg-positivi a livello orale, sebbene le differenze nelle vie funzionali predette non abbiano superato la correzione per test multipli.\n\nIl disegno trasversale non permette di stabilire un nesso causale, e il campione proviene interamente da pazienti gi\u00e0 indirizzati all'angiografia \u2014 una popolazione arricchita per rischio cardiovascolare. Ciononostante, il pattern dose-risposta (positivit\u00e0 solo orale contro positivit\u00e0 orale+ematica) e il segnale biologicamente plausibile sul microbiota intestinale rafforzano l'ipotesi che il carico di patogeni parodontali, non solo lo stato della malattia parodontale, segua il rischio coronarico. Per il clinico, due implicazioni: primo, lo screening parodontale ha un ruolo nella valutazione complessiva del rischio cardiovascolare, anche in assenza di una parodontite diagnosticata; secondo, la disseminazione sistemica dei patogeni orali \u2014 rilevabile nel sangue periferico \u2014 potrebbe essere un marcatore pi\u00f9 informativo della sola gravit\u00e0 della malattia locale. Servono conferme in coorti prospettiche, con disegni orientati all'inferenza causale, prima che questo si traduca in protocolli di screening modificati.",
+      "tagsEn": [
+        "Porphyromonas gingivalis",
+        "coronary heart disease",
+        "periodontal pathogens",
+        "oral-systemic link",
+        "gut microbiota",
+        "cardiovascular risk",
+        "coronary angiography"
+      ],
+      "tagsIt": [
+        "Porphyromonas gingivalis",
+        "cardiopatia coronarica",
+        "patogeni parodontali",
+        "connessione orale-sistemica",
+        "microbiota intestinale",
+        "rischio cardiovascolare",
+        "angiografia coronarica"
+      ],
+      "editorialTitleEn": "Gum bacteria in the bloodstream: a fresh signal for coronary risk",
+      "editorialTitleIt": "Il batterio parodontale nel sangue: un nuovo segnale di rischio coronarico",
+      "takeawaysEn": [
+        "Oral P. gingivalis positivity was independently associated with higher CHD prevalence in this angiography cohort (PR 1.24).",
+        "Blood-detectable P. gingivalis DNA strengthened the association further \u2014 the oral+/blood+ group had the highest adjusted prevalence ratio (1.36).",
+        "Gut microbiota composition also differed by oral Pg status, an exploratory signal that needs confirmation.",
+        "Cross-sectional design in an angiography-referred population \u2014 no causal inference possible."
+      ],
+      "takeawaysIt": [
+        "La positivit\u00e0 orale a P. gingivalis era associata in modo indipendente a una maggiore prevalenza di CHD in questa coorte da angiografia (PR 1,24).",
+        "Il DNA di P. gingivalis rilevabile nel sangue rafforzava ulteriormente l'associazione \u2014 il gruppo positivo sia a livello orale sia ematico aveva il prevalence ratio aggiustato pi\u00f9 alto (1,36).",
+        "Anche la composizione del microbiota intestinale differiva in base allo stato di Pg orale, un segnale esplorativo che richiede conferma.",
+        "Disegno trasversale in una popolazione gi\u00e0 indirizzata all'angiografia \u2014 nessuna inferenza causale possibile."
+      ],
+      "whyItMattersEn": "In this cohort, periodontal pathogen burden \u2014 not periodontal diagnosis alone \u2014 tracked coronary disease presence, reinforcing the case for including periodontal screening in cardiovascular risk assessment.",
+      "whyItMattersIt": "In questa coorte, il carico di patogeni parodontali \u2014 non la sola diagnosi di parodontite \u2014 seguiva la presenza di malattia coronarica, un argomento a favore dell'inclusione dello screening parodontale nella valutazione del rischio cardiovascolare.",
+      "clinicalNoteIt": "Ancora il Porphyromonas gingivalis, il \"grande oschestratore\" della parodontite dell'adulto e non solo. E ancora una conferma importante del collegamento con la principale patologia da aterosclerosi cardiaca. Solo confeme, e riputute conferme. ",
+      "slug": "combined-oral-and-peripheral-blood-detection-of-porphyromonas-gingivalis-associa-42602466",
+      "fetchedAt": "2026-08-18T20:37:39.681Z",
+      "url": "https://doi.org/10.1080/20002297.2026.2712022"
+    },
+    {
+      "pmid": "42569004",
+      "title": "Association Between Glycemic Parameters and Severity of Periodontitis in Nepal: A Hospital-Based Cross-Sectional Study.",
+      "titleIt": "Associazione tra parametri glicemici e gravit\u00e0 della parodontite in Nepal: uno studio trasversale ospedaliero",
+      "authors": [
+        "Kafle S",
+        "Gupta A",
+        "Khatiwada S"
+      ],
+      "journal": "International journal of dentistry",
+      "pubDate": "2026",
+      "doi": "10.1155/ijod/3153277",
+      "abstractText": "BACKGROUND: Periodontitis is a prevalent inflammatory disease affecting the supporting structures of the teeth and has been strongly associated with systemic conditions such as diabetes mellitus. Poor glycemic control has been reported to exacerbate periodontal tissue destruction; however, evidence from many developing countries remains limited. This study aimed to evaluate the association between glycemic parameters and periodontitis severity in a hospital-based population in Nepal.\n\nMETHODS: A hospital-based cross-sectional study was conducted among 396 adult patients attending the dental outpatient department of a tertiary care hospital in Nepal. Participants were categorized according to the severity into mild (n&#x2009;=&#x2009;132), moderate (n&#x2009;=&#x2009;132), and severe (n&#x2009;=&#x2009;132) groups based on periodontal clinical examination. The terminology was aligned with the 2017 World Workshop classification of periodontal and peri-implant diseases and conditions. Full periodontal grading was not assigned because longitudinal data on disease progression were unavailable. Patients presenting with a molar-incisor pattern suggestive of the previously described aggressive periodontitis phenotype were excluded. Demographic variables, smoking status, periodontal clinical parameters, and glycemic indicators, including fasting blood glucose (FBG), postprandial blood sugar (PPBS), and glycated hemoglobin (HbA1c), were recorded. Descriptive statistics were used to summarize the study variables. Differences in glycemic parameters across periodontitis severity groups were assessed using the Kruskal-Wallis test. Spearman correlation analysis was applied to assess the association between glycemic markers and periodontal clinical parameters. Ordinal logistic regression was conducted to determine the independent predictors of increasing severity of periodontitis.\n\nRESULTS: Glycemic parameters worsened with increasing severity of periodontitis. Patients with severe periodontitis had markedly increased levels of FBG, PPBS, and HbA1c in comparison to those with mild and moderate periodontitis (p&#x2009; &lt; 0.001). Periodontal clinical parameters, such as probing depth and clinical attachment loss (CAL), were most strongly correlated with HbA1c (p&#x2009; &lt; 0.001). Ordinal logistic regression analysis revealed that HbA1c was the most significant independent predictor of increasing severity of periodontitis, followed by age and current smoking status.\n\nCONCLUSIONS: Severe periodontitis was significantly associated with worsening glycemic status. Of all the assessed glycemic markers, HbA1c exhibited the most robust relationship with periodontal destruction. These findings highlight the importance of glycemic control in periodontal health and support the need for integrated medical-dental management strategies for patients with metabolic disorders.",
+      "summaryEn": "Periodontitis and diabetes are known to interact bidirectionally, but data from South Asian populations \u2014 where both conditions are highly prevalent and often under-managed \u2014 remain sparse. This hospital-based cross-sectional study examined 396 adult dental outpatients in Nepal, stratified into mild, moderate, and severe periodontitis groups (132 each) using the 2017 World Workshop classification criteria, with patients showing an aggressive-periodontitis-type pattern excluded. Fasting blood glucose (FBG), postprandial blood sugar (PPBS), and glycated hemoglobin (HbA1c) were measured alongside standard periodontal parameters.\n\nAll three glycemic markers worsened stepwise with periodontitis severity (Kruskal-Wallis, p<0.001). Among them, HbA1c showed the strongest correlation with probing depth and clinical attachment loss. In ordinal logistic regression, HbA1c emerged as the single strongest independent predictor of periodontitis severity, ahead of age and current smoking status.\n\nThe cross-sectional design cannot establish which comes first \u2014 glycemic dysregulation or periodontal destruction \u2014 and the hospital-based sample may not generalize to the broader Nepalese population. Even so, the consistency of the gradient across three independent glycemic measures, and the primacy of HbA1c specifically, adds to a now-substantial body of evidence that long-term glycemic control (rather than a single fasting glucose reading) is the more clinically meaningful marker to track alongside periodontal status. For practice, this argues for treating HbA1c \u2014 obtainable from the patient's physician or via point-of-care testing \u2014 as a routine part of periodontal risk stratification, and for framing periodontal therapy explicitly as part of integrated metabolic care in patients with poor glycemic control, consistent with the broader literature on the diabetes-periodontitis relationship.",
+      "summaryIt": "Parodontite e diabete sono noti per interagire in modo bidirezionale, ma i dati dalle popolazioni sudasiatiche \u2014 dove entrambe le condizioni sono molto diffuse e spesso poco gestite \u2014 restano scarsi. Questo studio trasversale ospedaliero ha esaminato 396 pazienti adulti afferenti a un ambulatorio odontoiatrico in Nepal, stratificati in gruppi con parodontite lieve, moderata e severa (132 ciascuno) secondo i criteri della classificazione World Workshop 2017, escludendo i pazienti con un pattern riconducibile alla forma un tempo definita \"aggressiva\". Glicemia a digiuno (FBG), glicemia postprandiale (PPBS) ed emoglobina glicata (HbA1c) sono state misurate insieme ai parametri parodontali standard.\n\nTutti e tre i marcatori glicemici peggioravano progressivamente con la gravit\u00e0 della parodontite (Kruskal-Wallis, p<0,001). Tra questi, l'HbA1c mostrava la correlazione pi\u00f9 forte con profondit\u00e0 di sondaggio e perdita di attacco clinico. Nella regressione logistica ordinale, l'HbA1c emergeva come il singolo predittore indipendente pi\u00f9 forte della gravit\u00e0 della parodontite, davanti a et\u00e0 e fumo attivo.\n\nIl disegno trasversale non permette di stabilire cosa venga prima \u2014 la disregolazione glicemica o la distruzione parodontale \u2014 e il campione ospedaliero potrebbe non essere generalizzabile all'intera popolazione nepalese. Ciononostante, la coerenza del gradiente su tre misure glicemiche indipendenti, e il primato specifico dell'HbA1c, si aggiungono a un corpo di evidenze ormai consistente secondo cui il controllo glicemico a lungo termine (piuttosto che una singola glicemia a digiuno) \u00e8 il marcatore clinicamente pi\u00f9 rilevante da monitorare insieme allo stato parodontale. Per la pratica, questo suggerisce di trattare l'HbA1c \u2014 ottenibile dal medico curante del paziente o tramite test point-of-care \u2014 come parte routinaria della stratificazione del rischio parodontale, e di inquadrare esplicitamente la terapia parodontale come parte di una cura metabolica integrata nei pazienti con scarso controllo glicemico, in linea con la letteratura pi\u00f9 ampia sul rapporto diabete-parodontite.",
+      "tagsEn": [
+        "periodontitis",
+        "diabetes mellitus",
+        "HbA1c",
+        "glycemic control",
+        "systemic-periodontal link",
+        "cross-sectional study",
+        "Nepal"
+      ],
+      "tagsIt": [
+        "parodontite",
+        "diabete mellito",
+        "HbA1c",
+        "controllo glicemico",
+        "connessione parodontale-sistemica",
+        "studio trasversale",
+        "Nepal"
+      ],
+      "editorialTitleEn": "HbA1c outpredicts every other glycemic marker for periodontitis severity",
+      "editorialTitleIt": "L'HbA1c \u00e8 il miglior predittore glicemico della gravit\u00e0 della parodontite",
+      "takeawaysEn": [
+        "FBG, PPBS, and HbA1c all worsened stepwise with periodontitis severity in 396 patients (p<0.001).",
+        "HbA1c had the strongest correlation with probing depth and attachment loss, and was the top independent predictor in regression \u2014 ahead of age and smoking.",
+        "Supports HbA1c, not a single glucose reading, as the glycemic marker of choice when stratifying periodontal risk."
+      ],
+      "takeawaysIt": [
+        "FBG, PPBS e HbA1c peggioravano tutti progressivamente con la gravit\u00e0 della parodontite in 396 pazienti (p<0,001).",
+        "L'HbA1c aveva la correlazione pi\u00f9 forte con profondit\u00e0 di sondaggio e perdita di attacco, ed era il predittore indipendente principale nella regressione \u2014 davanti a et\u00e0 e fumo.",
+        "Sostiene l'uso dell'HbA1c, non di una singola glicemia, come marcatore glicemico di riferimento nella stratificazione del rischio parodontale."
+      ],
+      "whyItMattersEn": "In this cohort, HbA1c tracked periodontitis severity more closely than fasting or postprandial glucose, supporting its routine use in periodontal risk assessment for patients with \u2014 or at risk of \u2014 dysglycemia.",
+      "whyItMattersIt": "In questa coorte l'HbA1c seguiva la gravit\u00e0 della parodontite pi\u00f9 da vicino della glicemia a digiuno o postprandiale, a sostegno del suo uso routinario nella valutazione del rischio parodontale nei pazienti con disglicemia, o a rischio di svilupparla.",
+      "clinicalNoteIt": "L'emoglogina glicata \u00e8 da pi\u00f9 parti segnalata come uno dei pi\u00f9 importanti marcatori della progressione del dismetabolismo e del diabete. Questo studio la mette in correlazione con la gravit\u00e0 della parodontite ed \u00e8 un rapporto netto. ",
+      "slug": "association-between-glycemic-parameters-and-severity-of-periodontitis-in-nepal-a-42569004",
+      "fetchedAt": "2026-08-18T20:37:39.681Z",
+      "url": "https://doi.org/10.1155/ijod/3153277"
+    },
+    {
+      "pmid": "42596709",
+      "title": "Association of vestibule depth with peri-implant inflammation and soft tissue stability independent of keratinized mucosa width: a cross-sectional study.",
+      "titleIt": "Associazione tra profondit\u00e0 del vestibolo, infiammazione perimplantare e stabilit\u00e0 dei tessuti molli, indipendentemente dall'ampiezza di mucosa cheratinizzata: uno studio trasversale",
+      "authors": [
+        "Inan B",
+        "Parlak HM",
+        "Akcicek G"
+      ],
+      "journal": "Journal of periodontal & implant science",
+      "pubDate": "2026 May 18",
+      "doi": "10.5051/jpis.2503220161",
+      "abstractText": "PURPOSE: This study evaluated whether vestibule depth (VD) affects peri-implant inflammation and mucosal margin stability in the posterior mandible independently of keratinized mucosa width (KMW).\n\nMETHODS: A total of 129 patients, each with a single implant in the mandibular premolar or molar region, were included. Clinical variables, including gingival index, plaque index (PI), peri-implant probing depth, clinical attachment level (CAL), gingival bleeding time index (GBTI), VD, KMW, mucosal thickness (MT), mucosal recession (MR), peri-implant soft tissue phenotype, and peri-implant soft tissue dehiscence (PISTD), were assessed. Multiple linear regression analysis was performed to determine the associations of GBTI, MR, and PISTD type with the independent variables PI, KMW, age, implant diameter, sex, function time, implant location, CAL, MT, VD, and phenotype classification.\n\nRESULTS: Implants with adequate KMW (&#x2265;2 mm) displayed greater VD and MT, less MR, and a thicker phenotype than implants with inadequate KMW (&lt;2 mm) (P&lt;0.001 for all). PISTD class II defects were observed more frequently in the group with adequate KMW, whereas class III defects were more common among the patients with inadequate KMW (P=0.001). Implants with sufficient VD (&#x2265;6 mm) showed greater KMW and MT and less MR than implants with insufficient VD (&lt;6 mm) (P=0.026 for MR; P&lt;0.001 for all other comparisons). Based on the multiple regression analysis, KMW was significantly associated with GBTI, MR, and PISTD types and subtypes (P&lt;0.05 for all), whereas VD was not significantly associated with any of these variables.\n\nCONCLUSIONS: VD was not significantly associated with peri-implant inflammation or soft tissue stability, whereas KMW showed a stronger association with these parameters. These findings suggest that KMW, independent of VD, plays an important role in peri-implant soft tissue health in the posterior mandible.",
+      "summaryEn": "Adequate keratinized mucosa width (KMW) around implants is widely accepted as protective, but whether vestibule depth (VD) \u2014 a related but distinct anatomical measure \u2014 independently contributes to peri-implant soft tissue health has been less clear. This cross-sectional study examined 129 patients with a single posterior mandibular implant, recording plaque index, probing depth, clinical attachment level, gingival bleeding time index (GBTI), VD, KMW, mucosal thickness, mucosal recession (MR), soft tissue phenotype, and peri-implant soft tissue dehiscence (PISTD) classification.\n\nImplants with adequate KMW (\u22652 mm) showed greater VD and mucosal thickness, less recession, and a thicker phenotype than those with inadequate KMW \u2014 an expected anatomical correlation. But in multiple regression analysis designed to separate the two variables, only KMW remained significantly associated with GBTI, mucosal recession, and PISTD type; VD showed no independent association with any of these outcomes once KMW was accounted for.\n\nThe cross-sectional design cannot establish whether inadequate KMW causes worse outcomes or simply co-occurs with other risk factors, and the study is limited to single implants in the posterior mandible. Still, by statistically isolating KMW from VD \u2014 two measures that are often assessed together and sometimes conflated in surgical planning \u2014 the findings sharpen the clinical target: when planning soft tissue augmentation around implants, keratinized mucosa width appears to be the parameter worth prioritizing, while vestibule depth, though anatomically related, does not independently predict inflammation or tissue stability in this cohort. This does not mean vestibule depth is irrelevant to prosthetic or hygiene access, but it does suggest that grafting decisions aimed specifically at inflammation control and tissue stability should be guided by KMW measurements rather than VD alone.",
+      "summaryIt": "Un'adeguata ampiezza di mucosa cheratinizzata (KMW) attorno agli impianti \u00e8 comunemente considerata protettiva, ma se la profondit\u00e0 del vestibolo (VD) \u2014 una misura anatomica correlata ma distinta \u2014 contribuisca in modo indipendente alla salute dei tessuti molli perimplantari era meno chiaro. Questo studio trasversale ha esaminato 129 pazienti con un singolo impianto nella mandibola posteriore, registrando indice di placca, profondit\u00e0 di sondaggio, livello di attacco clinico, indice del tempo di sanguinamento gengivale (GBTI), VD, KMW, spessore mucoso, recessione mucosa (MR), fenotipo dei tessuti molli e classificazione della deiscenza dei tessuti molli perimplantari (PISTD).\n\nGli impianti con KMW adeguata (\u22652 mm) mostravano maggiore VD e spessore mucoso, minore recessione e un fenotipo pi\u00f9 spesso rispetto a quelli con KMW inadeguata \u2014 una correlazione anatomica attesa. Ma nell'analisi di regressione multipla, disegnata per separare le due variabili, solo la KMW restava significativamente associata a GBTI, recessione mucosa e tipo di PISTD; la VD non mostrava alcuna associazione indipendente con questi esiti una volta considerata la KMW.\n\nIl disegno trasversale non permette di stabilire se una KMW inadeguata causi esiti peggiori o coesista semplicemente con altri fattori di rischio, e lo studio \u00e8 limitato a impianti singoli nella mandibola posteriore. Ciononostante, isolando statisticamente la KMW dalla VD \u2014 due misure spesso valutate insieme e talvolta confuse nella pianificazione chirurgica \u2014 i risultati precisano il bersaglio clinico: nella pianificazione dell'aumento dei tessuti molli attorno agli impianti, l'ampiezza di mucosa cheratinizzata sembra essere il parametro da privilegiare, mentre la profondit\u00e0 del vestibolo, pur anatomicamente correlata, non predice in modo indipendente infiammazione o stabilit\u00e0 tissutale in questa coorte. Questo non significa che la profondit\u00e0 del vestibolo sia irrilevante per l'accesso protesico o igienico, ma suggerisce che le decisioni di innesto mirate al controllo dell'infiammazione e alla stabilit\u00e0 tissutale debbano basarsi sulla misurazione della KMW piuttosto che sulla sola VD.",
+      "tagsEn": [
+        "keratinized mucosa",
+        "vestibule depth",
+        "peri-implant soft tissue",
+        "peri-implant inflammation",
+        "soft tissue phenotype",
+        "implant dentistry",
+        "mucosal recession"
+      ],
+      "tagsIt": [
+        "mucosa cheratinizzata",
+        "profondit\u00e0 del vestibolo",
+        "tessuti molli perimplantari",
+        "infiammazione perimplantare",
+        "fenotipo dei tessuti molli",
+        "implantologia",
+        "recessione mucosa"
+      ],
+      "editorialTitleEn": "Keratinized mucosa, not vestibule depth, protects peri-implant tissue",
+      "editorialTitleIt": "La mucosa cheratinizzata protegge i tessuti perimplantari, non il vestibolo",
+      "takeawaysEn": [
+        "In 129 single-implant patients, adequate KMW (\u22652 mm) correlated with greater VD, thicker mucosa, and less recession \u2014 but the two measures are not interchangeable.",
+        "On multiple regression, only KMW independently predicted bleeding, recession, and soft tissue dehiscence type; VD did not.",
+        "Suggests KMW, not VD, should guide decisions on peri-implant soft tissue augmentation."
+      ],
+      "takeawaysIt": [
+        "In 129 pazienti con impianto singolo, una KMW adeguata (\u22652 mm) si associava a maggiore VD, mucosa pi\u00f9 spessa e minore recessione \u2014 ma le due misure non sono intercambiabili.",
+        "Nella regressione multipla, solo la KMW prediceva in modo indipendente sanguinamento, recessione e tipo di deiscenza dei tessuti molli; la VD no.",
+        "Suggerisce che sia la KMW, non la VD, a dover guidare le decisioni sull'aumento dei tessuti molli perimplantari."
+      ],
+      "whyItMattersEn": "When planning soft tissue augmentation around implants, this study suggests keratinized mucosa width \u2014 not vestibule depth \u2014 is the parameter that tracks with inflammation and tissue stability, sharpening the clinical target for grafting decisions.",
+      "whyItMattersIt": "Nella pianificazione dell'aumento dei tessuti molli perimplantari, questo studio suggerisce che sia l'ampiezza di mucosa cheratinizzata \u2014 non la profondit\u00e0 del vestibolo \u2014 il parametro che segue infiammazione e stabilit\u00e0 tissutale, precisando il bersaglio clinico delle decisioni di innesto.",
+      "clinicalNoteIt": "La profondit\u00e0 del vestibolo, che qualcuno voleva mettere in correlazione con la salute peri-implantare \u00e8 innocente. \u00c8 sempre la cheratinizzata la variabile pi\u00f9 importante. ",
+      "slug": "association-of-vestibule-depth-with-peri-implant-inflammation-and-soft-tissue-st-42596709",
+      "fetchedAt": "2026-08-18T20:37:39.681Z",
+      "url": "https://doi.org/10.5051/jpis.2503220161"
+    },
+    {
+      "pmid": "42551058",
+      "title": "The success of dental implants in patients with systemic conditions. A retrospective clinical study.",
+      "titleIt": "Il successo degli impianti dentali nei pazienti con condizioni sistemiche. Uno studio clinico retrospettivo",
+      "authors": [
+        "RawenTonini K",
+        "Hadad H",
+        "Egas LS"
+      ],
+      "journal": "Journal of cranio-maxillo-facial surgery",
+      "pubDate": "2026 Aug 4",
+      "doi": "10.1016/j.jcms.2026.109839",
+      "abstractText": "BACKGROUND: Systemic alterations are highly prevalent in the population and may interfere with peri-implant repair.\n\nPURPOSE: The aim of this study was to investigate the association between systemic conditions with the loss of dental implants.\n\nMATERIALS AND METHODS: This is a retrospective study following STROBE guidelines, including data from 602 medical records of patients who received dental implants between 2000 and 2017. Data on healthy status (presence or absence of disease or systemic conditions), use of prescribed medications (yes/no, and type), number of implants placed and lost, type of prosthetic rehabilitation, and follow-up period were collected, along with demographic data and local risk factor. Fisher's exact test assessed the association between systemic conditions and implant loss. Implant survival was analyzed using Kaplan-Meier and compared by the log-rank test (Mantel-cox). Binary logistic regression estimated odds ratios and confidence intervals for factors associated with implant loss.\n\nRESULTS: A total of 1872 dental implants were placed, including 743 in healthy patients (success rate: 96.76%) and 1129 in systemically compromised patients (success rate: 97.60%), with no significant difference between groups (p&#x202f;=&#x202f;0.1405). Kaplan-Meier analysis demonstrated similar implant survival rates between healthy and systemically compromised patients over a follow-up of 11 years (132 months, 93.84% and 94.92%, respectively). The curves showed substantial overlap, and no difference was observed (log-rank, p&#x202f;=&#x202f;0.1566). The loss of implants was not associated with the presence of systemic condition or local factors (p&#x202f;&gt;&#x202f;0.05). Binary logistic regression analysis identified predictors of implant loss, with the model explaining 5.24% of the variance (R2&#x202f;=&#x202f;0.0524). A higher frequency of implant loss was observed in patients over 50 years of age, regardless of systemic status.\n\nCONCLUSION: According to the methodology of this study, no association was observed between systemic conditions and dental implant loss.",
+      "summaryEn": "Systemic disease is often treated as a relative contraindication\u2014or at least a risk factor requiring extra caution\u2014for dental implant placement, but the actual magnitude of that risk in modern practice is debated. This retrospective study, following STROBE reporting guidelines, reviewed 602 patient records and 1,872 implants placed between 2000 and 2017, comparing outcomes between systemically healthy patients (743 implants) and those with one or more systemic conditions or regular medications (1,129 implants).\n\nImplant success was 96.76% in healthy patients and 97.60% in systemically compromised patients \u2014 not significantly different (Fisher's exact test, p=0.14). Kaplan-Meier survival analysis over a mean follow-up approaching 11 years showed closely overlapping survival curves (93.84% vs. 94.92%; log-rank p=0.16), and binary logistic regression found no significant association between systemic status and implant loss, with the model explaining only about 5% of the variance. The one factor that did emerge was age: patients over 50 had higher implant loss regardless of systemic status.\n\nAs a retrospective chart review, the study cannot control for how carefully systemic conditions were managed before implant placement, nor for referral bias (compromised patients may already have been more conservatively selected for implants). It also pools a wide range of systemic conditions into a single category, which may mask risk differences between, for instance, well-controlled diabetes and uncontrolled autoimmune disease. Still, the size of the cohort and the length of follow-up make this a reassuring data point: in this population, a documented systemic condition alone \u2014 provided implants were still deemed appropriate by the treating team \u2014 was not associated with a measurably worse long-term outcome. This supports individualized risk assessment over blanket caution based on diagnosis labels, while reinforcing that age-related factors deserve separate attention in treatment planning.",
+      "summaryIt": "La presenza di condizioni sistemiche viene spesso trattata come una controindicazione relativa \u2014 o quantomeno un fattore di rischio che richiede maggiore cautela \u2014 per l'inserimento di impianti dentali, ma l'entit\u00e0 reale di questo rischio nella pratica attuale resta dibattuta. Questo studio retrospettivo, condotto secondo le linee guida STROBE, ha esaminato 602 cartelle cliniche e 1.872 impianti inseriti tra il 2000 e il 2017, confrontando gli esiti tra pazienti sistemicamente sani (743 impianti) e pazienti con una o pi\u00f9 condizioni sistemiche o terapie farmacologiche regolari (1.129 impianti).\n\nIl successo implantare \u00e8 stato del 96,76% nei pazienti sani e del 97,60% nei pazienti sistemicamente compromessi \u2014 nessuna differenza significativa (test esatto di Fisher, p=0,14). L'analisi di sopravvivenza di Kaplan-Meier, su un follow-up medio vicino agli 11 anni, ha mostrato curve di sopravvivenza sovrapponibili (93,84% contro 94,92%; log-rank p=0,16), e la regressione logistica binaria non ha trovato un'associazione significativa tra stato sistemico e perdita implantare, con il modello che spiegava solo circa il 5% della varianza. L'unico fattore emerso \u00e8 stata l'et\u00e0: i pazienti sopra i 50 anni avevano una perdita implantare pi\u00f9 alta indipendentemente dallo stato sistemico.\n\nTrattandosi di una revisione retrospettiva di cartelle cliniche, lo studio non pu\u00f2 controllare quanto accuratamente le condizioni sistemiche fossero state gestite prima dell'inserimento implantare, n\u00e9 il bias di selezione (i pazienti compromessi potrebbero gi\u00e0 essere stati selezionati con maggiore cautela per l'implantologia). Raggruppa inoltre un'ampia gamma di condizioni sistemiche in un'unica categoria, il che pu\u00f2 mascherare differenze di rischio tra, ad esempio, un diabete ben controllato e una malattia autoimmune non controllata. Ciononostante, l'ampiezza della coorte e la durata del follow-up rendono questo un dato rassicurante: in questa popolazione, una condizione sistemica documentata di per s\u00e9 \u2014 a patto che il team curante avesse comunque giudicato appropriato l'impianto \u2014 non era associata a un esito a lungo termine misurabilmente peggiore. Questo sostiene una valutazione del rischio individualizzata rispetto a una cautela generalizzata basata sull'etichetta diagnostica, pur confermando che i fattori legati all'et\u00e0 meritano un'attenzione separata nella pianificazione del trattamento.",
+      "tagsEn": [
+        "dental implants",
+        "systemic conditions",
+        "implant survival",
+        "retrospective study",
+        "implant loss",
+        "comorbidities",
+        "risk assessment"
+      ],
+      "tagsIt": [
+        "impianti dentali",
+        "condizioni sistemiche",
+        "sopravvivenza implantare",
+        "studio retrospettivo",
+        "perdita implantare",
+        "comorbidit\u00e0",
+        "valutazione del rischio"
+      ],
+      "editorialTitleEn": "Systemic conditions didn't predict implant loss over 11 years",
+      "editorialTitleIt": "Le condizioni sistemiche non hanno predetto la perdita implantare in 11 anni",
+      "takeawaysEn": [
+        "Across 1,872 implants (602 patients), success was statistically identical between systemically healthy (96.76%) and compromised (97.60%) patients.",
+        "11-year Kaplan-Meier survival curves overlapped closely (93.84% vs. 94.92%); systemic status was not a significant predictor of implant loss.",
+        "Age over 50 was the one factor associated with higher implant loss, regardless of systemic status.",
+        "Retrospective design pools heterogeneous conditions into one category \u2014 cannot substitute for individualized risk assessment."
+      ],
+      "takeawaysIt": [
+        "Su 1.872 impianti (602 pazienti), il successo era statisticamente identico tra pazienti sistemicamente sani (96,76%) e compromessi (97,60%).",
+        "Le curve di sopravvivenza di Kaplan-Meier a 11 anni erano quasi sovrapponibili (93,84% contro 94,92%); lo stato sistemico non era un predittore significativo di perdita implantare.",
+        "L'et\u00e0 sopra i 50 anni \u00e8 stato l'unico fattore associato a maggiore perdita implantare, indipendentemente dallo stato sistemico.",
+        "Il disegno retrospettivo raggruppa condizioni eterogenee in un'unica categoria \u2014 non sostituisce una valutazione del rischio individualizzata."
+      ],
+      "whyItMattersEn": "Over an 11-year follow-up in nearly 1,900 implants, a documented systemic condition alone was not associated with worse implant survival, supporting individualized risk assessment over blanket caution based on diagnosis labels.",
+      "whyItMattersIt": "In un follow-up di 11 anni su quasi 1.900 impianti, una condizione sistemica documentata di per s\u00e9 non era associata a una peggiore sopravvivenza implantare, a sostegno di una valutazione del rischio individualizzata rispetto a una cautela generalizzata basata sull'etichetta diagnostica.",
+      "clinicalNoteIt": "Le condizioni sistemiche non sembrano influenzare la salute implantare. Un'ottima notizia per i nostri pazienti pi\u00f9 fragili. ",
+      "slug": "the-success-of-dental-implants-in-patients-with-systemic-conditions-a-retrospect-42551058",
+      "fetchedAt": "2026-08-18T20:37:39.681Z",
+      "url": "https://doi.org/10.1016/j.jcms.2026.109839"
+    },
+    {
+      "pmid": "42596714",
+      "title": "Clinical and radiographic comparison of minimally invasive nonsurgical and surgical approaches with enamel matrix derivatives in periodontal intrabony defects: a 3-arm randomized clinical trial.",
+      "titleIt": "Confronto clinico e radiografico tra approcci non chirurgici e chirurgici minimamente invasivi con matrice di derivazione dello smalto nei difetti parodontali intraossei: uno studio clinico randomizzato a 3 bracci",
+      "authors": [
+        "Park SH",
+        "Kim DM",
+        "Song YW"
+      ],
+      "journal": "Journal of periodontal & implant science",
+      "pubDate": "2026 Jun 15",
+      "doi": "10.5051/jpis.2505660283",
+      "abstractText": "PURPOSE: This study aimed to compare the clinical and radiographic efficacy of nonsurgical treatment with enamel matrix derivative (EMD), EMD-assisted surgical treatment, and nonsurgical treatment alone for intrabony defects.\n\nMETHODS: Sixty patients with intrabony defects were randomly assigned to one of the following groups: (i) nonsurgical subgingival debridement alone (negative control [NC]), (ii) minimally invasive surgical technique (MIST) with EMD application (positive control [PC]), or (iii) nonsurgical subgingival debridement with EMD application (test group). Clinical and radiographic measurements, along with optical impressions, were obtained at baseline and during the 6-month follow-up period.\n\nRESULTS: All 60 patients completed the trial, with 20 participants in each group. The proportion of patients achieving the composite outcome (final probing pocket depth &#x2264;4 mm and reduction in clinical attachment loss &#x2265;3 mm) did not differ significantly among the groups (NC: 9/20; PC: 8/20; test: 11/20; P = 0.626). However, bleeding on probing was significantly lower in the test group than in the PC group at both 3 and 6 months (P=0.029 for both timepoints). Gingival recession assessed using optical impressions demonstrated mean changes from baseline of 0.24&#xb1;0.27 mm, 0.51&#xb1;0.56 mm, and 0.20&#xb1;0.18 mm at 6 months in the NC, PC, and test groups, respectively, with significant intergroup differences over time (P=0.038). The amount of radiographic bone gain did not differ significantly among the groups (P&gt;0.05).\n\nCONCLUSIONS: The nonsurgical application of EMD resulted in clinical and radiographic improvements comparable to those achieved with EMD-assisted MIST procedures.\n\nTRIAL REGISTRATION: Clinical Research Information Service Identifier: KCT0007436.",
+      "summaryEn": "Enamel matrix derivative (EMD) is an established adjunct for regenerative treatment of intrabony periodontal defects, typically applied during minimally invasive surgery. Whether a fully nonsurgical application of EMD can match surgical outcomes has been less well tested in a properly randomized, three-arm design. This trial randomized 60 patients with intrabony defects to nonsurgical subgingival debridement alone (negative control), minimally invasive surgical technique (MIST) with EMD (positive control), or nonsurgical debridement with EMD application (test group), with clinical and radiographic follow-up at 6 months.\n\nAll 60 patients completed the trial. The proportion achieving the composite outcome (final probing depth \u22644 mm and clinical attachment gain \u22653 mm) did not differ significantly among groups (45%, 40%, and 55% in the negative control, positive control, and test groups respectively; p=0.626). Bleeding on probing was significantly lower in the nonsurgical EMD group than in the surgical EMD group at both 3 and 6 months. Radiographic bone gain was comparable across all three arms.\n\nWith 20 patients per arm, the trial is underpowered to rule out smaller but clinically meaningful differences between groups, and the 6-month follow-up does not capture longer-term stability. Still, this is a properly randomized comparison, and the result is clinically direct: applying EMD without surgery achieved outcomes statistically indistinguishable from EMD-assisted minimally invasive surgery, with the added benefit of less bleeding on probing during healing. For clinicians managing intrabony defects where surgical access is not strictly required by defect morphology, this supports considering nonsurgical EMD application as a lower-morbidity alternative to MIST, reserving surgical access for defects where visualization or debridement genuinely demands it \u2014 though confirmation in larger, longer-term trials would strengthen this conclusion before it changes standard practice broadly.",
+      "summaryIt": "La matrice di derivazione dello smalto (EMD) \u00e8 un coadiuvante consolidato nel trattamento rigenerativo dei difetti parodontali intraossei, tipicamente applicata durante chirurgia minimamente invasiva. Se un'applicazione completamente non chirurgica dell'EMD possa eguagliare gli esiti chirurgici era stato testato meno bene in un disegno randomizzato a tre bracci correttamente condotto. Questo trial ha randomizzato 60 pazienti con difetti intraossei a debridement sottogengivale non chirurgico da solo (controllo negativo), tecnica chirurgica minimamente invasiva (MIST) con EMD (controllo positivo), o debridement non chirurgico con applicazione di EMD (gruppo test), con follow-up clinico e radiografico a 6 mesi.\n\nTutti e 60 i pazienti hanno completato il trial. La proporzione che raggiungeva l'esito composito (profondit\u00e0 di sondaggio finale \u22644 mm e guadagno di attacco clinico \u22653 mm) non differiva in modo significativo tra i gruppi (45%, 40% e 55% rispettivamente nel controllo negativo, controllo positivo e gruppo test; p=0,626). Il sanguinamento al sondaggio (BOP) era significativamente pi\u00f9 basso nel gruppo EMD non chirurgico rispetto al gruppo EMD chirurgico sia a 3 sia a 6 mesi. Il guadagno osseo radiografico era comparabile nei tre bracci.\n\nCon 20 pazienti per braccio, il trial non ha la potenza statistica per escludere differenze pi\u00f9 piccole ma clinicamente rilevanti tra i gruppi, e il follow-up a 6 mesi non cattura la stabilit\u00e0 a lungo termine. Ciononostante, si tratta di un confronto correttamente randomizzato, e il risultato \u00e8 clinicamente diretto: applicare l'EMD senza chirurgia ha ottenuto esiti statisticamente indistinguibili dalla chirurgia minimamente invasiva assistita da EMD, con il vantaggio aggiuntivo di un minor sanguinamento al sondaggio durante la guarigione. Per i clinici che gestiscono difetti intraossei dove l'accesso chirurgico non \u00e8 strettamente richiesto dalla morfologia del difetto, questo sostiene di considerare l'applicazione non chirurgica dell'EMD come alternativa a minore morbidit\u00e0 rispetto alla MIST, riservando l'accesso chirurgico ai difetti dove la visualizzazione o il debridement lo richiedono davvero \u2014 sebbene una conferma in trial pi\u00f9 ampi e con follow-up pi\u00f9 lungo rafforzerebbe questa conclusione prima di modificare diffusamente la pratica standard.",
+      "tagsEn": [
+        "enamel matrix derivative",
+        "intrabony defects",
+        "minimally invasive surgery",
+        "nonsurgical periodontal therapy",
+        "randomized controlled trial",
+        "regenerative periodontology",
+        "bleeding on probing"
+      ],
+      "tagsIt": [
+        "matrice di derivazione dello smalto",
+        "difetti intraossei",
+        "chirurgia minimamente invasiva",
+        "terapia parodontale non chirurgica",
+        "studio clinico randomizzato",
+        "parodontologia rigenerativa",
+        "sanguinamento al sondaggio"
+      ],
+      "editorialTitleEn": "Nonsurgical EMD matched surgery for intrabony defects in this RCT",
+      "editorialTitleIt": "L'EMD non chirurgica eguaglia la chirurgia nei difetti intraossei (RCT)",
+      "takeawaysEn": [
+        "In a 3-arm RCT (n=60), nonsurgical EMD application achieved outcomes statistically indistinguishable from EMD-assisted minimally invasive surgery (MIST).",
+        "Bleeding on probing was significantly lower with nonsurgical EMD than with surgical EMD at both 3 and 6 months.",
+        "Radiographic bone gain was comparable across all three arms.",
+        "Small per-arm sample (n=20) and 6-month follow-up \u2014 larger, longer trials needed before broad practice change."
+      ],
+      "takeawaysIt": [
+        "In un RCT a 3 bracci (n=60), l'applicazione non chirurgica dell'EMD ha ottenuto esiti statisticamente indistinguibili dalla chirurgia minimamente invasiva assistita da EMD (MIST).",
+        "Il sanguinamento al sondaggio era significativamente pi\u00f9 basso con l'EMD non chirurgica rispetto all'EMD chirurgica, sia a 3 sia a 6 mesi.",
+        "Il guadagno osseo radiografico era comparabile nei tre bracci.",
+        "Campione ridotto per braccio (n=20) e follow-up a 6 mesi \u2014 servono trial pi\u00f9 ampi e pi\u00f9 lunghi prima di un cambiamento diffuso della pratica."
+      ],
+      "whyItMattersEn": "For intrabony defects where surgical access isn't strictly required by defect morphology, this RCT suggests nonsurgical EMD application as a lower-morbidity alternative to MIST, with comparable clinical and radiographic outcomes.",
+      "whyItMattersIt": "Per i difetti intraossei dove l'accesso chirurgico non \u00e8 strettamente richiesto dalla morfologia del difetto, questo RCT suggerisce l'applicazione non chirurgica dell'EMD come alternativa a minore morbidit\u00e0 rispetto alla MIST, con esiti clinici e radiografici comparabili.",
+      "clinicalNoteIt": "Un'ottimo risultato dell'EMD. Da sempre, un ottimo adiuivante della terapia. ",
+      "slug": "clinical-and-radiographic-comparison-of-minimally-invasive-nonsurgical-and-surgi-42596714",
+      "fetchedAt": "2026-08-18T20:37:39.681Z",
+      "url": "https://doi.org/10.5051/jpis.2505660283"
+    },
     {
       "pmid": "42555521",
       "title": "Periodontitis, epicardial adipose tissue and coronary events: the Swedish Cardiopulmonary Bioimage Study.",
