@@ -2,12 +2,12 @@ const BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils";
 
 // Topic-based search queries for periodontology and implantology
 const SEARCH_QUERIES = [
-  '(periodontal disease[MeSH] OR periodontitis[MeSH] OR periodontal treatment) AND "free full text"[Filter]',
-  '(dental implants[MeSH] OR peri-implantitis OR implant osseointegration) AND "free full text"[Filter]',
-  '(bone regeneration[MeSH] AND (dental OR alveolar OR maxillary OR mandibular)) AND "free full text"[Filter]',
-  '(guided tissue regeneration OR guided bone regeneration) AND (periodontal OR implant) AND "free full text"[Filter]',
-  '(mucogingival surgery OR soft tissue graft OR connective tissue graft) AND "free full text"[Filter]',
-  '(peri-implant OR peri-implantitis OR peri-implant mucositis) AND "free full text"[Filter]',
+  '(periodontal disease[MeSH] OR periodontitis[MeSH] OR periodontal treatment)',
+  '(dental implants[MeSH] OR peri-implantitis OR implant osseointegration)',
+  '(bone regeneration[MeSH] AND (dental OR alveolar OR maxillary OR mandibular))',
+  '(guided tissue regeneration OR guided bone regeneration) AND (periodontal OR implant)',
+  '(mucogingival surgery OR soft tissue graft OR connective tissue graft)',
+  '(peri-implant OR peri-implantitis OR peri-implant mucositis)',
 ];
 
 interface PubMedSearchResult {

@@ -28,7 +28,7 @@ export async function selectBestArticles(
 
   const prompt = `You are a periodontist and implantologist curating a weekly literature digest.
 
-From the following ${articles.length} recently published open access articles, select the ${maxSelection} most relevant for an audience of periodontists, implantologists, and oral surgeons.
+From the following ${articles.length} recently published articles, select the ${maxSelection} most relevant for an audience of periodontists, implantologists, and oral surgeons.
 
 Prioritize:
 - Clinical relevance and applicability

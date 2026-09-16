@@ -57,7 +57,6 @@ export async function generateMetadata({
       tags: [
         article.journal,
         ...((lang === "it" ? article.tagsIt : article.tagsEn) || []),
-        "open access",
       ],
       images: [
         {

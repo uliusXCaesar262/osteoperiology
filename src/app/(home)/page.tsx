@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title:
     "Osteoperionews — Ricerca clinica in Parodontologia e Implantologia",
   description:
-    "Rassegna settimanale di studi peer-reviewed open access in parodontologia, implantologia e rigenerazione ossea — a weekly digest of open-access periodontology and dental-implant research. A cura del Dr. Ernesto Bruschi.",
+    "Rassegna settimanale di studi peer-reviewed in parodontologia, implantologia e rigenerazione ossea — a weekly digest of periodontology and dental-implant research. A cura del Dr. Ernesto Bruschi.",
   alternates: {
     canonical: `${SITE_URL}/`,
     languages: {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Osteoperionews",
     description:
-      "Ricerca clinica open access in parodontologia e implantologia — curated open-access periodontology and dental-implant research.",
+      "Ricerca clinica in parodontologia e implantologia — curated periodontology and dental-implant research.",
     type: "website",
     url: `${SITE_URL}/`,
     locale: "it_IT",
@@ -55,7 +55,7 @@ export default function RootLandingPage() {
         className="text-base sm:text-lg leading-relaxed mb-2"
         style={{ color: "var(--color-ink-secondary)" }}
       >
-        Rassegna settimanale di studi peer-reviewed open access in
+        Rassegna settimanale di studi peer-reviewed in
         parodontologia, implantologia dentale e rigenerazione ossea, selezionati
         e riassunti dal Dr.&nbsp;Ernesto Bruschi.
       </p>
@@ -64,7 +64,7 @@ export default function RootLandingPage() {
         style={{ color: "var(--color-ink-muted)" }}
         lang="en"
       >
-        A weekly digest of peer-reviewed, open-access research in periodontology,
+        A weekly digest of peer-reviewed research in periodontology,
         dental implantology and bone regeneration.
       </p>
 

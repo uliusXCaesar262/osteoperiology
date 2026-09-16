@@ -51,7 +51,7 @@ export const baseMetadata: Metadata = {
     template: "%s | Osteoperionews",
   },
   description:
-    "Weekly curated summaries of open access articles in periodontology and dental implantology — Dr. Ernesto Bruschi",
+    "Weekly curated summaries of peer-reviewed articles in periodontology and dental implantology — Dr. Ernesto Bruschi",
   authors: [{ name: "Dr. Ernesto Bruschi", url: "https://orcid.org/0000-0002-4773-5384" }],
   creator: "Dr. Ernesto Bruschi",
   publisher: "Osteoperionews",
@@ -63,7 +63,7 @@ export const baseMetadata: Metadata = {
     "peri-implantitis", "perimplantite",
     "guided tissue regeneration", "rigenerazione tissutale guidata",
     "oral surgery", "chirurgia orale",
-    "open access", "evidence-based dentistry",
+    "evidence-based dentistry",
   ],
   alternates: {
     languages: {
@@ -75,7 +75,7 @@ export const baseMetadata: Metadata = {
   openGraph: {
     title: "Osteoperionews",
     description:
-      "Weekly curated summaries of open access articles in periodontology and dental implantology",
+      "Weekly curated summaries of peer-reviewed articles in periodontology and dental implantology",
     type: "website",
     siteName: "Osteoperionews",
     url: SITE_URL,
@@ -87,7 +87,7 @@ export const baseMetadata: Metadata = {
     card: "summary_large_image",
     title: "Osteoperionews",
     description:
-      "Weekly curated summaries of open access articles in periodontology and dental implantology",
+      "Weekly curated summaries of peer-reviewed articles in periodontology and dental implantology",
     images: [`${SITE_URL}/og-default.png`],
   },
   robots: {
@@ -115,7 +115,7 @@ export const siteJsonLd = {
       "name": "Osteoperionews",
       "url": SITE_URL,
       "description":
-        "Weekly curated summaries of open-access research in periodontology, dental implantology, and peri-implant medicine.",
+        "Weekly curated summaries of peer-reviewed research in periodontology, dental implantology, and peri-implant medicine.",
       "inLanguage": ["en", "it"],
       "publisher": { "@id": `${SITE_URL}/#organization` },
     },

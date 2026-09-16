@@ -9,12 +9,12 @@ const aboutMeta = {
   en: {
     title: "About Osteoperionews",
     description:
-      "Curated open access periodontology and implantology research by Dr. Ernesto Bruschi — periodontist, implantologist, oral surgeon.",
+      "Curated periodontology and implantology research by Dr. Ernesto Bruschi — periodontist, implantologist, oral surgeon.",
   },
   it: {
     title: "Info — Osteoperionews",
     description:
-      "Ricerca open access curata in parodontologia e implantologia dal Dr. Ernesto Bruschi — parodontologo, implantologo, chirurgo orale.",
+      "Ricerca clinica curata in parodontologia e implantologia dal Dr. Ernesto Bruschi — parodontologo, implantologo, chirurgo orale.",
   },
 };
 

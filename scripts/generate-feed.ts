@@ -78,7 +78,7 @@ ${items}
 function generateLlmsTxt(articles: Article[]) {
   const intro = `# Osteoperionews
 
-> Weekly curated English & Italian summaries of open-access periodontology, dental-implantology and peri-implant research, by Dr. Ernesto Bruschi (periodontist, implantologist, oral surgeon; ORCID 0000-0002-4773-5384). Each entry is an original short summary of a peer-reviewed paper that links to the primary source (DOI and PubMed). English pages are under /en, Italian under /it.
+> Weekly curated English & Italian summaries of peer-reviewed periodontology, dental-implantology and peri-implant research, by Dr. Ernesto Bruschi (periodontist, implantologist, oral surgeon; ORCID 0000-0002-4773-5384). Each entry is an original short summary of a peer-reviewed paper that links to the primary source (DOI and PubMed). English pages are under /en, Italian under /it.
 
 - Site: ${SITE_URL}
 - Author: Dr. Ernesto Bruschi — https://orcid.org/0000-0002-4773-5384

@@ -17,12 +17,12 @@ const MAX_SELECTION = 5;
 const DAYS_BACK = 14;
 
 const SEARCH_QUERIES = [
-  '(periodontal disease[MeSH] OR periodontitis[MeSH] OR periodontal treatment) AND "free full text"[Filter]',
-  '(dental implants[MeSH] OR peri-implantitis OR implant osseointegration) AND "free full text"[Filter]',
-  '(bone regeneration[MeSH] AND (dental OR alveolar OR maxillary OR mandibular)) AND "free full text"[Filter]',
-  '(guided tissue regeneration OR guided bone regeneration) AND (periodontal OR implant) AND "free full text"[Filter]',
-  '(mucogingival surgery OR soft tissue graft OR connective tissue graft) AND "free full text"[Filter]',
-  '(peri-implant OR peri-implantitis OR peri-implant mucositis) AND "free full text"[Filter]',
+  '(periodontal disease[MeSH] OR periodontitis[MeSH] OR periodontal treatment)',
+  '(dental implants[MeSH] OR peri-implantitis OR implant osseointegration)',
+  '(bone regeneration[MeSH] AND (dental OR alveolar OR maxillary OR mandibular))',
+  '(guided tissue regeneration OR guided bone regeneration) AND (periodontal OR implant)',
+  '(mucogingival surgery OR soft tissue graft OR connective tissue graft)',
+  '(peri-implant OR peri-implantitis OR peri-implant mucositis)',
 ];
 
 // ─── Types ───
@@ -161,7 +161,7 @@ async function selectBestArticles(articles: PubMedArticle[]): Promise<string[]> 
 
   const prompt = `You are a periodontist and implantologist curating a weekly literature digest.
 
-From the following ${articles.length} recently published open access articles, select the ${MAX_SELECTION} most relevant for an audience of periodontists, implantologists, and oral surgeons.
+From the following ${articles.length} recently published articles, select the ${MAX_SELECTION} most relevant for an audience of periodontists, implantologists, and oral surgeons.
 
 Prioritize:
 - Clinical relevance and applicability

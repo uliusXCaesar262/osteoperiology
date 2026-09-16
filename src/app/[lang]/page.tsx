@@ -10,14 +10,14 @@ import SearchableArticleList from "@/components/SearchableArticleList";
 
 const homeMeta = {
   en: {
-    title: "Osteoperionews — Open-Access Periodontology & Dental Implant Research",
+    title: "Osteoperionews — Periodontology & Dental Implant Research",
     description:
-      "Weekly digest of peer-reviewed open-access research in periodontology, peri-implantitis, bone regeneration, and dental implantology. Curated by Dr. Ernesto Bruschi, periodontist and oral surgeon.",
+      "Weekly digest of peer-reviewed research in periodontology, peri-implantitis, bone regeneration, and dental implantology. Curated by Dr. Ernesto Bruschi, periodontist and oral surgeon.",
   },
   it: {
-    title: "Osteoperionews — Ricerca Open Access in Parodontologia e Implantologia",
+    title: "Osteoperionews — Ricerca Clinica in Parodontologia e Implantologia",
     description:
-      "Rassegna settimanale di articoli peer-reviewed open access in parodontologia, perimplantite, rigenerazione ossea e implantologia dentale. A cura del Dr. Ernesto Bruschi, parodontologo e chirurgo orale.",
+      "Rassegna settimanale di articoli peer-reviewed in parodontologia, perimplantite, rigenerazione ossea e implantologia dentale. A cura del Dr. Ernesto Bruschi, parodontologo e chirurgo orale.",
   },
 };
 

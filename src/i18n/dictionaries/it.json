@@ -3,7 +3,7 @@
     "title": "Osteoperionews",
     "subtitle": "Notizie curate dalla letteratura parodontale e implantare",
     "author": "Dr. Ernesto Bruschi",
-    "description": "Riassunti settimanali curati di articoli open access in parodontologia e implantologia dentale"
+    "description": "Riassunti settimanali curati di articoli scientifici in parodontologia e implantologia dentale"
   },
   "nav": {
     "home": "Home",
@@ -13,7 +13,7 @@
   },
   "home": {
     "heading": "Parodontologia e Implantologia: Ricerca Clinica",
-    "intro": "Rassegna settimanale di articoli peer-reviewed open access in parodontologia, implantologia dentale e medicina peri-implantare. Articoli selezionati e riassunti dal Dr. Ernesto Bruschi — parodontologo, implantologo e chirurgo orale.",
+    "intro": "Rassegna settimanale di articoli peer-reviewed in parodontologia, implantologia dentale e medicina peri-implantare. Articoli selezionati e riassunti dal Dr. Ernesto Bruschi — parodontologo, implantologo e chirurgo orale.",
     "latestArticles": "Ultimi Articoli",
     "noArticles": "Nessun articolo ancora. Il primo aggiornamento arriverà lunedì prossimo.",
     "readMore": "Leggi tutto",
@@ -25,7 +25,7 @@
   },
   "archive": {
     "title": "Tutti gli articoli",
-    "description": "Archivio completo dei riassunti settimanali di ricerca open access in parodontologia e implantologia dentale, a cura del Dr. Ernesto Bruschi.",
+    "description": "Archivio completo dei riassunti settimanali di ricerca in parodontologia e implantologia dentale, a cura del Dr. Ernesto Bruschi.",
     "intro": "Tutti i riassunti settimanali pubblicati su Osteoperionews, dal più recente.",
     "browseAll": "Sfoglia tutti gli articoli",
     "count": "{{count}} articoli"
@@ -46,7 +46,7 @@
   },
   "about": {
     "title": "Info",
-    "text": "Osteoperionews è un feed curato delle ultime ricerche open access in parodontologia e implantologia dentale. Ogni settimana, i più importanti nuovi articoli dalle principali riviste con riassunti in inglese e italiano. L'aggiornamento facile per tutti.",
+    "text": "Osteoperionews è un feed curato delle ultime ricerche in parodontologia e implantologia dentale. Ogni settimana, i più importanti nuovi articoli dalle principali riviste con riassunti in inglese e italiano. L'aggiornamento facile per tutti.",
     "topics": "Argomenti monitorati",
     "curatedBy": "A cura di",
     "links": "Link",
@@ -80,7 +80,7 @@
     "dataCollectedTitle": "Dati raccolti",
     "dataCollectedText": "Questo sito raccoglie dati personali esclusivamente quando l'utente si iscrive volontariamente alla newsletter. L'unico dato raccolto è l'indirizzo email. Non vengono utilizzati cookie di profilazione, tracciamento o analytics.",
     "purposeTitle": "Finalità del trattamento",
-    "purposeText": "L'indirizzo email è utilizzato esclusivamente per l'invio di una newsletter settimanale contenente riassunti di articoli open access recentemente pubblicati in parodontologia e implantologia dentale. La base giuridica del trattamento è il consenso esplicito dell'interessato (Art. 6, par. 1, lett. a, GDPR).",
+    "purposeText": "L'indirizzo email è utilizzato esclusivamente per l'invio di una newsletter settimanale contenente riassunti di articoli scientifici recentemente pubblicati in parodontologia e implantologia dentale. La base giuridica del trattamento è il consenso esplicito dell'interessato (Art. 6, par. 1, lett. a, GDPR).",
     "thirdPartyTitle": "Servizi di terze parti",
     "thirdPartyText": "La newsletter è gestita tramite Brevo (Sendinblue SAS, 106 boulevard Haussmann, 75008 Parigi, Francia), che agisce in qualità di responsabile del trattamento. Brevo tratta l'indirizzo email esclusivamente per la consegna della newsletter. L'informativa privacy di Brevo è disponibile su https://www.brevo.com/legal/privacypolicy/. Il sito è ospitato su GitHub Pages (GitHub Inc., San Francisco, CA, USA). GitHub può raccogliere log tecnici di accesso (indirizzo IP, tipo di browser). L'informativa privacy di GitHub è disponibile su https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement. Il sito è distribuito tramite la rete CDN di Cloudflare (Cloudflare, Inc., San Francisco, CA, USA), che agisce come fornitore di infrastruttura e può trattare dati tecnici di connessione (incluso l'indirizzo IP) per finalità di sicurezza e distribuzione dei contenuti; l'iscrizione alla newsletter viene inoltrata a Brevo tramite un servizio Cloudflare Worker. L'informativa privacy di Cloudflare è disponibile su https://www.cloudflare.com/privacypolicy/.",
     "retentionTitle": "Conservazione dei dati",
