@@ -100,6 +100,11 @@ export default async function AboutPage({
               0000-0002-4773-5384
             </a>
           </p>
+          <p>
+            {lang === "it" ? "Redazione e contatti: " : "Editorial contact: "}
+            <a href="mailto:ernesto@bonebenders.com">ernesto@bonebenders.com</a>
+            {" · Centro Odontoiatrico Denti Più, Corso Lazio 17, Frosinone"}
+          </p>
         </div>
       </div>
 

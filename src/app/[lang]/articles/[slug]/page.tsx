@@ -52,7 +52,7 @@ export async function generateMetadata({
       type: "article",
       locale: lang === "it" ? "it_IT" : "en_US",
       alternateLocale: lang === "it" ? "en_US" : "it_IT",
-      publishedTime: article.pubDate,
+      publishedTime: article.fetchedAt,
       authors: article.authors.slice(0, 5),
       tags: [
         article.journal,
@@ -137,8 +137,11 @@ export default async function ArticlePage({
     ...(showSource && { alternativeHeadline: source }),
     description: buildMetaDescription(article, lang),
     inLanguage: lang,
-    datePublished: toIsoDate(article.pubDate),
-    dateModified: toIsoDate(article.fetchedAt),
+    // Data di pubblicazione della PAGINA (ingest), non del paper: Google News e
+    // i feed vogliono la data in cui il riassunto è uscito qui. La data del
+    // paper resta dentro isBasedOn.
+    datePublished: article.fetchedAt,
+    dateModified: article.fetchedAt,
     isAccessibleForFree: true,
     image: `${SITE_URL}/og-default.png`,
     author: { "@id": `${SITE_URL}/#author` },
@@ -156,6 +159,7 @@ export default async function ArticlePage({
       sameAs: sourceSameAs,
       identifier: sourceIdentifiers,
       isPartOf: { "@type": "Periodical", name: article.journal },
+      datePublished: toIsoDate(article.pubDate),
     },
   };
 

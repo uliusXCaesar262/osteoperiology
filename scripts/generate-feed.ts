@@ -31,7 +31,8 @@ function generateFeed(
   const items = recent
     .map((a) => {
       const link = `${SITE_URL}/${lang}/articles/${a.slug}`;
-      const pubDate = new Date(a.pubDate || a.fetchedAt).toUTCString();
+      // Data della pagina (ingest): il feed deve essere cronologico e senza date future.
+      const pubDate = new Date(a.fetchedAt).toUTCString();
       const editorial = isIt ? a.editorialTitleIt : a.editorialTitleEn;
       const title =
         editorial ||
