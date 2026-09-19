@@ -1,8 +1,9 @@
-import { Article, ArticlesStore } from "./types";
+import { Article, ArticlesStore, NewsItem, NewsStore } from "./types";
 import fs from "fs";
 import path from "path";
 
 const ARTICLES_PATH = path.join(process.cwd(), "content", "articles.json");
+const NEWS_PATH = path.join(process.cwd(), "content", "news.json");
 
 export function getArticlesStore(): ArticlesStore {
   try {
@@ -82,4 +83,49 @@ export function getRelatedArticles(slug: string, limit: number = 4): Article[] {
 
   scored.sort((x, y) => y.score - x.score);
   return scored.slice(0, limit).map((s) => s.a);
+}
+
+function normalizeNewsUrl(url: string): string {
+  return url.trim().replace(/\/+$/, "").toLowerCase();
+}
+
+export function getNewsStore(): NewsStore {
+  try {
+    const raw = fs.readFileSync(NEWS_PATH, "utf-8");
+    return JSON.parse(raw) as NewsStore;
+  } catch {
+    return { lastUpdated: "", items: [] };
+  }
+}
+
+export function saveNewsStore(store: NewsStore): void {
+  fs.writeFileSync(NEWS_PATH, JSON.stringify(store, null, 2), "utf-8");
+}
+
+/** Prepend news items; dedupe by id and normalized url. */
+export function addNewsItems(newItems: NewsItem[]): void {
+  const store = getNewsStore();
+  const existingIds = new Set(store.items.map((n) => n.id));
+  const existingUrls = new Set(store.items.map((n) => normalizeNewsUrl(n.url)));
+
+  const unique = newItems.filter(
+    (n) =>
+      !existingIds.has(n.id) && !existingUrls.has(normalizeNewsUrl(n.url))
+  );
+
+  if (unique.length === 0) return;
+
+  store.items = [...unique, ...store.items];
+  store.lastUpdated = new Date().toISOString();
+  saveNewsStore(store);
+}
+
+export function getRecentNews(
+  limit: number = 50,
+  offset: number = 0
+): { items: NewsItem[]; total: number } {
+  const store = getNewsStore();
+  const total = store.items.length;
+  const items = store.items.slice(offset, offset + limit);
+  return { items, total };
 }

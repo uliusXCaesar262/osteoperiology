@@ -1,0 +1,46 @@
+{
+  "lastUpdated": "2026-09-19T06:30:00.000Z",
+  "items": [
+    {
+      "id": "efp-s2k-acute-periodontal-2026",
+      "slug": "efp-s2k-acute-periodontal-2026",
+      "titleIt": "Linea guida EFP S2k sulle condizioni parodontali acute",
+      "titleEn": "EFP S2k guideline on acute periodontal conditions",
+      "blurbIt": "Pubblicata su JCP (settembre 2026): framework diagnostico-terapeutico per necrotizzanti, ascessi e lesioni endo-parodontali acute.",
+      "blurbEn": "Published in JCP (September 2026): a diagnostic–therapeutic framework for necrotizing conditions, abscesses, and acute endo-periodontal lesions.",
+      "source": "J Clin Periodontol / EFP",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42713627/",
+      "kind": "guideline",
+      "publishedAt": "2026-09-01",
+      "fetchedAt": "2026-09-19T06:30:00.000Z",
+      "pmid": "42713627"
+    },
+    {
+      "id": "aap-osteology-sepa-reconstructive-tech-2026",
+      "slug": "aap-osteology-sepa-reconstructive-tech-2026",
+      "titleIt": "Workshop AAP / Osteology Foundation / SEPA — consensus su nuove tecnologie in medicina ricostruttiva orale",
+      "titleEn": "AAP / Osteology Foundation / SEPA workshop — consensus on new technologies in oral reconstructive medicine",
+      "blurbIt": "Report di consensus e pacchetto di revisioni sistematiche su scaffold, biologici e approcci personalizzati (settembre 2026, Journal of Periodontology).",
+      "blurbEn": "Consensus report and systematic-review package on scaffolds, biologics, and personalized approaches (September 2026, Journal of Periodontology).",
+      "source": "J Periodontol",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42740458/",
+      "kind": "consensus",
+      "publishedAt": "2026-09-01",
+      "fetchedAt": "2026-09-19T06:30:00.000Z",
+      "pmid": "42740458"
+    },
+    {
+      "id": "efp-esc-periodontitis-cv-2026",
+      "slug": "efp-esc-periodontitis-cv-2026",
+      "titleIt": "EFP ed ESC insieme sull’asse parodontite–salute cardiovascolare",
+      "titleEn": "EFP and ESC join forces on periodontitis and cardiovascular health",
+      "blurbIt": "Annuncio EFP di collaborazione con la European Society of Cardiology per esplorare i legami tra malattia parodontale e rischio cardiovascolare.",
+      "blurbEn": "EFP announcement of a collaboration with the European Society of Cardiology to explore links between periodontal disease and cardiovascular risk.",
+      "source": "EFP",
+      "url": "https://www.efp.org/news-events/news/efp-and-esc-join-forces-to-explore-links-between-periodontitis-and-cardiovascular-health/",
+      "kind": "society",
+      "publishedAt": "2026-09-01",
+      "fetchedAt": "2026-09-19T06:30:00.000Z"
+    }
+  ]
+}

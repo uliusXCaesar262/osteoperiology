@@ -19,6 +19,9 @@ export default function Header({ lang, dict }: HeaderProps) {
             <Link href={`/${lang}/articles`} className="nav-link">
               {dict.nav.articles}
             </Link>
+            <Link href={`/${lang}/news`} className="nav-link">
+              {dict.nav.news}
+            </Link>
             <Link href={`/${lang}/about`} className="nav-link">
               {dict.nav.about}
             </Link>

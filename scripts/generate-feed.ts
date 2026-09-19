@@ -1,10 +1,11 @@
 import fs from "fs";
 import path from "path";
-import type { Article } from "../src/lib/types";
+import type { Article, NewsItem } from "../src/lib/types";
 import { buildMetaDescription } from "../src/lib/article";
 
 const SITE_URL = "https://osteoperionews.bonebenders.com";
 const ARTICLES_PATH = path.join(process.cwd(), "content", "articles.json");
+const NEWS_PATH = path.join(process.cwd(), "content", "news.json");
 
 function escapeXml(str: string): string {
   return str
@@ -76,7 +77,7 @@ ${items}
  * engines (the highest-leverage GEO move for a small citation-seeking site).
  * Served verbatim from /public under output:"export".
  */
-function generateLlmsTxt(articles: Article[]) {
+function generateLlmsTxt(articles: Article[], newsItems: NewsItem[]) {
   const intro = `# Osteoperionews
 
 > Weekly curated English & Italian summaries of peer-reviewed periodontology, dental-implantology and peri-implant research, by Dr. Ernesto Bruschi (periodontist, implantologist, oral surgeon; ORCID 0000-0002-4773-5384). Each entry is an original short summary of a peer-reviewed paper that links to the primary source (DOI and PubMed). English pages are under /en, Italian under /it.
@@ -85,6 +86,7 @@ function generateLlmsTxt(articles: Article[]) {
 - Author: Dr. Ernesto Bruschi — https://orcid.org/0000-0002-4773-5384
 - Feeds: ${SITE_URL}/feed.xml (EN), ${SITE_URL}/feed-it.xml (IT)
 - Full archive: ${SITE_URL}/en/articles (EN), ${SITE_URL}/it/articles (IT)
+- Industry news: ${SITE_URL}/en/news (EN), ${SITE_URL}/it/news (IT)
 `;
 
   const items = articles
@@ -97,13 +99,24 @@ function generateLlmsTxt(articles: Article[]) {
     })
     .join("\n");
 
-  const out = `${intro}\n## Articles\n\n${items}\n`;
+  const newsBlock =
+    newsItems.length === 0
+      ? ""
+      : `\n## Industry news\n\n${newsItems
+          .slice(0, 20)
+          .map((n) => `- [${n.titleEn}](${n.url}): ${n.blurbEn} — ${n.source}`)
+          .join("\n")}\n`;
+
+  const out = `${intro}\n## Articles\n\n${items}\n${newsBlock}`;
   fs.writeFileSync(path.join(process.cwd(), "public", "llms.txt"), out, "utf-8");
-  console.log(`[llms.txt] Generated with ${articles.length} articles.`);
+  console.log(
+    `[llms.txt] Generated with ${articles.length} articles and ${newsItems.length} news items.`
+  );
 }
 
 function main() {
   let articles: Article[] = [];
+  let newsItems: NewsItem[] = [];
 
   try {
     const raw = fs.readFileSync(ARTICLES_PATH, "utf-8");
@@ -113,9 +126,17 @@ function main() {
     console.log("[RSS] No articles found, generating empty feeds.");
   }
 
+  try {
+    const raw = fs.readFileSync(NEWS_PATH, "utf-8");
+    const store = JSON.parse(raw);
+    newsItems = store.items || [];
+  } catch {
+    console.log("[llms.txt] No news.json yet — skipping industry news block.");
+  }
+
   generateFeed(articles, "en", "feed.xml");
   generateFeed(articles, "it", "feed-it.xml");
-  generateLlmsTxt(articles);
+  generateLlmsTxt(articles, newsItems);
 }
 
 main();

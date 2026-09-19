@@ -8,6 +8,7 @@
   "nav": {
     "home": "Home",
     "articles": "Articoli",
+    "news": "Notizie",
     "about": "Info",
     "language": "EN"
   },
@@ -29,6 +30,18 @@
     "intro": "Tutti i riassunti settimanali pubblicati su Osteoperionews, dal più recente.",
     "browseAll": "Sfoglia tutti gli articoli",
     "count": "{{count}} articoli"
+  },
+  "news": {
+    "title": "Notizie di settore",
+    "description": "Linee guida, consensus e comunicazioni delle società scientifiche in parodontologia e implantologia, curate dal Dr. Ernesto Bruschi.",
+    "intro": "Segnalazioni su linee guida, consensus e iniziative delle società scientifiche — distinte dalla rassegna degli studi peer-reviewed.",
+    "count": "{{count}} notizie",
+    "empty": "Nessuna notizia ancora.",
+    "readSource": "Leggi la fonte",
+    "kindGuideline": "Linea guida",
+    "kindConsensus": "Consensus",
+    "kindSociety": "Società scientifiche",
+    "kindOther": "Notizie"
   },
   "article": {
     "originalArticle": "Leggi l'articolo originale",

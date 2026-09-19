@@ -36,6 +36,29 @@ export interface ArticlesStore {
   articles: Article[];
 }
 
+/** Sector news (guidelines, consensus, society announcements) — separate from peer-reviewed article digests. */
+export type NewsKind = "guideline" | "consensus" | "society" | "other";
+
+export interface NewsItem {
+  id: string;
+  slug: string;
+  titleIt: string;
+  titleEn: string;
+  blurbIt: string;
+  blurbEn: string;
+  source: string;
+  url: string;
+  kind: NewsKind;
+  publishedAt: string;
+  fetchedAt: string;
+  pmid?: string;
+}
+
+export interface NewsStore {
+  lastUpdated: string;
+  items: NewsItem[];
+}
+
 export type Lang = "en" | "it";
 
 export const SEARCH_TOPICS = [

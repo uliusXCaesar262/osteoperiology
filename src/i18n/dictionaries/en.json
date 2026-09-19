@@ -8,6 +8,7 @@
   "nav": {
     "home": "Home",
     "articles": "Articles",
+    "news": "News",
     "about": "About",
     "language": "IT"
   },
@@ -29,6 +30,18 @@
     "intro": "Every weekly summary published on Osteoperionews, newest first.",
     "browseAll": "Browse all articles",
     "count": "{{count}} articles"
+  },
+  "news": {
+    "title": "Society & guidelines",
+    "description": "Guidelines, consensus statements, and society announcements in periodontology and implantology, curated by Dr. Ernesto Bruschi.",
+    "intro": "Curated notes on guidelines, consensus reports, and scientific-society initiatives — separate from the peer-reviewed research digest.",
+    "count": "{{count}} items",
+    "empty": "No industry news yet.",
+    "readSource": "Read the source",
+    "kindGuideline": "Guideline",
+    "kindConsensus": "Consensus",
+    "kindSociety": "Societies",
+    "kindOther": "News"
   },
   "article": {
     "originalArticle": "Read original article",

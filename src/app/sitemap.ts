@@ -1,11 +1,12 @@
 import type { MetadataRoute } from "next";
-import { getRecentArticles } from "@/lib/storage";
+import { getRecentArticles, getRecentNews } from "@/lib/storage";
 import { SITE_URL } from "@/lib/constants";
 
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const { articles } = getRecentArticles(500);
+  const { items: newsItems } = getRecentNews(100);
 
   // Real freshness dates instead of build time, so engines can trust the
   // lastmod signal. Home/hubs advance only when the newest article changes;
@@ -13,6 +14,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const latest = articles.length
     ? new Date(Math.max(...articles.map((a) => new Date(a.fetchedAt).getTime())))
     : new Date();
+  const newsLatest = newsItems.length
+    ? new Date(
+        Math.max(...newsItems.map((n) => new Date(n.fetchedAt).getTime()))
+      )
+    : latest;
   const CONTENT_LAST_EDIT = new Date("2026-06-14");
 
   const staticPages: MetadataRoute.Sitemap = [
@@ -78,6 +84,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
           en: `${SITE_URL}/en/articles`,
           it: `${SITE_URL}/it/articles`,
           "x-default": `${SITE_URL}/en/articles`,
+        },
+      },
+    },
+    {
+      url: `${SITE_URL}/en/news`,
+      lastModified: newsLatest,
+      changeFrequency: "weekly",
+      priority: 0.75,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/en/news`,
+          it: `${SITE_URL}/it/news`,
+          "x-default": `${SITE_URL}/en/news`,
+        },
+      },
+    },
+    {
+      url: `${SITE_URL}/it/news`,
+      lastModified: newsLatest,
+      changeFrequency: "weekly",
+      priority: 0.75,
+      alternates: {
+        languages: {
+          en: `${SITE_URL}/en/news`,
+          it: `${SITE_URL}/it/news`,
+          "x-default": `${SITE_URL}/en/news`,
         },
       },
     },
