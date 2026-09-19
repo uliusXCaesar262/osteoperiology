@@ -97,6 +97,14 @@ export default async function NewsPage({
       </p>
       <p className="text-sm mb-10" style={{ color: "var(--color-ink-muted)" }}>
         {dict.news.count.replace("{{count}}", String(total))}
+        {" · "}
+        <a
+          href={lang === "it" ? "/feed-news-it.xml" : "/feed-news.xml"}
+          className="underline-offset-2 hover:underline"
+          style={{ color: "var(--color-accent)" }}
+        >
+          {dict.news.rss}
+        </a>
       </p>
 
       {items.length === 0 ? (

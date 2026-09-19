@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Osteoperionews — Notizie di settore (IT)</title>
+    <link>https://osteoperionews.bonebenders.com/it/news</link>
+    <description>Linee guida, consensus e comunicazioni delle società scientifiche — Dr. Ernesto Bruschi</description>
+    <language>it</language>
+    <lastBuildDate>Sat, 19 Sep 2026 06:30:00 GMT</lastBuildDate>
+    <atom:link href="https://osteoperionews.bonebenders.com/feed-news-it.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linea guida EFP S2k sulle condizioni parodontali acute</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42713627/</link>
+      <guid isPermaLink="false">https://osteoperionews.bonebenders.com/news/efp-s2k-acute-periodontal-2026</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Pubblicata su JCP (settembre 2026): framework diagnostico-terapeutico per necrotizzanti, ascessi e lesioni endo-parodontali acute.</description>
+      <category>J Clin Periodontol / EFP</category>
+    </item>
+    <item>
+      <title>Workshop AAP / Osteology Foundation / SEPA — consensus su nuove tecnologie in medicina ricostruttiva orale</title>
+      <link>https://pubmed.ncbi.nlm.nih.gov/42740458/</link>
+      <guid isPermaLink="false">https://osteoperionews.bonebenders.com/news/aap-osteology-sepa-reconstructive-tech-2026</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Report di consensus e pacchetto di revisioni sistematiche su scaffold, biologici e approcci personalizzati (settembre 2026, Journal of Periodontology).</description>
+      <category>J Periodontol</category>
+    </item>
+    <item>
+      <title>EFP ed ESC insieme sull’asse parodontite–salute cardiovascolare</title>
+      <link>https://www.efp.org/news-events/news/efp-and-esc-join-forces-to-explore-links-between-periodontitis-and-cardiovascular-health/</link>
+      <guid isPermaLink="false">https://osteoperionews.bonebenders.com/news/efp-esc-periodontitis-cv-2026</guid>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 GMT</pubDate>
+      <description>Annuncio EFP di collaborazione con la European Society of Cardiology per esplorare i legami tra malattia parodontale e rischio cardiovascolare.</description>
+      <category>EFP</category>
+    </item>
+  </channel>
+</rss>

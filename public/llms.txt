@@ -4,7 +4,8 @@
 
 - Site: https://osteoperionews.bonebenders.com
 - Author: Dr. Ernesto Bruschi — https://orcid.org/0000-0002-4773-5384
-- Feeds: https://osteoperionews.bonebenders.com/feed.xml (EN), https://osteoperionews.bonebenders.com/feed-it.xml (IT)
+- Feeds (articles): https://osteoperionews.bonebenders.com/feed.xml (EN), https://osteoperionews.bonebenders.com/feed-it.xml (IT)
+- Feeds (industry news): https://osteoperionews.bonebenders.com/feed-news.xml (EN), https://osteoperionews.bonebenders.com/feed-news-it.xml (IT)
 - Full archive: https://osteoperionews.bonebenders.com/en/articles (EN), https://osteoperionews.bonebenders.com/it/articles (IT)
 - Industry news: https://osteoperionews.bonebenders.com/en/news (EN), https://osteoperionews.bonebenders.com/it/news (IT)
 

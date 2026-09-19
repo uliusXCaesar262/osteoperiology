@@ -36,6 +36,18 @@ export default function RootHtml({
           title="Osteoperionews (IT)"
           href={`${SITE_URL}/feed-it.xml`}
         />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Osteoperionews — Society & guidelines (EN)"
+          href={`${SITE_URL}/feed-news.xml`}
+        />
+        <link
+          rel="alternate"
+          type="application/rss+xml"
+          title="Osteoperionews — Notizie di settore (IT)"
+          href={`${SITE_URL}/feed-news-it.xml`}
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(siteJsonLd) }}

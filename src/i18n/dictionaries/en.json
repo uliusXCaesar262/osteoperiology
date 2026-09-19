@@ -38,6 +38,7 @@
     "count": "{{count}} items",
     "empty": "No industry news yet.",
     "readSource": "Read the source",
+    "rss": "News RSS feed",
     "kindGuideline": "Guideline",
     "kindConsensus": "Consensus",
     "kindSociety": "Societies",
